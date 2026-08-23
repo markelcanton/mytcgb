@@ -221,14 +221,14 @@ function showDetails(card, pageNum) {
     const modalBody = document.getElementById('modal-body');
 
     let infoHtml = `<p><strong>Expansión:</strong> ${card.expansion || '--'} (${card.code || '--'})</p>`;
-    if (card.format && card.format.trim() !== "") infoHtml += `<p><strong>Regulación:</strong> ${card.format}</p>`;
-    if (card.date && card.date.trim() !== "") infoHtml += `<p><strong>Fecha de obtención:</strong> ${card.date}</p>`;
+    // if (card.date && card.date.trim() !== "") infoHtml += `<p><strong>Fecha de obtención:</strong> ${card.date}</p>`;
 
     const variantsList = (card.variants && card.variants.length > 0) 
         ? card.variants 
         : [{
             language: card.language || '--',
             type: card.type || '--',
+            format: card.format || '--',
             condition: card.condition || '--',
             price: card.price || '--',
             'cardmarket-link': card['cardmarket-link'] || ''
@@ -244,6 +244,7 @@ function showDetails(card, pageNum) {
             <tr>
                 <td>${v.language || '--'}</td>
                 <td>${v.type || '--'}</td>
+                <td>${v.format || '--'}</td>
                 <td>${v.condition || '--'}</td>
                 <td><span class="price-tag">${v.price || '--'}</span></td>
                 <td>${v.stock || '--'}</td>
@@ -260,6 +261,7 @@ function showDetails(card, pageNum) {
                         <tr>
                             <th>Idioma:</th>
                             <th>Tipo:</th>
+                            <th>Regulación:</th>
                             <th>Estado:</th>
                             <th>Precio (CM):</th>
                             <th>Stock:</th>
