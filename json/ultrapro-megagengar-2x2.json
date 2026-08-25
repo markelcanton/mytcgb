@@ -9,13 +9,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_1.png",
                     "expansion": "Megaevolution",
                     "code": "MEG001",
-                    "format": "I",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common + Foil",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -29,13 +29,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_20.png",
                     "expansion": "Ascended Heroes",
                     "code": "ASC020",
-                    "format": "J",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common + Foil",
+                            "format": "J",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -54,13 +54,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_8.png",
                     "expansion": "Megaevolution",
                     "code": "MEG008",
-                    "format": "I",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common + Foil",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -74,13 +74,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_32.png",
                     "expansion": "Destined Rivals",
                     "code": "DRI032",
-                    "format": "I",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -94,13 +94,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_41.png",
                     "expansion": "Ascended Heroes",
                     "code": "ASC041",
-                    "format": "J",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common",
+                            "format": "J",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -119,13 +119,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY5/XY5_ES_6.png",
                     "expansion": "Duelos Primigenios",
                     "code": "PRC 6",
-                    "format": "XY (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common",
+                            "format": "XY (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -139,13 +139,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY5/XY5_ES_25.png",
                     "expansion": "Duelos Primigenios",
                     "code": "PRC 25",
-                    "format": "XY (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common",
+                            "format": "XY (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -164,13 +164,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_27.png",
                     "expansion": "Phantasmal Flames",
                     "code": "PFL027",
-                    "format": "I",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -189,13 +189,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ZSV10PT5/ZSV10PT5_ES_1.png",
                     "expansion": "Fulgor Negro",
                     "code": "BLK001",
-                    "format": "I",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -209,13 +209,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/BW7/BW7_ES_24.png",
                     "expansion": "Fronteras Cruzadas",
                     "code": "BCR 24",
-                    "format": "BW (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common",
+                            "format": "BW (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -229,13 +229,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH10/SWSH10_ES_41.png",
                     "expansion": "Brave Stars - Charm",
                     "code": "cs5aC 015",
-                    "format": "F (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Chino",
                             "type": "Common",
+                            "format": "F (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -254,13 +254,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_5.png",
                     "expansion": "Chaos Rising",
                     "code": "CRI005",
-                    "format": "J",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common + Foil",
+                            "format": "J",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -274,13 +274,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY1/XY1_ES_24.png",
                     "expansion": "XY",
                     "code": "XY 24",
-                    "format": "XY (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common",
+                            "format": "XY (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -294,13 +294,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_20.png",
                     "expansion": "Chaos Rising",
                     "code": "CRI020",
-                    "format": "J",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Inglés",
                             "type": "Common",
+                            "format": "J",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -319,13 +319,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM1/SM1_ES_9.png",
                     "expansion": "Sol y Luna",
                     "code": "SUM 9",
-                    "format": "Sol y Luna (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common",
+                            "format": "Sol y Luna (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -339,17 +339,37 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_32.png",
                     "expansion": "Temporal Forces",
                     "code": "TEF032",
-                    "format": "H",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common",
+                            "format": "H",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Temporal-Forces/Litten-V1-TEF032?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
+                },
+                {
+                    "slot": 3,
+                    "name": "Popplio",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_18.png",
+                    "expansion": "Pitch Black",
+                    "code": "PBL018",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Popplio-PBL018?language=1&minCondition=2"
                         }
                     ]
                 }
@@ -364,13 +384,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_26.png",
                     "expansion": "Megaevolution",
                     "code": "MEG026",
-                    "format": "I",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Inglés",
                             "type": "Common",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -384,13 +404,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_39.png",
                     "expansion": "Megaevolution",
                     "code": "MEG039",
-                    "format": "I",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -409,13 +429,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_16.png",
                     "expansion": "Juntos de Aventuras",
                     "code": "JTG016",
-                    "format": "I",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Inglés",
                             "type": "Common",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -429,13 +449,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV01/SV01_ES_36.png",
                     "expansion": "Escarlata y Púrpura",
                     "code": "SVI036",
-                    "format": "G (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common + Foil",
+                            "format": "G (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -449,13 +469,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SVP/SVP_ES_3.png",
                     "expansion": "SV Black Star Promos",
                     "code": "SVP003",
-                    "format": "G (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Promo + Foil",
+                            "format": "G (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -475,17 +495,17 @@
             "cards": [
                 {
                     "slot": 1,
-                    "name": "Koraidon ex",
+                    "name": "Koraidon ex (foto incorrecta)",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV01/SV01_ES_125.png",
                     "expansion": "Escarlata y Púrpura",
                     "code": "Jumbo",
-                    "format": "Jumbo (no válida en torneos) &#8226; La foto adjuntada no es correcta.",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Jumbo",
+                            "format": "Jumbo (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -519,13 +539,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_30.png",
                     "expansion": "Tempestad Plateada",
                     "code": "SIT030",
-                    "format": "F (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common",
+                            "format": "F (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -539,13 +559,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_31.png",
                     "expansion": "Tempestad Plateada",
                     "code": "SIT031",
-                    "format": "F (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common",
+                            "format": "F (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -559,13 +579,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_32.png",
                     "expansion": "Tempestad Plateada",
                     "code": "SIT032",
-                    "format": "F (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common",
+                            "format": "F (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -579,13 +599,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM10/SM10_ES_60.png",
                     "expansion": "Unbroken Bounds",
                     "code": "UNB 60",
-                    "format": "Sol y Luna (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common",
+                            "format": "Sol y Luna (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -604,13 +624,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH7/SWSH7_ES_125.png",
                     "expansion": "Cielos Evolutivos",
                     "code": "EVS125",
-                    "format": "E (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common",
+                            "format": "E (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -624,13 +644,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_69.png",
                     "expansion": "Phantasmal Flames",
                     "code": "PFL069",
-                    "format": "I",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Uncommon",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -644,13 +664,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_78.png",
                     "expansion": "Destined Rivals",
                     "code": "DRI078",
-                    "format": "I",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Rare",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -664,13 +684,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_161.png",
                     "expansion": "Sobre de premio de Play (serie 7)",
                     "code": "SSP161",
-                    "format": "H",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Rare",
+                            "format": "H",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -689,13 +709,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_48.png",
                     "expansion": "Megaevolution",
                     "code": "MEG048",
-                    "format": "I",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Rare",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -709,13 +729,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_25.png",
                     "expansion": "Ascended Heroes",
                     "code": "ASC025",
-                    "format": "I",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Inglés",
                             "type": "Common + Foil",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -729,13 +749,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_26.png",
                     "expansion": "Phantasmal Flames",
                     "code": "PFL026",
-                    "format": "I",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Rare",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -749,13 +769,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_92.png",
                     "expansion": "Ascended Heroes",
                     "code": "ASC092",
-                    "format": "I",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Inglés",
                             "type": "Common + Foil",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -774,13 +794,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_95.png",
                     "expansion": "Megaevolution",
                     "code": "MEG095",
-                    "format": "I",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Rare",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -794,13 +814,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_45.png",
                     "expansion": "Phantasmal Flames",
                     "code": "PFL045",
-                    "format": "I",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Rare",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -814,13 +834,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH6/SWSH6_ES_120.png",
                     "expansion": "Reinado Escalofriante",
                     "code": "CRE120",
-                    "format": "E (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Inglés",
                             "type": "Rare + Foil",
+                            "format": "E (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -834,13 +854,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH6/SWSH6_ES_88.png",
                     "expansion": "Reinado Escalofriante",
                     "code": "CRE088",
-                    "format": "E (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Inglés",
                             "type": "Rare + Foil",
+                            "format": "E (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -859,13 +879,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV06/SV06_ES_67.png",
                     "expansion": "Mascarada Crepuscular",
                     "code": "TWM067",
-                    "format": "H",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Inglés",
                             "type": "Common",
+                            "format": "H",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -879,13 +899,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_98.png",
                     "expansion": "Tempestad Plateada",
                     "code": "SIT098",
-                    "format": "F (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common",
+                            "format": "F (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -899,13 +919,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_149.png",
                     "expansion": "Destined Rivals",
                     "code": "DRI149",
-                    "format": "I",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common + Foil",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -919,13 +939,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_82.png",
                     "expansion": "Destined Rivals",
                     "code": "DRI082",
-                    "format": "I",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Rare",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -944,13 +964,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM8/SM8_ES_21.png",
                     "expansion": "Truenos Perdidos",
                     "code": "LOT 21",
-                    "format": "Sol y Luna (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Uncommon",
+                            "format": "Sol y Luna (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -964,13 +984,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_85.png",
                     "expansion": "Tempestad Plateada",
                     "code": "SIT085",
-                    "format": "F (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Common + Foil",
+                            "format": "F (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -984,13 +1004,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV02/SV02_ES_116.png",
                     "expansion": "Evoluciones en Paldea",
                     "code": "PAL116",
-                    "format": "G (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Inglés",
                             "type": "Common",
+                            "format": "G (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -1004,13 +1024,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_85.png",
                     "expansion": "Journey Together",
                     "code": "JTG085",
-                    "format": "I",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Rare",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
@@ -1029,17 +1049,37 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY2/XY2_ES_8.png",
                     "expansion": "Destellos de Fuego",
                     "code": "FLF 8",
-                    "format": "XY (no válida en torneos)",
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Rare",
+                            "format": "XY (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": null,
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Roselia-FLF8?language=4&minCondition=2&isReverseHolo=N"
+                        }
+                    ]
+                },
+                {
+                    "slot": 2,
+                    "name": "Zarude",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_56.png",
+                    "expansion": "Pitch Black",
+                    "code": "PBL056",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Rare",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Zarude-PBL056?language=1&minCondition=2"
                         }
                     ]
                 }
@@ -1054,13 +1094,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEE/MEE_ES_1.png",
                     "expansion": "Sobre de premio de Play (serie 8)",
                     "code": "MEE001",
-                    "format": null,
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Foil",
+                            "format": null,
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": "N/D",
@@ -1074,13 +1114,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEE/MEE_ES_2.png",
                     "expansion": "Sobre de premio de Play (serie 8)",
                     "code": "MEE002",
-                    "format": null,
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Foil",
+                            "format": null,
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": "N/D",
@@ -1094,13 +1134,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SVE2/SVE2_ES_13.png",
                     "expansion": "Sobre de premio de Play (serie 7)",
                     "code": "SVE013",
-                    "format": null,
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Foil",
+                            "format": null,
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": "N/D",
@@ -1114,13 +1154,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEE/MEE_ES_6.png",
                     "expansion": "Sobre de premio de Play (serie 8)",
                     "code": "MEE006",
-                    "format": null,
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Foil",
+                            "format": null,
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": "N/D",
@@ -1139,13 +1179,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEE/MEE_ES_3.png",
                     "expansion": "Sobre de premio de Play (serie 8)",
                     "code": "MEE003",
-                    "format": null,
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Foil",
+                            "format": null,
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": "N/D",
@@ -1159,13 +1199,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SVE/SVE_ES_4.png",
                     "expansion": "Sobre de premio de Play (serie 7)",
                     "code": "SVE012",
-                    "format": null,
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "Foil",
+                            "format": null,
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": "N/D",
@@ -1179,13 +1219,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEE/MEE_ES_7.png",
                     "expansion": "Sobre de premio de Play (serie 8)",
                     "code": "MEE007",
-                    "format": null,
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "No Foil",
+                            "format": null,
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": "N/D",
@@ -1199,13 +1239,13 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SVE2/SVE2_ES_16.png",
                     "expansion": "Sobre de premio de Play (serie 7)",
                     "code": "SVE016",
-                    "format": null,
                     "noTrade": true,
                     "reservada": false,
                     "variants": [
                         {
                             "language": "Español",
                             "type": "No Foil",
+                            "format": null,
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": "N/D",
