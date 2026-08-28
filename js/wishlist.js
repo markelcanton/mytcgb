@@ -4,9 +4,16 @@ function showDetails(card, pageNum) {
 
     let infoHtml = `<p><strong>Expansión:</strong> ${card.expansion || '--'} (${card.code || '--'})</p>`;
 
-    const hasLink = card['cardmarket-link'] && card['cardmarket-link'].trim() !== '';
-    const cmButtonHtml = hasLink 
-        ? `<a href="${card['cardmarket-link'].trim()}" target="_blank" class="cardmarket-btn">Ver en Cardmarket</a>` 
+    const variant = (card.variants && card.variants.length > 0) ? card.variants[0] : {};
+    
+    const conditionVal = card.condition || variant.condition || '--';
+    const languageVal = card.language || variant.language || '--';
+    const priceVal = card.price || variant.price || '--';
+
+    const hasLink = card['cardmarket-link'] || variant['cardmarket-link'];
+    const linkUrl = hasLink ? (card['cardmarket-link'] || variant['cardmarket-link']).trim() : '';
+    const cmButtonHtml = linkUrl 
+        ? `<a href="${linkUrl}" target="_blank" class="cardmarket-btn">Ver en Cardmarket</a>` 
         : '';
 
     modalBody.innerHTML = `
@@ -23,9 +30,9 @@ function showDetails(card, pageNum) {
             <div class="specs-details">
                 <h3>Especificaciones:</h3>
                 <ul>
-                    <li><strong>Estado:</strong> ${card.condition || '--'}</li>
-                    <li><strong>Idiomas:</strong> ${card.language || '--'}</li>
-                    <li><strong>Precios:</strong> <span class="price-tag">${card.price || '--'}</span></li>
+                    <li><strong>Estado:</strong> ${conditionVal}</li>
+                    <li><strong>Idiomas:</strong> ${languageVal}</li>
+                    <li><strong>Precio:</strong> <span class="price-tag">${priceVal}</span></li>
                 </ul>
             </div>
             
