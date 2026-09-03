@@ -30,7 +30,6 @@ header {
 
 header > img {
     width: 300px;
-    padding: 10;
 }
 
 header > nav.nav-buttons {
@@ -170,6 +169,12 @@ html, body {
         flex-direction: column;
         padding: 15px;
         text-align: center;
+    }
+
+    header > img {
+        width: 70%;
+        padding-top: 10px;
+        padding-bottom: 15px;
     }
 
     header > nav.nav-buttons {
