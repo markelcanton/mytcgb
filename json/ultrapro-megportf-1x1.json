@@ -1,0 +1,1480 @@
+{
+    "pages": [
+        {
+            "number": 1,
+            "jumbo": true,
+            "cards": []
+        },
+        {
+            "number": 2,
+            "jumbo": true,
+            "cards": []
+        },
+        {
+            "number": 3,
+            "jumbo": true,
+            "cards": []
+        },
+        {
+            "number": 4,
+            "jumbo": true,
+            "cards": []
+        },
+        {
+            "number": 5,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Pikachu",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_49.png",
+                    "expansion": "Tempestad Plateada",
+                    "code": "SIT049",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Comon",
+                            "format": "F (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Pikachu-V1-SIT049?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 6,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Raichu",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_50.png",
+                    "expansion": "Tempestad Plateada",
+                    "code": "SIT050",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Comon",
+                            "format": "F (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": null,
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Raichu-SIT050?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 7,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Beni",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY4/XY4_ES_107.png",
+                    "expansion": "XY Kalos Starter Set",
+                    "code": "KSS 39",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "XY (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY-Kalos-Starter-Set/Tierno-V1-KSS39?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 8,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Superpoción",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY1/XY1_ES_128.png",
+                    "expansion": "XY",
+                    "code": "XY 128",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "XY (reimpresa)",
+                            "condition": "Excellent",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Super-Potion-XY128?language=4&minCondition=3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 9,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Patines",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY1/XY1_ES_125.png",
+                    "expansion": "XY",
+                    "code": "XY 125",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "XY (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Roller-Skates-XY125?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 10,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Carta del Profesor",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY1/XY1_ES_123.png",
+                    "expansion": "XY",
+                    "code": "XY 123",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "XY (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Professors-Letter-V2-XY123?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 11,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Cristal Niebla",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH6/SWSH6_ES_140.png",
+                    "expansion": "Reinado Escalofriante",
+                    "code": "CRE140",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon",
+                            "format": "E (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Fog-Crystal-V1?language=1&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 12,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Cramobot",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH8/SWSH8_ES_229.png",
+                    "expansion": "Golpe Fusión",
+                    "code": "FST229",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon",
+                            "format": "E (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fusion-Strike/Cram-o-matic?language=1&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 13,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Energía Golpe Fusión",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH8/SWSH8_ES_244.png",
+                    "expansion": "Golpe Fusión",
+                    "code": "FST244",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon",
+                            "format": "E (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fusion-Strike/Fusion-Strike-Energy?language=1&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 14,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Energía Guardia V",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_169.png",
+                    "expansion": "Tempestad Plateada",
+                    "code": "SIT169",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "F (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/V-Guard-Energy-V1-SIT169?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 15,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Regirock",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_89.png",
+                    "expansion": "Voltaje Vivido",
+                    "code": "VIV 89",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare + Foil",
+                            "format": "D (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Regirock-VIV89?language=4&minCondition=2&isReverseHolo=Y"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 16,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Zapdos de Galar",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH7/SWSH7_ES_82.png",
+                    "expansion": "Cielos Evolutivos",
+                    "code": "EVS082",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare + Foil",
+                            "format": "E (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Evolving-Skies/Galarian-Zapdos?language=4&minCondition=2&isReverseHolo=Y"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 17,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Estadio de Puntera",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_161.png",
+                    "expansion": "Voltaje Vivido",
+                    "code": "VIV 161",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon",
+                            "format": "D (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Wyndon-Stadium-VIV161?language=1&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 18,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Sede de la Liga Pokémon",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV03/SV03_ES_192.png",
+                    "expansion": "Llamas Obsidianas",
+                    "code": "OBF192",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "G (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Obsidian-Flames/Pokemon-League-Headquarters-OBF192?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 19,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Serena",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_164.png",
+                    "expansion": "Tempestad Plateada",
+                    "code": "SIT164",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "F (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Serena-V1-SIT164?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 20,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Revivir Máximo",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY1/XY1_ES_120.png",
+                    "expansion": "XY",
+                    "code": "XY 120",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "XY (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Max-Revive-XY120?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 21,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Pase de Combate VIP",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH8/SWSH8_ES_225.png",
+                    "expansion": "Golpe Fusión",
+                    "code": "FST 225",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon",
+                            "format": "E (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fusion-Strike/Battle-VIP-Pass?language=1&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 22,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Rotom Dron",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_151.png",
+                    "expansion": "Voltaje Vivido",
+                    "code": "VIV 151",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon",
+                            "format": "D (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Drone-Rotom-VIV151?language=1&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 23,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Poképarada",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/PGO/PGO_ES_68.png",
+                    "expansion": "Pokémon GO",
+                    "code": "PGO068",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "F (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-GO/PokeStop-V1-PGO068?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 24,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Empleados de Liga",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_153.png",
+                    "expansion": "Voltaje Vivido",
+                    "code": "VIV 153",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon",
+                            "format": "D (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/League-Staff-VIV153?language=1&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 25,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Hitmontop",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_88.png",
+                    "expansion": "Voltaje Vivido",
+                    "code": "VIV 88",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon",
+                            "format": "D (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Hitmontop-VIV88?language=1&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 26,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Shuckle",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_85.png",
+                    "expansion": "Voltaje Vivido",
+                    "code": "VIV 85",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon",
+                            "format": "D (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Shuckle-VIV85?language=1&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 27,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Caterpie",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY2/XY2_ES_1.png",
+                    "expansion": "Destellos de Fuego",
+                    "code": "FLF 1",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "XY (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Caterpie-FLF1?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 28,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Tropius",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY6/XY6_ES_12.png",
+                    "expansion": "Cielos Rugientes",
+                    "code": "ROS 12",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "XY (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Roaring-Skies/Tropius-ROS12?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 29,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Judith",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_147.png",
+                    "expansion": "Voltaje Vivido",
+                    "code": "VIV 147",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon + Foil",
+                            "format": "D (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Bea-VIV147?language=4&minCondition=2&isReverseHolo=Y"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 30,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Grapploct",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_101.png",
+                    "expansion": "Voltaje Vivido",
+                    "code": "VIV 101",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Rare",
+                            "format": "D (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Grapploct-VIV101?language=1&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 31,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Morpeko",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV06/SV06_ES_72.png",
+                    "expansion": "Mascarada Crepuscular",
+                    "code": "TWM072",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "H",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Twilight-Masquerade/Morpeko-TWM072?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 32,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Morpeko",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_116.png",
+                    "expansion": "Tempestad Plateada",
+                    "code": "SIT116",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "F (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Morpeko-SIT116?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 33,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Ralts",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_67.png",
+                    "expansion": "Tempestad Plateada",
+                    "code": "SIT067",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "F (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Ralts-SIT067?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 34,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Kirlia",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_68.png",
+                    "expansion": "Tempestad Plateada",
+                    "code": "SIT068",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "F (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Kirlia-SIT068?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 35,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Chinchou",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/BW7/BW7_ES_55.png",
+                    "expansion": "Fronteras Cruzadas",
+                    "code": "BCR 55",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "BW (no válida en torneos)",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Chinchou-BCR55?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 36,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Roserade",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY2/XY2_ES_9.png",
+                    "expansion": "Destellos de Fuego",
+                    "code": "FLF 9",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "XY (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Roserade-FLF9?language=1&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 37,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Alistair",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_146.png",
+                    "expansion": "Voltaje Vivido",
+                    "code": "VIV 146",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon + Foil",
+                            "format": "D (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Allister-VIV146?language=1&minCondition=2&isReverseHolo=Y"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 38,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Poochyena",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY4/XY4_ES_53.png",
+                    "expansion": "Fuerzas Fantasmales",
+                    "code": "PHF 53",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "XY (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantom-Forces/Poochyena-PHF53?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 39,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Alcremie",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_81.png",
+                    "expansion": "Voltaje Vivido",
+                    "code": "VIV 81",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Rare",
+                            "format": "D (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Alcremie-VIV81?language=1&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 40,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Entrenador de Gimnasio",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_158.png",
+                    "expansion": "Tempestad Plateada",
+                    "code": "SIT 158",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "D (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Gym-Trainer-V1-SIT158?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 41,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Gastly",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_48.png",
+                    "expansion": "Equilibrio Perfecto",
+                    "code": "POR048",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Gastly-POR048?language=4&minCondition=2&isReverseHolo=Y"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 42,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Haunter",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_49.png",
+                    "expansion": "Equilibrio Perfecto",
+                    "code": "POR049",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Haunter-POR049?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 43,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Clefable",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY3/XY3_ES_71.png",
+                    "expansion": "Puños Furiosos",
+                    "code": "FFI 71",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "XY (no válida en torneos)",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Furious-Fists/Clefable-FFI71?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 44,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Floette",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY2/XY2_ES_65.png",
+                    "expansion": "Destellos de Fuego",
+                    "code": "FLF 65",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "XY (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Floette-FLF65?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 45,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Electabuzz",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/BW7/BW7_ES_53.png",
+                    "expansion": "Fronteras Cruzadas",
+                    "code": "BCR 53",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "BW (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Electabuzz-BCR53?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 46,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Mienfoo",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/BW7/BW7_ES_86.png",
+                    "expansion": "Fronteras Cruzadas",
+                    "code": "BCR 86",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "BW (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Mienfoo-BCR86?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 47,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Tinkatink",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_96.png",
+                    "expansion": "Megaevolución",
+                    "code": "MEG096",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Tinkatink-MEG096?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 48,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Tinkatuff",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_97.png",
+                    "expansion": "Megaevolución",
+                    "code": "MEG097",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Tinkatuff-MEG097?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 49,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Zubat",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_103.png",
+                    "expansion": "Tempestad Plateada",
+                    "code": "SIT103",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "format": "F (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Zubat-SIT103?language=4&minCondition=2&isReverseHolo=Y"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 50,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Purrloin",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM11/SM11_ES_135.png",
+                    "expansion": "Mentes Unidas",
+                    "code": "UNM 135",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "format": "Sol y Luna (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unified-Minds/Purrloin-UNM135?language=1&minCondition=2&isReverseHolo=Y"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 51,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Kabutops",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM9/SM9_ES_78.png",
+                    "expansion": "Unión de Aliados",
+                    "code": "TEU 78",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Rare",
+                            "format": "Sol y Luna (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Up/Kabutops-TEU78?language=1&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 52,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Porygon2",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH11/SWSH11_ES_141.png",
+                    "expansion": "Origen Perdido",
+                    "code": "LOR141",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "F (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Lost-Origin/Porygon2-LOR141?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 53,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Gible",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH9/SWSH9_ES_107.png",
+                    "expansion": "Astros Brillantes",
+                    "code": "BRS107",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "F (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Brilliant-Stars/Gible-BRS107?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 54,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Falinks",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH11/SWSH11_ES_110.png",
+                    "expansion": "Origen Perdido",
+                    "code": "LOR110",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "F (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Lost-Origin/Falinks-LOR110?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 55,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Sirfetch'd de Galar",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH6/SWSH6_ES_79.png",
+                    "expansion": "Reinado Escalofriante",
+                    "code": "CRE079",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Rare + Foil",
+                            "format": "E (no válida en torneos)",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Galarian-Sirfetchd?language=1&minCondition=2&isReverseHolo=Y"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 56,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Dusclops",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY2/XY2_ES_39.png",
+                    "expansion": "Destellos de Fuego",
+                    "code": "FLF 39",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "XY (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Dusclops-FLF39?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 57,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Shinx",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV02/SV02_ES_68.png",
+                    "expansion": "Evoluciones en Paldea",
+                    "code": "PAL068",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "format": "G (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldea-Evolved/Shinx-PAL068?language=1&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 58,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Luxray",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_28.png",
+                    "expansion": "Equilibrio Perfecto",
+                    "code": "POR028",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Luxray-POR028?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 59,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Roselia",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH11/SWSH11_ES_14.png",
+                    "expansion": "Origen Perdido",
+                    "code": "LOR 14",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "F (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Lost-Origin/Roselia-LOR014?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 60,
+            "jumbo": true,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Lycanroc",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_95.png",
+                    "expansion": "Voltaje Vivido",
+                    "code": "VIV 95",
+                    "noTrade": true,
+                    "reservada": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Rare",
+                            "format": "D (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Lycanroc-VIV95?language=1&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
