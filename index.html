@@ -6,13 +6,13 @@
     <link rel="icon" type="image/png" href="img/logo/icon.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/binders.css">
+    <link rel="stylesheet" href="css/wishlist.css">
 </head>
 <body>
     <header>
         <img src="img/logo/exp.png" alt="Logotipo de myptcgb">
         <nav class="nav-buttons">
             <a href="" class="active">Inicio</a>
-            <a href="wishlist/">Wishlist</a>
             <a href="about/">Créditos</a>
         </nav>
     </header>
@@ -29,10 +29,11 @@
                 <div class="album-select-container">
                     <span>Álbum:</span>
                     <select id="album-select">
-                        <option value="json/gamegenic2x2.json" data-grid="2x2">Gamegenic (2x2)</option>
-                        <option value="json/ultrapro-megagengar-2x2.json" data-grid="2x2">UltraPRO Mega-Gengar (2x2 + Jumbo)</option>
-                        <option value="json/holo3x3.json" data-grid="3x3">Álbum Holo (3x3)</option>
-                        <option value="json/ultrapro-megportf-1x1.json" data-grid="2x2">Portfolio Megaevolución (1x1)</option>
+                        <option value="json/gamegenic2x2.json" data-grid="2x2" data-id="gamegenic">Gamegenic (2x2)</option>
+                        <option value="json/ultrapro-megagengar-2x2.json" data-grid="2x2" data-id="megagengar">UltraPRO Mega-Gengar (2x2 + Jumbo)</option>
+                        <option value="json/holo3x3.json" data-grid="3x3" data-id="holo">Álbum Holo (3x3)</option>
+                        <option value="json/ultrapro-megportf-1x1.json" data-grid="2x2" data-id="portfmeg">Portfolio Megaevolución (1x1)</option>
+                        <option value="json/wishlist.json" data-grid="3x3" data-id="wishlist">Wishlist</option>
                     </select>
                 </div>
 
@@ -57,7 +58,7 @@
         </div>
     </main>
     <footer>
-        <b>Creado por <a target="_blank" href="https://github.com/markelcanton/" title="https://github.com/markelcanton/">Markel Cantón</a></b>
+        <b>Creado por <a target="_blank" href="https://github.com/markelcanton/" title="https://github.com/markelcanton/" rel="noopener noreferrer">Markel Cantón</a></b>
     </footer>
 
     <div id="card-modal" class="modal-overlay" style="display: none;">
