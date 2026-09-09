@@ -4,6 +4,8 @@ let gridType = '2x2';
 let allPagesData = []; 
 let currentPage = 1;   
 
+let isAnimating = false;
+
 function showEmptyMessage() {
     const bookContainer = document.getElementById('binder-book');
     if (bookContainer) {
@@ -29,6 +31,25 @@ function toggleNavigation(show) {
     if (nextBtn) nextBtn.style.display = display;
     if (pageSelect) pageSelect.style.display = display;
     if (viewModeContainer) viewModeContainer.style.display = display;
+}
+
+function toggleControlsDisabled(disable) {
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const pageInput = document.getElementById('page-input');
+    const navContainer = document.querySelector('.nav-buttons-container');
+
+    if (prevBtn) prevBtn.disabled = disable;
+    if (nextBtn) nextBtn.disabled = disable;
+    if (pageInput) pageInput.disabled = disable;
+
+    if (navContainer) {
+        if (disable) {
+            navContainer.classList.add('disabled-controls');
+        } else {
+            navContainer.classList.remove('disabled-controls');
+        }
+    }
 }
 
 async function loadAllBinders() {
@@ -75,7 +96,7 @@ function getCurrentMode() {
 }
 
 function goToPage(target) {
-    if (!allPagesData || allPagesData.length === 0) return;
+    if (isAnimating || !allPagesData || allPagesData.length === 0) return;
 
     let parsedTarget = target.toString().split('-')[0].trim();
     let targetPage = parseInt(parsedTarget);
@@ -86,8 +107,55 @@ function goToPage(target) {
     if (targetPage > totalPages) targetPage = totalPages;
     if (targetPage < 1) targetPage = 1;
 
-    currentPage = targetPage;
-    renderCurrentView();
+    if (currentPage === targetPage) return;
+
+    const bookContainer = document.getElementById('binder-book');
+    if (!bookContainer) {
+        currentPage = targetPage;
+        renderCurrentView();
+        return;
+    }
+
+    isAnimating = true;
+    toggleControlsDisabled(true);
+
+    const mode = getCurrentMode();
+    const esAvanzar = targetPage > currentPage;
+
+    if (mode === 'single') {
+        const singlePage = bookContainer.querySelector('.page-side');
+        if (singlePage) {
+            singlePage.classList.add(esAvanzar ? 'flip-single-next' : 'flip-single-prev');
+        }
+    } else {
+        if (esAvanzar) {
+            const rightSide = bookContainer.querySelector('.right-side');
+            if (rightSide) rightSide.classList.add('flip-to-left');
+        } else {
+            const leftSide = bookContainer.querySelector('.left-side');
+            if (leftSide) leftSide.classList.add('flip-to-right');
+        }
+    }
+
+    setTimeout(() => {
+        currentPage = targetPage;
+        renderCurrentView();
+
+        const newSides = bookContainer.querySelectorAll('.page-side');
+        newSides.forEach(side => side.classList.add('fade-in-start'));
+
+        requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+                newSides.forEach(side => side.classList.remove('fade-in-start'));
+            });
+        });
+
+        setTimeout(() => {
+            isAnimating = false;
+            toggleControlsDisabled(false);
+        }, 220);
+
+    }, 220);
 }
 
 function renderCurrentView() {
