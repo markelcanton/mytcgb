@@ -55,6 +55,8 @@
                     </div>
                     <button id="next-btn" class="nav-btn">Siguiente ▶</button>
                 </div>
+
+                <button id="open-search-modal-btn" class="nav-btn">Búsqueda avanzada</button>
             </div>
         </div>
     </main>
@@ -66,6 +68,139 @@
         <div class="modal-content">
             <span class="close-btn">&times;</span>
             <div id="modal-body" class="modal-grid"></div>
+        </div>
+    </div>
+
+    <div id="search-modal" class="modal-overlay" style="display: none;">
+        <div class="editor-modal-content">
+            <div class="editor-modal-header">
+                <h2>Búsqueda avanzada:</h2>
+                <span id="close-search-modal" class="close-btn-editor">&times;</span>
+            </div>
+            
+            <div class="editor-modal-body">
+                <div class="editor-section">
+                    <div class="form-group">
+                        <label>Nombre / Código de carta: <span style="color: #f85149;">*</span></label>
+                        <input type="text" id="search-query" class="editor-input" placeholder="Ej: Riolu, MEG001..." required>
+                    </div>
+                </div>
+
+                <div class="editor-section">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Expansión:</label>
+                            <select id="filter-expansion-select" class="editor-input">
+                                <option value="" disabled selected>Añadir expansión...</option>
+                                <option value="SVP">SVP Promo</option>
+                                <option value="OBF">Obsidian Flames</option>
+                                <option value="151">151</option>
+                                <option value="Megaevolución">Megaevolución</option>
+                            </select>
+                            <div id="expansion-tags" class="tags-container"></div>
+                        </div>
+                        <div class="form-group">
+                            <label>Código de carta:</label>
+                            <input type="text" id="filter-code" class="editor-input" placeholder="MEG001">
+                        </div>
+                    </div>
+
+                    <div class="checkbox-row">
+                        <label class="editor-checkbox"><input type="checkbox" id="filter-notrade"> No Trade</label>
+                        <label class="editor-checkbox"><input type="checkbox" id="filter-reserved"> Reservada</label>
+                    </div>
+                </div>
+
+                <div class="editor-section-title">Tipo de carta:</div>
+                <div class="editor-section">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Idioma:</label>
+                            <select id="filter-language-select" class="editor-input">
+                                <option value="" disabled selected>Añadir idioma...</option>
+                                <option value="Español">Español</option>
+                                <option value="Español Latino">Español Latino</option>
+                                <option value="Inglés">Inglés</option>
+                                <option value="Francés">Francés</option>
+                                <option value="Italiano">Italiano</option>
+                                <option value="Alemán">Alemán</option>
+                                <option value="Chino">Chino</option>
+                                <option value="Japonés">Japonés</option>
+                                <option value="Coreano">Coreano</option>
+                            </select>
+                            <div id="language-tags" class="tags-container"></div>
+                        </div>
+                        <div class="form-group">
+                            <label>Regulación:</label>
+                            <input type="text" id="filter-format" class="editor-input" placeholder="H, I, J...">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Estado:</label>
+                            <select id="filter-condition-select" class="editor-input">
+                                <option value="" disabled selected>Añadir estado...</option>
+                                <option value="Mint">Mint</option>
+                                <option value="Near Mint">Near Mint</option>
+                                <option value="Excellent">Excellent</option>
+                                <option value="Good">Good</option>
+                                <option value="Light Played">Light Played</option>
+                                <option value="Played">Played</option>
+                                <option value="Poor">Poor</option>
+                            </select>
+                            <div id="condition-tags" class="tags-container"></div>
+                        </div>
+                        <div class="form-group">
+                            <label>Precio máximo (€):</label>
+                            <input type="number" id="filter-price" step="0.01" class="editor-input" placeholder="0,02€">
+                        </div>
+                        <div class="form-group">
+                            <label>Stock mínimo:</label>
+                            <input type="number" id="filter-stock" min="1" class="editor-input" placeholder="1">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Tipo y rareza:</label>
+                        <div class="checkbox-grid">
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="Common"> Common</label>
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="Uncommon"> Uncommon</label>
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="Rare"> Rare</label>
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="Double Rare"> Double Rare</label>
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="Ultra Rare"> Ultra Rare</label>
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="IR"> IR</label>
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="SIR"> SIR</label>
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="Hyper Mega Rare"> Hyper Mega Rare</label>
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="Promo"> Promo</label>
+                        </div>
+                        <div class="checkbox-grid inline-line" style="margin-top: 8px;">
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="Foil"> Foil</label>
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="Play! Stamp"> Play! Stamp</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="editor-modal-footer">
+                <button id="reset-filters-btn" class="btn-editor-danger">Restablecer filtros</button>
+                <button id="apply-filters-btn" class="btn-editor-primary">Buscar</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="results-modal" class="modal-overlay" style="display: none;">
+        <div class="editor-modal-content">
+            <div class="editor-modal-header">
+                <h2>Resultados de la búsqueda:</h2>
+                <span id="close-results-modal" class="close-btn-editor">&times;</span>
+            </div>
+            <div class="editor-modal-body">
+                <div id="search-results-grid" class="search-results-grid"></div>
+            </div>
+            <div class="editor-modal-footer">
+                <button id="back-to-search-btn" class="btn-editor-primary">Volver a buscar</button>
+            </div>
         </div>
     </div>
 </body>
