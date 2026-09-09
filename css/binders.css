@@ -22,6 +22,9 @@
     max-width: 100%;
     margin-bottom: 25px;
     min-height: 512px;
+
+    perspective: 1500px;
+    position: relative;
 }
 
 .page-side {
@@ -32,16 +35,30 @@
     box-sizing: border-box;
     position: relative;
     border: 1px solid #30363d;
+
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: transform 0.38s cubic-bezier(0.4, 0.0, 0.2, 1), 
+                opacity 0.38s cubic-bezier(0.4, 0.0, 0.2, 1);
+    opacity: 1;
 }
 
 .left-side {
     border-radius: 8px 0 0 8px;
     border-right: 4px solid #090d13;
+
+    transform-origin: right center;
 }
 
 .right-side {
     border-radius: 0 8px 8px 0;
     border-left: 4px solid #090d13;
+
+    transform-origin: left center;
+}
+
+.page-side:not(.left-side):not(.right-side) {
+    transform-origin: left center;
 }
 
 .cards-grid-2x2 {
@@ -486,4 +503,45 @@
     pointer-events: none;
     box-shadow: 0 2px 4px rgba(0,0,0,0.6);
     letter-spacing: 0.5px;
+}
+
+.right-side.flip-to-left {
+    transform: rotateY(-120deg);
+    opacity: 0;
+    z-index: 10;
+}
+
+.left-side.flip-to-right {
+    transform: rotateY(120deg);
+    opacity: 0;
+    z-index: 10;
+}
+
+.page-side.flip-single-next {
+    transform: rotateY(-90deg);
+    opacity: 0;
+    z-index: 10;
+}
+
+.page-side.flip-single-prev {
+    transform: rotateY(90deg);
+    opacity: 0;
+    z-index: 10;
+}
+
+.page-side.fade-in-start {
+    opacity: 0 !important;
+    transform: scale(0.98);
+    transition: none !important;
+}
+
+.nav-btn:disabled,
+#page-input:disabled {
+    cursor: not-allowed !important;
+    opacity: 0.6;
+}
+
+.disabled-controls,
+.disabled-controls * {
+    cursor: not-allowed !important;
 }
