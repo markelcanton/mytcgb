@@ -1,10 +1,47 @@
 let jsonFile = '';
-let gridType = '2x2'; 
+let gridType = '2x2';
 
-let allPagesData = []; 
-let currentPage = 1;   
+let allPagesData = [];
+let currentPage = 1;
 
 let isAnimating = false;
+
+function ensureBackdrop() {
+    let backdrop = document.getElementById('modal-backdrop');
+    if (!backdrop) {
+        backdrop = document.createElement('div');
+        backdrop.id = 'modal-backdrop';
+        document.body.appendChild(backdrop);
+    }
+    return backdrop;
+}
+
+function openModal(modal) {
+    if (!modal) return;
+    const backdrop = ensureBackdrop();
+
+    backdrop.classList.add('active');
+
+    modal.style.display = 'flex';
+    setTimeout(() => {
+        modal.classList.add('active');
+    }, 10);
+}
+
+function closeModal(modal) {
+    if (!modal) return;
+    modal.classList.remove('active');
+
+    setTimeout(() => {
+        modal.style.display = 'none';
+
+        const anyActive = document.querySelector('.modal-overlay.active');
+        if (!anyActive) {
+            const backdrop = document.getElementById('modal-backdrop');
+            if (backdrop) backdrop.classList.remove('active');
+        }
+    }, 200);
+}
 
 function showEmptyMessage() {
     const bookContainer = document.getElementById('binder-book');
@@ -23,10 +60,10 @@ function toggleNavigation(show) {
     const prevBtn = document.getElementById('prev-btn');
     const nextBtn = document.getElementById('next-btn');
     const pageSelect = document.querySelector('.page-select-container');
-    const viewModeContainer = document.getElementById('view-mode-container'); 
+    const viewModeContainer = document.getElementById('view-mode-container');
 
-    const display = show ? '' : 'none'; 
-    
+    const display = show ? '' : 'none';
+
     if (prevBtn) prevBtn.style.display = display;
     if (nextBtn) nextBtn.style.display = display;
     if (pageSelect) pageSelect.style.display = display;
@@ -56,7 +93,7 @@ async function loadAllBinders() {
     try {
         const response = await fetch(jsonFile);
         if (!response.ok) throw new Error(`Error al cargar el archivo JSON "${jsonFile}"`);
-        
+
         const data = await response.json();
         allPagesData = data.pages.sort((a, b) => a.number - b.number);
 
@@ -64,17 +101,17 @@ async function loadAllBinders() {
         renderCurrentView();
     } catch (error) {
         console.error("Error al cargar el archivo: ", error);
-        
-        allPagesData = []; 
+
+        allPagesData = [];
         currentPage = 1;
-        
-        showEmptyMessage(); 
-        
+
+        showEmptyMessage();
+
         const input = document.getElementById('page-input');
         const totalLabel = document.getElementById('total-pages-label');
         if (input) input.value = '0';
         if (totalLabel) totalLabel.textContent = '/ 0';
-        
+
         toggleNavigation(false);
     }
 }
@@ -165,24 +202,24 @@ function renderCurrentView() {
     toggleNavigation(hasData);
     if (!hasData) {
         showEmptyMessage();
-        return; 
+        return;
     }
 
     const bookContainer = document.getElementById('binder-book');
     const pageInput = document.getElementById('page-input');
     if (!bookContainer) return;
-    
-    bookContainer.innerHTML = ''; 
+
+    bookContainer.innerHTML = '';
     const mode = getCurrentMode();
     const totalPages = allPagesData.length;
 
     if (mode === 'single') {
         const side = document.createElement('div');
-        side.className = 'page-side'; 
+        side.className = 'page-side';
         side.style.borderRadius = '8px';
         buildPageHTML(side, currentPage);
         bookContainer.appendChild(side);
-        
+
         if (pageInput) pageInput.value = currentPage;
 
     } else {
@@ -196,7 +233,7 @@ function renderCurrentView() {
             rightSide.className = 'page-side right-side';
             buildPageHTML(rightSide, 1);
             bookContainer.appendChild(rightSide);
-            
+
             if (pageInput) pageInput.value = '1';
         } else {
             let leftPageNum = currentPage % 2 === 0 ? currentPage : currentPage - 1;
@@ -209,17 +246,17 @@ function renderCurrentView() {
 
             const rightSide = document.createElement('div');
             rightSide.className = 'page-side right-side';
-            
+
             const existePaginaDerecha = allPagesData.some(p => p.number === rightPageNum);
-            
+
             if (existePaginaDerecha) {
                 buildPageHTML(rightSide, rightPageNum);
             } else {
-                rightSide.classList.add('cover-page'); 
+                rightSide.classList.add('cover-page');
                 rightSide.innerHTML = '<div class="cover-title"></div>';
             }
             bookContainer.appendChild(rightSide);
-            
+
             if (pageInput) pageInput.value = rightPageNum > totalPages ? `${leftPageNum}` : `${leftPageNum}-${rightPageNum}`;
         }
     }
@@ -237,7 +274,7 @@ function buildPageHTML(sideContainer, pageNumber) {
     } else {
         gridDiv.className = `cards-grid-${gridType}`;
     }
-    
+
     const cardsMap = {};
     if (jsonDataPage && jsonDataPage.cards) {
         jsonDataPage.cards.forEach(card => {
@@ -255,12 +292,12 @@ function buildPageHTML(sideContainer, pageNumber) {
         const cardData = cardsMap[slot.toString()];
         if (cardData) {
             const imgSrc = cardData.image ? cardData.image.trim() : '';
-            
-            const tieneNoTrade = cardData.noTrade === true || 
+
+            const tieneNoTrade = cardData.noTrade === true ||
                 (cardData.price && cardData.price.toUpperCase().includes("NO TRADE")) ||
                 (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("NO TRADE")));
 
-            const tieneReservada = cardData.reservada === true || 
+            const tieneReservada = cardData.reservada === true ||
                 (cardData.price && cardData.price.toUpperCase().includes("RESERVADA")) ||
                 (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("RESERVADA")));
 
@@ -280,7 +317,7 @@ function buildPageHTML(sideContainer, pageNumber) {
         }
         gridDiv.appendChild(cardItem);
     }
-    
+
     sideContainer.appendChild(gridDiv);
 }
 
@@ -302,8 +339,8 @@ function showDetails(card, pageNum) {
 
         const hasLink = card['cardmarket-link'] || variant['cardmarket-link'];
         const linkUrl = hasLink ? (card['cardmarket-link'] || variant['cardmarket-link']).trim() : '';
-        const cmButtonHtml = linkUrl 
-            ? `<a href="${linkUrl}" target="_blank" class="cardmarket-btn">Ver en Cardmarket</a>` 
+        const cmButtonHtml = linkUrl
+            ? `<a href="${linkUrl}" target="_blank" class="cardmarket-btn">Ver en Cardmarket</a>`
             : '';
 
         modalBody.innerHTML = `
@@ -325,8 +362,8 @@ function showDetails(card, pageNum) {
             </div>
         `;
     } else {
-        const variantsList = (card.variants && card.variants.length > 0) 
-            ? card.variants 
+        const variantsList = (card.variants && card.variants.length > 0)
+            ? card.variants
             : [{
                 language: card.language || '--',
                 type: card.type || '--',
@@ -338,8 +375,8 @@ function showDetails(card, pageNum) {
 
         const rowsHtml = variantsList.map(v => {
             const tieneLink = v['cardmarket-link'] && v['cardmarket-link'].trim() !== '';
-            const linkBtn = tieneLink 
-                ? `<a href="${v['cardmarket-link'].trim()}" target="_blank" class="cm-table-btn" title="Ver precio en Cardmarket">Ver</a>` 
+            const linkBtn = tieneLink
+                ? `<a href="${v['cardmarket-link'].trim()}" target="_blank" class="cm-table-btn" title="Ver precio en Cardmarket">Ver</a>`
                 : '--';
 
             return `
@@ -400,8 +437,8 @@ function showDetails(card, pageNum) {
             });
         }
     }
-    
-    modal.style.display = 'flex';
+
+    openModal(modal);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -453,16 +490,18 @@ document.addEventListener("DOMContentLoaded", () => {
     isInitialLoad = false;
 
     const closeBtn = document.querySelector('.close-btn');
-    if (closeBtn) {
+    const cardModal = document.getElementById('card-modal');
+    if (closeBtn && cardModal) {
         closeBtn.addEventListener('click', () => {
-            document.getElementById('card-modal').style.display = 'none';
+            closeModal(cardModal);
         });
     }
 
-    window.addEventListener('click', (e) => {
-        const modal = document.getElementById('card-modal');
-        if (e.target === modal) {
-            modal.style.display = 'none';
+    document.addEventListener('click', (e) => {
+        const backdrop = document.getElementById('modal-backdrop');
+        if (e.target === backdrop) {
+            const activeModal = document.querySelector('.modal-overlay.active');
+            if (activeModal) closeModal(activeModal);
         }
     });
 
@@ -470,7 +509,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const prevBtn = document.getElementById('prev-btn');
     const nextBtn = document.getElementById('next-btn');
 
-    prevBtn.addEventListener('click', () => {
+    prevBtn?.addEventListener('click', () => {
         const mode = getCurrentMode();
         if (mode === 'single') {
             goToPage(currentPage - 1);
@@ -481,7 +520,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    nextBtn.addEventListener('click', () => {
+    nextBtn?.addEventListener('click', () => {
         const mode = getCurrentMode();
         if (mode === 'single') {
             goToPage(currentPage + 1);
@@ -495,14 +534,286 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    pageInput.addEventListener('keydown', (e) => {
+    pageInput?.addEventListener('keydown', (e) => {
         if (e.key === 'Enter') {
             goToPage(e.target.value);
             e.target.blur();
         }
     });
 
-    pageInput.addEventListener('blur', () => {
-        renderCurrentView(); 
+    pageInput?.addEventListener('blur', () => {
+        renderCurrentView();
     });
+
+    const searchModal = document.getElementById('search-modal');
+    const resultsModal = document.getElementById('results-modal');
+
+    const openSearchBtns = document.querySelectorAll('#open-search-modal-btn, .open-search-btn');
+    const closeSearchBtn = document.getElementById('close-search-modal');
+    const closeResultsBtn = document.getElementById('close-results-modal');
+
+    let selectedExpansions = [];
+    let selectedLanguages = [];
+    let selectedConditions = [];
+
+    openSearchBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            openModal(searchModal);
+        });
+    });
+
+    if (closeSearchBtn && searchModal) {
+        closeSearchBtn.addEventListener('click', () => {
+            closeModal(searchModal);
+        });
+    }
+
+    if (closeResultsBtn && resultsModal) {
+        closeResultsBtn.addEventListener('click', () => {
+            closeModal(resultsModal);
+        });
+    }
+
+    function setupMultiSelect(selectId, tagsContainerId, storageArray) {
+        const select = document.getElementById(selectId);
+        const container = document.getElementById(tagsContainerId);
+        if (!select || !container) return;
+
+        select.addEventListener('change', (e) => {
+            const val = e.target.value;
+            if (val && !storageArray.includes(val)) {
+                storageArray.push(val);
+                renderTags(container, storageArray);
+            }
+            select.selectedIndex = 0;
+        });
+    }
+
+    function renderTags(container, storageArray) {
+        container.innerHTML = '';
+        storageArray.forEach(item => {
+            const tag = document.createElement('span');
+            tag.className = 'filter-tag';
+            tag.innerHTML = `${item} <span class="remove-tag">&times;</span>`;
+            tag.querySelector('.remove-tag').addEventListener('click', () => {
+                const idx = storageArray.indexOf(item);
+                if (idx > -1) storageArray.splice(idx, 1);
+                renderTags(container, storageArray);
+            });
+            container.appendChild(tag);
+        });
+    }
+
+    setupMultiSelect('filter-expansion-select', 'expansion-tags', selectedExpansions);
+    setupMultiSelect('filter-language-select', 'language-tags', selectedLanguages);
+    setupMultiSelect('filter-condition-select', 'condition-tags', selectedConditions);
+
+    document.getElementById('reset-filters-btn')?.addEventListener('click', () => {
+        document.getElementById('search-query').value = '';
+        document.getElementById('filter-code').value = '';
+        document.getElementById('filter-format').value = '';
+        document.getElementById('filter-price').value = '';
+        document.getElementById('filter-stock').value = '';
+
+        document.getElementById('filter-notrade').checked = false;
+        document.getElementById('filter-reserved').checked = false;
+        document.querySelectorAll('.filter-type').forEach(cb => cb.checked = false);
+
+        selectedExpansions.length = 0;
+        selectedLanguages.length = 0;
+        selectedConditions.length = 0;
+
+        renderTags(document.getElementById('expansion-tags'), selectedExpansions);
+        renderTags(document.getElementById('language-tags'), selectedLanguages);
+        renderTags(document.getElementById('condition-tags'), selectedConditions);
+    });
+
+    document.getElementById('apply-filters-btn')?.addEventListener('click', () => {
+        const queryInput = document.getElementById('search-query');
+        const query = queryInput.value.toLowerCase().trim();
+
+        if (!query) {
+            alert("Para iniciar la búsqueda avanzada, debes introducir nombre o código de carta.");
+            queryInput.focus();
+            return;
+        }
+
+        const codeVal = document.getElementById('filter-code').value.toLowerCase().trim();
+        const formatVal = document.getElementById('filter-format').value.toLowerCase().trim();
+        const maxPrice = parseFloat(document.getElementById('filter-price').value);
+        const minStock = parseInt(document.getElementById('filter-stock').value, 10);
+
+        const isNoTrade = document.getElementById('filter-notrade').checked;
+        const isReserved = document.getElementById('filter-reserved').checked;
+        const selectedTypes = Array.from(document.querySelectorAll('.filter-type:checked')).map(cb => cb.value);
+
+        const matches = [];
+
+        allPagesData.forEach(page => {
+            if (!page.cards) return;
+
+            page.cards.forEach(card => {
+                const name = (card.name || '').toLowerCase();
+                const code = (card.code || '').toLowerCase();
+                const expansion = card.expansion || '';
+
+                if (!name.includes(query) && !code.includes(query)) return;
+
+                if (selectedExpansions.length > 0 && !selectedExpansions.includes(expansion)) return;
+                if (codeVal && !code.includes(codeVal)) return;
+
+                const hasNoTrade = card.noTrade === true || (card.price && card.price.includes("NO TRADE"));
+                const hasReserved = card.reservada === true || (card.price && card.price.includes("RESERVADA"));
+
+                if (isNoTrade && !hasNoTrade) return;
+                if (isReserved && !hasReserved) return;
+
+                const variants = (card.variants && card.variants.length > 0) ? card.variants : [{
+                    language: card.language,
+                    type: card.type,
+                    format: card.format,
+                    condition: card.condition,
+                    price: card.price,
+                    stock: card.stock
+                }];
+
+                const matchVariant = variants.some(v => {
+                    if (selectedLanguages.length > 0 && !selectedLanguages.includes(v.language)) return false;
+                    if (selectedConditions.length > 0 && !selectedConditions.includes(v.condition)) return false;
+                    if (formatVal && !(v.format || '').toLowerCase().includes(formatVal)) return false;
+
+                    if (selectedTypes.length > 0) {
+                        const cardType = v.type || '';
+                        if (!selectedTypes.some(t => cardType.includes(t))) return false;
+                    }
+
+                    if (!isNaN(maxPrice)) {
+                        const rawPrice = parseFloat((v.price || '').replace('€', '').replace(',', '.'));
+                        if (isNaN(rawPrice) || rawPrice > maxPrice) return false;
+                    }
+
+                    if (!isNaN(minStock)) {
+                        const stockVal = parseInt(v.stock || '0', 10);
+                        if (stockVal < minStock) return false;
+                    }
+
+                    return true;
+                });
+
+                if (!matchVariant) return;
+
+                matches.push({ page: page.number, slot: card.slot, cardData: card });
+            });
+        });
+
+        closeModal(searchModal);
+        renderVisualResults(matches);
+        setTimeout(() => {
+            openModal(resultsModal);
+        }, 150);
+    });
+
+    function renderVisualResults(results) {
+        const grid = document.getElementById('search-results-grid');
+        if (!grid) return;
+
+        grid.innerHTML = '';
+
+        if (results.length === 0) {
+            grid.innerHTML = `<div style="color: #8b949e; grid-column: 1 / -1; padding: 20px; text-align: center;">No se encontraron cartas que coincidan.</div>`;
+            return;
+        }
+
+        results.forEach(res => {
+            const cardData = res.cardData;
+
+            const tieneNoTrade = cardData.noTrade === true ||
+                (cardData.price && cardData.price.toUpperCase().includes("NO TRADE")) ||
+                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("NO TRADE")));
+
+            const tieneReservada = cardData.reservada === true ||
+                (cardData.price && cardData.price.toUpperCase().includes("RESERVADA")) ||
+                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("RESERVADA")));
+
+            let badgesHTML = '';
+            if (tieneNoTrade) badgesHTML += `<div class="no-trade-badge">NO TRADE</div>`;
+            if (tieneReservada) badgesHTML += `<div class="reserved-badge">RESERVADA</div>`;
+
+            const cardBox = document.createElement('div');
+            cardBox.className = 'search-result-card';
+            cardBox.innerHTML = `
+                ${badgesHTML}
+                <img src="${cardData.image || ''}" onerror="this.src='https://tcg.pokemon.com/assets/img/global/tcg-card-back.jpg'">
+                <div class="card-pos">Pág. ${res.page} - Slot ${res.slot}</div>
+            `;
+
+            cardBox.addEventListener('click', () => {
+                closeModal(resultsModal);
+                setTimeout(() => {
+                    goToPage(res.page);
+                    showDetails(cardData, res.page);
+                }, 150);
+            });
+
+            grid.appendChild(cardBox);
+        });
+    }
+
+    const backToSearchBtn = document.getElementById('back-to-search-btn');
+
+    if (backToSearchBtn && resultsModal && searchModal) {
+        backToSearchBtn.addEventListener('click', () => {
+            closeModal(resultsModal);
+            setTimeout(() => {
+                openModal(searchModal);
+            }, 150);
+        });
+    }
+
+});
+
+let touchStartX = 0;
+let touchEndX = 0;
+
+const binderBook = document.getElementById('binder-book');
+
+if (binderBook) {
+    binderBook.addEventListener('touchstart', (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    binderBook.addEventListener('touchend', (e) => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+    }, { passive: true });
+}
+
+function handleSwipe() {
+    const minSwipeDistance = 50;
+    const swipeDistance = touchEndX - touchStartX;
+
+    if (swipeDistance < -minSwipeDistance) {
+        document.getElementById('next-btn')?.click();
+    }
+
+    if (swipeDistance > minSwipeDistance) {
+        document.getElementById('prev-btn')?.click();
+    }
+}
+
+document.addEventListener('keydown', (e) => {
+    if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA') {
+        return;
+    }
+
+    const activeModal = document.querySelector('.modal-overlay.active');
+    if (activeModal) {
+        return;
+    }
+
+    if (e.key === 'ArrowLeft') {
+        document.getElementById('prev-btn')?.click();
+    } else if (e.key === 'ArrowRight') {
+        document.getElementById('next-btn')?.click();
+    }
 });
