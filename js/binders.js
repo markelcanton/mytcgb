@@ -476,7 +476,34 @@ document.addEventListener("DOMContentLoaded", () => {
             }
 
             currentPage = 1;
-            loadAllBinders();
+
+            if (isInitialLoad) {
+                loadAllBinders();
+                return;
+            }
+
+            isAnimating = true;
+            toggleControlsDisabled(true);
+
+            const bookContainer = document.getElementById('binder-book');
+            if (bookContainer) {
+                bookContainer.style.transition = 'opacity 0.2s ease';
+                bookContainer.style.opacity = '0';
+            }
+
+            setTimeout(async () => {
+                await loadAllBinders();
+
+                if (bookContainer) {
+                    bookContainer.style.opacity = '1';
+                }
+
+                setTimeout(() => {
+                    isAnimating = false;
+                    toggleControlsDisabled(false);
+                }, 200);
+
+            }, 200);
         }
     }
 
@@ -773,31 +800,36 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 let touchStartX = 0;
+let touchStartY = 0;
 let touchEndX = 0;
+let touchEndY = 0;
 
 const binderBook = document.getElementById('binder-book');
 
 if (binderBook) {
     binderBook.addEventListener('touchstart', (e) => {
-        touchStartX = e.changedTouches[0].screenX;
+        touchStartX = e.changedTouches[0].clientX;
+        touchStartY = e.changedTouches[0].clientY;
     }, { passive: true });
 
     binderBook.addEventListener('touchend', (e) => {
-        touchEndX = e.changedTouches[0].screenX;
+        touchEndX = e.changedTouches[0].clientX;
+        touchEndY = e.changedTouches[0].clientY;
         handleSwipe();
     }, { passive: true });
 }
 
 function handleSwipe() {
     const minSwipeDistance = 50;
-    const swipeDistance = touchEndX - touchStartX;
+    const diffX = touchEndX - touchStartX;
+    const diffY = touchEndY - touchStartY;
 
-    if (swipeDistance < -minSwipeDistance) {
-        document.getElementById('next-btn')?.click();
-    }
-
-    if (swipeDistance > minSwipeDistance) {
-        document.getElementById('prev-btn')?.click();
+    if (Math.abs(diffX) > Math.abs(diffY)) {
+        if (diffX < -minSwipeDistance) {
+            document.getElementById('next-btn')?.click();
+        } else if (diffX > minSwipeDistance) {
+            document.getElementById('prev-btn')?.click();
+        }
     }
 }
 
