@@ -791,3 +791,10 @@
         transform: translateY(0);
     }
 }
+
+@media (max-width: 768px) {
+    #binder-book {
+        min-height: 420px;
+        scroll-margin: 0;
+    }
+}
