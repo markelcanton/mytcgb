@@ -11,6 +11,9 @@
                     "code": "MEG001",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -31,6 +34,9 @@
                     "code": "ASC020",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -56,6 +62,9 @@
                     "code": "MEG008",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -76,6 +85,9 @@
                     "code": "DRI032",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -96,6 +108,9 @@
                     "code": "ASC041",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -121,6 +136,9 @@
                     "code": "PRC 6",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -141,6 +159,9 @@
                     "code": "PRC 25",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -166,6 +187,9 @@
                     "code": "PFL027",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -191,6 +215,9 @@
                     "code": "BLK001",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -211,6 +238,9 @@
                     "code": "BCR 24",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -231,6 +261,9 @@
                     "code": "cs5aC 015",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Chino",
@@ -256,6 +289,9 @@
                     "code": "CRI005",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -276,6 +312,9 @@
                     "code": "XY 24",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -296,6 +335,9 @@
                     "code": "CRI020",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -321,6 +363,9 @@
                     "code": "SUM 9",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -341,6 +386,9 @@
                     "code": "TEF032",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -361,6 +409,9 @@
                     "code": "PBL018",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -386,6 +437,9 @@
                     "code": "MEG026",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -406,6 +460,9 @@
                     "code": "MEG039",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -431,6 +488,9 @@
                     "code": "JTG016",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -451,6 +511,9 @@
                     "code": "SVI036",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -471,6 +534,9 @@
                     "code": "SVP003",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -501,6 +567,9 @@
                     "code": "Jumbo",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -541,6 +610,9 @@
                     "code": "SIT030",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -561,6 +633,9 @@
                     "code": "SIT031",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -581,6 +656,9 @@
                     "code": "SIT032",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -601,6 +679,9 @@
                     "code": "UNB 60",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -626,6 +707,9 @@
                     "code": "EVS125",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -646,6 +730,9 @@
                     "code": "PFL069",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -666,6 +753,9 @@
                     "code": "DRI078",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -686,6 +776,9 @@
                     "code": "SSP161",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -711,6 +804,9 @@
                     "code": "MEG048",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -731,6 +827,9 @@
                     "code": "ASC025",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -751,6 +850,9 @@
                     "code": "PFL026",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -771,6 +873,9 @@
                     "code": "ASC092",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -796,6 +901,9 @@
                     "code": "MEG095",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -816,6 +924,9 @@
                     "code": "PFL045",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -836,6 +947,9 @@
                     "code": "CRE120",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -856,6 +970,9 @@
                     "code": "CRE088",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -881,6 +998,9 @@
                     "code": "TWM067",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -901,6 +1021,9 @@
                     "code": "SIT098",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -921,6 +1044,9 @@
                     "code": "DRI149",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -941,6 +1067,9 @@
                     "code": "DRI082",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -966,6 +1095,9 @@
                     "code": "LOT 21",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -986,6 +1118,9 @@
                     "code": "SIT085",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1006,6 +1141,9 @@
                     "code": "PAL116",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1026,6 +1164,9 @@
                     "code": "JTG085",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1051,6 +1192,9 @@
                     "code": "FLF 8",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1071,6 +1215,9 @@
                     "code": "PBL056",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1087,173 +1234,11 @@
         },
         {
             "number": 22,
-            "cards": [
-                {
-                    "slot": 1,
-                    "name": "Energía de Planta Básica",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEE/MEE_ES_1.png",
-                    "expansion": "Sobre de premio de Play (serie 8)",
-                    "code": "MEE001",
-                    "noTrade": true,
-                    "reservada": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Foil",
-                            "format": null,
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": "N/D",
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Basic-Grass-Energy-V2-PPS8MEE-001?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 2,
-                    "name": "Energía de Fuego Básica",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEE/MEE_ES_2.png",
-                    "expansion": "Sobre de premio de Play (serie 8)",
-                    "code": "MEE002",
-                    "noTrade": true,
-                    "reservada": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Foil",
-                            "format": null,
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": "N/D",
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Basic-Fire-Energy-V2-PPS8MEE-002?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 3,
-                    "name": "Energía Psíquica Básica",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SVE2/SVE2_ES_13.png",
-                    "expansion": "Sobre de premio de Play (serie 7)",
-                    "code": "SVE013",
-                    "noTrade": true,
-                    "reservada": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Foil",
-                            "format": null,
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": "N/D",
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Basic-Psychic-Energy-V2-PPS7SVE-013?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 4,
-                    "name": "Energía de Lucha Básica",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEE/MEE_ES_6.png",
-                    "expansion": "Sobre de premio de Play (serie 8)",
-                    "code": "MEE006",
-                    "noTrade": true,
-                    "reservada": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Foil",
-                            "format": null,
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": "N/D",
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Basic-Fighting-Energy-V2-PPS8MEE-006?language=4&minCondition=2"
-                        }
-                    ]
-                }
-            ]
+            "cards": []
         },
         {
             "number": 23,
-            "cards": [
-                {
-                    "slot": 1,
-                    "name": "Energía de Agua Básica",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEE/MEE_ES_3.png",
-                    "expansion": "Sobre de premio de Play (serie 8)",
-                    "code": "MEE003",
-                    "noTrade": true,
-                    "reservada": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Foil",
-                            "format": null,
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": "N/D",
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Basic-Water-Energy-V2-PPS8MEE-003?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 2,
-                    "name": "Energía Eléctrica Básica",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SVE/SVE_ES_4.png",
-                    "expansion": "Sobre de premio de Play (serie 7)",
-                    "code": "SVE012",
-                    "noTrade": true,
-                    "reservada": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Foil",
-                            "format": null,
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": "N/D",
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Basic-Lightning-Energy-V2-PPS7SVE-012?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 3,
-                    "name": "Energía Oscura Básica",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEE/MEE_ES_7.png",
-                    "expansion": "Sobre de premio de Play (serie 8)",
-                    "code": "MEE007",
-                    "noTrade": true,
-                    "reservada": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "No Foil",
-                            "format": null,
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": "N/D",
-                            "cardmarket-link": ""
-                        }
-                    ]
-                },
-                {
-                    "slot": 4,
-                    "name": "Energía Metálica Básica",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SVE2/SVE2_ES_16.png",
-                    "expansion": "Sobre de premio de Play (serie 7)",
-                    "code": "SVE016",
-                    "noTrade": true,
-                    "reservada": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "No Foil",
-                            "format": null,
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": "N/D",
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Basic-Darkness-Energy-V1-PPS8MEE-007?language=4&minCondition=2"
-                        }
-                    ]
-                }
-            ]
+            "cards": []
         },
         {
             "number": 24,
