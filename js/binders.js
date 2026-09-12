@@ -301,9 +301,28 @@ function buildPageHTML(sideContainer, pageNumber) {
                 (cardData.price && cardData.price.toUpperCase().includes("RESERVADA")) ||
                 (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("RESERVADA")));
 
+            const tieneVendida = cardData.vendida === true ||
+                (cardData.price && cardData.price.toUpperCase().includes("VENDIDA")) ||
+                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("VENDIDA")));
+
+            const tieneTraded = cardData.traded === true ||
+                (cardData.price && cardData.price.toUpperCase().includes("TRADED")) ||
+                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("TRADED")));
+
+            const tieneNoDisponible = cardData.noDisponible === true ||
+                (cardData.price && cardData.price.toUpperCase().includes("NO DISPONIBLE")) ||
+                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("NO DISPONIBLE")));
+
             let badgesHTML = '';
-            if (tieneNoTrade) badgesHTML += `<div class="no-trade-badge">NO TRADE</div>`;
-            if (tieneReservada) badgesHTML += `<div class="reserved-badge">RESERVADA</div>`;
+            if (tieneNoTrade || tieneReservada || tieneVendida || tieneTraded || tieneNoDisponible) {
+                badgesHTML += `<div class="badge-stack">`;
+                if (tieneNoTrade) badgesHTML += `<div class="card-badge badge-notrade">NO TRADE</div>`;
+                if (tieneReservada) badgesHTML += `<div class="card-badge badge-reserved">RESERVADA</div>`;
+                if (tieneVendida) badgesHTML += `<div class="card-badge badge-sold">VENDIDA</div>`;
+                if (tieneTraded) badgesHTML += `<div class="card-badge badge-traded">TRADED</div>`;
+                if (tieneNoDisponible) badgesHTML += `<div class="card-badge badge-unavailable">NO DISPONIBLE</div>`;
+                badgesHTML += `</div>`;
+            }
 
             if (imgSrc) {
                 cardItem.innerHTML = `${badgesHTML}<img src="${imgSrc}" alt="Pokémon Card" onerror="this.onerror=null; this.src='https://tcg.pokemon.com/assets/img/global/tcg-card-back.jpg';">`;
@@ -644,6 +663,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         document.getElementById('filter-notrade').checked = false;
         document.getElementById('filter-reserved').checked = false;
+        document.getElementById('filter-sold').checked = false;
+        document.getElementById('filter-traded').checked = false;
+        document.getElementById('filter-unavailable').checked = false;
+
         document.querySelectorAll('.filter-type').forEach(cb => cb.checked = false);
 
         selectedExpansions.length = 0;
@@ -672,8 +695,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const isNoTrade = document.getElementById('filter-notrade').checked;
         const isReserved = document.getElementById('filter-reserved').checked;
-        const selectedTypes = Array.from(document.querySelectorAll('.filter-type:checked')).map(cb => cb.value);
+        const isSold = document.getElementById('filter-sold').checked;
+        const isTraded = document.getElementById('filter-traded').checked;
+        const isUnavailable = document.getElementById('filter-unavailable').checked;
 
+        const selectedTypes = Array.from(document.querySelectorAll('.filter-type:checked')).map(cb => cb.value);
         const matches = [];
 
         allPagesData.forEach(page => {
@@ -689,11 +715,31 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (selectedExpansions.length > 0 && !selectedExpansions.includes(expansion)) return;
                 if (codeVal && !code.includes(codeVal)) return;
 
-                const hasNoTrade = card.noTrade === true || (card.price && card.price.includes("NO TRADE"));
-                const hasReserved = card.reservada === true || (card.price && card.price.includes("RESERVADA"));
+                const hasNoTrade = card.noTrade === true ||
+                    (card.price && card.price.toUpperCase().includes("NO TRADE")) ||
+                    (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("NO TRADE")));
+
+                const hasReserved = card.reservada === true ||
+                    (card.price && card.price.toUpperCase().includes("RESERVADA")) ||
+                    (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("RESERVADA")));
+
+                const hasSold = card.vendida === true ||
+                    (card.price && card.price.toUpperCase().includes("VENDIDA")) ||
+                    (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("VENDIDA")));
+
+                const hasTraded = card.traded === true ||
+                    (card.price && card.price.toUpperCase().includes("TRADED")) ||
+                    (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("TRADED")));
+
+                const hasUnavailable = card.noDisponible === true ||
+                    (card.price && card.price.toUpperCase().includes("NO DISPONIBLE")) ||
+                    (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("NO DISPONIBLE")));
 
                 if (isNoTrade && !hasNoTrade) return;
                 if (isReserved && !hasReserved) return;
+                if (isSold && !hasSold) return;
+                if (isTraded && !hasTraded) return;
+                if (isUnavailable && !hasUnavailable) return;
 
                 const variants = (card.variants && card.variants.length > 0) ? card.variants : [{
                     language: card.language,
@@ -762,9 +808,28 @@ document.addEventListener("DOMContentLoaded", () => {
                 (cardData.price && cardData.price.toUpperCase().includes("RESERVADA")) ||
                 (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("RESERVADA")));
 
+            const tieneVendida = cardData.vendida === true ||
+                (cardData.price && cardData.price.toUpperCase().includes("VENDIDA")) ||
+                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("VENDIDA")));
+
+            const tieneTraded = cardData.traded === true ||
+                (cardData.price && cardData.price.toUpperCase().includes("TRADED")) ||
+                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("TRADED")));
+
+            const tieneNoDisponible = cardData.noDisponible === true ||
+                (cardData.price && cardData.price.toUpperCase().includes("NO DISPONIBLE")) ||
+                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("NO DISPONIBLE")));
+
             let badgesHTML = '';
-            if (tieneNoTrade) badgesHTML += `<div class="no-trade-badge">NO TRADE</div>`;
-            if (tieneReservada) badgesHTML += `<div class="reserved-badge">RESERVADA</div>`;
+            if (tieneNoTrade || tieneReservada || tieneVendida || tieneTraded || tieneNoDisponible) {
+                badgesHTML += `<div class="badge-stack">`;
+                if (tieneNoTrade) badgesHTML += `<div class="card-badge badge-notrade">NO TRADE</div>`;
+                if (tieneReservada) badgesHTML += `<div class="card-badge badge-reserved">RESERVADA</div>`;
+                if (tieneVendida) badgesHTML += `<div class="card-badge badge-sold">VENDIDA</div>`;
+                if (tieneTraded) badgesHTML += `<div class="card-badge badge-traded">TRADED</div>`;
+                if (tieneNoDisponible) badgesHTML += `<div class="card-badge badge-unavailable">NO DISPONIBLE</div>`;
+                badgesHTML += `</div>`;
+            }
 
             const cardBox = document.createElement('div');
             cardBox.className = 'search-result-card';
