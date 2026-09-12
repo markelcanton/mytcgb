@@ -11,6 +11,9 @@
                     "code": "VIV 90",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -31,6 +34,9 @@
                     "code": "UPR 66",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -51,6 +57,9 @@
                     "code": "SCR081",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -71,6 +80,9 @@
                     "code": "FCO 45",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -91,6 +103,9 @@
                     "code": "FCO 46",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -111,6 +126,9 @@
                     "code": "UNM 116",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -131,6 +149,9 @@
                     "code": "UNM 115",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -151,6 +172,9 @@
                     "code": "UNB 102",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -171,6 +195,9 @@
                     "code": "LA 117",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -196,6 +223,9 @@
                     "code": "PL 91",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -216,6 +246,9 @@
                     "code": "NXD 63",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -236,6 +269,9 @@
                     "code": "PLS 76",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -261,6 +297,9 @@
                     "code": "SCR055",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -281,6 +320,9 @@
                     "code": "VIV 61",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -301,6 +343,9 @@
                     "code": "TEU 52",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -321,6 +366,9 @@
                     "code": "SIT 56",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -341,6 +389,9 @@
                     "code": "FST 102",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -361,6 +412,9 @@
                     "code": "CRZ052",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -386,6 +440,9 @@
                     "code": "BUS 71",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -406,6 +463,9 @@
                     "code": "CPA 27",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -426,6 +486,9 @@
                     "code": "VIV 120",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -446,6 +509,9 @@
                     "code": "UPR 67",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -466,6 +532,9 @@
                     "code": "FCO 47",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -486,6 +555,9 @@
                     "code": "FCO 63",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -506,6 +578,9 @@
                     "code": "UNB 126",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -526,6 +601,9 @@
                     "code": "UNM 117",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -546,6 +624,9 @@
                     "code": "BRS 79",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -571,6 +652,9 @@
                     "code": "FST 146",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -591,6 +675,9 @@
                     "code": "LA 61",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -611,6 +698,9 @@
                     "code": "PL 53",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -631,6 +721,9 @@
                     "code": "PLS 77",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español preferiblemente",
@@ -651,6 +744,9 @@
                     "code": "PLS 78",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español preferiblemente",
@@ -677,6 +773,9 @@
                     "code": "Jumbo",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español preferiblemente; pero si es en Inglés, también bien.",
@@ -702,6 +801,9 @@
                     "code": "PRE023",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -722,6 +824,9 @@
                     "code": "SLG 15",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -742,6 +847,9 @@
                     "code": "UNB 26",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -762,6 +870,9 @@
                     "code": "UNB 29",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -782,6 +893,9 @@
                     "code": "FFI 95",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español preferiblemente",
@@ -802,6 +916,9 @@
                     "code": "BST 128",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español preferiblemente",
@@ -822,6 +939,9 @@
                     "code": "VIV 154",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -842,6 +962,9 @@
                     "code": "SUM 128",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
