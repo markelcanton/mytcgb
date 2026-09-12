@@ -798,3 +798,48 @@
         scroll-margin: 0;
     }
 }
+
+.badge-stack {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.card-badge {
+    color: white;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 4px 6px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.badge-notrade {
+    background-color: rgba(220, 20, 60, 0.95);
+}
+
+.badge-reserved {
+    background-color: rgba(243, 156, 18, 0.95);
+}
+
+.badge-sold {
+    background-color: rgba(46, 160, 67, 0.95);
+}
+
+.badge-traded {
+    background-color: rgba(46, 160, 67, 0.95);
+}
+
+.badge-unavailable {
+    background-color: rgba(137, 87, 229, 0.95);
+}
