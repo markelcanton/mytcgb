@@ -32,6 +32,9 @@
                     "code": "SIT049",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -58,6 +61,9 @@
                     "code": "SIT050",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -84,6 +90,9 @@
                     "code": "KSS 39",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -110,6 +119,9 @@
                     "code": "XY 128",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -136,6 +148,9 @@
                     "code": "XY 125",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -162,6 +177,9 @@
                     "code": "XY 123",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -188,6 +206,9 @@
                     "code": "CRE140",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -214,6 +235,9 @@
                     "code": "FST229",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -240,6 +264,9 @@
                     "code": "FST244",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -266,6 +293,9 @@
                     "code": "SIT169",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -292,6 +322,9 @@
                     "code": "VIV 89",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -318,6 +351,9 @@
                     "code": "EVS082",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -344,6 +380,9 @@
                     "code": "VIV 161",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -370,6 +409,9 @@
                     "code": "OBF192",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -396,6 +438,9 @@
                     "code": "SIT164",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -422,6 +467,9 @@
                     "code": "XY 120",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -448,6 +496,9 @@
                     "code": "FST 225",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -474,6 +525,9 @@
                     "code": "VIV 151",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -500,6 +554,9 @@
                     "code": "PGO068",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -526,6 +583,9 @@
                     "code": "VIV 153",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -552,6 +612,9 @@
                     "code": "VIV 88",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -578,6 +641,9 @@
                     "code": "VIV 85",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -604,6 +670,9 @@
                     "code": "FLF 1",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -630,6 +699,9 @@
                     "code": "ROS 12",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -656,6 +728,9 @@
                     "code": "VIV 147",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -682,6 +757,9 @@
                     "code": "VIV 101",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -708,6 +786,9 @@
                     "code": "TWM072",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -734,6 +815,9 @@
                     "code": "SIT116",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -760,6 +844,9 @@
                     "code": "SIT067",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -786,6 +873,9 @@
                     "code": "SIT068",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -812,6 +902,9 @@
                     "code": "BCR 55",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -838,6 +931,9 @@
                     "code": "FLF 9",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -864,6 +960,9 @@
                     "code": "VIV 146",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -890,6 +989,9 @@
                     "code": "PHF 53",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -916,6 +1018,9 @@
                     "code": "VIV 81",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -942,6 +1047,9 @@
                     "code": "SIT 158",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -968,6 +1076,9 @@
                     "code": "POR048",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -994,6 +1105,9 @@
                     "code": "POR049",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1020,6 +1134,9 @@
                     "code": "FFI 71",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1046,6 +1163,9 @@
                     "code": "FLF 65",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1072,6 +1192,9 @@
                     "code": "BCR 53",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1098,6 +1221,9 @@
                     "code": "BCR 86",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1124,6 +1250,9 @@
                     "code": "MEG096",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1150,6 +1279,9 @@
                     "code": "MEG097",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1176,6 +1308,9 @@
                     "code": "SIT103",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1202,6 +1337,9 @@
                     "code": "UNM 135",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1228,6 +1366,9 @@
                     "code": "TEU 78",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1254,6 +1395,9 @@
                     "code": "LOR141",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1280,6 +1424,9 @@
                     "code": "BRS107",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1306,6 +1453,9 @@
                     "code": "LOR110",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1332,6 +1482,9 @@
                     "code": "CRE079",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1358,6 +1511,9 @@
                     "code": "FLF 39",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1384,6 +1540,9 @@
                     "code": "PAL068",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1410,6 +1569,9 @@
                     "code": "POR028",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1436,6 +1598,9 @@
                     "code": "LOR 14",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1462,6 +1627,9 @@
                     "code": "VIV 95",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
