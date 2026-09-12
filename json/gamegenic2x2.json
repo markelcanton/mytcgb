@@ -15,6 +15,9 @@
                     "code": "MEE001",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -35,6 +38,9 @@
                     "code": "MEE002",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -55,6 +61,9 @@
                     "code": "SVE013",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -75,6 +84,9 @@
                     "code": "MEE006",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -100,6 +112,9 @@
                     "code": "MEE003",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -120,6 +135,9 @@
                     "code": "SVE012",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -140,6 +158,9 @@
                     "code": "MEE007",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -160,6 +181,9 @@
                     "code": "SVE016",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -189,6 +213,9 @@
                     "code": "PRE075",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -214,6 +241,9 @@
                     "code": "MEW135",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -234,6 +264,9 @@
                     "code": "PRE059",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -254,6 +287,9 @@
                     "code": "PRE025",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -279,6 +315,9 @@
                     "code": "PRE014",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -299,6 +338,9 @@
                     "code": "PRE034",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -319,6 +361,9 @@
                     "code": "PRE006",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -339,6 +384,9 @@
                     "code": "SSP086",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -364,6 +412,9 @@
                     "code": "CEL023",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -384,6 +435,9 @@
                     "code": "xPRE074",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -404,6 +458,9 @@
                     "code": "xPRE040",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -424,6 +481,9 @@
                     "code": "xMEG001",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -453,6 +513,9 @@
                     "code": "SWSH016",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -482,6 +545,9 @@
                     "code": "SVP006",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -502,6 +568,9 @@
                     "code": "SVP104",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -522,6 +591,9 @@
                     "code": "SVP192",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -542,6 +614,9 @@
                     "code": "SVP193",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -567,6 +642,9 @@
                     "code": "SVP154",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -587,6 +665,9 @@
                     "code": "SVP191",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -612,6 +693,9 @@
                     "code": "MEP003",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -632,6 +716,9 @@
                     "code": "MEP064",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -657,6 +744,9 @@
                     "code": "MEP083",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -682,6 +772,9 @@
                     "code": "BUS 116a",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -702,6 +795,9 @@
                     "code": "SSH14",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -722,6 +818,9 @@
                     "code": "SCR135",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -747,6 +846,9 @@
                     "code": "RCL 22",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -767,6 +869,9 @@
                     "code": "xSFA057",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -792,6 +897,9 @@
                     "code": "MEG135",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -812,6 +920,9 @@
                     "code": "PBL086",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -832,6 +943,9 @@
                     "code": "PBL091",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -852,6 +966,9 @@
                     "code": "CRI095",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -877,6 +994,9 @@
                     "code": "POR092",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -897,6 +1017,9 @@
                     "code": "POR095",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -922,6 +1045,9 @@
                     "code": "SSH165",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -942,6 +1068,9 @@
                     "code": "PRE051",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -962,6 +1091,9 @@
                     "code": "VIV164",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -982,6 +1114,9 @@
                     "code": "POR050",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1007,6 +1142,9 @@
                     "code": "CRZ053",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1027,6 +1165,9 @@
                     "code": "MEG060",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1047,6 +1188,9 @@
                     "code": "TEF034",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1067,6 +1211,9 @@
                     "code": "SWSH278",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1092,6 +1239,9 @@
                     "code": "PLF 90",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1112,6 +1262,9 @@
                     "code": "CRZ GG26",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1132,6 +1285,9 @@
                     "code": "PAL012",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1152,6 +1308,9 @@
                     "code": "MEG039",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1177,6 +1336,9 @@
                     "code": "xMEG088",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1202,6 +1364,9 @@
                     "code": "BRS078",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1222,6 +1387,9 @@
                     "code": "SVI113",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1242,6 +1410,9 @@
                     "code": "PRE050",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1267,6 +1438,9 @@
                     "code": "CRZ071",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1287,6 +1461,9 @@
                     "code": "SVI112",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1307,6 +1484,9 @@
                     "code": "MEP010",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1327,6 +1507,9 @@
                     "code": "SVI114",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1352,6 +1535,9 @@
                     "code": "SCR082",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1372,6 +1558,9 @@
                     "code": "MEG077",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1401,6 +1590,9 @@
                     "code": "SSP221",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1421,6 +1613,9 @@
                     "code": "CRI108",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1446,6 +1641,9 @@
                     "code": "PBL099",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1471,6 +1669,9 @@
                     "code": "PAL052",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1491,6 +1692,9 @@
                     "code": "PAR068",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1511,6 +1715,9 @@
                     "code": "DRI039",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1531,6 +1738,9 @@
                     "code": "DRI139",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1556,6 +1766,9 @@
                     "code": "sv5M 036",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Japonés",
@@ -1576,6 +1789,9 @@
                     "code": "PRE027",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1596,6 +1812,9 @@
                     "code": "MEG050",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1616,6 +1835,9 @@
                     "code": "MEG060",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1641,6 +1863,9 @@
                     "code": "MEG086",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1661,6 +1886,9 @@
                     "code": "csv7C 141",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Chino",
@@ -1681,6 +1909,9 @@
                     "code": "PBL055",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1701,6 +1932,9 @@
                     "code": "PBL065",
                     "noTrade": false,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1726,6 +1960,9 @@
                     "code": "ASC038",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1746,17 +1983,10 @@
                     "code": "CRI022",
                     "noTrade": false,
                     "reservada": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Double Rare",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "3€",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Mega-Greninja-ex-V1-CRI022?language=4&minCondition=2"
-                        }
-                    ]
+                    "vendida": false,
+                    "traded": true,
+                    "noDisponible": true,
+                    "variants": []
                 }
             ]
         },
@@ -1787,6 +2017,9 @@
                     "code": "POR086",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1807,6 +2040,9 @@
                     "code": "POR088",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1827,6 +2063,9 @@
                     "code": "POR087",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1852,6 +2091,9 @@
                     "code": "CRI084",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1872,6 +2114,9 @@
                     "code": "PBL083",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1892,6 +2137,9 @@
                     "code": "CRI085",
                     "noTrade": true,
                     "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Inglés",
