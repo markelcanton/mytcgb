@@ -682,12 +682,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const queryInput = document.getElementById('search-query');
         const query = queryInput.value.toLowerCase().trim();
 
-        if (!query) {
-            alert("Para iniciar la búsqueda avanzada, debes introducir nombre o código de carta.");
-            queryInput.focus();
-            return;
-        }
-
         const codeVal = document.getElementById('filter-code').value.toLowerCase().trim();
         const formatVal = document.getElementById('filter-format').value.toLowerCase().trim();
         const maxPrice = parseFloat(document.getElementById('filter-price').value);
@@ -700,6 +694,23 @@ document.addEventListener("DOMContentLoaded", () => {
         const isUnavailable = document.getElementById('filter-unavailable').checked;
 
         const selectedTypes = Array.from(document.querySelectorAll('.filter-type:checked')).map(cb => cb.value);
+
+        const hasInteraction = query !== '' ||
+            codeVal !== '' ||
+            formatVal !== '' ||
+            !isNaN(maxPrice) ||
+            !isNaN(minStock) ||
+            isNoTrade || isReserved || isSold || isTraded || isUnavailable ||
+            selectedExpansions.length > 0 ||
+            selectedLanguages.length > 0 ||
+            selectedConditions.length > 0 ||
+            selectedTypes.length > 0;
+
+        if (!hasInteraction) {
+            alert("Para usar la búsqueda avanzada, debes seleccionar al menos uno de los filtros.");
+            return;
+        }
+
         const matches = [];
 
         allPagesData.forEach(page => {
@@ -710,7 +721,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const code = (card.code || '').toLowerCase();
                 const expansion = card.expansion || '';
 
-                if (!name.includes(query) && !code.includes(query)) return;
+                if (query && !name.includes(query)) return;
 
                 if (selectedExpansions.length > 0 && !selectedExpansions.includes(expansion)) return;
                 if (codeVal && !code.includes(codeVal)) return;
