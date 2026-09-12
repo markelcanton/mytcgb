@@ -1584,34 +1584,34 @@
             "cards": [
                 {
                     "slot": 1,
-                    "name": "Palossand ex [Teracristal]",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_221.png",
-                    "expansion": "Chispas Fulgurantes",
-                    "code": "SSP221",
-                    "noTrade": false,
+                    "name": "Zeraora",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM10/SM10_ES_60.png",
+                    "expansion": "Vínculos Indestructibles",
+                    "code": "UNB 60",
+                    "noTrade": true,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
                     "variants": [
                         {
-                            "language": "Español",
-                            "type": "Ultra Rare",
-                            "format": "H",
+                            "language": "Inglés",
+                            "type": "Rare",
+                            "format": "Sol y Luna (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": "5€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Surging-Sparks/Palossand-ex-V2-SSP221?language=4&minCondition=2"
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unbroken-Bonds/Zeraora-UNB60?language=1&minCondition=2"
                         }
                     ]
                 },
                 {
                     "slot": 2,
-                    "name": "Recuperación de Energía",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_108.png",
-                    "expansion": "Caos Creciente",
-                    "code": "CRI108",
-                    "noTrade": false,
+                    "name": "Zeraora",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_57.png",
+                    "expansion": "Fuerzas Temporales",
+                    "code": "TEF057",
+                    "noTrade": true,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -1619,12 +1619,58 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Ultra Rare",
-                            "format": "I",
+                            "type": "Uncommon",
+                            "format": "H",
                             "condition": "Near Mint",
-                            "price": "3€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Energy-Retrieval-CRI106?language=4&minCondition=2"
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Temporal-Forces/Zeraora-TEF057?language=4&minCondition=2"
+                        }
+                    ]
+                },
+                {
+                    "slot": 3,
+                    "name": "Mega-Zeraora ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_27.png",
+                    "expansion": "Oscuridad Absoluta",
+                    "code": "PBL027",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Double Rare",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mega-Zeraora-ex-V1-PBL027?language=4&minCondition=2"
+                        }
+                    ]
+                },
+                {
+                    "slot": 4,
+                    "name": "Mega-Zeraora ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEP/MEP_ES_89.png",
+                    "expansion": "MEP Black Star Promos",
+                    "code": "MEP089",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Promo",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Mega-Zeraora-ex-MEP089?language=4&minCondition=2"
                         }
                     ]
                 }
@@ -1635,11 +1681,34 @@
             "cards": [
                 {
                     "slot": 1,
-                    "name": "Mega-Chandelure ex",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_99.png",
+                    "name": "Zeraora",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_78.png",
+                    "expansion": "Rivales Predestinados",
+                    "code": "DRI078",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Zeraora-DRI078?language=4&minCondition=2"
+                        }
+                    ]
+                },
+                {
+                    "slot": 2,
+                    "name": "Mega-Zeraora ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_27.png",
                     "expansion": "Oscuridad Absoluta",
-                    "code": "PBL099",
-                    "noTrade": false,
+                    "code": "PBL027",
+                    "noTrade": true,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -1647,12 +1716,12 @@
                     "variants": [
                         {
                             "language": "Inglés",
-                            "type": "Ultra Rare",
+                            "type": "Double Rare",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "10€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mega-Chandelure-ex-V2-PBL099?language=1&minCondition=2"
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mega-Zeraora-ex-V1-PBL027?language=1&minCondition=2"
                         }
                     ]
                 }
@@ -1977,16 +2046,26 @@
                 },
                 {
                     "slot": 2,
-                    "name": "Mega-Greninja ex",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_22.png",
+                    "name": "Mega-Gallade ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_48.png",
                     "expansion": "Caos Creciente",
-                    "code": "CRI022",
+                    "code": "CRI048",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
-                    "traded": true,
-                    "noDisponible": true,
-                    "variants": []
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Double Rare",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,20€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Mega-Gallade-ex-CRI048?language=4&minCondition=2"
+                        }
+                    ]
                 }
             ]
         },
@@ -2000,11 +2079,82 @@
         },
         {
             "number": 36,
-            "cards": []
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Palossand ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_221.png",
+                    "expansion": "Chispas Fulgurantes",
+                    "code": "SSP221",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Ultra Rare",
+                            "format": "H",
+                            "condition": "Near Mint",
+                            "price": "3€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Surging-Sparks/Palossand-ex-V2-SSP221?language=4&minCondition=2"
+                        }
+                    ]
+                },
+                {
+                    "slot": 2,
+                    "name": "Recuperación de Energía",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_108.png",
+                    "expansion": "Caos Creciente",
+                    "code": "CRI108",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Ultra Rare",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "3€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Energy-Retrieval-CRI106?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "number": 37,
-            "cards": []
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Mega-Chandelure ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_99.png",
+                    "expansion": "Oscuridad Absoluta",
+                    "code": "PBL099",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Ultra Rare",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "7,50€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mega-Chandelure-ex-V2-PBL099?language=1&minCondition=2"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "number": 38,
