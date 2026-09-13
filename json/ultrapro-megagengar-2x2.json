@@ -670,29 +670,6 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Incineroar-SIT032?language=4&minCondition=2&isReverseHolo=N"
                         }
                     ]
-                },
-                {
-                    "slot": 4,
-                    "name": "Zeraora",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM10/SM10_ES_60.png",
-                    "expansion": "Unbroken Bounds",
-                    "code": "UNB 60",
-                    "noTrade": true,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "Sol y Luna (no válida en torneos)",
-                            "condition": "Near Mint",
-                            "price": null,
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unbroken-Bonds/Zeraora-UNB60?language=4&minCondition=2&isReverseHolo=N"
-                        }
-                    ]
                 }
             ]
         },
@@ -747,10 +724,10 @@
                 },
                 {
                     "slot": 3,
-                    "name": "Zeraora",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_78.png",
-                    "expansion": "Destined Rivals",
-                    "code": "DRI078",
+                    "name": "Quilladin",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY1/XY1_ES_13.png",
+                    "expansion": "XY",
+                    "code": "XY 13",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -759,12 +736,12 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Rare",
-                            "format": "I",
+                            "type": "Uncommon",
+                            "format": "XY (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": null,
+                            "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Zeraora-DRI078?language=4&minCondition=2&isReverseHolo=N"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Quilladin-XY13?language=4&minCondition=2"
                         }
                     ]
                 },
@@ -964,10 +941,10 @@
                 },
                 {
                     "slot": 4,
-                    "name": "Passimian",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH6/SWSH6_ES_88.png",
-                    "expansion": "Reinado Escalofriante",
-                    "code": "CRE088",
+                    "name": "Zangoose",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_149.png",
+                    "expansion": "Chispas Fulgurantes",
+                    "code": "SSP149",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -975,13 +952,13 @@
                     "noDisponible": false,
                     "variants": [
                         {
-                            "language": "Inglés",
-                            "type": "Rare + Foil",
-                            "format": "E (no válida en torneos)",
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "format": "H",
                             "condition": "Near Mint",
-                            "price": null,
+                            "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Passimian?language=1&minCondition=2&isReverseHolo=Y"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Surging-Sparks/Zangoose-SSP149?language=4&minCondition=2&isReverseHolo=Y"
                         }
                     ]
                 }
@@ -1220,13 +1197,36 @@
                     "noDisponible": false,
                     "variants": [
                         {
-                            "language": "Inglés",
+                            "language": "Español",
                             "type": "Rare",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": null,
+                            "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Zarude-PBL056?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Zarude-PBL056?language=4&minCondition=2"
+                        }
+                    ]
+                },
+                {
+                    "slot": 3,
+                    "name": "Passimian",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH6/SWSH6_ES_88.png",
+                    "expansion": "Reinado Escalofriante",
+                    "code": "CRE088",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare + Foil",
+                            "format": "E (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Passimian?language=4&minCondition=2&isReverseHolo=Y"
                         }
                     ]
                 }
