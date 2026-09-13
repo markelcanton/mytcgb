@@ -13,7 +13,7 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEE/MEE_ES_1.png",
                     "expansion": "Sobre de premio de Play! (serie 8)",
                     "code": "MEE001",
-                    "noTrade": true,
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -27,6 +27,15 @@
                             "price": "",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Basic-Grass-Energy-V2-PPS8MEE-001?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Foil + Play! Stamp (serie 7)",
+                            "format": "",
+                            "condition": "Near Mint",
+                            "price": "0,10€",
+                            "stock": 2,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Basic-Grass-Energy-V2-PPS7SVE-009?language=4&minCondition=2"
                         }
                     ]
                 },
@@ -59,7 +68,7 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SVE2/SVE2_ES_13.png",
                     "expansion": "Sobre de premio de Play! (serie 7)",
                     "code": "SVE013",
-                    "noTrade": true,
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -70,8 +79,8 @@
                             "type": "Foil + Play! Stamp",
                             "format": "",
                             "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
+                            "price": "0,50€",
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Basic-Psychic-Energy-V2-PPS7SVE-013?language=4&minCondition=2"
                         }
                     ]
@@ -176,9 +185,9 @@
                 {
                     "slot": 4,
                     "name": "Energía Metálica Básica",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SVE2/SVE2_ES_16.png",
-                    "expansion": "Sobre de premio de Play! (serie 7)",
-                    "code": "SVE016",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEE/MEE_ES_8.png",
+                    "expansion": "Sobre de premio de Play! (serie 9)",
+                    "code": "MEE008",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -192,7 +201,7 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Basic-Darkness-Energy-V1-PPS8MEE-007?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Basic-Metal-Energy-V1-PPS9MEE-008?language=4&minCondition=2"
                         }
                     ]
                 }
@@ -636,7 +645,7 @@
             "cards": [
                 {
                     "slot": 1,
-                    "name": "Indeedee",
+                    "name": "Indeedee (STAFF)",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SVP/SVP_ES_154.png",
                     "expansion": "SV Black Star Promos",
                     "code": "SVP154",
@@ -648,7 +657,7 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Promo",
+                            "type": "Promo + STAFF stamp",
                             "format": "H",
                             "condition": "Near Mint",
                             "price": "",
@@ -766,7 +775,7 @@
             "cards": [
                 {
                     "slot": 1,
-                    "name": "Kiawe (foto incorrecta)",
+                    "name": "Kiawe",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM3/SM3_ES_116.png",
                     "expansion": "Sombras Ardientes",
                     "code": "BUS 116a",
@@ -779,7 +788,7 @@
                         {
                             "language": "Español",
                             "type": "Promo + Foil + Stamp Pokémon League",
-                            "format": "Alt. Sol y Luna (no válidas en torneos)",
+                            "format": "Alt. Sol y Luna (no válidas en torneos) - Foto incorrecta",
                             "condition": "Near Mint",
                             "price": "0,80€",
                             "stock": 4,
@@ -1685,7 +1694,7 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_78.png",
                     "expansion": "Rivales Predestinados",
                     "code": "DRI078",
-                    "noTrade": true,
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -1696,8 +1705,8 @@
                             "type": "Rare",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
+                            "price": "0,05€",
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Zeraora-DRI078?language=4&minCondition=2"
                         }
                     ]
@@ -2165,7 +2174,7 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_86.png",
                     "expansion": "Equilibrio Perfecto",
                     "code": "POR086",
-                    "noTrade": true,
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -2177,7 +2186,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "",
-                            "stock": 0,
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Growing-G-Energy-POR086?language=4&minCondition=2"
                         }
                     ]
@@ -2188,7 +2197,7 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_88.png",
                     "expansion": "Equilibrio Perfecto",
                     "code": "POR088",
-                    "noTrade": true,
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -2200,7 +2209,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "",
-                            "stock": 0,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Telepathic-P-Energy-POR088?language=4&minCondition=2"
                         }
                     ]
@@ -2285,20 +2294,29 @@
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_85.png",
                     "expansion": "Caos Creciente",
                     "code": "CRI085",
-                    "noTrade": true,
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
                     "variants": [
                         {
-                            "language": "Inglés",
+                            "language": "Español",
+                            "type": "Rare",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Magnetic-M-Energy-CRI085?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
                             "type": "Rare + Foil",
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Magnetic-M-Energy-CRI085?language=1&minCondition=2&isReverseHolo=Y"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Magnetic-M-Energy-CRI085?language=4&minCondition=2&isReverseHolo=Y"
                         }
                     ]
                 }
