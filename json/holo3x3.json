@@ -3392,7 +3392,7 @@
                     "code": "SFA019",
                     "noTrade": false,
                     "reservada": false,
-                    "vendida": false,
+                    "vendida": true,
                     "traded": false,
                     "noDisponible": false,
                     "variants": [
@@ -3401,8 +3401,8 @@
                             "type": "Common + Play! Stamp",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
+                            "price": null,
+                            "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Dusclops-V1-PPS7SFA-019?language=4&minCondition=2"
                         }
                     ]
