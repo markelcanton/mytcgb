@@ -536,6 +536,29 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SWSH-Black-Star-Promos/Inteleon-V-V1-SWSH016?language=4&minCondition=2"
                         }
                     ]
+                },
+                {
+                    "slot": 2,
+                    "name": "Cinderace",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSHP/SWSHP_ES_SWSH278.png",
+                    "expansion": "SWSH Black Star Promos",
+                    "code": "SWSH278",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Promo + Foil",
+                            "format": "E (no válida en torneos)",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SWSH-Black-Star-Promos/Cinderace-SWSH278?language=4&minCondition=2"
+                        }
+                    ]
                 }
             ]
         },
@@ -1214,10 +1237,10 @@
                 },
                 {
                     "slot": 4,
-                    "name": "Cinderace",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSHP/SWSHP_ES_SWSH278.png",
-                    "expansion": "SWSH Black Star Promos",
-                    "code": "SWSH278",
+                    "name": "Cinderace ex [Teracristal]",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_38.png",
+                    "expansion": "Héroes Ascendentes",
+                    "code": "ASC038",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -1226,12 +1249,12 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Promo + Foil",
-                            "format": "E (no válida en torneos)",
+                            "type": "",
+                            "format": "H",
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SWSH-Black-Star-Promos/Cinderace-SWSH278?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Cinderace-ex-ASC038?language=4&minCondition=2V"
                         }
                     ]
                 }
@@ -1663,9 +1686,9 @@
                 {
                     "slot": 4,
                     "name": "Mega-Zeraora ex",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEP/MEP_ES_89.png",
-                    "expansion": "MEP Black Star Promos",
-                    "code": "MEP089",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_27.png",
+                    "expansion": "Oscuridad Absoluta",
+                    "code": "PBL027",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -1673,13 +1696,13 @@
                     "noDisponible": false,
                     "variants": [
                         {
-                            "language": "Español",
-                            "type": "Promo",
+                            "language": "Inglés",
+                            "type": "Double Rare",
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Mega-Zeraora-ex-MEP089?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mega-Zeraora-ex-V1-PBL027?language=1&minCondition=2"
                         }
                     ]
                 }
@@ -1713,10 +1736,10 @@
                 },
                 {
                     "slot": 2,
-                    "name": "Mega-Zeraora ex",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_27.png",
-                    "expansion": "Oscuridad Absoluta",
-                    "code": "PBL027",
+                    "name": "Zeraora",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_78.png",
+                    "expansion": "Sobre de premio de Play! (serie 9)",
+                    "code": "DRI078",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -1724,13 +1747,36 @@
                     "noDisponible": false,
                     "variants": [
                         {
-                            "language": "Inglés",
-                            "type": "Double Rare",
+                            "language": "Español",
+                            "type": "Rare + Foil + Play! Stamp",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Zeraora-V2-PPS9DRI-078?language=4&minCondition=2"
+                        }
+                    ]
+                },
+                {
+                    "slot": 3,
+                    "name": "Mega-Zeraora ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEP/MEP_ES_89.png",
+                    "expansion": "MEP Black Star Promos",
+                    "code": "MEP089",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Promo",
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mega-Zeraora-ex-V1-PBL027?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Mega-Zeraora-ex-MEP089?language=4&minCondition=2"
                         }
                     ]
                 }
@@ -2032,11 +2078,11 @@
             "cards": [
                 {
                     "slot": 1,
-                    "name": "Cinderace ex [Teracristal]",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_38.png",
-                    "expansion": "Héroes Ascendentes",
-                    "code": "ASC038",
-                    "noTrade": true,
+                    "name": "Gourgeist ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_41.png",
+                    "expansion": "Caos Creciente",
+                    "code": "CRI041",
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -2045,11 +2091,11 @@
                         {
                             "language": "Español",
                             "type": "Double Rare",
-                            "format": "H",
+                            "format": "J",
                             "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Cinderace-ex-ASC038?language=4&minCondition=2"
+                            "price": "0,10€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Gourgeist-ex-V1-CRI041?language=4&minCondition=2"
                         }
                     ]
                 },
@@ -2114,6 +2160,34 @@
                 },
                 {
                     "slot": 2,
+                    "name": "Matière",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_107.png",
+                    "expansion": "Caos Creciente",
+                    "code": "CRI107",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Ultra Rare",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "2€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Emma-V2-CRI108?language=4&minCondition=2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 37,
+            "cards": [
+                {
+                    "slot": 1,
                     "name": "Recuperación de Energía",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_108.png",
                     "expansion": "Caos Creciente",
@@ -2134,14 +2208,9 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Energy-Retrieval-CRI106?language=4&minCondition=2"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 37,
-            "cards": [
+                },
                 {
-                    "slot": 1,
+                    "slot": 2,
                     "name": "Mega-Chandelure ex",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_99.png",
                     "expansion": "Oscuridad Absoluta",
@@ -2188,6 +2257,29 @@
                             "price": "",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Growing-G-Energy-POR086?language=4&minCondition=2"
+                        }
+                    ]
+                },
+                {
+                    "slot": 2,
+                    "name": "Energía de Fuego",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_86.png",
+                    "expansion": "Caos Creciente",
+                    "code": "CRI086",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Rare + Foil",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Nitro-R-Energy-CRI086?language=4&minCondition=2&isReverseHolo=Y"
                         }
                     ]
                 },
