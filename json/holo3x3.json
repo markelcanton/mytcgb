@@ -724,9 +724,9 @@
                 {
                     "slot": 3,
                     "name": "Dewgong",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_22.png",
-                    "expansion": "Fuegos Fantasmales",
-                    "code": "PFL022",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_19.png",
+                    "expansion": "Sobre de premio de Play! (serie 9)",
+                    "code": "POR019",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
@@ -735,12 +735,12 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Common",
-                            "format": "I",
+                            "type": "Rare + Play! Stamp",
+                            "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Dewgong-V1-PFL022?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Dewgong-PPS9POR-19?language=4&minCondition=2"
                         }
                     ]
                 },
@@ -1203,14 +1203,9 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Dragonite-V1-SIT131?language=4&minCondition=2&isReverseHolo=Y"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 7,
-            "cards": [
+                },
                 {
-                    "slot": 2,
+                    "slot": 4,
                     "name": "Chikorita",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_8.png",
                     "expansion": "Megaevolución",
@@ -1233,7 +1228,7 @@
                     ]
                 },
                 {
-                    "slot": 3,
+                    "slot": 5,
                     "name": "Quilava de Eco",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_33.png",
                     "expansion": "Sobre de premio de Play! (serie 8)",
@@ -1256,7 +1251,30 @@
                     ]
                 },
                 {
-                    "slot": 4,
+                    "slot": 6,
+                    "name": "Typhlosion de Eco",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_34.png",
+                    "expansion": "Sobre de premio de Play! (serie 8)",
+                    "code": "DRI034",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare + Play! Stamp",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Ethans-Typhlosion-PPS8DRI-034?language=4&minCondition=2"
+                        }
+                    ]
+                },
+                {
+                    "slot": 7,
                     "name": "Sentret",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY2/XY2_ES_81.png",
                     "expansion": "Destellos de Fuego",
@@ -1279,7 +1297,7 @@
                     ]
                 },
                 {
-                    "slot": 5,
+                    "slot": 8,
                     "name": "Noctowl",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_115.png",
                     "expansion": "Sobre de premio de Play! (serie 7)",
@@ -1294,7 +1312,7 @@
                             "language": "Español",
                             "type": "Rare + Foil + Play! Stamp",
                             "format": "H",
-                            "condition": "Near Mint",
+                            "condition": "",
                             "price": "0,30€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Noctowl-V2-PPS7SCR-115?language=4&minCondition=2"
@@ -1310,9 +1328,9 @@
                         },
                         {
                             "language": "Japonés",
-                            "type": null,
+                            "type": "",
                             "format": "H (no válida en torneos)",
-                            "condition": "Near Mint",
+                            "condition": "",
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEGA-Dream-ex/Noctowl-m2a138?language=7&minCondition=2"
@@ -1320,7 +1338,7 @@
                     ]
                 },
                 {
-                    "slot": 6,
+                    "slot": 9,
                     "name": "Ariados",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_2.png",
                     "expansion": "Equilibrio Perfecto",
@@ -1341,9 +1359,14 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Ariados-POR002?language=1&minCondition=2"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 7,
+            "cards": [
                 {
-                    "slot": 7,
+                    "slot": 1,
                     "name": "Crobat",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_51.png",
                     "expansion": "Caos Creciente",
@@ -1360,13 +1383,13 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Crobat-V1-CRI051?language=4&minCondition=2&isReverseHolo=Y"
                         }
                     ]
                 },
                 {
-                    "slot": 8,
+                    "slot": 2,
                     "name": "Pichu de Eco",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_71.png",
                     "expansion": "Rivales Predestinados",
@@ -1389,7 +1412,7 @@
                     ]
                 },
                 {
-                    "slot": 9,
+                    "slot": 3,
                     "name": "Mareep",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_27.png",
                     "expansion": "Caos Creciente",
@@ -1410,14 +1433,9 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Mareep-CRI027?language=4&minCondition=2"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 8,
-            "cards": [
+                },
                 {
-                    "slot": 1,
+                    "slot": 4,
                     "name": "Ampharos",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_29.png",
                     "expansion": "Caos Creciente",
@@ -1449,7 +1467,7 @@
                     ]
                 },
                 {
-                    "slot": 2,
+                    "slot": 5,
                     "name": "Azumarill",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_74.png",
                     "expansion": "Sobre de premio de Play! (serie 7)",
@@ -1472,7 +1490,7 @@
                     ]
                 },
                 {
-                    "slot": 3,
+                    "slot": 6,
                     "name": "Sudowoodo",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_43.png",
                     "expansion": "Caos Creciente",
@@ -1504,7 +1522,7 @@
                     ]
                 },
                 {
-                    "slot": 4,
+                    "slot": 7,
                     "name": "Yanma",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_2.png",
                     "expansion": "Rivales Predestinados",
@@ -1527,7 +1545,7 @@
                     ]
                 },
                 {
-                    "slot": 5,
+                    "slot": 8,
                     "name": "Wooper de Paldea",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_93.png",
                     "expansion": "Juntos de Aventuras",
@@ -1550,7 +1568,7 @@
                     ]
                 },
                 {
-                    "slot": 6,
+                    "slot": 9,
                     "name": "Murkrow del Team Rocket",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_127.png",
                     "expansion": "Rivales Predestinados",
@@ -1571,9 +1589,14 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Murkrow-V1-DRI127?language=4&minCondition=2"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 8,
+            "cards": [
                 {
-                    "slot": 7,
+                    "slot": 1,
                     "name": "Pineco",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_4.png",
                     "expansion": "Rivales Predestinados",
@@ -1596,7 +1619,7 @@
                     ]
                 },
                 {
-                    "slot": 8,
+                    "slot": 2,
                     "name": "Steelix",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_93.png",
                     "expansion": "Megaevolución",
@@ -1620,7 +1643,7 @@
                             "language": "Español",
                             "type": "Rare",
                             "format": "I",
-                            "condition": "Excellent (desgaste mínimo)",
+                            "condition": "Excellent",
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Steelix-V1-MEG093?language=4&minCondition=3"
@@ -1637,7 +1660,7 @@
                     ]
                 },
                 {
-                    "slot": 9,
+                    "slot": 3,
                     "name": "Granbull",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_38.png",
                     "expansion": "Fuegos Fantasmales",
@@ -1658,14 +1681,9 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Granbull-PFL038?language=4&minCondition=2"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 9,
-            "cards": [
+                },
                 {
-                    "slot": 1,
+                    "slot": 4,
                     "name": "Qwilfish",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_52.png",
                     "expansion": "Caos Creciente",
@@ -1697,7 +1715,7 @@
                     ]
                 },
                 {
-                    "slot": 2,
+                    "slot": 5,
                     "name": "Shuckle",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_11.png",
                     "expansion": "Megaevolución",
@@ -1720,7 +1738,7 @@
                     ]
                 },
                 {
-                    "slot": 3,
+                    "slot": 6,
                     "name": "Sneasel del Team Rocket",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_128.png",
                     "expansion": "Rivales Predestinados",
@@ -1743,30 +1761,7 @@
                     ]
                 },
                 {
-                    "slot": 4,
-                    "name": "Slugma",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_28.png",
-                    "expansion": "Cyber Judge",
-                    "code": "sv5M 017",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Japonés",
-                            "type": "Common",
-                            "format": "H (no válida en torneos)",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Cyber-Judge/Slugma-sv5M017?language=7&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 5,
+                    "slot": 7,
                     "name": "Magcargo de Eco",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_36.png",
                     "expansion": "Rivales Predestinados",
@@ -1807,7 +1802,7 @@
                     ]
                 },
                 {
-                    "slot": 6,
+                    "slot": 8,
                     "name": "Delibird",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_105.png",
                     "expansion": "Megaevolución",
@@ -1824,13 +1819,13 @@
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Delibird-V1-MEG105?language=4&minCondition=2"
                         }
                     ]
                 },
                 {
-                    "slot": 7,
+                    "slot": 9,
                     "name": "Mantine",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_32.png",
                     "expansion": "Megaevolución",
@@ -1860,32 +1855,14 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Mantine-MEG032?language=1&minCondition=2"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 9,
+            "cards": [
                 {
-                    "slot": 8,
-                    "name": "Skarmory",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_141.png",
-                    "expansion": "Rivales Predestinados",
-                    "code": "DRI141",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Skarmory-DRI141?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 9,
+                    "slot": 1,
                     "name": "Skarmory",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_60.png",
                     "expansion": "Oscuridad Absoluta",
@@ -1897,6 +1874,15 @@
                     "noDisponible": false,
                     "variants": [
                         {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Skarmory-PBL060?language=4&minCondition=2&isReverseHolo=Y"
+                        },
+                        {
                             "language": "Inglés",
                             "type": "Common",
                             "format": "J",
@@ -1904,34 +1890,6 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Skarmory-PBL060?language=1&minCondition=2"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "number": 10,
-            "cards": [
-                {
-                    "slot": 1,
-                    "name": "Houndour",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV6PT5/SV6PT5_ES_7.png",
-                    "expansion": "Fábula Sombría",
-                    "code": "SFA007",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "H",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Shrouded-Fable/Houndour-SFA007?language=4&minCondition=2"
                         }
                     ]
                 },
@@ -1960,29 +1918,6 @@
                 },
                 {
                     "slot": 3,
-                    "name": "Houndoom",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV6PT5/SV6PT5_ES_8.png",
-                    "expansion": "Fábula Sombría",
-                    "code": "SFA008",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "H",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Shrouded-Fable/Houndoom-V1-SFA008?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 4,
                     "name": "Houndoom del Team Rocket",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_38.png",
                     "expansion": "Rivales Predestinados",
@@ -2001,6 +1936,38 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Houndoom-V1-DRI038?language=4&minCondition=2"
+                        }
+                    ]
+                },
+                {
+                    "slot": 4,
+                    "name": "Phanpy",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_44.png",
+                    "expansion": "Caos Creciente",
+                    "code": "CRI044",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Phanpy-CRI044?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Phanpy-CRI044?language=4&minCondition=2&isReverseHolo=Y"
                         }
                     ]
                 },
@@ -2091,7 +2058,7 @@
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 0,
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Raikou-MEG048?language=4&minCondition=2"
                         }
                     ]
@@ -2122,7 +2089,7 @@
             ]
         },
         {
-            "number": 11,
+            "number": 10,
             "cards": [
                 {
                     "slot": 1,
@@ -2169,7 +2136,12 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Celebi-MEG012?language=1&minCondition=2"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 11,
+            "cards": [
                 {
                     "slot": 3,
                     "name": "Torchic",
