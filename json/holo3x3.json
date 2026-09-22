@@ -3345,16 +3345,7 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Deoxys-CRI034?language=4&minCondition=2"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 16,
-            "cards": []
-        },
-        {
-            "number": 17,
-            "cards": [
+                },
                 {
                     "slot": 4,
                     "name": "Shinx",
@@ -3379,7 +3370,7 @@
                     ]
                 },
                 {
-                    "slot": 6,
+                    "slot": 5,
                     "name": "Luxio",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_27.png",
                     "expansion": "Equilibrio Perfecto",
@@ -3402,7 +3393,7 @@
                     ]
                 },
                 {
-                    "slot": 7,
+                    "slot": 6,
                     "name": "Luxray",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_28.png",
                     "expansion": "Equilibrio Perfecto",
@@ -3425,7 +3416,7 @@
                     ]
                 },
                 {
-                    "slot": 8,
+                    "slot": 7,
                     "name": "Budew",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_4.png",
                     "expansion": "Evoluciones Prismáticas",
@@ -3441,23 +3432,32 @@
                             "type": "Common",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 0,
+                            "price": "0,05€",
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Prismatic-Evolutions/Budew-PRE004?language=4&minCondition=2"
                         },
                         {
                             "language": "Español",
-                            "type": "Common + Play! Stamp",
+                            "type": "Common + Play! Stamp (serie 7)",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 0,
+                            "price": "0,05€",
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Budew-V1-PPS7PRE-004?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Common + Play! Stamp (serie 8)",
+                            "format": "H",
+                            "condition": "Near Mint",
+                            "price": "0,20€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Budew-PPS8PRE-004?language=4&minCondition=2"
                         }
                     ]
                 },
                 {
-                    "slot": 9,
+                    "slot": 8,
                     "name": "Cranidos",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_44.png",
                     "expansion": "Oscuridad Absoluta",
@@ -3478,14 +3478,9 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Cranidos-PBL044?language=1&minCondition=2&isReverseHolo=Y"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 18,
-            "cards": [
+                },
                 {
-                    "slot": 1,
+                    "slot": 9,
                     "name": "Pachirisu",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_51.png",
                     "expansion": "Megaevolución",
@@ -3506,9 +3501,14 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Pachirisu-MEG051?language=4&minCondition=2"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 16,
+            "cards": [
                 {
-                    "slot": 2,
+                    "slot": 1,
                     "name": "Ambipom",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH11/SWSH11_ES_145.png",
                     "expansion": "Origen Perdido",
@@ -3531,7 +3531,7 @@
                     ]
                 },
                 {
-                    "slot": 3,
+                    "slot": 2,
                     "name": "Buneary",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_107.png",
                     "expansion": "Megaevolución",
@@ -3554,7 +3554,7 @@
                     ]
                 },
                 {
-                    "slot": 4,
+                    "slot": 3,
                     "name": "Honchkrow",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_107.png",
                     "expansion": "Tempestad Plateada",
@@ -3573,6 +3573,29 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Honchkrow-SIT107?language=4&minCondition=2"
+                        }
+                    ]
+                },
+                {
+                    "slot": 4,
+                    "name": "Stunky",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_53.png",
+                    "expansion": "Caos Creciente",
+                    "code": "CRI053",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Stunky-CRI053?language=4&minCondition=2"
                         }
                     ]
                 },
@@ -3609,7 +3632,7 @@
                     ]
                 },
                 {
-                    "slot": 7,
+                    "slot": 6,
                     "name": "Bronzor",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_63.png",
                     "expansion": "Oscuridad Absoluta",
@@ -3641,67 +3664,7 @@
                     ]
                 },
                 {
-                    "slot": 8,
-                    "name": "Spiritomb de Cintia",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_129.png",
-                    "expansion": "Rivales Predestinados",
-                    "code": "DRI129",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Uncommon",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Cynthias-Spiritomb-DRI129?language=4&minCondition=2"
-                        },
-                        {
-                            "language": "Japonés",
-                            "type": "Uncommon",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEGA-Dream-ex/Cynthias-Spiritomb-V1-m2a108?language=7&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 9,
-                    "name": "Spiritomb",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_87.png",
-                    "expansion": "Megaevolución",
-                    "code": "MEG087",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Uncommon",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Spiritomb-V1-MEG087?language=4&minCondition=2"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "number": 19,
-            "cards": [
-                {
-                    "slot": 1,
+                    "slot": 7,
                     "name": "Spiritomb",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_35.png",
                     "expansion": "Oscuridad Absoluta",
@@ -3718,7 +3681,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 2,
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Spiritomb-PBL035?language=1&minCondition=2"
                         },
                         {
@@ -3726,14 +3689,14 @@
                             "type": "Rare + Foil",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "0,02€",
+                            "price": "0,05€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Spiritomb-PBL035?language=1&minCondition=2&isReverseHolo=Y"
                         }
                     ]
                 },
                 {
-                    "slot": 2,
+                    "slot": 8,
                     "name": "Gible de Cintia",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_102.png",
                     "expansion": "Rivales Predestinados",
@@ -3750,13 +3713,13 @@
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Cynthias-Gible-DRI102?language=4&minCondition=2"
                         }
                     ]
                 },
                 {
-                    "slot": 3,
+                    "slot": 9,
                     "name": "Gabite de Cintia",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_103.png",
                     "expansion": "Rivales Predestinados",
@@ -3787,49 +3750,22 @@
                         },
                         {
                             "language": "Español",
-                            "type": "Common + Play! Stamp",
-                            "format": "I",
+                            "type": "Common + Play! Stamp (serie 8)",
+                            "format": "J",
                             "condition": "Near Mint",
-                            "price": "0,10€",
+                            "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Cynthias-Gabite-PPS8DRI-103?language=4&minCondition=2"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 17,
+            "cards": [
                 {
-                    "slot": 4,
-                    "name": "Hippowdon",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_106.png",
-                    "expansion": "Rivales Predestinados",
-                    "code": "DRI106",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Uncommon",
-                            "format": "H",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Hippowdon-DRI106?language=4&minCondition=2"
-                        },
-                        {
-                            "language": "Inglés",
-                            "type": "Uncommon",
-                            "format": "H",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Hippowdon-DRI106?language=1&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 5,
+                    "slot": 1,
                     "name": "Hippowdon",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_40.png",
                     "expansion": "Equilibrio Perfecto",
@@ -3861,7 +3797,7 @@
                     ]
                 },
                 {
-                    "slot": 6,
+                    "slot": 2,
                     "name": "Drapion",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_52.png",
                     "expansion": "Equilibrio Perfecto",
@@ -3893,7 +3829,7 @@
                     ]
                 },
                 {
-                    "slot": 7,
+                    "slot": 3,
                     "name": "Croagunk",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_78.png",
                     "expansion": "Megaevolución",
@@ -3925,7 +3861,7 @@
                     ]
                 },
                 {
-                    "slot": 8,
+                    "slot": 4,
                     "name": "Toxicroak",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_79.png",
                     "expansion": "Megaevolución",
@@ -3948,7 +3884,30 @@
                     ]
                 },
                 {
-                    "slot": 9,
+                    "slot": 5,
+                    "name": "Carnivine",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_4.png",
+                    "expansion": "Caos Creciente",
+                    "code": "CRI004",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 2,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Carnivine-CRI004?language=4&minCondition=2"
+                        }
+                    ]
+                },
+                {
+                    "slot": 6,
                     "name": "Snover",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_35.png",
                     "expansion": "Megaevolución",
@@ -3978,14 +3937,9 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Snover-V1-MEG035?language=4&minCondition=2&isReverseHolo=Y"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 20,
-            "cards": [
+                },
                 {
-                    "slot": 1,
+                    "slot": 7,
                     "name": "Magnezone",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_47.png",
                     "expansion": "Megaevolución",
@@ -4008,7 +3962,7 @@
                     ]
                 },
                 {
-                    "slot": 2,
+                    "slot": 8,
                     "name": "Tangrowth",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_7.png",
                     "expansion": "Megaevolución",
@@ -4031,7 +3985,7 @@
                     ]
                 },
                 {
-                    "slot": 4,
+                    "slot": 9,
                     "name": "Probopass",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_38.png",
                     "expansion": "Equilibrio Perfecto",
@@ -4048,13 +4002,18 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 3,
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Probopass-V1-POR038?language=4&minCondition=2"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 18,
+            "cards": [
                 {
-                    "slot": 5,
+                    "slot": 1,
                     "name": "Dusknoir",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV6PT5/SV6PT5_ES_20.png",
                     "expansion": "Sobre de premio de Play! (serie 7)",
@@ -4095,7 +4054,7 @@
                     ]
                 },
                 {
-                    "slot": 6,
+                    "slot": 2,
                     "name": "Froslass",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV06/SV06_ES_53.png",
                     "expansion": "Sobre de premio de Play! (serie 7)",
@@ -4118,7 +4077,7 @@
                     ]
                 },
                 {
-                    "slot": 7,
+                    "slot": 3,
                     "name": "Rotom Corte",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_8.png",
                     "expansion": "Corona Astral",
@@ -4141,30 +4100,7 @@
                     ]
                 },
                 {
-                    "slot": 8,
-                    "name": "Rotom Ventilador",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_118.png",
-                    "expansion": "Corona Astral",
-                    "code": "SCR118",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "H",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Stellar-Crown/Fan-Rotom-SCR118?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 9,
+                    "slot": 4,
                     "name": "Cresselia",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_39.png",
                     "expansion": "Fuegos Fantasmales",
@@ -4185,37 +4121,9 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Cresselia-PFL039?language=4&minCondition=2&isReverseHolo=Y"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 21,
-            "cards": [
-                {
-                    "slot": 1,
-                    "name": "Shaymin",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_10.png",
-                    "expansion": "Sobre de premio de Play! (serie 8)",
-                    "code": "DRI010",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Uncommon + Play! Stamp",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Shaymin-PPS8DRI-010?language=4&minCondition=2"
-                        }
-                    ]
                 },
                 {
-                    "slot": 2,
+                    "slot": 5,
                     "name": "Shaymin",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_3.png",
                     "expansion": "Equilibrio Perfecto",
@@ -4245,7 +4153,20 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Shaymin-POR003?language=1&minCondition=2"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 19,
+            "cards": []
+        },
+        {
+            "number": 20,
+            "cards": []
+        },
+        {
+            "number": 21,
+            "cards": [
                 {
                     "slot": 3,
                     "name": "Snivy",
