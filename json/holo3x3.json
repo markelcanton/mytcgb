@@ -5152,21 +5152,9 @@
         },
         {
             "number": 23,
-            "cards": []
-        },
-        {
-            "number": 24,
-            "cards": []
-        },
-        {
-            "number": 25,
-            "cards": []
-        },
-        {
-            "number": 26,
             "cards": [
                 {
-                    "slot": 5,
+                    "slot": 1,
                     "name": "Chespin",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_5.png",
                     "expansion": "Caos Creciente",
@@ -5183,13 +5171,13 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Chespin-V1-CRI005?language=4&minCondition=2"
                         }
                     ]
                 },
                 {
-                    "slot": 6,
+                    "slot": 2,
                     "name": "Fennekin",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_11.png",
                     "expansion": "Caos Creciente",
@@ -5230,7 +5218,7 @@
                     ]
                 },
                 {
-                    "slot": 7,
+                    "slot": 3,
                     "name": "Braixen",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_12.png",
                     "expansion": "Caos Creciente",
@@ -5253,7 +5241,7 @@
                     ]
                 },
                 {
-                    "slot": 8,
+                    "slot": 4,
                     "name": "Delphox",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_13.png",
                     "expansion": "Caos Creciente",
@@ -5294,7 +5282,7 @@
                     ]
                 },
                 {
-                    "slot": 9,
+                    "slot": 5,
                     "name": "Froakie",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV03/SV03_ES_56.png",
                     "expansion": "Llamas Obsidianas",
@@ -5315,14 +5303,9 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Obsidian-Flames/Froakie-V1-OBF056?language=4&minCondition=2"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 27,
-            "cards": [
+                },
                 {
-                    "slot": 1,
+                    "slot": 6,
                     "name": "Frogadier",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_21.png",
                     "expansion": "Caos Creciente",
@@ -5345,7 +5328,7 @@
                     ]
                 },
                 {
-                    "slot": 2,
+                    "slot": 7,
                     "name": "Diggersby",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_65.png",
                     "expansion": "Equilibrio Perfecto",
@@ -5377,7 +5360,7 @@
                     ]
                 },
                 {
-                    "slot": 3,
+                    "slot": 8,
                     "name": "Fletchling",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_66.png",
                     "expansion": "Equilibrio Perfecto",
@@ -5402,7 +5385,7 @@
                             "type": "Common + Foil",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "0,05€",
+                            "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Fletchling-POR066?language=4&minCondition=2&isReverseHolo=Y"
                         },
@@ -5420,14 +5403,14 @@
                             "type": "Common + Foil",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "0,05€",
+                            "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Fletchling-POR066?language=1&minCondition=2&isReverseHolo=Y"
                         }
                     ]
                 },
                 {
-                    "slot": 4,
+                    "slot": 9,
                     "name": "Fletchinder",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_13.png",
                     "expansion": "Equilibrio Perfecto",
@@ -5457,9 +5440,14 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Fletchinder-POR013?language=1&minCondition=2"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 24,
+            "cards": [
                 {
-                    "slot": 5,
+                    "slot": 1,
                     "name": "Talonflame",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_14.png",
                     "expansion": "Equilibrio Perfecto",
@@ -5491,7 +5479,7 @@
                     ]
                 },
                 {
-                    "slot": 6,
+                    "slot": 2,
                     "name": "Scatterbug",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_7.png",
                     "expansion": "Equilibrio Perfecto",
@@ -5523,7 +5511,30 @@
                     ]
                 },
                 {
-                    "slot": 7,
+                    "slot": 3,
+                    "name": "",
+                    "image": "",
+                    "expansion": "",
+                    "code": "",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "",
+                            "format": "",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                },
+                {
+                    "slot": 3,
                     "name": "Spewpa",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_8.png",
                     "expansion": "Equilibrio Perfecto",
@@ -5546,7 +5557,7 @@
                     ]
                 },
                 {
-                    "slot": 8,
+                    "slot": 4,
                     "name": "Vivillon",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_9.png",
                     "expansion": "Equilibrio Perfecto",
@@ -5569,7 +5580,7 @@
                     ]
                 },
                 {
-                    "slot": 9,
+                    "slot": 5,
                     "name": "Litleo",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_14.png",
                     "expansion": "Caos Creciente",
@@ -5599,14 +5610,9 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Litleo-CRI014?language=1&minCondition=2"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 28,
-            "cards": [
+                },
                 {
-                    "slot": 1,
+                    "slot": 6,
                     "name": "Pyroar",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_24.png",
                     "expansion": "Megaevolución",
@@ -5629,7 +5635,7 @@
                     ]
                 },
                 {
-                    "slot": 2,
+                    "slot": 7,
                     "name": "Pancham",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_83.png",
                     "expansion": "Juntos de Aventuras",
@@ -5652,7 +5658,7 @@
                     ]
                 },
                 {
-                    "slot": 3,
+                    "slot": 8,
                     "name": "Furfrou",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_88.png",
                     "expansion": "Evoluciones Prismáticas",
@@ -5675,7 +5681,7 @@
                     ]
                 },
                 {
-                    "slot": 4,
+                    "slot": 9,
                     "name": "Espurr",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_33.png",
                     "expansion": "Equilibrio Perfecto",
@@ -5696,7 +5702,7 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Espurr-V1-POR033?language=4&minCondition=2"
                         },
                         {
-                            "language": "Español",
+                            "language": "Inglés",
                             "type": "Common",
                             "format": "J",
                             "condition": "Near Mint",
@@ -5705,55 +5711,14 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Espurr-V1-POR033?language=1&minCondition=2"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 25,
+            "cards": [
                 {
-                    "slot": 5,
-                    "name": "Espurr",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_36.png",
-                    "expansion": "Caos Creciente",
-                    "code": "CRI036",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Espurr-CRI036?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 6,
-                    "name": "Meowstic",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_34.png",
-                    "expansion": "Equilibrio Perfecto",
-                    "code": "POR034",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Uncommon",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Meowstic-POR034?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 7,
+                    "slot": 1,
                     "name": "Meowstic",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_37.png",
                     "expansion": "Caos Creciente",
@@ -5776,7 +5741,7 @@
                     ]
                 },
                 {
-                    "slot": 8,
+                    "slot": 2,
                     "name": "Honedge",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_56.png",
                     "expansion": "Equilibrio Perfecto",
@@ -5799,7 +5764,7 @@
                     ]
                 },
                 {
-                    "slot": 9,
+                    "slot": 3,
                     "name": "Aegislash",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_58.png",
                     "expansion": "Equilibrio Perfecto",
@@ -5829,14 +5794,9 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Aegislash-POR058?language=1&minCondition=2&isReverseHolo=Y"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 29,
-            "cards": [
+                },
                 {
-                    "slot": 1,
+                    "slot": 4,
                     "name": "Malamar",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_52.png",
                     "expansion": "Oscuridad Absoluta",
@@ -5859,7 +5819,7 @@
                     ]
                 },
                 {
-                    "slot": 2,
+                    "slot": 5,
                     "name": "Binacle",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_42.png",
                     "expansion": "Equilibrio Perfecto",
@@ -5891,7 +5851,7 @@
                     ]
                 },
                 {
-                    "slot": 3,
+                    "slot": 6,
                     "name": "Barbaracle",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_43.png",
                     "expansion": "Equilibrio Perfecto",
@@ -5914,7 +5874,7 @@
                     ]
                 },
                 {
-                    "slot": 4,
+                    "slot": 7,
                     "name": "Skrelp",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_58.png",
                     "expansion": "Caos Creciente",
@@ -5933,12 +5893,21 @@
                             "price": "0,02€",
                             "stock": 3,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Skrelp-CRI058?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Skrelp-CRI058?language=4&minCondition=2isReverseHolo=Y"
                         }
                     ]
                 },
                 {
-                    "slot": 5,
-                    "name": "Clauncher",
+                    "slot": 8,
+                    "name": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Skrelp-CRI058?language=4&minCondition=2",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_37.png",
                     "expansion": "Megaevolución",
                     "code": "MEG037",
@@ -5960,7 +5929,7 @@
                     ]
                 },
                 {
-                    "slot": 6,
+                    "slot": 9,
                     "name": "Helioptile",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_52.png",
                     "expansion": "Megaevolución",
@@ -5981,9 +5950,14 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Helioptile-V1-MEG052?language=4&minCondition=2"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 26,
+            "cards": [
                 {
-                    "slot": 7,
+                    "slot": 1,
                     "name": "Heliolisk",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_53.png",
                     "expansion": "Megaevolución",
@@ -6006,7 +5980,7 @@
                     ]
                 },
                 {
-                    "slot": 8,
+                    "slot": 2,
                     "name": "Tyrantrum",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_45.png",
                     "expansion": "Equilibrio Perfecto",
@@ -6038,7 +6012,7 @@
                     ]
                 },
                 {
-                    "slot": 9,
+                    "slot": 3,
                     "name": "Aurorus",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_24.png",
                     "expansion": "Equilibrio Perfecto",
@@ -6059,14 +6033,9 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Aurorus-V1-POR024?language=1&minCondition=2"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 30,
-            "cards": [
+                },
                 {
-                    "slot": 1,
+                    "slot": 4,
                     "name": "Hawlucha",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_89.png",
                     "expansion": "Evoluciones Prismáticas",
@@ -6089,7 +6058,7 @@
                     ]
                 },
                 {
-                    "slot": 2,
+                    "slot": 5,
                     "name": "Dedenne",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_29.png",
                     "expansion": "Equilibrio Perfecto",
@@ -6121,7 +6090,7 @@
                     ]
                 },
                 {
-                    "slot": 3,
+                    "slot": 6,
                     "name": "Goomy",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_66.png",
                     "expansion": "Caos Creciente",
@@ -6144,7 +6113,7 @@
                     ]
                 },
                 {
-                    "slot": 4,
+                    "slot": 7,
                     "name": "Klefki",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_59.png",
                     "expansion": "Equilibrio Perfecto",
@@ -6167,7 +6136,7 @@
                     ]
                 },
                 {
-                    "slot": 5,
+                    "slot": 8,
                     "name": "Phantump",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_38.png",
                     "expansion": "Caos Creciente",
@@ -6190,11 +6159,11 @@
                     ]
                 },
                 {
-                    "slot": 6,
-                    "name": "Pumpkaboo",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY1/XY1_ES_56.png",
-                    "expansion": "XY",
-                    "code": "XY 56",
+                    "slot": 9,
+                    "name": "Trevenant",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_39.png",
+                    "expansion": "Caos Creciente",
+                    "code": "CRI039",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
@@ -6203,17 +6172,22 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Common",
-                            "format": "XY (no válida en torneos)",
+                            "type": "Rare + Foil",
+                            "format": "J",
                             "condition": "Near Mint",
-                            "price": "0,10€",
+                            "price": "0,02€",
                             "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Pumpkaboo-V1-XY56?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Trevenant-CRI039?language=4&minCondition=2&isReverseHolo=Y"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 27,
+            "cards": [
                 {
-                    "slot": 7,
+                    "slot": 1,
                     "name": "Pumpkaboo",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_40.png",
                     "expansion": "Caos Creciente",
@@ -6245,7 +6219,7 @@
                     ]
                 },
                 {
-                    "slot": 8,
+                    "slot": 2,
                     "name": "Bergmite",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_23.png",
                     "expansion": "Caos Creciente",
@@ -6268,7 +6242,7 @@
                     ]
                 },
                 {
-                    "slot": 9,
+                    "slot": 3,
                     "name": "Avalugg",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_24.png",
                     "expansion": "Caos Creciente",
@@ -6289,14 +6263,9 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Avalugg-CRI024?language=4&minCondition=2"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 31,
-            "cards": [
+                },
                 {
-                    "slot": 1,
+                    "slot": 4,
                     "name": "Noibat",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_127.png",
                     "expansion": "Juntos de Aventuras",
@@ -6319,7 +6288,7 @@
                     ]
                 },
                 {
-                    "slot": 3,
+                    "slot": 5,
                     "name": "Noivern",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_128.png",
                     "expansion": "Juntos de Aventuras",
@@ -6342,7 +6311,7 @@
                     ]
                 },
                 {
-                    "slot": 4,
+                    "slot": 6,
                     "name": "Xerneas",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_64.png",
                     "expansion": "Megaevolución",
@@ -6365,39 +6334,7 @@
                     ]
                 },
                 {
-                    "slot": 5,
-                    "name": "Xerneas",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_42.png",
-                    "expansion": "Caos Creciente",
-                    "code": "CRI042",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Rare",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Xerneas-V1-CRI042?language=4&minCondition=2"
-                        },
-                        {
-                            "language": "Inglés",
-                            "type": "Rare",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Xerneas-V1-CRI042?language=1&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 6,
+                    "slot": 7,
                     "name": "Yveltal",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_88.png",
                     "expansion": "Megaevolución",
@@ -6412,7 +6349,7 @@
                             "language": "Español",
                             "type": "Rare",
                             "format": "I",
-                            "condition": "Excellent",
+                            "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Yveltal-MEG088?language=4&minCondition=3"
@@ -6420,7 +6357,7 @@
                     ]
                 },
                 {
-                    "slot": 7,
+                    "slot": 8,
                     "name": "Volcanion",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_25.png",
                     "expansion": "Equilibrio Perfecto",
@@ -6450,7 +6387,24 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Volcanion-POR025?language=1&minCondition=2"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 28,
+            "cards": []
+        },
+        {
+            "number": 29,
+            "cards": []
+        },
+        {
+            "number": 30,
+            "cards": []
+        },
+        {
+            "number": 31,
+            "cards": [
                 {
                     "slot": 8,
                     "name": "Rowlet",
