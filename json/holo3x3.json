@@ -2697,8 +2697,8 @@
                             "type": "Common",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
+                            "price": "",
+                            "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Cynthias-Roselia-DRI007?language=1&minCondition=2"
                         },
                         {
