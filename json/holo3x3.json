@@ -1389,29 +1389,6 @@
                     ]
                 },
                 {
-                    "slot": 2,
-                    "name": "Pichu de Eco",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_71.png",
-                    "expansion": "Rivales Predestinados",
-                    "code": "DRI071",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Ethans-Pichu-DRI071?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
                     "slot": 3,
                     "name": "Mareep",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_27.png",
@@ -2692,15 +2669,6 @@
                     "traded": false,
                     "noDisponible": false,
                     "variants": [
-                        {
-                            "language": "Inglés",
-                            "type": "Common",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Cynthias-Roselia-DRI007?language=1&minCondition=2"
-                        },
                         {
                             "language": "Japonés",
                             "type": "Common",
@@ -4934,29 +4902,6 @@
             "cards": [
                 {
                     "slot": 1,
-                    "name": "Axew",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH9/SWSH9_ES_110.png",
-                    "expansion": "Astros Brillantes",
-                    "code": "BRS110",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "F (no válida en torneos)",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Brilliant-Stars/Axew-BRS110?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 2,
                     "name": "Bouffalant",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_119.png",
                     "expansion": "Sobre de premio de Play! (serie 7)",
@@ -4975,6 +4920,29 @@
                             "price": "0,20€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Bouffalant-PPS7SCR-119?language=4&minCondition=2"
+                        }
+                    ]
+                },
+                {
+                    "slot": 2,
+                    "name": "Mandibuzz",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_50.png",
+                    "expansion": "Oscuridad Absoluta",
+                    "code": "PBL050",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Common + Foil",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mandibuzz-PBL050?language=1&minCondition=2&isReverseHolo=Y"
                         }
                     ]
                 },
@@ -7782,29 +7750,6 @@
                     ]
                 },
                 {
-                    "slot": 8,
-                    "name": "Charcadet",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_11.png",
-                    "expansion": "Oscuridad Absoluta",
-                    "code": "PBL011",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Charcadet-PBL011?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
                     "slot": 9,
                     "name": "Armarouge",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_12.png",
@@ -9447,29 +9392,6 @@
             "number": 41,
             "cards": [
                 {
-                    "slot": 1,
-                    "name": "Pokétableta",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_81.png",
-                    "expansion": "Equilibrio Perfecto",
-                    "code": "POR081",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": true,
-                    "variants": [
-                        {
-                            "language": "Inglés",
-                            "type": "Uncommon",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Poke-Pad-V1-POR081?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
                     "slot": 2,
                     "name": "Ultra Ball",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_131.png",
@@ -9489,29 +9411,6 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Ultra-Ball-MEG131?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 3,
-                    "name": "Pokochos Gemelos",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_144.png",
-                    "expansion": "Sobre de premio de Play! (serie 7)",
-                    "code": "TEF144",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Uncommon + Foil + Play! Stamp",
-                            "format": "H",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Buddy-Buddy-Poffin-V2-PPS7TEF-144?language=4&minCondition=2"
                         }
                     ]
                 },
@@ -10428,7 +10327,7 @@
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
-                    "noDisponible": true,
+                    "noDisponible": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -10696,29 +10595,6 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/White-Flare/Ignition-Energy-WHT086?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 9,
-                    "name": "Energía de Lucha Rocosa",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_87.png",
-                    "expansion": "Equilibrio Perfecto",
-                    "code": "POR087",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": true,
-                    "variants": [
-                        {
-                            "language": "Inglés",
-                            "type": "Rare",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Rocky-F-Energy-POR087?language=1&minCondition=2"
                         }
                     ]
                 }
