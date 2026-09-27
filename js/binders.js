@@ -344,7 +344,14 @@ function showDetails(card, pageNum) {
     const modal = document.getElementById('card-modal');
     const modalBody = document.getElementById('modal-body');
 
-    let infoHtml = `<p><strong>Expansión:</strong> ${card.expansion || '--'}</p>`;
+    let expansionText = '--';
+    if (Array.isArray(card.expansion)) {
+        expansionText = card.expansion.join(', ');
+    } else if (card.expansion) {
+        expansionText = card.expansion;
+    }
+
+    let infoHtml = `<p><strong>Expansión:</strong> ${expansionText}</p>`;
 
     const albumSelect = document.getElementById('album-select');
     const selectedOption = albumSelect ? albumSelect.options[albumSelect.selectedIndex] : null;
@@ -719,11 +726,24 @@ document.addEventListener("DOMContentLoaded", () => {
             page.cards.forEach(card => {
                 const name = (card.name || '').toLowerCase();
                 const code = (card.code || '').toLowerCase();
-                const expansion = card.expansion || '';
 
                 if (query && !name.includes(query)) return;
 
-                if (selectedExpansions.length > 0 && !selectedExpansions.includes(expansion)) return;
+                if (selectedExpansions.length > 0) {
+                    let cardExpArray = [];
+                    if (Array.isArray(card.expansion)) {
+                        cardExpArray = card.expansion.map(e => e.toLowerCase().trim());
+                    } else if (typeof card.expansion === 'string') {
+                        cardExpArray = card.expansion.split(',').map(e => e.toLowerCase().trim());
+                    }
+
+                    const hasExpMatch = selectedExpansions.some(exp =>
+                        cardExpArray.includes(exp.toLowerCase().trim())
+                    );
+
+                    if (!hasExpMatch) return;
+                }
+
                 if (codeVal && !code.includes(codeVal)) return;
 
                 const hasNoTrade = card.noTrade === true ||
