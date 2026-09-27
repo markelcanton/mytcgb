@@ -344,7 +344,7 @@ function showDetails(card, pageNum) {
     const modal = document.getElementById('card-modal');
     const modalBody = document.getElementById('modal-body');
 
-    let infoHtml = `<p><strong>Expansión:</strong> ${card.expansion || '--'} (${card.code || '--'})</p>`;
+    let infoHtml = `<p><strong>Expansión:</strong> ${card.expansion || '--'}</p>`;
 
     const albumSelect = document.getElementById('album-select');
     const selectedOption = albumSelect ? albumSelect.options[albumSelect.selectedIndex] : null;
@@ -416,7 +416,7 @@ function showDetails(card, pageNum) {
                 <img src="${card.image || ''}" style="width:100%; border-radius:8px; box-shadow: 0 4px 15px rgba(0,0,0,0.6);" onerror="this.src='https://tcg.pokemon.com/assets/img/global/tcg-card-back.jpg'">
             </div>
             <div class="modal-info">
-                <h2 style="margin-top:0; color:white;">${card.name || 'Sin nombre'}</h2>
+                <h2 style="margin-top:0; color:white;">${card.name || 'Sin nombre'} (${card.code || '--'})</h2>
                 <div class="info-grid">${infoHtml}</div>
                 <div id="available-list" class="available-list" style="display: none;">
                     <div class="table-responsive">
