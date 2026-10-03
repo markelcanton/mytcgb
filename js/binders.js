@@ -374,7 +374,7 @@ function showDetails(card, pageNum) {
                 <img src="${card.image || ''}" style="width:100%; border-radius:8px; box-shadow: 0 4px 15px rgba(0,0,0,0.6);" onerror="this.src='https://tcg.pokemon.com/assets/img/global/tcg-card-back.jpg'">
             </div>
             <div class="modal-info wishlist-specs">
-                <h2 style="margin-top:0; color:white; margin-bottom: 15px;">${card.name || 'Sin nombre'}</h2>
+                <h2 style="margin-top:0; color:white; margin-bottom: 15px;">${card.name || 'Sin nombre'} (${card.code || '--'})</h2>
                 <div class="info-grid" style="margin-bottom: 20px;">${infoHtml}</div>
                 <div class="specs-details">
                     <h3>Especificaciones:</h3>
