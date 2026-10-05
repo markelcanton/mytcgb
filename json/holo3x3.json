@@ -7,7 +7,9 @@
                     "slot": 1,
                     "name": "Charmeleon",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_12.png",
-                    "expansion": "Fuegos Fantasmales",
+                    "expansion": [
+                        "Fuegos Fantasmales"
+                    ],
                     "code": "PFL012",
                     "noTrade": false,
                     "reservada": false,
@@ -21,7 +23,7 @@
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 0,
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Charmeleon-PFL012?language=4&minCondition=2"
                         }
                     ]
@@ -122,7 +124,9 @@
                     "slot": 6,
                     "name": "Fearow",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_103.png",
-                    "expansion": "Megaevolución",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
                     "code": "MEG103",
                     "noTrade": false,
                     "reservada": false,
@@ -131,7 +135,7 @@
                     "noDisponible": false,
                     "variants": [
                         {
-                            "language": "Español",
+                            "language": "Inglés",
                             "type": "Common",
                             "format": "I",
                             "condition": "Near Mint",
@@ -145,9 +149,11 @@
                     "slot": 7,
                     "name": "Pikachu",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_55.png",
-                    "expansion": "Héroes Ascendentes",
+                    "expansion": [
+                        "Héroes Ascendentes"
+                    ],
                     "code": "ASC055",
-                    "noTrade": false,
+                    "noTrade": true,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -158,8 +164,8 @@
                             "type": "Common",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
+                            "price": "",
+                            "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Pikachu-ASC055?language=4&minCondition=2"
                         }
                     ]
@@ -430,7 +436,9 @@
                     "slot": 9,
                     "name": "Primeape",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_43.png",
-                    "expansion": "Oscuridad Absoluta",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
                     "code": "PBL043",
                     "noTrade": false,
                     "reservada": false,
@@ -446,6 +454,15 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Primeape-PBL043?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Primeape-PBL043?language=1&minCondition=2"
                         }
                     ]
                 }
@@ -651,7 +668,9 @@
                     "slot": 9,
                     "name": "Magneton",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_59.png",
-                    "expansion": "Sobre de premio de Play! (serie 7)",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 7)"
+                    ],
                     "code": "SSP059",
                     "noTrade": false,
                     "reservada": false,
@@ -661,7 +680,7 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Uncommon + Play! Stamp",
+                            "type": "Uncommon + Play! Stamp (serie 7)",
                             "format": "H",
                             "condition": "Near Mint",
                             "price": "0,02€",
@@ -702,7 +721,9 @@
                     "slot": 2,
                     "name": "Doduo",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY1/XY1_ES_98.png",
-                    "expansion": "XY",
+                    "expansion": [
+                        "XY"
+                    ],
                     "code": "XY 98",
                     "noTrade": false,
                     "reservada": false,
@@ -715,7 +736,7 @@
                             "type": "Common",
                             "format": "XY (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": "0,02€",
+                            "price": "0,10€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Doduo-XY98?language=4&minCondition=2"
                         }
@@ -748,7 +769,9 @@
                     "slot": 4,
                     "name": "Muk del Team Rocket",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_124.png",
-                    "expansion": "Rivales Predestinados",
+                    "expansion": [
+                        "Rivales Predestinados"
+                    ],
                     "code": "DRI124",
                     "noTrade": false,
                     "reservada": false,
@@ -762,7 +785,7 @@
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 0,
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Muk-DRI124?language=4&minCondition=2"
                         }
                     ]
@@ -771,7 +794,9 @@
                     "slot": 5,
                     "name": "Gastly",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_54.png",
-                    "expansion": "Fuegos Fantasmales",
+                    "expansion": [
+                        "Fuegos Fantasmales"
+                    ],
                     "code": "PFL054",
                     "noTrade": false,
                     "reservada": false,
@@ -1079,7 +1104,9 @@
                     "slot": 8,
                     "name": "Tauros",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_69.png",
-                    "expansion": "Caos Creciente",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
                     "code": "CRI069",
                     "noTrade": false,
                     "reservada": false,
@@ -1093,7 +1120,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 2,
+                            "stock": 4,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Tauros-V1-CRI069?language=4&minCondition=2"
                         }
                     ]
@@ -1153,7 +1180,10 @@
                     "slot": 2,
                     "name": "Snorlax de Paul",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_117.png",
-                    "expansion": "Sobre de premio de Play!",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 7)",
+                        "Sobre de premio de Play! (serie 8)"
+                    ],
                     "code": "JTG117",
                     "noTrade": false,
                     "reservada": false,
@@ -1166,7 +1196,7 @@
                             "type": "Rare + Play! Stamp (serie 7)",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "0,20€",
+                            "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Hops-Snorlax-PPS7JTG-117?language=4&minCondition=2"
                         },
@@ -1175,7 +1205,7 @@
                             "type": "Rare + Foil + Play! Stamp (serie 8)",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "0,20€",
+                            "price": "0,30€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Hops-Snorlax-V2-PPS8JTG-117?language=4&minCondition=2"
                         }
@@ -1185,7 +1215,9 @@
                     "slot": 3,
                     "name": "Dragonite",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_131.png",
-                    "expansion": "Tempestad Plateada",
+                    "expansion": [
+                        "Tempestad Plateada"
+                    ],
                     "code": "SIT131",
                     "noTrade": false,
                     "reservada": false,
@@ -1198,78 +1230,9 @@
                             "type": "Rare + Foil",
                             "format": "F (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": "1€",
+                            "price": "5€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Dragonite-V1-SIT131?language=4&minCondition=2&isReverseHolo=Y"
-                        }
-                    ]
-                },
-                {
-                    "slot": 4,
-                    "name": "Chikorita",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_8.png",
-                    "expansion": "Megaevolución",
-                    "code": "MEG008",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 2,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Chikorita-MEG008?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 5,
-                    "name": "Quilava de Eco",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_33.png",
-                    "expansion": "Sobre de premio de Play! (serie 8)",
-                    "code": "DRI033",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common + Play! Stamp",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,05€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Ethans-Quilava-PPS8DRI-033?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 6,
-                    "name": "Typhlosion de Eco",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_34.png",
-                    "expansion": "Sobre de premio de Play! (serie 8)",
-                    "code": "DRI034",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Rare + Play! Stamp",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Ethans-Typhlosion-PPS8DRI-034?language=4&minCondition=2"
                         }
                     ]
                 },
@@ -1300,7 +1263,9 @@
                     "slot": 8,
                     "name": "Noctowl",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_115.png",
-                    "expansion": "Sobre de premio de Play! (serie 7)",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 7)"
+                    ],
                     "code": "SCR115",
                     "noTrade": false,
                     "reservada": false,
@@ -1310,27 +1275,27 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Rare + Foil + Play! Stamp",
+                            "type": "Rare + Play! Stamp",
                             "format": "H",
                             "condition": "",
-                            "price": "0,30€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Noctowl-V2-PPS7SCR-115?language=4&minCondition=2"
+                            "price": "0,02€",
+                            "stock": 3,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Noctowl-V1-PPS7SCR-115?language=4&minCondition=2"
                         },
                         {
                             "language": "Español",
                             "type": "Rare + Foil + Play! Stamp",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "0,15€",
-                            "stock": 3,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Noctowl-V1-PPS7SCR-115?language=4&minCondition=2"
+                            "price": "0,10€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Noctowl-V2-PPS7SCR-115?language=4&minCondition=2"
                         },
                         {
                             "language": "Japonés",
                             "type": "",
                             "format": "H (no válida en torneos)",
-                            "condition": "",
+                            "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEGA-Dream-ex/Noctowl-m2a138?language=7&minCondition=2"
@@ -1663,7 +1628,9 @@
                     "slot": 4,
                     "name": "Qwilfish",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_52.png",
-                    "expansion": "Caos Creciente",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
                     "code": "CRI052",
                     "noTrade": false,
                     "reservada": false,
@@ -1677,7 +1644,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Qwilfish-CRI052?language=4&minCondition=2"
                         },
                         {
@@ -2115,29 +2082,6 @@
                     ]
                 },
                 {
-                    "slot": 3,
-                    "name": "Torchic",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_40.png",
-                    "expansion": "Rivales Predestinados",
-                    "code": "DRI040",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Torchic-DRI040?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
                     "slot": 4,
                     "name": "Lotad",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_5.png",
@@ -2233,7 +2177,9 @@
                     "slot": 8,
                     "name": "Nuzleaf",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_14.png",
-                    "expansion": "Megaevolución",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
                     "code": "MEG014",
                     "noTrade": false,
                     "reservada": false,
@@ -2242,12 +2188,12 @@
                     "noDisponible": false,
                     "variants": [
                         {
-                            "language": "Español",
+                            "language": "Inglés",
                             "type": "Common",
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 3,
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Nuzleaf-MEG014?language=1&minCondition=2"
                         }
                     ]
@@ -2362,7 +2308,9 @@
                     "slot": 4,
                     "name": "Ralts",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_58.png",
-                    "expansion": "Megaevolución",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
                     "code": "MEG058",
                     "noTrade": false,
                     "reservada": false,
@@ -2376,17 +2324,17 @@
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 3,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Ralts-MEG058?language=4&minCondition=2"
                         }
                     ]
                 },
                 {
                     "slot": 5,
-                    "name": "Kirlia",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV4PT5/SV4PT5_ES_28.png",
-                    "expansion": "Destinos de Paldea",
-                    "code": "PAF028",
+                    "name": "",
+                    "image": "",
+                    "expansion": [],
+                    "code": "",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
@@ -2394,13 +2342,13 @@
                     "noDisponible": false,
                     "variants": [
                         {
-                            "language": "Inglés",
-                            "type": "Uncommon",
-                            "format": "G (no válida en torneos)",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "http://cardmarket.com/es/Pokemon/Products/Singles/Paldean-Fates/Kirlia-V1-PAF028?language=1&minCondition=2"
+                            "language": "",
+                            "type": "",
+                            "format": "",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
                         }
                     ]
                 },
@@ -2486,7 +2434,9 @@
                     "slot": 9,
                     "name": "Makuhita",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_72.png",
-                    "expansion": "Megaevolución",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
                     "code": "MEG072",
                     "noTrade": false,
                     "reservada": false,
@@ -2500,7 +2450,7 @@
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Makuhita-MEG072?language=4&minCondition=2"
                         }
                     ]
@@ -2661,8 +2611,10 @@
                     "slot": 7,
                     "name": "Roselia de Cintia",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_7.png",
-                    "expansion": "Rivales Predestinados",
-                    "code": "DRI007",
+                    "expansion": [
+                        "Héroes Ascendentes"
+                    ],
+                    "code": "m2a 009",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
@@ -2707,7 +2659,9 @@
                     "slot": 9,
                     "name": "Numel",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_21.png",
-                    "expansion": "Megaevolución",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
                     "code": "MEG021",
                     "noTrade": false,
                     "reservada": false,
@@ -2721,7 +2675,7 @@
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Numel-MEG021?language=4&minCondition=2"
                         },
                         {
@@ -2767,7 +2721,9 @@
                     "slot": 2,
                     "name": "Grumpig",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_63.png",
-                    "expansion": "Megaevolución",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
                     "code": "MEG063",
                     "noTrade": false,
                     "reservada": false,
@@ -2781,7 +2737,7 @@
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 2,
+                            "stock": 5,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Grumpig-MEG063?language=4&minCondition=2"
                         }
                     ]
@@ -2868,8 +2824,11 @@
                     "slot": 6,
                     "name": "Lunatone",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_74.png",
-                    "expansion": "Megaevolución",
-                    "code": "MEG074",
+                    "expansion": [
+                        "Megaevolución",
+                        "Héroes Ascendentes"
+                    ],
+                    "code": "MEG074, ASC105",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
@@ -2896,7 +2855,7 @@
                         },
                         {
                             "language": "Inglés",
-                            "type": "Rare",
+                            "type": "Rare (MEG)",
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
@@ -3015,7 +2974,9 @@
                     "slot": 2,
                     "name": "Banette",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_34.png",
-                    "expansion": "Oscuridad Absoluta",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
                     "code": "PBL034",
                     "noTrade": false,
                     "reservada": false,
@@ -3023,6 +2984,15 @@
                     "traded": false,
                     "noDisponible": false,
                     "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Banette-PBL034?language=4&minCondition=2"
+                        },
                         {
                             "language": "Inglés",
                             "type": "Uncommon",
@@ -3295,7 +3265,9 @@
                     "slot": 3,
                     "name": "Deoxys",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_34.png",
-                    "expansion": "Caos Creciente",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
                     "code": "CRI034",
                     "noTrade": false,
                     "reservada": false,
@@ -3309,7 +3281,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 3,
+                            "stock": 4,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Deoxys-CRI034?language=4&minCondition=2"
                         }
                     ]
@@ -3364,7 +3336,9 @@
                     "slot": 6,
                     "name": "Luxray",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_28.png",
-                    "expansion": "Equilibrio Perfecto",
+                    "expansion": [
+                        "Equilibrio Perfecto"
+                    ],
                     "code": "POR028",
                     "noTrade": false,
                     "reservada": false,
@@ -3372,6 +3346,15 @@
                     "traded": false,
                     "noDisponible": false,
                     "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Luxray-POR028?language=4&minCondition=2"
+                        },
                         {
                             "language": "Inglés",
                             "type": "Rare",
@@ -3387,7 +3370,11 @@
                     "slot": 7,
                     "name": "Budew",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_4.png",
-                    "expansion": "Evoluciones Prismáticas",
+                    "expansion": [
+                        "Evoluciones Prismáticas",
+                        "Sobre de premio de Play! (serie 7)",
+                        "Sobre de premio de Play! (serie 8)"
+                    ],
                     "code": "PRE004",
                     "noTrade": false,
                     "reservada": false,
@@ -3400,7 +3387,7 @@
                             "type": "Common",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "0,05€",
+                            "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Prismatic-Evolutions/Budew-PRE004?language=4&minCondition=2"
                         },
@@ -3409,16 +3396,16 @@
                             "type": "Common + Play! Stamp (serie 7)",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "0,05€",
+                            "price": "0,10€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Budew-V1-PPS7PRE-004?language=4&minCondition=2"
                         },
                         {
                             "language": "Español",
-                            "type": "Common + Play! Stamp (serie 8)",
+                            "type": "Common + Foil + Play! Stamp (serie 8)",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "0,20€",
+                            "price": "0,50€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Budew-PPS8PRE-004?language=4&minCondition=2"
                         }
@@ -3479,7 +3466,9 @@
                     "slot": 1,
                     "name": "Ambipom",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH11/SWSH11_ES_145.png",
-                    "expansion": "Origen Perdido",
+                    "expansion": [
+                        "Origen Perdido"
+                    ],
                     "code": "LOR145",
                     "noTrade": false,
                     "reservada": false,
@@ -3492,7 +3481,7 @@
                             "type": "Uncommon + Foil",
                             "format": "F (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": "0,25€",
+                            "price": "0,20€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Lost-Origin/Ambipom-LOR145?language=4&minCondition=2&isReverseHolo=Y"
                         }
@@ -3548,7 +3537,9 @@
                     "slot": 4,
                     "name": "Stunky",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_53.png",
-                    "expansion": "Caos Creciente",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
                     "code": "CRI053",
                     "noTrade": false,
                     "reservada": false,
@@ -3562,7 +3553,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Stunky-CRI053?language=4&minCondition=2"
                         }
                     ]
@@ -3635,7 +3626,9 @@
                     "slot": 7,
                     "name": "Spiritomb",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_35.png",
-                    "expansion": "Oscuridad Absoluta",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
                     "code": "PBL035",
                     "noTrade": false,
                     "reservada": false,
@@ -3649,7 +3642,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Spiritomb-PBL035?language=1&minCondition=2"
                         },
                         {
@@ -3690,7 +3683,10 @@
                     "slot": 9,
                     "name": "Gabite de Cintia",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_103.png",
-                    "expansion": "Rivales Predestinados",
+                    "expansion": [
+                        "Rivales Predestinados",
+                        "Sobre de premio de Play! (serie 8)"
+                    ],
                     "code": "DRI103",
                     "noTrade": false,
                     "reservada": false,
@@ -3933,8 +3929,10 @@
                     "slot": 8,
                     "name": "Tangrowth",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_7.png",
-                    "expansion": "Megaevolución",
-                    "code": "MEG047",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
+                    "code": "MEG007",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
@@ -3956,7 +3954,9 @@
                     "slot": 9,
                     "name": "Probopass",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_38.png",
-                    "expansion": "Equilibrio Perfecto",
+                    "expansion": [
+                        "Equilibrio Perfecto"
+                    ],
                     "code": "POR038",
                     "noTrade": false,
                     "reservada": false,
@@ -3972,6 +3972,15 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Probopass-V1-POR038?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 2,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Probopass-V1-POR038?language=1&minCondition=2"
                         }
                     ]
                 }
@@ -3984,8 +3993,11 @@
                     "slot": 1,
                     "name": "Dusknoir",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV6PT5/SV6PT5_ES_20.png",
-                    "expansion": "Sobre de premio de Play! (serie 7)",
-                    "code": "SFA020",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 7)",
+                        "Héroes Ascendentes"
+                    ],
+                    "code": "SFA020, m2a 074",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
@@ -3997,7 +4009,7 @@
                             "type": "Rare + Play! Stamp",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "0,02€",
+                            "price": "0,20€",
                             "stock": 3,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Dusknoir-V1-PPS7SFA-020?language=4&minCondition=2"
                         },
@@ -4006,14 +4018,14 @@
                             "type": "Rare + Foil + Play! Stamp",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "0,02€",
+                            "price": "0,50€",
                             "stock": 4,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Dusknoir-V2-PPS7SFA-020?language=4&minCondition=2"
                         },
                         {
                             "language": "Japonés",
                             "type": "Rare",
-                            "format": "H",
+                            "format": "H (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
@@ -4169,29 +4181,6 @@
                     ]
                 },
                 {
-                    "slot": 8,
-                    "name": "Serperior",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_6.png",
-                    "expansion": "Equilibrio Perfecto",
-                    "code": "POR006",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Rare",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 2,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Serperior-POR006?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
                     "slot": 9,
                     "name": "Tepig",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_29.png",
@@ -4220,11 +4209,13 @@
             "number": 19,
             "cards": [
                 {
-                    "slot": 1,
-                    "name": "Emboar",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/RSV10PT5/RSV10PT5_ES_13.png",
-                    "expansion": "Sobre de premio de Play! (serie 8)",
-                    "code": "WHT013",
+                    "slot": 2,
+                    "name": "Patrat",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_70.png",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
+                    "code": "CRI070",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
@@ -4233,27 +4224,13 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Rare + Play! Stamp",
-                            "format": "I",
+                            "type": "Common",
+                            "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Emboar-V1-PPS8WHT-013?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 2,
-                    "name": "Patrat",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_70.png",
-                    "expansion": "Caos Creciente",
-                    "code": "CRI070",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Patrat-CRI070?language=4&minCondition=2"
+                        },
                         {
                             "language": "Español",
                             "type": "Common + Foil",
@@ -4347,7 +4324,9 @@
                     "slot": 6,
                     "name": "Tranquill",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/BW7/BW7_ES_124.png",
-                    "expansion": "Fronteras Cruzadas",
+                    "expansion": [
+                        "Fronteras Cruzadas"
+                    ],
                     "code": "BCR 124",
                     "noTrade": false,
                     "reservada": false,
@@ -4360,7 +4339,7 @@
                             "type": "Uncommon",
                             "format": "Blanco y Negro (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": "0,40€",
+                            "price": "2,50€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Tranquill-BCR124?language=4&minCondition=2"
                         }
@@ -4393,7 +4372,9 @@
                     "slot": 8,
                     "name": "Drilbur",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_85.png",
-                    "expansion": "Sobre de premio de Play! (serie 7)",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 7)"
+                    ],
                     "code": "TEF085",
                     "noTrade": false,
                     "reservada": false,
@@ -4406,7 +4387,7 @@
                             "type": "Common + Foil + Play! Stamp",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "0,35€",
+                            "price": "0,20€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Drilbur-PPS7TEF-085?language=4&minCondition=2"
                         }
@@ -4444,8 +4425,10 @@
                     "slot": 1,
                     "name": "Sandile",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_64.png",
-                    "expansion": "Fuegos Fantasmales",
-                    "code": "PFL064",
+                    "expansion": [
+                        "Fuegos Fantasmales"
+                    ],
+                    "code": "PFL064, m2 053",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
@@ -4522,7 +4505,9 @@
                     "slot": 4,
                     "name": "Darmanitan de N",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_27.png",
-                    "expansion": "Sobre de premio de Play! (serie 7)",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 7)"
+                    ],
                     "code": "JTG027",
                     "noTrade": false,
                     "reservada": false,
@@ -4532,7 +4517,7 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Uncommon + Foil",
+                            "type": "Uncommon + Foil + Play! Stamp",
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
@@ -4646,7 +4631,9 @@
                     "slot": 9,
                     "name": "Garbodor",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_57.png",
-                    "expansion": "Caos Creciente",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
                     "code": "CRI057",
                     "noTrade": false,
                     "reservada": false,
@@ -4660,7 +4647,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 3,
+                            "stock": 5,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Garbodor-CRI057?language=4&minCondition=2"
                         }
                     ]
@@ -4674,7 +4661,9 @@
                     "slot": 1,
                     "name": "Minccino",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_72.png",
-                    "expansion": "Caos Creciente",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
                     "code": "CRI072",
                     "noTrade": false,
                     "reservada": false,
@@ -4692,6 +4681,15 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Minccino-CRI072?language=4&minCondition=2"
                         },
                         {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Minccino-CRI072?language=4&minCondition=2&isReverseHolo=Y"
+                        },
+                        {
                             "language": "Inglés",
                             "type": "Common",
                             "format": "J",
@@ -4706,7 +4704,9 @@
                     "slot": 2,
                     "name": "Emolga",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_30.png",
-                    "expansion": "Caos Creciente",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
                     "code": "CRI030",
                     "noTrade": false,
                     "reservada": false,
@@ -4720,8 +4720,17 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Emolga-CRI030?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Emolga-CRI030?language=4&minCondition=2&isReverseHolo=Y"
                         }
                     ]
                 },
@@ -4798,7 +4807,9 @@
                     "slot": 6,
                     "name": "Ferrothorn",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_63.png",
-                    "expansion": "Caos Creciente",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
                     "code": "CRI063",
                     "noTrade": false,
                     "reservada": false,
@@ -4812,7 +4823,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 3,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Ferrothorn-CRI063?language=4&minCondition=2"
                         },
                         {
@@ -4950,7 +4961,9 @@
                     "slot": 3,
                     "name": "Durant",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_14.png",
-                    "expansion": "Juntos de Aventuras",
+                    "expansion": [
+                        "Juntos de Aventuras"
+                    ],
                     "code": "JTG014",
                     "noTrade": false,
                     "reservada": false,
@@ -5125,7 +5138,9 @@
                     "slot": 1,
                     "name": "Chespin",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_5.png",
-                    "expansion": "Caos Creciente",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
                     "code": "CRI005",
                     "noTrade": false,
                     "reservada": false,
@@ -5134,13 +5149,31 @@
                     "noDisponible": false,
                     "variants": [
                         {
-                            "language": "Inglés",
+                            "language": "Español",
                             "type": "Common",
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Chespin-V1-CRI005?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 2,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Chespin-V1-CRI005?language=4&minCondition=2&isReverseHolo=Y"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Chespin-V1-CRI005?language=1&minCondition=2"
                         }
                     ]
                 },
@@ -5148,7 +5181,9 @@
                     "slot": 2,
                     "name": "Fennekin",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_11.png",
-                    "expansion": "Caos Creciente",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
                     "code": "CRI011",
                     "noTrade": false,
                     "reservada": false,
@@ -5186,70 +5221,6 @@
                     ]
                 },
                 {
-                    "slot": 3,
-                    "name": "Braixen",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_12.png",
-                    "expansion": "Caos Creciente",
-                    "code": "CRI012",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Braixen-CRI012?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 4,
-                    "name": "Delphox",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_13.png",
-                    "expansion": "Caos Creciente",
-                    "code": "CRI013",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Rare",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Delphox-CRI013?language=4&minCondition=2"
-                        },
-                        {
-                            "language": "Español",
-                            "type": "Rare + Foil",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,05€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Delphox-CRI013?language=4&minCondition=2&isReverseHolo=Y"
-                        },
-                        {
-                            "language": "Inglés",
-                            "type": "Rare",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Delphox-CRI013?language=1&minCondition=2"
-                        }
-                    ]
-                },
-                {
                     "slot": 5,
                     "name": "Froakie",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV03/SV03_ES_56.png",
@@ -5269,29 +5240,6 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Obsidian-Flames/Froakie-V1-OBF056?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 6,
-                    "name": "Frogadier",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_21.png",
-                    "expansion": "Caos Creciente",
-                    "code": "CRI021",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Frogadier-V1-CRI021?language=4&minCondition=2"
                         }
                     ]
                 },
@@ -5331,7 +5279,9 @@
                     "slot": 8,
                     "name": "Fletchling",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_66.png",
-                    "expansion": "Equilibrio Perfecto",
+                    "expansion": [
+                        "Equilibrio Perfecto"
+                    ],
                     "code": "POR066",
                     "noTrade": false,
                     "reservada": false,
@@ -5345,7 +5295,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Fletchling-POR066?language=4&minCondition=2"
                         },
                         {
@@ -5450,7 +5400,9 @@
                     "slot": 2,
                     "name": "Scatterbug",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_7.png",
-                    "expansion": "Equilibrio Perfecto",
+                    "expansion": [
+                        "Equilibrio Perfecto"
+                    ],
                     "code": "POR007",
                     "noTrade": false,
                     "reservada": false,
@@ -5464,7 +5416,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 2,
+                            "stock": 3,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Scatterbug-POR007?language=4&minCondition=2"
                         },
                         {
@@ -5473,31 +5425,8 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Scatterbug-POR007?language=1&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 3,
-                    "name": "",
-                    "image": "",
-                    "expansion": "",
-                    "code": "",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "",
-                            "type": "",
-                            "format": "",
-                            "condition": "",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": ""
                         }
                     ]
                 },
@@ -5551,7 +5480,9 @@
                     "slot": 5,
                     "name": "Litleo",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_14.png",
-                    "expansion": "Caos Creciente",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
                     "code": "CRI014",
                     "noTrade": false,
                     "reservada": false,
@@ -5567,6 +5498,15 @@
                             "price": "0,02€",
                             "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Litleo-CRI014?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Litleo-CRI014?language=4&minCondition=2&isReverseHolo=Y"
                         },
                         {
                             "language": "Inglés",
@@ -5629,7 +5569,9 @@
                     "slot": 8,
                     "name": "Furfrou",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_88.png",
-                    "expansion": "Evoluciones Prismáticas",
+                    "expansion": [
+                        "Evoluciones Prismáticas"
+                    ],
                     "code": "PRE088",
                     "noTrade": false,
                     "reservada": false,
@@ -5642,7 +5584,7 @@
                             "type": "Common + Foil",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "0,02€",
+                            "price": "0,10€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Prismatic-Evolutions/Furfrou-PRE088?language=4&minCondition=2&isReverseHolo=Y"
                         }
@@ -5652,7 +5594,9 @@
                     "slot": 9,
                     "name": "Espurr",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_33.png",
-                    "expansion": "Equilibrio Perfecto",
+                    "expansion": [
+                        "Equilibrio Perfecto"
+                    ],
                     "code": "POR033",
                     "noTrade": false,
                     "reservada": false,
@@ -5675,7 +5619,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 2,
+                            "stock": 3,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Espurr-V1-POR033?language=1&minCondition=2"
                         }
                     ]
@@ -5735,7 +5679,9 @@
                     "slot": 3,
                     "name": "Aegislash",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_58.png",
-                    "expansion": "Equilibrio Perfecto",
+                    "expansion": [
+                        "Equilibrio Perfecto"
+                    ],
                     "code": "POR058",
                     "noTrade": false,
                     "reservada": false,
@@ -5757,7 +5703,7 @@
                             "type": "Uncommon + Foil",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "0,05€",
+                            "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Aegislash-POR058?language=1&minCondition=2&isReverseHolo=Y"
                         }
@@ -5790,7 +5736,9 @@
                     "slot": 5,
                     "name": "Binacle",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_42.png",
-                    "expansion": "Equilibrio Perfecto",
+                    "expansion": [
+                        "Equilibrio Perfecto"
+                    ],
                     "code": "POR042",
                     "noTrade": false,
                     "reservada": false,
@@ -5815,6 +5763,15 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Binacle-POR042?language=4&minCondition=2&isReverseHolo=Y"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 2,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Binacle-POR042?language=1&minCondition=2"
                         }
                     ]
                 },
@@ -5845,7 +5802,9 @@
                     "slot": 7,
                     "name": "Skrelp",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_58.png",
-                    "expansion": "Caos Creciente",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
                     "code": "CRI058",
                     "noTrade": false,
                     "reservada": false,
@@ -5859,7 +5818,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 3,
+                            "stock": 4,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Skrelp-CRI058?language=4&minCondition=2"
                         },
                         {
@@ -5875,9 +5834,11 @@
                 },
                 {
                     "slot": 8,
-                    "name": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Skrelp-CRI058?language=4&minCondition=2",
+                    "name": "Clauncher",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_37.png",
-                    "expansion": "Megaevolución",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
                     "code": "MEG037",
                     "noTrade": false,
                     "reservada": false,
@@ -6061,7 +6022,9 @@
                     "slot": 6,
                     "name": "Goomy",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_66.png",
-                    "expansion": "Caos Creciente",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
                     "code": "CRI066",
                     "noTrade": false,
                     "reservada": false,
@@ -6069,6 +6032,15 @@
                     "traded": false,
                     "noDisponible": false,
                     "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 2,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Goomy-CRI066?language=4&minCondition=2"
+                        },
                         {
                             "language": "Inglés",
                             "type": "Common",
@@ -6107,7 +6079,9 @@
                     "slot": 8,
                     "name": "Phantump",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_38.png",
-                    "expansion": "Caos Creciente",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
                     "code": "CRI038",
                     "noTrade": false,
                     "reservada": false,
@@ -6123,6 +6097,15 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Phantump-CRI038?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Phantump-CRI038?language=1&minCondition=2"
                         }
                     ]
                 },
@@ -6282,7 +6265,9 @@
                     "slot": 6,
                     "name": "Xerneas",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_64.png",
-                    "expansion": "Megaevolución",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
                     "code": "MEG064",
                     "noTrade": false,
                     "reservada": false,
@@ -6296,7 +6281,7 @@
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 3,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Xerneas-MEG064?language=4&minCondition=2"
                         }
                     ]
@@ -6420,7 +6405,9 @@
                     "slot": 2,
                     "name": "Trumbeak",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_67.png",
-                    "expansion": "Oscuridad Absoluta",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
                     "code": "PBL067",
                     "noTrade": false,
                     "reservada": false,
@@ -6434,7 +6421,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 2,
+                            "stock": 3,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Trumbeak-PBL067?language=1&minCondition=2"
                         },
                         {
@@ -6452,8 +6439,10 @@
                     "slot": 3,
                     "name": "Toucannon",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_68.png",
-                    "expansion": "Oscuridad Absoluta",
-                    "code": "PBL067",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
+                    "code": "PBL068",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
@@ -6539,7 +6528,9 @@
                     "slot": 6,
                     "name": "Vikavolt",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_26.png",
-                    "expansion": "Oscuridad Absoluta",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
                     "code": "PBL026",
                     "noTrade": false,
                     "reservada": false,
@@ -6553,7 +6544,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Vikavolt-PBL026?language=1&minCondition=2"
                         }
                     ]
@@ -6562,7 +6553,9 @@
                     "slot": 7,
                     "name": "Crabrawler",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_87.png",
-                    "expansion": "Corona Astral",
+                    "expansion": [
+                        "Corona Astral"
+                    ],
                     "code": "SCR087",
                     "noTrade": false,
                     "reservada": false,
@@ -6573,7 +6566,7 @@
                         {
                             "language": "Español",
                             "type": "Common",
-                            "format": "J",
+                            "format": "H",
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
@@ -6636,7 +6629,10 @@
                     "slot": 1,
                     "name": "Ribombee de Lylia",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_67.png",
-                    "expansion": "Sobre de premio de Play!",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 7)",
+                        "Sobre de premio de Play! (serie 8)"
+                    ],
                     "code": "JTG067",
                     "noTrade": false,
                     "reservada": false,
@@ -6646,21 +6642,21 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Rare + Play! Stamp (serie 8)",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,05€",
-                            "stock": 3,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Lillies-Ribombee-V1-PPS8JTG-067?language=4&minCondition=2"
-                        },
-                        {
-                            "language": "Español",
                             "type": "Rare + Foil + Play! Stamp (serie 7)",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "0,30€",
+                            "price": "0,15€",
                             "stock": 3,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Lillies-Ribombee-V2-PPS7JTG-067?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Rare + Play! Stamp (serie 8)",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,10€",
+                            "stock": 3,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Lillies-Ribombee-V1-PPS8JTG-067?language=4&minCondition=2"
                         }
                     ]
                 },
@@ -6691,7 +6687,9 @@
                     "slot": 3,
                     "name": "Salandit",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_15.png",
-                    "expansion": "Equilibrio Perfecto",
+                    "expansion": [
+                        "Equilibrio Perfecto"
+                    ],
                     "code": "POR015",
                     "noTrade": false,
                     "reservada": false,
@@ -6707,6 +6705,15 @@
                             "price": "0,02€",
                             "stock": 3,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Salandit-POR015?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Salandit-POR015?language=1&minCondition=2"
                         }
                     ]
                 },
@@ -6714,7 +6721,9 @@
                     "slot": 4,
                     "name": "Salazzle",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM10/SM10_ES_31.png",
-                    "expansion": "Vínculos Indestructibles",
+                    "expansion": [
+                        "Vínculos Indestructibles"
+                    ],
                     "code": "UNB 31",
                     "noTrade": false,
                     "reservada": false,
@@ -6792,7 +6801,9 @@
                     "slot": 7,
                     "name": "Oranguru",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM1/SM1_ES_113.png",
-                    "expansion": "Sol y Luna",
+                    "expansion": [
+                        "Sol y Luna"
+                    ],
                     "code": "SUM 113",
                     "noTrade": false,
                     "reservada": false,
@@ -6805,7 +6816,7 @@
                             "type": "Rare + Foil",
                             "format": "Sol y Luna (no válidas en torneos)",
                             "condition": "Near Mint",
-                            "price": "3€",
+                            "price": "2€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Sun-Moon/Oranguru-V1-SUM113?language=4&minCondition=2&isReverseHolo=Y"
                         }
@@ -6866,7 +6877,9 @@
                     "slot": 1,
                     "name": "Código Cero",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_69.png",
-                    "expansion": "Oscuridad Absoluta",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
                     "code": "PBL069",
                     "noTrade": false,
                     "reservada": false,
@@ -6880,7 +6893,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 3,
+                            "stock": 4,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Type-Null-PBL069?language=1&minCondition=2"
                         }
                     ]
@@ -6944,7 +6957,9 @@
                     "slot": 4,
                     "name": "Dhelmise",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM11/SM11_ES_20.png",
-                    "expansion": "Mentes Unidas",
+                    "expansion": [
+                        "Mentes Unidas"
+                    ],
                     "code": "UNM 20",
                     "noTrade": false,
                     "reservada": false,
@@ -6957,7 +6972,7 @@
                             "type": "Uncommon + Foil",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "2,35€",
+                            "price": "2,50€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unified-Minds/Dhelmise-UNM20?language=4&minCondition=2&isReverseHolo=Y"
                         }
@@ -7015,52 +7030,6 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Marshadow-V1-MEG080?language=1&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 7,
-                    "name": "Cinderace",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_28.png",
-                    "expansion": "Megaevolución",
-                    "code": "MEG028",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Inglés",
-                            "type": "Rare",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Cinderace-MEG028?language=1&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 8,
-                    "name": "Inteleon",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_41.png",
-                    "expansion": "Megaevolución",
-                    "code": "MEG041",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Uncommon",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 2,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Inteleon-V1-MEG041?language=4&minCondition=2"
                         }
                     ]
                 },
@@ -7151,7 +7120,10 @@
                     "slot": 3,
                     "name": "Dubwool de Paul",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_136.png",
-                    "expansion": "Sobre de premio de Play!",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 7)",
+                        "Sobre de premio de Play! (serie 8)"
+                    ],
                     "code": "JTG136",
                     "noTrade": false,
                     "reservada": false,
@@ -7164,8 +7136,8 @@
                             "type": "Rare + Play! Stamp (serie 7)",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 2,
+                            "price": "0,10€",
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Hops-Dubwool-PPS7JTG-136?language=4&minCondition=2"
                         },
                         {
@@ -7173,8 +7145,8 @@
                             "type": "Rare + Play! Stamp (serie 8)",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
+                            "price": "0,10€",
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Hops-Dubwool-V1-PPS8JTG-136?language=4&minCondition=2"
                         }
                     ]
@@ -7183,7 +7155,9 @@
                     "slot": 4,
                     "name": "Applin",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_12.png",
-                    "expansion": "Corona Astral",
+                    "expansion": [
+                        "Corona Astral"
+                    ],
                     "code": "SCR012",
                     "noTrade": false,
                     "reservada": false,
@@ -7459,7 +7433,9 @@
                     "slot": 6,
                     "name": "Frosmoth",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_43.png",
-                    "expansion": "Megaevolución",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
                     "code": "MEG043",
                     "noTrade": false,
                     "reservada": false,
@@ -7473,7 +7449,7 @@
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 2,
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Frosmoth-MEG043?language=4&minCondition=2"
                         },
                         {
@@ -7482,7 +7458,7 @@
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Frosmoth-MEG043?language=1&minCondition=2"
                         }
                     ]
@@ -7530,29 +7506,6 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Marnies-Morpeko-DRI137?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 9,
-                    "name": "Sprigatito",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_16.png",
-                    "expansion": "Juntos de Aventuras",
-                    "code": "JTG016",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Inglés",
-                            "type": "Common",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Journey-Together/Sprigatito-JTG016?language=4&minCondition=2"
                         }
                     ]
                 }
@@ -7611,7 +7564,9 @@
                     "slot": 3,
                     "name": "Spidops del Team Rocket",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_20.png",
-                    "expansion": "Sobre de premio de Play! (serie 8)",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 8)"
+                    ],
                     "code": "DRI020",
                     "noTrade": false,
                     "reservada": false,
@@ -7625,7 +7580,7 @@
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,10€",
-                            "stock": 0,
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Team-Rockets-Spidops-V1-PPS8DRI-020?language=4&minCondition=2"
                         }
                     ]
@@ -7634,7 +7589,9 @@
                     "slot": 4,
                     "name": "Nymble",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_19.png",
-                    "expansion": "Juntos de Aventuras",
+                    "expansion": [
+                        "Juntos de Aventuras"
+                    ],
                     "code": "JTG019",
                     "noTrade": false,
                     "reservada": false,
@@ -7647,7 +7604,7 @@
                             "type": "Common + Foil",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "0,05€",
+                            "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Journey-Together/Nymble-JTG019?language=4&minCondition=2&isReverseHolo=Y"
                         }
@@ -7657,7 +7614,9 @@
                     "slot": 5,
                     "name": "Lokix",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_10.png",
-                    "expansion": "Fuegos Fantasmales",
+                    "expansion": [
+                        "Fuegos Fantasmales"
+                    ],
                     "code": "PFL010",
                     "noTrade": false,
                     "reservada": false,
@@ -7670,7 +7629,7 @@
                             "type": "Uncommon + Foil",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "0,05€",
+                            "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Lokix-PFL010?language=4&minCondition=2&isReverseHolo=Y"
                         }
@@ -8172,8 +8131,11 @@
                     "slot": 8,
                     "name": "Tatsugiri",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV06/SV06_ES_131.png",
-                    "expansion": "Sobre de premio de Play! (serie 7)",
-                    "code": "TWM131",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 7)",
+                        "Héroes Ascendentes"
+                    ],
+                    "code": "TWM131, m2a 135",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
@@ -8420,7 +8382,9 @@
                     "slot": 8,
                     "name": "Miraidon",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_121.png",
-                    "expansion": "Sobre de premio de Play! (serie 6)",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 6)"
+                    ],
                     "code": "TEF121",
                     "noTrade": false,
                     "reservada": false,
@@ -8435,7 +8399,7 @@
                             "condition": "Near Mint",
                             "price": "0,05€",
                             "stock": 1,
-                            "cardmarket-link": ""
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Six/Miraidon-PPS6TEF-121?language=4&minCondition=2"
                         },
                         {
                             "language": "Español",
@@ -8452,7 +8416,9 @@
                     "slot": 9,
                     "name": "Poltchageist",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_5.png",
-                    "expansion": "Oscuridad Absoluta",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
                     "code": "PBL005",
                     "noTrade": false,
                     "reservada": false,
@@ -8466,7 +8432,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Poltchageist-PBL005?language=1&minCondition=2"
                         }
                     ]
@@ -8526,7 +8492,10 @@
                     "slot": 3,
                     "name": "Archaludon",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_107.png",
-                    "expansion": "Sobre de premio de Play!",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 7)",
+                        "Sobre de premio de Play! (serie 8)"
+                    ],
                     "code": "SCR107",
                     "noTrade": false,
                     "reservada": false,
@@ -8650,7 +8619,10 @@
                     "slot": 8,
                     "name": "Apoyo de Nanci",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_84.png",
-                    "expansion": "Equilibrio Perfecto",
+                    "expansion": [
+                        "Equilibrio Perfecto",
+                        "Sobre de premio de Play! (serie 9)"
+                    ],
                     "code": "POR084",
                     "noTrade": false,
                     "reservada": false,
@@ -8660,21 +8632,21 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Uncommon + Foil + Play! Stamp (serie 9)",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Rosas-Encouragement-PPS9POR-084?language=4&minCondition=2"
-                        },
-                        {
-                            "language": "Español",
                             "type": "Uncommon",
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Rosas-Encouragement-V1-POR084?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Uncommon + Foil + Play! Stamp (serie 9)",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,50€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Rosas-Encouragement-PPS9POR-084?language=4&minCondition=2"
                         },
                         {
                             "language": "Inglés",
@@ -8691,7 +8663,10 @@
                     "slot": 9,
                     "name": "Exploración de Brock",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_146.png",
-                    "expansion": "Juntos de Aventuras",
+                    "expansion": [
+                        "Juntos de Aventuras",
+                        "Sobre de premio de Play! (serie 7)"
+                    ],
                     "code": "JTG146",
                     "noTrade": false,
                     "reservada": false,
@@ -8699,15 +8674,6 @@
                     "traded": false,
                     "noDisponible": false,
                     "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Uncommon + Play! Stamp",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 2,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Brocks-Scouting-PPS7JTG-146?language=4&minCondition=2"
-                        },
                         {
                             "language": "Español",
                             "type": "Uncommon",
@@ -8718,9 +8684,18 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Journey-Together/Brocks-Scouting-V1-JTG146?language=4&minCondition=2"
                         },
                         {
+                            "language": "Español",
+                            "type": "Uncommon + Play! Stamp (serie 7)",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 2,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Brocks-Scouting-PPS7JTG-146?language=4&minCondition=2"
+                        },
+                        {
                             "language": "Inglés",
                             "type": "Uncommon",
-                            "format": "I",
+                            "format": "",
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 2,
@@ -8737,7 +8712,9 @@
                     "slot": 1,
                     "name": "Combate Final de Gladio",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_77.png",
-                    "expansion": "Oscuridad Absoluta",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
                     "code": "PBL077",
                     "noTrade": false,
                     "reservada": false,
@@ -8751,7 +8728,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 2,
+                            "stock": 3,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Gladions-Final-Battle-V1-PBL077?language=1&minCondition=2"
                         },
                         {
@@ -8769,7 +8746,10 @@
                     "slot": 2,
                     "name": "Tenacidad de Acromo",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV6PT5/SV6PT5_ES_57.png",
-                    "expansion": "Sobre de premio de Play!",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 6)",
+                        "Sobre de premio de Play! (serie 7)"
+                    ],
                     "code": "SFA057",
                     "noTrade": false,
                     "reservada": false,
@@ -8801,7 +8781,9 @@
                     "slot": 3,
                     "name": "Corin",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV06/SV06_ES_145.png",
-                    "expansion": "Sobre de premio de Play! (serie 7)",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 7)"
+                    ],
                     "code": "TWM145",
                     "noTrade": false,
                     "reservada": false,
@@ -8824,7 +8806,10 @@
                     "slot": 4,
                     "name": "Aventura de Eco",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_165.png",
-                    "expansion": "Rivales Predestinados",
+                    "expansion": [
+                        "Rivales Predestinados",
+                        "Sobre de premio de Play! (serie 8)"
+                    ],
                     "code": "DRI165",
                     "noTrade": false,
                     "reservada": false,
@@ -8943,7 +8928,9 @@
                     "slot": 8,
                     "name": "Determinación de Lylia",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_119.png",
-                    "expansion": "Megaevolución",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
                     "code": "MEG119",
                     "noTrade": false,
                     "reservada": false,
@@ -8959,6 +8946,15 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Lillies-Determination-V1-MEG119?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Lillies-Determination-V1-MEG119?language=1&minCondition=2"
                         }
                     ]
                 },
@@ -8966,7 +8962,10 @@
                     "slot": 9,
                     "name": "Maya",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_87.png",
-                    "expansion": "Fuegos Fantasmales",
+                    "expansion": [
+                        "Fuegos Fantasmales",
+                        "Sobre de premio de Play! (serie 9)"
+                    ],
                     "code": "PFL087",
                     "noTrade": false,
                     "reservada": false,
@@ -8982,6 +8981,15 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Dawn-V1-PFL087?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Uncommon + Play! Stamp (serie 9)",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,10€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Dawn-V1-PPS9PLF-087?language=4&minCondition=2"
                         }
                     ]
                 }
@@ -8994,7 +9002,9 @@
                     "slot": 1,
                     "name": "Levi",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_174.png",
-                    "expansion": "Chispas Fulgurantes",
+                    "expansion": [
+                        "Chispas Fulgurantes"
+                    ],
                     "code": "SSP174",
                     "noTrade": false,
                     "reservada": false,
@@ -9008,7 +9018,7 @@
                             "format": "H",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 3,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Surging-Sparks/Drayton-V1-SSP174?language=4&minCondition=2"
                         }
                     ]
@@ -9017,8 +9027,11 @@
                     "slot": 2,
                     "name": "e-Nigma",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV02/SV02_ES_185.png",
-                    "expansion": "Evoluciones en Paldea",
-                    "code": "PAL185",
+                    "expansion": [
+                        "Evoluciones en Paldea",
+                        "Destinos de Paldea"
+                    ],
+                    "code": "PAL185, PAF080",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
@@ -9027,12 +9040,21 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Uncommon",
+                            "type": "Uncommon (PAL)",
                             "format": "G (no válida en torneos)",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 3,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldea-Evolved/Iono-V1-PAL185?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Uncommon (PAF)",
+                            "format": "G (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldean-Fates/Iono-V1-PAF080?language=4&minCondition=2"
                         }
                     ]
                 },
@@ -9063,7 +9085,9 @@
                     "slot": 4,
                     "name": "Liza",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/RSV10PT5/RSV10PT5_ES_84.png",
-                    "expansion": "Llama Blanca",
+                    "expansion": [
+                        "Llama Blanca"
+                    ],
                     "code": "WHT084",
                     "noTrade": false,
                     "reservada": false,
@@ -9077,7 +9101,7 @@
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 3,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/White-Flare/Hilda-V1-WHT084?language=1&minCondition=2"
                         }
                     ]
@@ -9086,7 +9110,9 @@
                     "slot": 5,
                     "name": "Tranquilidad de A. Z.",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_76.png",
-                    "expansion": "Caos Creciente",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
                     "code": "CRI076",
                     "noTrade": false,
                     "reservada": false,
@@ -9100,8 +9126,17 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/AZs-Tranquility-V1-CRI076?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/AZs-Tranquility-V1-CRI076?language=1&minCondition=2"
                         }
                     ]
                 },
@@ -9109,7 +9144,9 @@
                     "slot": 6,
                     "name": "Giso",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_79.png",
-                    "expansion": "Caos Creciente",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
                     "code": "CRI079",
                     "noTrade": false,
                     "reservada": false,
@@ -9125,6 +9162,15 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Philippe-V1-CRI079?language=4&minCondition=2&isReverseHolo=Y"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Philippe-V1-CRI079?language=1&minCondition=2"
                         }
                     ]
                 },
@@ -9155,7 +9201,9 @@
                     "slot": 8,
                     "name": "Travesura de Zarala",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_113.png",
-                    "expansion": "Megaevolución",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
                     "code": "MEG113",
                     "noTrade": false,
                     "reservada": false,
@@ -9166,7 +9214,7 @@
                         {
                             "language": "Español",
                             "type": "Uncommon",
-                            "format": "J",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
@@ -9178,7 +9226,9 @@
                     "slot": 9,
                     "name": "Drácena",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_173.png",
-                    "expansion": "Chispas Fulgurantes",
+                    "expansion": [
+                        "Chispas Fulgurantes"
+                    ],
                     "code": "SSP173",
                     "noTrade": false,
                     "reservada": false,
@@ -9186,6 +9236,15 @@
                     "traded": false,
                     "noDisponible": false,
                     "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "H",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Surging-Sparks/Drasna-V1-SSP173?language=4&minCondition=2"
+                        },
                         {
                             "language": "Español",
                             "type": "Common + Foil",
@@ -9206,7 +9265,9 @@
                     "slot": 1,
                     "name": "Viona",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_79.png",
-                    "expansion": "Oscuridad Absoluta",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
                     "code": "PBL079",
                     "noTrade": false,
                     "reservada": false,
@@ -9222,6 +9283,15 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Jett-PBL079?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Jett-PBL079?language=1&minCondition=2"
                         }
                     ]
                 },
@@ -9229,7 +9299,10 @@
                     "slot": 2,
                     "name": "Petrel del Team Rocket",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_176.png",
-                    "expansion": "Rivales Predestinados",
+                    "expansion": [
+                        "Rivales Predestinados",
+                        "Sobre de premio de Play! (serie 8)"
+                    ],
                     "code": "DRI176",
                     "noTrade": false,
                     "reservada": false,
@@ -9238,12 +9311,21 @@
                     "noDisponible": false,
                     "variants": [
                         {
+                            "language": "Español",
+                            "type": "Uncommon + Play! Stamp",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,10€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Team-Rockets-Petrel-PPS8DRI-176?language=4&minCondition=2"
+                        },
+                        {
                             "language": "Inglés",
                             "type": "Uncommon",
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Petrel-V1-DRI176?language=1&minCondition=2"
                         }
                     ]
@@ -9252,8 +9334,10 @@
                     "slot": 3,
                     "name": "Aroa",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_114.png",
-                    "expansion": "Evoluciones Prismáticas",
-                    "code": "PRE114",
+                    "expansion": [
+                        "Corona Astral"
+                    ],
+                    "code": "SCR139",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
@@ -9267,7 +9351,7 @@
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Prismatic-Evolutions/Lacey-V1-PRE114?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Stellar-Crown/Lacey-V1-SCR139?language=4&minCondition=2"
                         }
                     ]
                 },
@@ -9344,7 +9428,9 @@
                     "slot": 8,
                     "name": "Lilette",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_75.png",
-                    "expansion": "Equilibrio Perfecto",
+                    "expansion": [
+                        "Equilibrio Perfecto"
+                    ],
                     "code": "POR075",
                     "noTrade": false,
                     "reservada": false,
@@ -9360,6 +9446,15 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Jacinthe-V1-POR075?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Jacinthe-V1-POR075?language=1&minCondition=2"
                         }
                     ]
                 },
@@ -9395,8 +9490,11 @@
                     "slot": 2,
                     "name": "Ultra Ball",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_131.png",
-                    "expansion": "Megaevolución",
-                    "code": "MEG131",
+                    "expansion": [
+                        "Escarlata y Púrpura",
+                        "Megaevolución"
+                    ],
+                    "code": "SVI196, MEG131",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
@@ -9405,12 +9503,30 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Common",
-                            "format": "I",
+                            "type": "Uncommon (SVI)",
+                            "format": "G (reimpresa)",
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Ultra-Ball-MEG131?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Scarlet-Violet/Ultra-Ball-SVI196?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon (SVI)",
+                            "format": "G (reimpresa)",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 2,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Scarlet-Violet/Ultra-Ball-SVI196?language=1&minCondition=2"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Common (MEG)",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 6,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Ultra-Ball-MEG131?language=1&minCondition=2"
                         }
                     ]
                 },
@@ -9418,7 +9534,9 @@
                     "slot": 4,
                     "name": "Gran Salabre",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_78.png",
-                    "expansion": "Caos Creciente",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
                     "code": "CRI078",
                     "noTrade": false,
                     "reservada": false,
@@ -9426,6 +9544,15 @@
                     "traded": false,
                     "noDisponible": false,
                     "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Great-Haul-Net-CRI077?language=4&minCondition=2"
+                        },
                         {
                             "language": "Español",
                             "type": "Uncommon + Foil",
@@ -9441,7 +9568,9 @@
                     "slot": 5,
                     "name": "Campanilla Oscuridad",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_75.png",
-                    "expansion": "Oscuridad Absoluta",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
                     "code": "PBL075",
                     "noTrade": false,
                     "reservada": false,
@@ -9451,12 +9580,21 @@
                     "variants": [
                         {
                             "language": "Inglés",
-                            "type": "Uncommon + Foil",
+                            "type": "Uncommon",
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Dark-Bell-V1-PBL075?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon + Foil",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Dark-Bell-V1-PBL075?language=4&minCondition=2&isReverseHolo=Y"
                         }
                     ]
                 },
@@ -9464,7 +9602,9 @@
                     "slot": 6,
                     "name": "Fósil Cráneo Antiguo",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_73.png",
-                    "expansion": "Oscuridad Absoluta",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
                     "code": "PBL073",
                     "noTrade": false,
                     "reservada": false,
@@ -9480,6 +9620,15 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Antique-Skull-Fossil-PBL073?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Antique-Skull-Fossil-PBL073?language=1&minCondition=2"
                         }
                     ]
                 },
@@ -9487,7 +9636,9 @@
                     "slot": 7,
                     "name": "Gong de Lucha",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_116.png",
-                    "expansion": "Megaevolución",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
                     "code": "MEG116",
                     "noTrade": false,
                     "reservada": false,
@@ -9498,11 +9649,20 @@
                         {
                             "language": "Español",
                             "type": "Uncommon",
-                            "format": "J",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Fighting-Gong-V1-MEG116?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Fighting-Gong-V1-MEG116?language=1&minCondition=2"
                         }
                     ]
                 },
@@ -9510,7 +9670,10 @@
                     "slot": 8,
                     "name": "Megaseñal",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_121.png",
-                    "expansion": "Megaevolución",
+                    "expansion": [
+                        "Megaevolución",
+                        "Sobre de premio de Play! (serie 8)"
+                    ],
                     "code": "MEG121",
                     "noTrade": false,
                     "reservada": false,
@@ -9542,7 +9705,9 @@
                     "slot": 9,
                     "name": "Potencia Prémium Plus",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_124.png",
-                    "expansion": "Megaevolución",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
                     "code": "MEG124",
                     "noTrade": false,
                     "reservada": false,
@@ -9556,7 +9721,7 @@
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 3,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Premium-Power-Pro-V1-MEG124?language=4&minCondition=2"
                         }
                     ]
@@ -9593,7 +9758,10 @@
                     "slot": 2,
                     "name": "Más PP de N",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_153.png",
-                    "expansion": "Sobre de premio de Play!",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 7)",
+                        "Sobre de premio de Play! (serie 8)"
+                    ],
                     "code": "JTG153",
                     "noTrade": false,
                     "reservada": false,
@@ -9601,6 +9769,24 @@
                     "traded": false,
                     "noDisponible": false,
                     "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon + Play! Stamp (serie 7)",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Ns-PP-Up-V1-PPS7JTG-153?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Uncommon + Play! Stamp (serie 8)",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Ns-PP-Up-V1-PPS8JTG-153?language=4&minCondition=2"
+                        },
                         {
                             "language": "Español",
                             "type": "Uncommon + Foil + Play! Stamp (serie 8)",
@@ -9639,7 +9825,10 @@
                     "slot": 4,
                     "name": "Martillo Mejorado",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV06/SV06_ES_148.png",
-                    "expansion": "Mascarada Crepuscular",
+                    "expansion": [
+                        "Mascarada Crepuscular",
+                        "Sobre de premio de Play! (serie 7)"
+                    ],
                     "code": "TWM148",
                     "noTrade": false,
                     "reservada": false,
@@ -9655,6 +9844,15 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Twilight-Masquerade/Enhanced-Hammer-V1-TWM148?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Uncommon + Play! Stamp",
+                            "format": "H",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 2,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Enhanced-Hammer-PPS7TWM-148?language=4&minCondition=2"
                         }
                     ]
                 },
@@ -9662,7 +9860,10 @@
                     "slot": 5,
                     "name": "Reloj Extraño",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_128.png",
-                    "expansion": "Sobre de premio de Play! (serie 8)",
+                    "expansion": [
+                        "Megaevolución",
+                        "Sobre de premio de Play! (serie 8)"
+                    ],
                     "code": "MEG128",
                     "noTrade": false,
                     "reservada": false,
@@ -9670,6 +9871,15 @@
                     "traded": false,
                     "noDisponible": false,
                     "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 4,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Strange-Timepiece-MEG128?language=4&minCondition=2"
+                        },
                         {
                             "language": "Español",
                             "type": "Uncommon + Play! Stamp",
@@ -9685,7 +9895,9 @@
                     "slot": 6,
                     "name": "Fósil Aleta Antiguo",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_69.png",
-                    "expansion": "Equilibrio Perfecto",
+                    "expansion": [
+                        "Equilibrio Perfecto"
+                    ],
                     "code": "POR069",
                     "noTrade": false,
                     "reservada": false,
@@ -9701,6 +9913,15 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Antique-Sail-Fossil-POR069?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Antique-Sail-Fossil-POR069?language=1&minCondition=2"
                         }
                     ]
                 },
@@ -9708,7 +9929,10 @@
                     "slot": 7,
                     "name": "Defensor Férreo",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_118.png",
-                    "expansion": "Sobre de premio de Play! (serie 8)",
+                    "expansion": [
+                        "Megaevolución",
+                        "Sobre de premio de Play! (serie 8)"
+                    ],
                     "code": "MEG118",
                     "noTrade": false,
                     "reservada": false,
@@ -9718,7 +9942,34 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Uncommon + Foil + Play! Stamp",
+                            "type": "Uncommon",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Iron-Defender-MEG118?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Uncommon + Foil",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Iron-Defender-MEG118?language=4&minCondition=2&isReverseHolo=Y"
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Uncommon + Play! Stamp (serie 8)",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 3,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Iron-Defender-V1-PPS8MEG-118?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Uncommon + Foil + Play! Stamp (serie 8)",
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
@@ -9731,7 +9982,10 @@
                     "slot": 8,
                     "name": "Bolsa de Paul",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_147.png",
-                    "expansion": "Sobre de premio de Play! (serie 7)",
+                    "expansion": [
+                        "Juntos de Aventuras",
+                        "Sobre de premio de Play! (serie 7)"
+                    ],
                     "code": "JTG147",
                     "noTrade": false,
                     "reservada": false,
@@ -9741,11 +9995,20 @@
                     "variants": [
                         {
                             "language": "Español",
+                            "type": "Uncommon",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 2,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Journey-Together/Hops-Bag-JTG147?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
                             "type": "Uncommon + Play! Stamp",
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Hops-Bag-PPS7JTG-147?language=4&minCondition=2"
                         }
                     ]
@@ -9782,7 +10045,9 @@
                     "slot": 1,
                     "name": "Martillo Demoledor",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_71.png",
-                    "expansion": "Equilibrio Perfecto",
+                    "expansion": [
+                        "Equilibrio Perfecto"
+                    ],
                     "code": "POR071",
                     "noTrade": false,
                     "reservada": false,
@@ -9796,7 +10061,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Crushing-Hammer-POR071?language=4&minCondition=2"
                         }
                     ]
@@ -9828,7 +10093,9 @@
                     "slot": 3,
                     "name": "Repelente",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_126.png",
-                    "expansion": "Megaevolución",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
                     "code": "MEG126",
                     "noTrade": false,
                     "reservada": false,
@@ -9836,6 +10103,15 @@
                     "traded": false,
                     "noDisponible": false,
                     "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Repel-MEG126?language=4&minCondition=2"
+                        },
                         {
                             "language": "Español",
                             "type": "Uncommon + Foil",
@@ -9851,7 +10127,9 @@
                     "slot": 4,
                     "name": "Poción",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_83.png",
-                    "expansion": "Equilibrio Perfecto",
+                    "expansion": [
+                        "Equilibrio Perfecto"
+                    ],
                     "code": "POR083",
                     "noTrade": false,
                     "reservada": false,
@@ -9865,7 +10143,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Potion-POR083?language=1&minCondition=2&isReverseHolo=Y"
                         }
                     ]
@@ -9874,7 +10152,9 @@
                     "slot": 5,
                     "name": "MataEnergías",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_73.png",
-                    "expansion": "Equilibrio Perfecto",
+                    "expansion": [
+                        "Equilibrio Perfecto"
+                    ],
                     "code": "POR073",
                     "noTrade": false,
                     "reservada": false,
@@ -9884,35 +10164,21 @@
                     "variants": [
                         {
                             "language": "Español",
+                            "type": "Uncommon",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Energy-Swatter-POR073?language=4&minCondition=2&isReverseHolo=Y"
+                        },
+                        {
+                            "language": "Español",
                             "type": "Uncommon + Foil",
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Energy-Swatter-POR073?language=4&minCondition=2&isReverseHolo=Y"
-                        }
-                    ]
-                },
-                {
-                    "slot": 6,
-                    "name": "Paloselfi Rotom",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_127.png",
-                    "expansion": "Evoluciones Prismáticas",
-                    "code": "PRE127",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Uncommon + Foil",
-                            "format": "H",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Prismatic-Evolutions/Roto-Stick-PRE127?language=4&minCondition=2&isReverseHolo=Y"
                         }
                     ]
                 },
@@ -9943,7 +10209,9 @@
                     "slot": 8,
                     "name": "Trompeta de Cristal",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_135.png",
-                    "expansion": "Sobre de premio de Play! (serie 7)",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 7)"
+                    ],
                     "code": "SCR135",
                     "noTrade": false,
                     "reservada": false,
@@ -9953,7 +10221,7 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Uncommon",
+                            "type": "Uncommon + Play! Stamp",
                             "format": "H",
                             "condition": "Near Mint",
                             "price": "0,02€",
@@ -9966,7 +10234,9 @@
                     "slot": 9,
                     "name": "Kit de Investigación",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_171.png",
-                    "expansion": "Chispas Fulgurantes",
+                    "expansion": [
+                        "Chispas Fulgurantes"
+                    ],
                     "code": "SSP171",
                     "noTrade": false,
                     "reservada": false,
@@ -9980,7 +10250,7 @@
                             "format": "H",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Surging-Sparks/Deduction-Kit-SSP171?language=4&minCondition=2"
                         }
                     ]
@@ -9994,7 +10264,9 @@
                     "slot": 1,
                     "name": "Búsqueda de Energía",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_72.png",
-                    "expansion": "Equilibrio Perfecto",
+                    "expansion": [
+                        "Equilibrio Perfecto"
+                    ],
                     "code": "POR072",
                     "noTrade": false,
                     "reservada": false,
@@ -10010,6 +10282,15 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Energy-Search-POR072?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Energy-Search-POR072?language=1&minCondition=2"
                         }
                     ]
                 },
@@ -10017,7 +10298,9 @@
                     "slot": 2,
                     "name": "Kit Capturabichos",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV06/SV06_ES_143.png",
-                    "expansion": "Mascarada Crepuscular",
+                    "expansion": [
+                        "Mascarada Crepuscular"
+                    ],
                     "code": "TWM143",
                     "noTrade": false,
                     "reservada": false,
@@ -10031,7 +10314,7 @@
                             "format": "H",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Twilight-Masquerade/Bug-Catching-Set-TWM143?language=4&minCondition=2"
                         }
                     ]
@@ -10063,7 +10346,10 @@
                     "slot": 4,
                     "name": "Perla de Lylia",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_151.png",
-                    "expansion": "Sobre de premio de Play! (serie 7)",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 7)",
+                        "Sobre de premio de Play! (serie 8)"
+                    ],
                     "code": "JTG151",
                     "noTrade": false,
                     "reservada": false,
@@ -10073,12 +10359,21 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Uncommon + Foil + Play! Stamp",
+                            "type": "Uncommon + Foil + Play! Stamp (serie 7)",
                             "format": "H",
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Lillies-Pearl-PPS7JTG-151?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Uncommon + Foil + Play! Stamp (serie 8)",
+                            "format": "H",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 2,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Lillies-Pearl-PPS8JTG-151?language=4&minCondition=2"
                         }
                     ]
                 },
@@ -10086,7 +10381,9 @@
                     "slot": 5,
                     "name": "Memoria Núcleo",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_70.png",
-                    "expansion": "Equilibrio Perfecto",
+                    "expansion": [
+                        "Equilibrio Perfecto"
+                    ],
                     "code": "POR070",
                     "noTrade": false,
                     "reservada": false,
@@ -10096,12 +10393,30 @@
                     "variants": [
                         {
                             "language": "Español",
+                            "type": "Uncommon",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Core-Memory-POR070?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
                             "type": "Uncommon + Foil",
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Core-Memory-POR070?language=4&minCondition=2&isReverseHolo=Y"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon + Foil",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Core-Memory-POR070?language=1&minCondition=2&isReverseHolo=Y"
                         }
                     ]
                 },
@@ -10109,7 +10424,9 @@
                     "slot": 6,
                     "name": "Monopatín de Rescate",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_159.png",
-                    "expansion": "Sobre de premio de Play! (serie 6)",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 6)"
+                    ],
                     "code": "TEF159",
                     "noTrade": false,
                     "reservada": false,
@@ -10119,11 +10436,20 @@
                     "variants": [
                         {
                             "language": "Español",
+                            "type": "Uncommon + Play! Stamp",
+                            "format": "H",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Six/Rescue-Board-V1-PPS6TEF-159?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
                             "type": "Uncommon + Foil + Play! Stamp",
                             "format": "H",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 2,
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Six/Rescue-Board-V2-PPS6TEF-159?language=4&minCondition=2"
                         }
                     ]
@@ -10229,7 +10555,9 @@
                     "slot": 2,
                     "name": "Floette Ange",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_75.png",
-                    "expansion": "Caos Creciente",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
                     "code": "CRI075",
                     "noTrade": false,
                     "reservada": false,
@@ -10239,12 +10567,30 @@
                     "variants": [
                         {
                             "language": "Español",
+                            "type": "Uncommon",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Ange-Floette-CRI075?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
                             "type": "Uncommon + Foil",
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Ange-Floette-CRI075?language=4&minCondition=2&isReverseHolo=Y"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon + Foil",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Ange-Floette-CRI075?language=1&minCondition=2&isReverseHolo=Y"
                         }
                     ]
                 },
@@ -10252,7 +10598,9 @@
                     "slot": 3,
                     "name": "Cantera de Fósiles",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_76.png",
-                    "expansion": "Oscuridad Absoluta",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
                     "code": "PBL076",
                     "noTrade": false,
                     "reservada": false,
@@ -10260,6 +10608,15 @@
                     "traded": false,
                     "noDisponible": false,
                     "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Fossil-Quarry-PBL076?language=1&minCondition=2"
+                        },
                         {
                             "language": "Inglés",
                             "type": "Uncommon + Foil",
@@ -10275,7 +10632,9 @@
                     "slot": 4,
                     "name": "Ruinas Peligrosas",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_127.png",
-                    "expansion": "Megaevolución",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
                     "code": "MEG127",
                     "noTrade": false,
                     "reservada": false,
@@ -10286,7 +10645,7 @@
                         {
                             "language": "Español",
                             "type": "Uncommon + Foil",
-                            "format": "J",
+                            "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
@@ -10298,7 +10657,9 @@
                     "slot": 5,
                     "name": "Torre Prisma",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_80.png",
-                    "expansion": "Caos Creciente",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
                     "code": "CRI080",
                     "noTrade": false,
                     "reservada": false,
@@ -10307,13 +10668,13 @@
                     "noDisponible": false,
                     "variants": [
                         {
-                            "language": "Español",
+                            "language": "Inglés",
                             "type": "Uncommon",
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Prism-Tower-V1-CRI080?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Prism-Tower-V1-CRI080?language=1&minCondition=2"
                         }
                     ]
                 },
@@ -10390,7 +10751,10 @@
                     "slot": 9,
                     "name": "Jardín Misterioso",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_122.png",
-                    "expansion": "Sobre de premio de Play! (serie 8)",
+                    "expansion": [
+                        "Megaevolución",
+                        "Sobre de premio de Play! (serie 8)"
+                    ],
                     "code": "MEG122",
                     "noTrade": false,
                     "reservada": false,
@@ -10400,7 +10764,25 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Uncommon + Play! Stamp",
+                            "type": "Uncommon",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 2,
+                            "cardmarket-link": ""
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": ""
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Uncommon + Play! Stamp (serie 8)",
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
@@ -10418,7 +10800,11 @@
                     "slot": 1,
                     "name": "Ciudad Leudal",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_150.png",
-                    "expansion": "Sobre de premio de Play!",
+                    "expansion": [
+                        "Juntos de Aventuras",
+                        "Sobre de premio de Play! (serie 7)",
+                        "Sobre de premio de Play! (serie 8)"
+                    ],
                     "code": "JTG150",
                     "noTrade": false,
                     "reservada": false,
@@ -10426,6 +10812,24 @@
                     "traded": false,
                     "noDisponible": false,
                     "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Journey-Together/Levincia-JTG150?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Uncommon + Play! Stamp (serie 7)",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Levincia-V1-PPS7JTG-150?language=4&minCondition=2"
+                        },
                         {
                             "language": "Español",
                             "type": "Uncommon + Play! Stamp (serie 8)",
@@ -10441,7 +10845,9 @@
                     "slot": 2,
                     "name": "Playa Surfera",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_129.png",
-                    "expansion": "Sobre de premio de Play! (serie 8)",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 8)"
+                    ],
                     "code": "MEG129",
                     "noTrade": false,
                     "reservada": false,
@@ -10451,11 +10857,11 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Uncommon + Play! Stamp",
+                            "type": "Uncommon + Play! Stamp (serie 8)",
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Surfing-Beach-PPS8MEG-129?language=4&minCondition=2"
                         }
                     ]
@@ -10487,7 +10893,9 @@
                     "slot": 4,
                     "name": "Ciudad Luminalia",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_77.png",
-                    "expansion": "Equilibrio Perfecto",
+                    "expansion": [
+                        "Equilibrio Perfecto"
+                    ],
                     "code": "POR077",
                     "noTrade": false,
                     "reservada": false,
@@ -10497,12 +10905,30 @@
                     "variants": [
                         {
                             "language": "Español",
+                            "type": "Uncommon",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Lumiose-City-V1-POR077?language=4&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
                             "type": "Uncommon + Foil",
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Lumiose-City-V1-POR077?language=4&minCondition=2&isReverseHolo=Y"
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Uncommon",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 2,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Lumiose-City-V1-POR077?language=1&minCondition=2"
                         }
                     ]
                 },
@@ -10510,7 +10936,10 @@
                     "slot": 5,
                     "name": "Palacio de N",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_152.png",
-                    "expansion": "Sobre de premio de Play! (serie 7)",
+                    "expansion": [
+                        "Juntos de Aventuras",
+                        "Sobre de premio de Play! (serie 7)"
+                    ],
                     "code": "JTG152",
                     "noTrade": false,
                     "reservada": false,
@@ -10518,6 +10947,15 @@
                     "traded": false,
                     "noDisponible": false,
                     "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Journey-Together/Ns-Castle-JTG152?language=4&minCondition=2"
+                        },
                         {
                             "language": "Español",
                             "type": "Uncommon + Play! Stamp",
@@ -10533,7 +10971,9 @@
                     "slot": 6,
                     "name": "Caverna Abisal Cero",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_131.png",
-                    "expansion": "Sobre de premio de Play! (serie 7)",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 7)"
+                    ],
                     "code": "SCR131",
                     "noTrade": false,
                     "reservada": false,
@@ -10579,7 +11019,10 @@
                     "slot": 8,
                     "name": "Energía Ignición",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/RSV10PT5/RSV10PT5_ES_86.png",
-                    "expansion": "Llama Blanca",
+                    "expansion": [
+                        "Llama Blanca",
+                        "Sobre de premio de Play! (serie 9)"
+                    ],
                     "code": "WHT086",
                     "noTrade": false,
                     "reservada": false,
@@ -10593,8 +11036,17 @@
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/White-Flare/Ignition-Energy-WHT086?language=4&minCondition=2"
+                            "stock": 2,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/White-Flare/Ignition-Energy-WHT086?language=1&minCondition=2"
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Uncommon + Play! Stamp (serie 9)",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 2,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Ignition-Energy-PPS9WHT-086?language=4&minCondition=2"
                         }
                     ]
                 }
