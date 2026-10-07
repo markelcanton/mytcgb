@@ -296,7 +296,7 @@
                     "expansion": "Corona Astral",
                     "code": "SCR055",
                     "noTrade": false,
-                    "reservada": false,
+                    "reservada": true,
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
