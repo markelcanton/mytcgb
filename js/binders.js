@@ -468,6 +468,8 @@ function showDetails(card, pageNum) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+    loadFilterExpansionsDropdown();
+
     const albumSelect = document.getElementById('album-select');
     const viewModeSelect = document.getElementById('view-mode-select');
 
@@ -945,3 +947,36 @@ document.addEventListener('keydown', (e) => {
         document.getElementById('next-btn')?.click();
     }
 });
+
+async function loadFilterExpansionsDropdown() {
+    const filterExpSelect = document.getElementById('filter-expansion-select');
+    if (!filterExpSelect) return;
+
+    try {
+        const response = await fetch('json/expansions.json');
+        if (!response.ok) {
+            console.error('Error al cargar json/expansions.json:', response.statusText);
+            return;
+        }
+
+        const expansionsData = await response.json();
+
+        filterExpSelect.innerHTML = '<option value="" disabled selected>Añadir expansión...</option>';
+
+        expansionsData.forEach(group => {
+            const optgroup = document.createElement('optgroup');
+            optgroup.label = group.label;
+
+            group.options.forEach(optionText => {
+                const option = document.createElement('option');
+                option.value = optionText;
+                option.textContent = optionText;
+                optgroup.appendChild(option);
+            });
+
+            filterExpSelect.appendChild(optgroup);
+        });
+    } catch (error) {
+        console.error('Error al cargar las expansiones para la búsqueda avanzada:', error);
+    }
+}
