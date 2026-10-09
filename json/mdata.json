@@ -1,0 +1,287 @@
+{
+    "expansions": [
+        {
+            "label": "Sobres de premio de Play!",
+            "options": [
+                "Sobre de premio de Play! (serie 9)",
+                "Sobre de premio de Play! (serie 8)",
+                "Sobre de premio de Play! (serie 7)",
+                "Sobre de premio de Play! (serie 6)",
+                "Sobre de premio de Play! (serie 5)",
+                "Sobre de premio de Play! (serie 4)",
+                "Sobre de premio de Play! (serie 3)",
+                "Sobre de premio de Play! (serie 2)",
+                "Sobre de premio de Play! (serie 1)"
+            ]
+        },
+        {
+            "label": "Megaevolución",
+            "options": [
+                "Dominio Delta",
+                "30 Aniversario",
+                "Oscuridad Absoluta",
+                "Caos Creciente",
+                "Equilibrio Perfecto",
+                "Héroes Ascendentes",
+                "Fuegos Fantasmales",
+                "Megaevolución",
+                "MEP Black Star Promos"
+            ]
+        },
+        {
+            "label": "Escarlata y Púrpura",
+            "options": [
+                "Fulgor Negro",
+                "Llama Blanca",
+                "Rivales Predestinados",
+                "Juntos de Aventuras",
+                "Evoluciones Prismáticas",
+                "Chispas Fulgurantes",
+                "Corona Astral",
+                "Fábula Sombría",
+                "Mascarada Crepuscular",
+                "Fuerzas Temporales",
+                "Destinos de Paldea",
+                "Brecha Paradójica",
+                "151",
+                "Llamas Obsidianas",
+                "Evoluciones en Paldea",
+                "Escarlata y Púrpura",
+                "SV Black Star Promos"
+            ]
+        },
+        {
+            "label": "Espada y Escudo",
+            "options": [
+                "Cenit Supremo",
+                "Tempestad Plateada",
+                "Origen Perdido",
+                "Pokémon GO",
+                "Resplandor Astral",
+                "Astros Brillantes",
+                "Golpe Fusión",
+                "Celebraciones",
+                "Cielos Evolutivos",
+                "Reinado Escalofriante",
+                "Estilos de Combate",
+                "Destinos Brillantes",
+                "Voltaje Vivido",
+                "Camino de Campeones",
+                "Oscuridad Incandesciente",
+                "Choque Rebelde",
+                "Espada y Escudo",
+                "SWSH Black Star Promos"
+            ]
+        },
+        {
+            "label": "Sol y Luna",
+            "options": [
+                "Eclipse Cósmico",
+                "Destinos Ocultos",
+                "Mentes Unidas",
+                "Vínculos Indestructibles",
+                "Detective Pikachu",
+                "Unión de Aliados",
+                "Truenos Perdidos",
+                "Majestad de Dragones",
+                "Tormenta Celestial",
+                "Luz Prohibida",
+                "Ultraprisma",
+                "Invasión Carmesí",
+                "Leyendas Luminosas",
+                "Sombras Ardientes",
+                "Albor de Guardianes",
+                "Sol y Luna",
+                "SM Black Star Promos"
+            ]
+        },
+        {
+            "label": "XY",
+            "options": [
+                "Evoluciones",
+                "Asedio de Vapor",
+                "Destinos Enfrentados",
+                "Generaciones",
+                "Turbo Límite",
+                "Turbo Impulso",
+                "Antiguos Origenes",
+                "Cielos Rugientes",
+                "Doble Crisis",
+                "Duelos Primigenios",
+                "Fuerzas Fantasmales",
+                "Puños Furiosos",
+                "Destellos de Fuego",
+                "XY",
+                "Bienvenidos a Kalos",
+                "XY Black Star Promos"
+            ]
+        },
+        {
+            "label": "Negro y Blanco",
+            "options": [
+                "Tesoros Legendarios",
+                "Explosión Plasma",
+                "Glaciación Plasma",
+                "Tormenta Plasma",
+                "Fronteras Cruzadas",
+                "Tesoro de Dragones",
+                "Dragones Majestuosos",
+                "Oscuros Exploradores",
+                "Próximos Destinos",
+                "Nobles Victorias",
+                "Fuerzas Emergentes",
+                "Negro y Blanco",
+                "BW Black Star Promos"
+            ]
+        },
+        {
+            "label": "HeartGold & SoulSilver",
+            "options": [
+                "Llamada de las Leyendas",
+                "Triunfadores",
+                "Intrépidos",
+                "Liberados",
+                "HeartGold & SoulSilver",
+                "HGSS Black Star Promos"
+            ]
+        },
+        {
+            "label": "Platino",
+            "options": [
+                "Arceus",
+                "Supreme Victors",
+                "Rising Rivals",
+                "Platino"
+            ]
+        },
+        {
+            "label": "Diamante y Perla",
+            "options": [
+                "Frente Tormentoso",
+                "Despertar de las Leyendas",
+                "Majestic Dawn",
+                "Grandes Encuentros",
+                "Maravillas Secretas",
+                "Tesoros Misteriosos",
+                "Diamante y Perla",
+                "DP Black Star Promos"
+            ]
+        },
+        {
+            "label": "ex",
+            "options": [
+                "Power Keepers",
+                "Dragon Frontiers",
+                "Crystal Guardians",
+                "Holon Phantoms",
+                "Legend Maker",
+                "Delta Species",
+                "Fuerzas Ocultas",
+                "Emerald",
+                "Deoxys",
+                "Team Rocket Returns",
+                "Hidden Legends",
+                "Team Magma vs Team Aqua",
+                "Dragon",
+                "Sandstorm",
+                "Rubí y Zafiro"
+            ]
+        },
+        {
+            "label": "e-Card",
+            "options": [
+                "Skyridge",
+                "Aquapolis",
+                "Expedition Base Set"
+            ]
+        },
+        {
+            "label": "Legendary Collection",
+            "options": [
+                "Legendary Collection"
+            ]
+        },
+        {
+            "label": "Neo",
+            "options": [
+                "Neo Destiny",
+                "Neo Revelation",
+                "Neo Discovery",
+                "Neo Génesis"
+            ]
+        },
+        {
+            "label": "Clásica",
+            "options": [
+                "Gym Challenge",
+                "Gym Heroes",
+                "Team Rocket",
+                "Base Set 2",
+                "Fósil",
+                "Jungla",
+                "Base Set"
+            ]
+        },
+        {
+            "label": "Otras promos",
+            "options": [
+                "Nintendo Black Star Promos",
+                "P Black Star Promos",
+                "Wizards Black Star Promos"
+            ]
+        },
+        {
+            "label": "POP Series",
+            "options": [
+                "POP Series 9",
+                "POP Series 8",
+                "POP Series 7",
+                "POP Series 6",
+                "POP Series 5",
+                "POP Series 4",
+                "POP Series 3",
+                "POP Series 2",
+                "POP Series 1"
+            ]
+        },
+        {
+            "label": "McDonald's",
+            "options": [
+                "Colección de McDonald's 2024",
+                "Colección de McDonald's 2023",
+                "Colección de McDonald's 2022",
+                "Colección de McDonald's 2021",
+                "Colección de McDonald's 2019",
+                "Colección de McDonald's 2018",
+                "Colección de McDonald's 2017",
+                "Colección de McDonald's 2016",
+                "Colección de McDonald's 2015",
+                "Colección de McDonald's 2014",
+                "Colección de McDonald's 2013",
+                "Colección de McDonald's 2012",
+                "Colección de McDonald's 2011"
+            ]
+        }
+    ],
+    "idiomas": [
+        "Español",
+        "Español Latino",
+        "Inglés",
+        "Francés",
+        "Italiano",
+        "Alemán",
+        "Chino",
+        "Japonés",
+        "Coreano",
+        "Ruso"
+    ],
+    "estados": [
+        "Mint",
+        "Near Mint",
+        "Excellent",
+        "Good",
+        "Light Played",
+        "Played",
+        "Poor"
+    ]
+}
