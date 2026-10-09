@@ -468,7 +468,7 @@ function showDetails(card, pageNum) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    loadFilterExpansionsDropdown();
+    loadFilterMasterData();
 
     const albumSelect = document.getElementById('album-select');
     const viewModeSelect = document.getElementById('view-mode-select');
@@ -948,35 +948,56 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
-async function loadFilterExpansionsDropdown() {
+async function loadFilterMasterData() {
     const filterExpSelect = document.getElementById('filter-expansion-select');
-    if (!filterExpSelect) return;
+    const filterLangSelect = document.getElementById('filter-language-select');
+    const filterCondSelect = document.getElementById('filter-condition-select');
 
     try {
-        const response = await fetch('json/expansions.json');
+        const response = await fetch('json/mdata.json');
         if (!response.ok) {
-            console.error('Error al cargar json/expansions.json:', response.statusText);
+            console.error('Error al cargar json/mdata.json:', response.statusText);
             return;
         }
 
-        const expansionsData = await response.json();
+        const mdata = await response.json();
 
-        filterExpSelect.innerHTML = '<option value="" disabled selected>Añadir expansión...</option>';
-
-        expansionsData.forEach(group => {
-            const optgroup = document.createElement('optgroup');
-            optgroup.label = group.label;
-
-            group.options.forEach(optionText => {
-                const option = document.createElement('option');
-                option.value = optionText;
-                option.textContent = optionText;
-                optgroup.appendChild(option);
+        if (filterExpSelect && mdata.expansions) {
+            filterExpSelect.innerHTML = '<option value="" disabled selected>Añadir expansión...</option>';
+            mdata.expansions.forEach(group => {
+                const optgroup = document.createElement('optgroup');
+                optgroup.label = group.label;
+                group.options.forEach(optionText => {
+                    const option = document.createElement('option');
+                    option.value = optionText;
+                    option.textContent = optionText;
+                    optgroup.appendChild(option);
+                });
+                filterExpSelect.appendChild(optgroup);
             });
+        }
 
-            filterExpSelect.appendChild(optgroup);
-        });
+        if (filterLangSelect && mdata.idiomas) {
+            filterLangSelect.innerHTML = '<option value="" disabled selected>Añadir idioma...</option>';
+            mdata.idiomas.forEach(lang => {
+                const option = document.createElement('option');
+                option.value = lang;
+                option.textContent = lang;
+                filterLangSelect.appendChild(option);
+            });
+        }
+
+        if (filterCondSelect && mdata.estados) {
+            filterCondSelect.innerHTML = '<option value="" disabled selected>Añadir estado...</option>';
+            mdata.estados.forEach(cond => {
+                const option = document.createElement('option');
+                option.value = cond;
+                option.textContent = cond;
+                filterCondSelect.appendChild(option);
+            });
+        }
+
     } catch (error) {
-        console.error('Error al cargar las expansiones para la búsqueda avanzada:', error);
+        console.error('Error al cargar mdata.json para la búsqueda avanzada:', error);
     }
 }
