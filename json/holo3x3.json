@@ -1189,8 +1189,7 @@
                     "name": "Snorlax de Paul",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_117.png",
                     "expansion": [
-                        "Sobre de premio de Play! (serie 7)",
-                        "Sobre de premio de Play! (serie 8)"
+                        "Sobre de premio de Play! (serie 7)"
                     ],
                     "code": "JTG117",
                     "noTrade": false,
@@ -1207,15 +1206,6 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Hops-Snorlax-PPS7JTG-117?language=4&minCondition=2"
-                        },
-                        {
-                            "language": "Español",
-                            "type": "Rare + Foil + Play! Stamp (serie 8)",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,30€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Hops-Snorlax-V2-PPS8JTG-117?language=4&minCondition=2"
                         }
                     ]
                 },
