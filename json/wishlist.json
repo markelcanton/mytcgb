@@ -292,23 +292,25 @@
                 {
                     "slot": 1,
                     "name": "Zeraora",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_55.png",
-                    "expansion": "Corona Astral",
-                    "code": "SCR055",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/30TH/30TH_ES_57.png",
+                    "expansion": [
+                        "30 Aniversario"
+                    ],
+                    "code": "30C057",
                     "noTrade": false,
-                    "reservada": true,
+                    "reservada": false,
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
                     "variants": [
                         {
-                            "language": "Español o Inglés preferiblemente",
+                            "language": "Español",
                             "type": "",
                             "format": "",
-                            "condition": "Mejor estado a ser posible",
-                            "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€",
+                            "condition": "Mint",
+                            "price": "El precio en Español (vía Cardmarket) oscila los 0,02€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Stellar-Crown/Zeraora-V1-SCR055?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/30th-Celebration/Zeraora-30C057?language=4&minCondition=2"
                         }
                     ]
                 },
@@ -424,31 +426,6 @@
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Crown-Zenith/Zeraora-CRZ052?language=1,4&minCondition=3"
-                        }
-                    ]
-                },
-                {
-                    "slot": 7,
-                    "name": "Zeraora",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/30TH/30TH_ES_57.png",
-                    "expansion": [
-                        "30 Aniversario"
-                    ],
-                    "code": "30C057",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "",
-                            "format": "",
-                            "condition": "Mejor estado a ser posible",
-                            "price": "El precio en Español (vía Cardmarket) oscila los 0,02€",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/30th-Celebration/Zeraora-30C057?language=4&minCondition=2"
                         }
                     ]
                 }
