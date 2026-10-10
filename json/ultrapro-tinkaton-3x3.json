@@ -1485,6 +1485,31 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Mega-Lucario-ex-V1-MEG077?language=4&minCondition=2"
                         }
                     ]
+                },
+                {
+                    "slot": 4,
+                    "name": "Lucario",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/30TH/30TH_ES_83.png",
+                    "expansion": [
+                        "Celebración 30.º Aniversario"
+                    ],
+                    "code": "30C083",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/30th-Celebration/Lucario-30C083?language=1&minCondition=2"
+                        }
+                    ]
                 }
             ]
         },
@@ -1538,6 +1563,31 @@
                             "price": "",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Temporal-Forces/Zeraora-TEF057?language=4&minCondition=2"
+                        }
+                    ]
+                },
+                {
+                    "slot": 3,
+                    "name": "Zeraora",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_55.png",
+                    "expansion": [
+                        "Corona Astral"
+                    ],
+                    "code": "SCR055",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare",
+                            "format": "H",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Stellar-Crown/Zeraora-V1-SCR055?language=4&minCondition=2"
                         }
                     ]
                 },
@@ -1631,24 +1681,24 @@
                     "noDisponible": false,
                     "variants": [
                         {
-                            "language": "Inglés",
+                            "language": "Español",
                             "type": "Double Rare",
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mega-Zeraora-ex-V1-PBL027?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mega-Zeraora-ex-V1-PBL027?language=4&minCondition=2"
                         }
                     ]
                 },
                 {
                     "slot": 9,
                     "name": "Mega-Zeraora ex",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEP/MEP_ES_89.png",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_27.png",
                     "expansion": [
-                        "MEP Black Star Promos"
+                        "Oscuridad Absoluta"
                     ],
-                    "code": "MEP089",
+                    "code": "PBL027",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -1656,13 +1706,13 @@
                     "noDisponible": false,
                     "variants": [
                         {
-                            "language": "Español",
-                            "type": "Promo",
+                            "language": "Inglés",
+                            "type": "Double Rare",
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Mega-Zeraora-ex-MEP089?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mega-Zeraora-ex-V1-PBL027?language=1&minCondition=2"
                         }
                     ]
                 }
@@ -1778,31 +1828,6 @@
                 },
                 {
                     "slot": 2,
-                    "name": "Ho-Oh ex de Eco",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_39.png",
-                    "expansion": [
-                        "Rivales Predestinados"
-                    ],
-                    "code": "DRI039",
-                    "noTrade": true,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Double Rare",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Ethans-Ho-Oh-ex-V1-DRI039?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 3,
                     "name": "Mega-Absol ex",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_86.png",
                     "expansion": [
@@ -1964,8 +1989,8 @@
                             "type": "Common + Play! Stamp",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
+                            "price": "0,02€",
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Haunter-PPS9POR-049?language=4&minCondition=2"
                         }
                     ]
