@@ -651,6 +651,31 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Slowbro-MEP083?language=1&minCondition=2"
                         }
                     ]
+                },
+                {
+                    "slot": 2,
+                    "name": "Mega-Zeraora ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEP/MEP_ES_89.png",
+                    "expansion": [
+                        "MEP Black Star Promos"
+                    ],
+                    "code": "MEP089",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Promo",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Mega-Zeraora-ex-MEP089?language=4&minCondition=2"
+                        }
+                    ]
                 }
             ]
         },
@@ -1383,6 +1408,31 @@
                 },
                 {
                     "slot": 3,
+                    "name": "Oricorio ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_18.png",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 9)"
+                    ],
+                    "code": "PFL018",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Double Rare + Play! Stamp",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "5€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Oricorio-ex-PPS9PFL-018?language=4&minCondition=2"
+                        }
+                    ]
+                },
+                {
+                    "slot": 4,
                     "name": "Gourgeist ex",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_41.png",
                     "expansion": [
@@ -1403,31 +1453,6 @@
                             "price": "0,10€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Gourgeist-ex-V1-CRI041?language=4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 4,
-                    "name": "Mega-Gallade ex",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_48.png",
-                    "expansion": [
-                        "Caos Creciente"
-                    ],
-                    "code": "CRI048",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Double Rare",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,20€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Mega-Gallade-ex-CRI048?language=4&minCondition=2"
                         }
                     ]
                 }
@@ -1488,6 +1513,31 @@
                 },
                 {
                     "slot": 3,
+                    "name": "Mega-Gallade ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_48.png",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
+                    "code": "CRI048",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Double Rare",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,20€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Mega-Gallade-ex-CRI048?language=4&minCondition=2"
+                        }
+                    ]
+                },
+                {
+                    "slot": 4,
                     "name": "Morpeko ex",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_55.png",
                     "expansion": [
@@ -1510,9 +1560,14 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Morpeko-ex-V1-PBL055?language=1&minCondition=2"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 32,
+            "cards": [
                 {
-                    "slot": 4,
+                    "slot": 1,
                     "name": "Mega-Excadrill ex",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_65.png",
                     "expansion": [
@@ -1537,10 +1592,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "number": 32,
-            "cards": []
         },
         {
             "number": 33,
