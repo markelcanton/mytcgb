@@ -293,39 +293,48 @@ function buildPageHTML(sideContainer, pageNumber) {
         if (cardData) {
             const imgSrc = cardData.image ? cardData.image.trim() : '';
 
-            const tieneNoTrade = cardData.noTrade === true ||
-                (cardData.price && cardData.price.toUpperCase().includes("NO TRADE")) ||
-                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("NO TRADE")));
+            const activeColors = [];
 
-            const tieneReservada = cardData.reservada === true ||
-                (cardData.price && cardData.price.toUpperCase().includes("RESERVADA")) ||
-                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("RESERVADA")));
+            function getCssColor(className) {
+                const dummy = document.createElement('div');
+                dummy.className = className;
+                dummy.style.display = 'none';
+                document.body.appendChild(dummy);
+                const color = window.getComputedStyle(dummy).backgroundColor;
+                document.body.removeChild(dummy);
+                return color;
+            }
 
-            const tieneVendida = cardData.vendida === true ||
-                (cardData.price && cardData.price.toUpperCase().includes("VENDIDA")) ||
-                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("VENDIDA")));
+            const tieneNoTrade = cardData.noTrade === true || (cardData.price && cardData.price.toUpperCase().includes("NO TRADE")) || (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("NO TRADE")));
+            const tieneReservada = cardData.reservada === true || (cardData.price && cardData.price.toUpperCase().includes("RESERVADA")) || (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("RESERVADA")));
+            const tieneVendida = cardData.vendida === true || (cardData.price && cardData.price.toUpperCase().includes("VENDIDA")) || (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("VENDIDA")));
+            const tieneTraded = cardData.traded === true || (cardData.price && cardData.price.toUpperCase().includes("TRADED")) || (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("TRADED")));
+            const tieneNoDisponible = cardData.noDisponible === true || (cardData.price && cardData.price.toUpperCase().includes("NO DISPONIBLE")) || (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("NO DISPONIBLE")));
+            const tieneConseguida = cardData.conseguida === true || (cardData.price && cardData.price.toUpperCase().includes("CONSEGUIDA")) || (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("CONSEGUIDA")));;
 
-            const tieneTraded = cardData.traded === true ||
-                (cardData.price && cardData.price.toUpperCase().includes("TRADED")) ||
-                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("TRADED")));
+            if (tieneNoTrade) activeColors.push(getCssColor('badge-notrade'));
+            if (tieneReservada) activeColors.push(getCssColor('badge-reserved'));
+            if (tieneVendida) activeColors.push(getCssColor('badge-sold'));
+            if (tieneTraded) activeColors.push(getCssColor('badge-traded'));
+            if (tieneNoDisponible) activeColors.push(getCssColor('badge-unavailable'));
+            if (tieneConseguida) activeColors.push(getCssColor('badge-conseguida'));
 
-            const tieneNoDisponible = cardData.noDisponible === true ||
-                (cardData.price && cardData.price.toUpperCase().includes("NO DISPONIBLE")) ||
-                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("NO DISPONIBLE")));
-
-            let badgesHTML = '';
-            if (tieneNoTrade || tieneReservada || tieneVendida || tieneTraded || tieneNoDisponible) {
-                badgesHTML += `<div class="badge-stack">`;
-                if (tieneNoTrade) badgesHTML += `<div class="card-badge badge-notrade">NO TRADE</div>`;
-                if (tieneReservada) badgesHTML += `<div class="card-badge badge-reserved">RESERVADA</div>`;
-                if (tieneVendida) badgesHTML += `<div class="card-badge badge-sold">VENDIDA</div>`;
-                if (tieneTraded) badgesHTML += `<div class="card-badge badge-traded">TRADED</div>`;
-                if (tieneNoDisponible) badgesHTML += `<div class="card-badge badge-unavailable">NO DISPONIBLE</div>`;
-                badgesHTML += `</div>`;
+            let dotHtml = '';
+            if (activeColors.length === 1) {
+                dotHtml = `<div class="card-status-dot" style="background-color: ${activeColors[0]};"></div>`;
+            } else if (activeColors.length > 1) {
+                let gradientStops = [];
+                const total = activeColors.length;
+                activeColors.forEach((color, index) => {
+                    const startDeg = (index * (360 / total)).toFixed(2);
+                    const endDeg = ((index + 1) * (360 / total)).toFixed(2);
+                    gradientStops.push(`${color} ${startDeg}deg ${endDeg}deg`);
+                });
+                dotHtml = `<div class="card-status-dot" style="background: conic-gradient(${gradientStops.join(', ')});"></div>`;
             }
 
             if (imgSrc) {
-                cardItem.innerHTML = `${badgesHTML}<img src="${imgSrc}" alt="Pokémon Card" onerror="this.onerror=null; this.src='https://tcg.pokemon.com/assets/img/global/tcg-card-back.jpg';">`;
+                cardItem.innerHTML = `${dotHtml}<img src="${imgSrc}" alt="Pokémon Card" onerror="this.onerror=null; this.src='https://tcg.pokemon.com/assets/img/global/tcg-card-back.jpg';">`;
             } else {
                 cardItem.innerHTML = `<div class="empty-slot"></div>`;
             }
@@ -353,12 +362,32 @@ function showDetails(card, pageNum) {
 
     let infoHtml = `<p><strong>Expansión:</strong> ${expansionText}</p>`;
 
+    const tieneNoTrade = card.noTrade === true || (card.price && card.price.toUpperCase().includes("NO TRADE")) || (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("NO TRADE")));
+    const tieneReservada = card.reservada === true || (card.price && card.price.toUpperCase().includes("RESERVADA")) || (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("RESERVADA")));
+    const tieneVendida = card.vendida === true || (card.price && card.price.toUpperCase().includes("VENDIDA")) || (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("VENDIDA")));
+    const tieneTraded = card.traded === true || (card.price && card.price.toUpperCase().includes("TRADED")) || (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("TRADED")));
+    const tieneNoDisponible = card.noDisponible === true || (card.price && card.price.toUpperCase().includes("NO DISPONIBLE")) || (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("NO DISPONIBLE")));
+    const tieneConseguida = card.conseguida === true || (card.price && card.price.toUpperCase().includes("CONSEGUIDA")) || (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("CONSEGUIDA")));
+
+    let modalBadgesHTML = '';
+    if (tieneNoTrade || tieneReservada || tieneVendida || tieneTraded || tieneNoDisponible || tieneConseguida) {
+        modalBadgesHTML += `<div style="display:flex; flex-wrap:wrap; gap:6px; margin: 8px 0 12px 0;">`;
+        if (tieneNoTrade) modalBadgesHTML += `<span class="card-badge badge-notrade" style="position:static;">NO TRADE</span>`;
+        if (tieneReservada) modalBadgesHTML += `<span class="card-badge badge-reserved" style="position:static;">RESERVADA</span>`;
+        if (tieneVendida) modalBadgesHTML += `<span class="card-badge badge-sold" style="position:static;">VENDIDA</span>`;
+        if (tieneTraded) modalBadgesHTML += `<span class="card-badge badge-traded" style="position:static;">TRADED</span>`;
+        if (tieneNoDisponible) modalBadgesHTML += `<span class="card-badge badge-unavailable" style="position:static;">NO DISPONIBLE</span>`;
+        if (tieneConseguida) modalBadgesHTML += `<span class="card-badge badge-conseguida" style="position:static;">CONSEGUIDA</span>`;
+        modalBadgesHTML += `</div>`;
+    }
+
     const albumSelect = document.getElementById('album-select');
     const selectedOption = albumSelect ? albumSelect.options[albumSelect.selectedIndex] : null;
     const isWishlist = selectedOption && selectedOption.getAttribute('data-id') === 'wishlist';
 
+    const variant = (card.variants && card.variants.length > 0) ? card.variants[0] : {};
+
     if (isWishlist) {
-        const variant = (card.variants && card.variants.length > 0) ? card.variants[0] : {};
         const conditionVal = card.condition || variant.condition || '--';
         const languageVal = card.language || variant.language || '--';
         const priceVal = card.price || variant.price || '--';
@@ -366,7 +395,7 @@ function showDetails(card, pageNum) {
         const hasLink = card['cardmarket-link'] || variant['cardmarket-link'];
         const linkUrl = hasLink ? (card['cardmarket-link'] || variant['cardmarket-link']).trim() : '';
         const cmButtonHtml = linkUrl
-            ? `<a href="${linkUrl}" target="_blank" class="cardmarket-btn">Ver en Cardmarket</a>`
+            ? `<a href="${linkUrl}" target="_blank" class="cardmarket-btn" style="margin-top:15px;">Ver en Cardmarket</a>`
             : '';
 
         modalBody.innerHTML = `
@@ -374,14 +403,45 @@ function showDetails(card, pageNum) {
                 <img src="${card.image || ''}" style="width:100%; border-radius:8px; box-shadow: 0 4px 15px rgba(0,0,0,0.6);" onerror="this.src='https://tcg.pokemon.com/assets/img/global/tcg-card-back.jpg'">
             </div>
             <div class="modal-info wishlist-specs">
-                <h2 style="margin-top:0; color:white; margin-bottom: 15px;">${card.name || 'Sin nombre'} (${card.code || '--'})</h2>
-                <div class="info-grid" style="margin-bottom: 20px;">${infoHtml}</div>
+                <h2 style="margin-top:0; color:white; margin-bottom: 5px;">${card.name || 'Sin nombre'} (${card.code || '--'})</h2>
+                ${modalBadgesHTML}
+                <div class="info-grid" style="margin: 10px 0 20px 0;">${infoHtml}</div>
                 <div class="specs-details">
                     <h3>Especificaciones:</h3>
                     <ul>
                         <li><strong>Estado:</strong> ${conditionVal}</li>
                         <li><strong>Idiomas:</strong> ${languageVal}</li>
                         <li><strong>Precio:</strong> <span class="price-tag">${priceVal}</span></li>
+                    </ul>
+                </div>
+                ${cmButtonHtml}
+            </div>
+        `;
+    } else if (tieneNoTrade) {
+        const typeVal = card.type || variant.type || '--';
+        const formatVal = card.format || variant.format || '--';
+        const priceVal = card.price || variant.price || '--';
+
+        const hasLink = card['cardmarket-link'] || variant['cardmarket-link'];
+        const linkUrl = hasLink ? (card['cardmarket-link'] || variant['cardmarket-link']).trim() : '';
+        const cmButtonHtml = linkUrl
+            ? `<a href="${linkUrl}" target="_blank" class="cardmarket-btn" style="margin-top:15px;">Ver en Cardmarket</a>`
+            : '';
+
+        modalBody.innerHTML = `
+            <div class="modal-img">
+                <img src="${card.image || ''}" style="width:100%; border-radius:8px; box-shadow: 0 4px 15px rgba(0,0,0,0.6);" onerror="this.src='https://tcg.pokemon.com/assets/img/global/tcg-card-back.jpg'">
+            </div>
+            <div class="modal-info wishlist-specs">
+                <h2 style="margin-top:0; color:white; margin-bottom: 5px;">${card.name || 'Sin nombre'} (${card.code || '--'})</h2>
+                ${modalBadgesHTML}
+                <div class="info-grid" style="margin: 10px 0 20px 0;">${infoHtml}</div>
+                <div class="specs-details">
+                    <h3>Especificaciones:</h3>
+                    <ul>
+                        <li><strong>Tipo:</strong> ${typeVal}</li>
+                        <li><strong>Regulación:</strong> ${formatVal}</li>
+                        <li><strong>Precio de mercado:</strong> <span class="price-tag">${priceVal}</span></li>
                     </ul>
                 </div>
                 ${cmButtonHtml}
@@ -423,8 +483,9 @@ function showDetails(card, pageNum) {
                 <img src="${card.image || ''}" style="width:100%; border-radius:8px; box-shadow: 0 4px 15px rgba(0,0,0,0.6);" onerror="this.src='https://tcg.pokemon.com/assets/img/global/tcg-card-back.jpg'">
             </div>
             <div class="modal-info">
-                <h2 style="margin-top:0; color:white;">${card.name || 'Sin nombre'} (${card.code || '--'})</h2>
-                <div class="info-grid">${infoHtml}</div>
+                <h2 style="margin-top:0; color:white; margin-bottom: 5px;">${card.name || 'Sin nombre'} (${card.code || '--'})</h2>
+                ${modalBadgesHTML}
+                <div class="info-grid" style="margin: 10px 0;">${infoHtml}</div>
                 <div id="available-list" class="available-list" style="display: none;">
                     <div class="table-responsive">
                         <table class="available-table">
