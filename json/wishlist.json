@@ -796,6 +796,32 @@
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Plasma-Storm/Lucario-PLS78?language=1,4&minCondition=3"
                         }
                     ]
+                },
+                {
+                    "slot": 6,
+                    "name": "Lucario",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEP/MEP_ES_95.png",
+                    "expansion": [
+                        "MEP Black Star Promos"
+                    ],
+                    "code": "MEP095",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español preferiblemente. Si es en Inglés, también bien",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "El precio en Español oscila los 0,02€-0,20€ en Cardmarket",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Lucario-MEP095?language=1,4&minCondition=3"
+                        }
+                    ]
                 }
             ]
         },
@@ -1021,6 +1047,541 @@
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Sun-Moon/Professor-Kukui-V1-SUM128?language=1,4&minCondition=3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 8,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Ivysaur",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_2.png",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
+                    "code": "MEG002",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                },
+                {
+                    "slot": 2,
+                    "name": "Mega-Venusaur ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_3.png",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
+                    "code": "MEG003",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                },
+                {
+                    "slot": 3,
+                    "name": "Charizard",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_25.png",
+                    "expansion": [
+                        "Voltaje Vivido"
+                    ],
+                    "code": "VIV 25",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                },
+                {
+                    "slot": 4,
+                    "name": "Bayleef",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_9.png",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
+                    "code": "MEG009",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                },
+                {
+                    "slot": 5,
+                    "name": "Croconaw",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_42.png",
+                    "expansion": [
+                        "Héroes Ascendentes"
+                    ],
+                    "code": "ASC042",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                },
+                {
+                    "slot": 6,
+                    "name": "Feraligatr",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_41.png",
+                    "expansion": [
+                        "Fuerzas Temporales"
+                    ],
+                    "code": "TEF041",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                },
+                {
+                    "slot": 7,
+                    "name": "Sceptile",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY5/XY5_ES_8.png",
+                    "expansion": [
+                        "Duelos Primigenios"
+                    ],
+                    "code": "PRC 8",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                },
+                {
+                    "slot": 8,
+                    "name": "Prinplup",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_28.png",
+                    "expansion": [
+                        "Fuegos Fantasmales"
+                    ],
+                    "code": "PFL028",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                },
+                {
+                    "slot": 9,
+                    "name": "Pignite",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/RSV10PT5/RSV10PT5_ES_12.png",
+                    "expansion": [
+                        "Llama Blanca"
+                    ],
+                    "code": "WHT012",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 9,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Samurott",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_35.png",
+                    "expansion": [
+                        "Voltaje Vivido"
+                    ],
+                    "code": "VIV 35",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                },
+                {
+                    "slot": 2,
+                    "name": "Mega-Greninja ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_22.png",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
+                    "code": "CRI022",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                },
+                {
+                    "slot": 3,
+                    "name": "Decidueye",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM1/SM1_ES_11.png",
+                    "expansion": [
+                        "Sol y Luna"
+                    ],
+                    "code": "SUM 11",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                },
+                {
+                    "slot": 4,
+                    "name": "Incineroar",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM1/SM1_ES_26.png",
+                    "expansion": [
+                        "Sol y Luna"
+                    ],
+                    "code": "SUM 26",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                },
+                {
+                    "slot": 5,
+                    "name": "Primarina",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_20.png",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
+                    "code": "PBL020",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                },
+                {
+                    "slot": 6,
+                    "name": "Crocalor",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV01/SV01_ES_37.png",
+                    "expansion": [
+                        "Escarlata y Púrpura"
+                    ],
+                    "code": "SVI037",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                },
+                {
+                    "slot": 7,
+                    "name": "Skeledirge",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV01/SV01_ES_38.png",
+                    "expansion": [
+                        "Escarlata y Púrpura"
+                    ],
+                    "code": "SVI038",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                },
+                {
+                    "slot": 8,
+                    "name": "Quaxwell",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV01/SV01_ES_53.png",
+                    "expansion": [
+                        "Escarlata y Púrpura"
+                    ],
+                    "code": "SVI053",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 10,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Grookey",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSHP/SWSHP_ES_SWSH070.png",
+                    "expansion": [
+                        "SWSH Black Star Promos"
+                    ],
+                    "code": "SWSH070",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                },
+                {
+                    "slot": 2,
+                    "name": "Scorbunny",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSHP/SWSHP_ES_SWSH071.png",
+                    "expansion": [
+                        "SWSH Black Star Promos"
+                    ],
+                    "code": "SWSH071",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
+                        }
+                    ]
+                },
+                {
+                    "slot": 3,
+                    "name": "Sobble",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSHP/SWSHP_ES_SWSH073.png",
+                    "expansion": [
+                        "SWSH Black Star Promos"
+                    ],
+                    "code": "SWSH073",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": ""
                         }
                     ]
                 }
