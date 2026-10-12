@@ -788,6 +788,7 @@
     letter-spacing: 0.5px;
     text-transform: uppercase;
     line-height: 1;
+    display: inline-block;
 }
 
 .badge-notrade {
@@ -795,19 +796,36 @@
 }
 
 .badge-reserved {
-    background-color: rgba(243, 156, 18, 0.95);
+    background-color: rgba(18, 115, 243, 0.95);
 }
 
 .badge-sold {
-    background-color: rgba(46, 160, 67, 0.95);
+    background-color: rgba(46, 57, 160, 0.95);
 }
 
 .badge-traded {
-    background-color: rgba(46, 160, 67, 0.95);
+    background-color: rgba(46, 160, 52, 0.95);
 }
 
 .badge-unavailable {
     background-color: rgba(137, 87, 229, 0.95);
+}
+
+.badge-conseguida {
+    background-color: rgba(228, 240, 65, 0.95);
+}
+
+.card-status-dot {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    z-index: 10;
+    pointer-events: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 @media (max-width: 768px) {
