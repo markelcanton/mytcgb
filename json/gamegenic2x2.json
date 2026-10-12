@@ -18,6 +18,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -50,6 +51,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -73,6 +75,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -96,6 +99,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -124,6 +128,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -147,6 +152,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -170,6 +176,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -193,6 +200,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -231,6 +239,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -256,6 +265,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -286,6 +296,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -311,6 +322,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -341,6 +353,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -366,6 +379,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -400,6 +414,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -425,6 +440,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -450,6 +466,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -475,6 +492,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -505,6 +523,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -530,6 +549,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -555,6 +575,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -585,6 +606,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -610,6 +632,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -640,6 +663,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -665,6 +689,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -703,6 +728,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -728,6 +754,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -753,6 +780,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -778,6 +806,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -808,6 +837,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -833,6 +863,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -869,6 +900,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -892,6 +924,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -915,6 +948,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -938,6 +972,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -966,6 +1001,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -989,6 +1025,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1012,6 +1049,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1035,6 +1073,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1063,6 +1102,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1086,6 +1126,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1109,6 +1150,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1132,6 +1174,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1162,6 +1205,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1192,6 +1236,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1226,6 +1271,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1251,6 +1297,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1276,6 +1323,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1306,6 +1354,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1331,6 +1380,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1369,6 +1419,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Japonés",
@@ -1394,6 +1445,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1419,6 +1471,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1444,6 +1497,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1474,6 +1528,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1499,6 +1554,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Chino",
@@ -1524,6 +1580,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1549,6 +1606,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1579,6 +1637,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1613,6 +1672,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1638,6 +1698,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1668,6 +1729,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1693,6 +1755,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1729,6 +1792,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1761,6 +1825,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1793,6 +1858,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1816,6 +1882,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1844,6 +1911,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -1867,6 +1935,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Inglés",
@@ -1890,6 +1959,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
