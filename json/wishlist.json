@@ -7,13 +7,16 @@
                     "slot": 1,
                     "name": "Riolu",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_90.png",
-                    "expansion": "Voltaje Vivido",
+                    "expansion": [
+                        "Voltaje Vivido"
+                    ],
                     "code": "VIV 90",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -37,6 +40,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -60,6 +64,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -83,6 +88,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -106,6 +112,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -129,6 +136,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -152,6 +160,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -175,6 +184,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -191,13 +201,16 @@
                     "slot": 9,
                     "name": "Riolu",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/DP6/DP6_ES_117.png",
-                    "expansion": "Despertar de las Leyendas",
+                    "expansion": [
+                        "Despertar de las Leyendas"
+                    ],
                     "code": "LA 117",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -226,6 +239,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -249,6 +263,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -272,6 +287,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -294,7 +310,7 @@
                     "name": "Zeraora",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/30TH/30TH_ES_57.png",
                     "expansion": [
-                        "30 Aniversario"
+                        "Celebración 30.º Aniversario"
                     ],
                     "code": "30C057",
                     "noTrade": false,
@@ -302,15 +318,16 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
-                            "language": "Español",
+                            "language": "Español o Inglés preferiblemente",
                             "type": "",
                             "format": "",
-                            "condition": "Mint",
-                            "price": "El precio en Español (vía Cardmarket) oscila los 0,02€",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/30th-Celebration/Zeraora-30C057?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/30th-Celebration/Zeraora-30C057?language=1,4&minCondition=2"
                         }
                     ]
                 },
@@ -325,6 +342,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -348,6 +366,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -371,6 +390,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -394,6 +414,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -417,6 +438,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -445,6 +467,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -468,6 +491,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -491,6 +515,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -514,6 +539,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -537,6 +563,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -560,6 +587,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -583,6 +611,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -606,6 +635,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -629,6 +659,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -657,6 +688,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -680,6 +712,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -703,6 +736,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -726,6 +760,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español preferiblemente",
@@ -749,6 +784,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español preferiblemente",
@@ -778,6 +814,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español preferiblemente; pero si es en Inglés, también bien.",
@@ -806,6 +843,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -829,6 +867,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -852,6 +891,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -875,6 +915,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
@@ -898,6 +939,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español preferiblemente",
@@ -921,6 +963,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español preferiblemente",
@@ -944,6 +987,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español",
@@ -967,6 +1011,7 @@
                     "vendida": false,
                     "traded": false,
                     "noDisponible": false,
+                    "conseguida": false,
                     "variants": [
                         {
                             "language": "Español o Inglés preferiblemente",
