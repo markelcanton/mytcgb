@@ -1,0 +1,21 @@
+# Skip JSON files
+json/escanirr.json
+
+# Skip IDE settings
+.vscode/
+*.code-workspace
+
+# Skip OS settings
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Skip log files
+*.log
+
+# Skip local dependencies
+node_modules/
+
+# Skip editor temporal files
+*.tmp
+*.bak

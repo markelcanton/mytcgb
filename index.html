@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mytcgb</title>
+    <link rel="icon" type="image/png" href="img/logo/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/binders.css">
+    <link rel="stylesheet" href="css/wishlist.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo/exp.png" alt="Logotipo de myptcgb">
+        <nav class="nav-buttons">
+            <a href="" class="active">Inicio</a>
+            <a href="about">Créditos</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Selecciona un binder:</h1>
+        <hr size="1">
+        <p>
+            En esta página podrás consultar mis álbumes actualizados en tiempo real.
+        </p>
+        <div id="binders-container">
+            <div id="binder-book" class="binder-book"></div>
+
+            <div class="binder-controls">
+                <div class="album-select-container">
+                    <span>Álbum:</span>
+                    <select id="album-select">
+                        <option value="json/gamegenic2x2.json" data-grid="2x2" data-id="gamegenic">Gamegenic (2x2)</option>
+                        <option value="json/ultrapro-megagengar-2x2.json" data-grid="2x2" data-id="megagengar">UltraPRO Mega-Gengar (2x2 + Jumbo)</option>
+                        <option value="json/ultrapro-tinkaton-3x3.json" data-grid="3x3" data-id="tinkaton">UltraPRO Tinkaton (3x3)</option>
+                        <option value="json/holo3x3.json" data-grid="3x3" data-id="holo">Álbum Holo (3x3)</option>
+                        <option value="json/ultrapro-megportf-1x1.json" data-grid="2x2" data-id="portfmeg">Portfolio Megaevolución (1x1)</option>
+                        <option value="json/escanirr.json" data-grid="3x3" data-id="escanirr" hidden>Escanirr (3x3)</option>
+                        <option value="json/wishlist.json" data-grid="3x3" data-id="wishlist">Wishlist</option>
+                    </select>
+                </div>
+
+                <div class="view-mode-container" id="view-mode-container">
+                    <span>Vista:</span>
+                    <select id="view-mode-select">
+                        <option value="double" selected>Dos páginas</option>
+                        <option value="single">Una página</option>
+                    </select>
+                </div>
+
+                <div class="nav-buttons-container">
+                    <button id="prev-btn" class="nav-btn">◀ Anterior</button>
+                    <div class="page-select-container">
+                        <span>Pág:</span>
+                        <input type="text" id="page-input" autocomplete="off" value="1">
+                        <span id="total-pages-label">/ 1</span>
+                    </div>
+                    <button id="next-btn" class="nav-btn">Siguiente ▶</button>
+                </div>
+
+                <button id="open-search-modal-btn" class="nav-btn">Búsqueda avanzada</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <b>&copy; <a target="_blank" href="https://github.com/markelcanton/" title="https://github.com/markelcanton/">Markel Cantón</a> &#8226; 2026</b>
+    </footer>
+
+    <div id="card-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="modal-body" class="modal-grid"></div>
+        </div>
+    </div>
+
+    <div id="search-modal" class="modal-overlay" style="display: none;">
+        <div class="editor-modal-content">
+            <div class="editor-modal-header">
+                <h2>Búsqueda avanzada:</h2>
+                <span id="close-search-modal" class="close-btn-editor">&times;</span>
+            </div>
+            
+            <div class="editor-modal-body">
+                <div class="editor-section">
+                    <div class="form-group">
+                        <label>Nombre de carta / Pokémon:</label>
+                        <input type="text" id="search-query" class="editor-input" autocomplete="off" placeholder="Riolu">
+                    </div>
+                </div>
+
+                <div class="editor-section">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Expansión:</label>
+                            <select id="filter-expansion-select" class="editor-input">
+                                <option value="" disabled selected>Añadir expansión...</option>
+                            </select>
+                            <div id="expansion-tags" class="tags-container"></div>
+                        </div>
+                        <div class="form-group">
+                            <label>Código de carta:</label>
+                            <input type="text" id="filter-code" class="editor-input" autocomplete="off" placeholder="MEG001">
+                        </div>
+                    </div>
+
+                    <div class="checkbox-row">
+                        <label class="editor-checkbox"><input type="checkbox" id="filter-notrade"> No Trade</label>
+                        <label class="editor-checkbox"><input type="checkbox" id="filter-reserved"> Reservada</label>
+                        <label class="editor-checkbox"><input type="checkbox" id="filter-sold"> Vendida</label>
+                        <label class="editor-checkbox"><input type="checkbox" id="filter-traded"> Traded</label>
+                        <label class="editor-checkbox"><input type="checkbox" id="filter-unavailable"> No Disponible</label>
+                    </div>
+                </div>
+
+                <div class="editor-section-title">Tipo de carta:</div>
+                <div class="editor-section">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Idioma:</label>
+                            <select id="filter-language-select" class="editor-input">
+                                <option value="" disabled selected>Añadir idioma...</option>
+                            </select>
+                            <div id="language-tags" class="tags-container"></div>
+                        </div>
+                        <div class="form-group">
+                            <label>Regulación:</label>
+                            <input type="text" id="filter-format" class="editor-input" placeholder="H, I, J...">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Estado:</label>
+                            <select id="filter-condition-select" class="editor-input">
+                                <option value="" disabled selected>Añadir estado...</option>
+                            </select>
+                            <div id="condition-tags" class="tags-container"></div>
+                        </div>
+                        <div class="form-group">
+                            <label>Precio máximo (€):</label>
+                            <input type="number" id="filter-price" step="0.01" autocomplete="off" class="editor-input" placeholder="0,02€">
+                        </div>
+                        <div class="form-group">
+                            <label>Stock mínimo:</label>
+                            <input type="number" id="filter-stock" min="1" autocomplete="off" class="editor-input" placeholder="1">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Tipo y rareza:</label>
+                        <div class="checkbox-grid">
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="Common"> Common</label>
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="Uncommon"> Uncommon</label>
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="Rare"> Rare</label>
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="Double Rare"> Double Rare</label>
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="Ultra Rare"> Ultra Rare</label>
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="IR"> IR</label>
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="SIR"> SIR</label>
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="Hyper Mega Rare"> Hyper Mega Rare</label>
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="Promo"> Promo</label>
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="ACE SPEC"> ACE SPEC</label>
+                        </div>
+                        <div class="checkbox-grid inline-line" style="margin-top: 8px;">
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="Foil"> Foil</label>
+                            <label class="editor-checkbox"><input type="checkbox" class="filter-type" value="Play! Stamp"> Play! Stamp</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="editor-modal-footer">
+                <button id="reset-filters-btn" class="btn-editor-danger">Restablecer filtros</button>
+                <button id="apply-filters-btn" class="btn-editor-primary">Buscar</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="results-modal" class="modal-overlay" style="display: none;">
+        <div class="editor-modal-content">
+            <div class="editor-modal-header">
+                <h2>Resultados de la búsqueda:</h2>
+                <span id="close-results-modal" class="close-btn-editor">&times;</span>
+            </div>
+            <div class="editor-modal-body">
+                <div id="search-results-grid" class="search-results-grid"></div>
+            </div>
+            <div class="editor-modal-footer">
+                <button id="back-to-search-btn" class="btn-editor-primary">Volver a buscar</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/loadfade.js"></script>
+<script src="js/binders.js"></script>
+</html>
