@@ -6,6 +6,9 @@ let currentPage = 1;
 
 let isAnimating = false;
 
+// Almacén global para ordenación de expansiones
+let expansionChronologicalOrder = [];
+
 function ensureBackdrop() {
     let backdrop = document.getElementById('modal-backdrop');
     if (!backdrop) {
@@ -338,7 +341,7 @@ function buildPageHTML(sideContainer, pageNumber) {
             } else {
                 cardItem.innerHTML = `<div class="empty-slot"></div>`;
             }
-            cardItem.addEventListener('click', () => showDetails(cardData, pageNumber));
+            cardItem.addEventListener('click', () => showDetails(cardData, pageNumber, cardData.slot || slot));
         } else {
             cardItem.classList.add('slot-vacio');
             cardItem.innerHTML = `<div class="empty-slot"></div>`;
@@ -349,9 +352,26 @@ function buildPageHTML(sideContainer, pageNumber) {
     sideContainer.appendChild(gridDiv);
 }
 
-function showDetails(card, pageNum) {
+function getCurrentBinderId() {
+    const albumSelect = document.getElementById('album-select');
+    if (albumSelect && albumSelect.selectedIndex >= 0) {
+        return albumSelect.options[albumSelect.selectedIndex].getAttribute('data-id') || 'gamegenic';
+    }
+    return 'gamegenic';
+}
+
+function showDetails(card, pageNum, slotNum) {
     const modal = document.getElementById('card-modal');
     const modalBody = document.getElementById('modal-body');
+
+    const binderId = getCurrentBinderId();
+    const newParams = new URLSearchParams();
+    newParams.set('b', binderId);
+    newParams.set('c', '1');
+    if (pageNum !== undefined) newParams.set('page', pageNum);
+    if (slotNum !== undefined) newParams.set('slot', slotNum);
+
+    window.history.replaceState({}, '', `${window.location.pathname}?${newParams.toString()}`);
 
     let expansionText = '--';
     if (Array.isArray(card.expansion)) {
@@ -533,8 +553,145 @@ function showDetails(card, pageNum) {
     openModal(modal);
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-    loadFilterMasterData();
+function resetUrlToBinderOnly() {
+    const binderId = getCurrentBinderId();
+    const newParams = new URLSearchParams();
+    newParams.set('b', binderId);
+    window.history.replaceState({}, '', `${window.location.pathname}?${newParams.toString()}`);
+}
+
+// ---------------------------------------------------------------------
+// Búsqueda Avanzada y Sincronización en la URL
+// ---------------------------------------------------------------------
+
+function syncSearchUrlParams(selectedExpansions, selectedLanguages, selectedConditions) {
+    const binderId = getCurrentBinderId();
+    const newParams = new URLSearchParams();
+
+    newParams.set('b', binderId);
+    newParams.set('s', '1');
+
+    const name = document.getElementById('search-query')?.value.trim();
+    const code = document.getElementById('filter-code')?.value.trim();
+    const reg = document.getElementById('filter-format')?.value.trim();
+    const price = document.getElementById('filter-price')?.value.trim();
+    const stock = document.getElementById('filter-stock')?.value.trim();
+
+    const noTrade = document.getElementById('filter-notrade')?.checked;
+    const reserved = document.getElementById('filter-reserved')?.checked;
+    const sold = document.getElementById('filter-sold')?.checked;
+    const traded = document.getElementById('filter-traded')?.checked;
+    const unavailable = document.getElementById('filter-unavailable')?.checked;
+
+    const selectedTypes = Array.from(document.querySelectorAll('.filter-type:checked')).map(cb => cb.value);
+
+    if (name) newParams.set('name', name);
+    if (code) newParams.set('code', code);
+    if (reg) newParams.set('reg', reg);
+    if (price) newParams.set('price', price);
+    if (stock) newParams.set('stock', stock);
+
+    if (noTrade) newParams.set('noTrade', 'true');
+    if (reserved) newParams.set('reserved', 'true');
+    if (sold) newParams.set('sold', 'true');
+    if (traded) newParams.set('traded', 'true');
+    if (unavailable) newParams.set('unavailable', 'true');
+
+    if (selectedExpansions && selectedExpansions.length > 0) {
+        newParams.set('expansion', selectedExpansions.join(','));
+    }
+
+    if (selectedLanguages && selectedLanguages.length > 0) {
+        newParams.set('lang', selectedLanguages.join(','));
+    }
+
+    if (selectedConditions && selectedConditions.length > 0) {
+        newParams.set('condition', selectedConditions.join(','));
+    }
+
+    if (selectedTypes && selectedTypes.length > 0) {
+        newParams.set('type', selectedTypes.join(','));
+    }
+
+    const newUrlString = `${window.location.pathname}?${newParams.toString()}`;
+    window.history.replaceState({}, '', newUrlString);
+}
+
+function restoreSearchFromUrlParams(selectedExpansions, selectedLanguages, selectedConditions) {
+    const urlParams = new URLSearchParams(window.location.search);
+    if (!urlParams.has('s')) return false;
+
+    const nameParam = urlParams.get('name');
+    const codeParam = urlParams.get('code');
+    const regParam = urlParams.get('reg') || urlParams.get('format');
+    const priceParam = urlParams.get('price');
+    const stockParam = urlParams.get('stock');
+
+    if (nameParam) document.getElementById('search-query').value = nameParam;
+    if (codeParam) document.getElementById('filter-code').value = codeParam;
+    if (regParam) document.getElementById('filter-format').value = regParam;
+    if (priceParam) document.getElementById('filter-price').value = priceParam;
+    if (stockParam) document.getElementById('filter-stock').value = stockParam;
+
+    if (urlParams.get('noTrade') === 'true') document.getElementById('filter-notrade').checked = true;
+    if (urlParams.get('reserved') === 'true') document.getElementById('filter-reserved').checked = true;
+    if (urlParams.get('sold') === 'true') document.getElementById('filter-sold').checked = true;
+    if (urlParams.get('traded') === 'true') document.getElementById('filter-traded').checked = true;
+    if (urlParams.get('unavailable') === 'true') document.getElementById('filter-unavailable').checked = true;
+
+    const expParam = urlParams.get('expansion');
+    if (expParam) {
+        selectedExpansions.length = 0;
+        expParam.split(',').forEach(exp => selectedExpansions.push(exp));
+        renderTags(document.getElementById('expansion-tags'), selectedExpansions);
+    }
+
+    const langParam = urlParams.get('lang');
+    if (langParam) {
+        selectedLanguages.length = 0;
+        langParam.split(',').forEach(l => selectedLanguages.push(l));
+        renderTags(document.getElementById('language-tags'), selectedLanguages);
+    }
+
+    const condParam = urlParams.get('condition');
+    if (condParam) {
+        selectedConditions.length = 0;
+        condParam.split(',').forEach(c => selectedConditions.push(c));
+        renderTags(document.getElementById('condition-tags'), selectedConditions);
+    }
+
+    const typeParam = urlParams.get('type');
+    if (typeParam) {
+        const types = typeParam.split(',');
+        document.querySelectorAll('.filter-type').forEach(cb => {
+            if (types.includes(cb.value)) cb.checked = true;
+        });
+    }
+
+    return true;
+}
+
+function renderTags(container, storageArray) {
+    if (!container) return;
+    container.innerHTML = '';
+    storageArray.forEach(item => {
+        const tag = document.createElement('span');
+        tag.className = 'filter-tag';
+        tag.innerHTML = `${item} <span class="remove-tag">&times;</span>`;
+        tag.querySelector('.remove-tag').addEventListener('click', () => {
+            const idx = storageArray.indexOf(item);
+            if (idx > -1) storageArray.splice(idx, 1);
+            renderTags(container, storageArray);
+        });
+        container.appendChild(tag);
+    });
+}
+
+// Global para guardar los resultados de la última búsqueda
+let lastSearchResults = [];
+
+document.addEventListener("DOMContentLoaded", async () => {
+    await loadFilterMasterData();
 
     const albumSelect = document.getElementById('album-select');
     const viewModeSelect = document.getElementById('view-mode-select');
@@ -542,7 +699,14 @@ document.addEventListener("DOMContentLoaded", () => {
     let isInitialLoad = true;
 
     const urlParams = new URLSearchParams(window.location.search);
-    const binderParam = urlParams.get('b');
+    let binderParam = urlParams.get('b');
+
+    if (!binderParam && albumSelect) {
+        binderParam = albumSelect.options[0].getAttribute('data-id') || 'gamegenic';
+        const defaultParams = new URLSearchParams();
+        defaultParams.set('b', binderParam);
+        window.history.replaceState({}, '', `${window.location.pathname}?${defaultParams.toString()}`);
+    }
 
     if (binderParam && albumSelect) {
         const matchingOption = Array.from(albumSelect.options).find(
@@ -554,7 +718,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    function handleAlbumChange() {
+    async function handleAlbumChange() {
         if (albumSelect) {
             jsonFile = albumSelect.value;
             const selectedOption = albumSelect.options[albumSelect.selectedIndex];
@@ -563,16 +727,39 @@ document.addEventListener("DOMContentLoaded", () => {
             if (!isInitialLoad) {
                 const binderId = selectedOption.getAttribute('data-id');
                 if (binderId) {
-                    const newUrl = new URL(window.location);
-                    newUrl.searchParams.set('b', binderId);
-                    window.history.replaceState({}, '', newUrl);
+                    resetUrlToBinderOnly();
                 }
             }
 
             currentPage = 1;
 
             if (isInitialLoad) {
-                loadAllBinders();
+                await loadAllBinders();
+
+                const currentUrlParams = new URLSearchParams(window.location.search);
+
+                if (currentUrlParams.has('c')) {
+                    const targetPage = parseInt(currentUrlParams.get('page'), 10) || 1;
+                    const targetSlot = parseInt(currentUrlParams.get('slot'), 10) || 1;
+
+                    goToPage(targetPage);
+
+                    const pageData = allPagesData.find(p => p.number === targetPage);
+                    if (pageData && pageData.cards) {
+                        const targetCard = pageData.cards.find(c => parseInt(c.slot, 10) === targetSlot);
+                        if (targetCard) {
+                            showDetails(targetCard, targetPage, targetSlot);
+                        }
+                    }
+                }
+                else if (currentUrlParams.has('s')) {
+                    restoreSearchFromUrlParams(selectedExpansions, selectedLanguages, selectedConditions);
+                    const searchModal = document.getElementById('search-modal');
+                    if (searchModal) {
+                        openModal(searchModal);
+                    }
+                }
+
                 return;
             }
 
@@ -606,14 +793,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     window.addEventListener('resize', renderCurrentView);
 
-    handleAlbumChange();
-
-    isInitialLoad = false;
-
     const closeBtn = document.querySelector('.close-btn');
     const cardModal = document.getElementById('card-modal');
     if (closeBtn && cardModal) {
         closeBtn.addEventListener('click', () => {
+            resetUrlToBinderOnly();
             closeModal(cardModal);
         });
     }
@@ -622,7 +806,12 @@ document.addEventListener("DOMContentLoaded", () => {
         const backdrop = document.getElementById('modal-backdrop');
         if (e.target === backdrop) {
             const activeModal = document.querySelector('.modal-overlay.active');
-            if (activeModal) closeModal(activeModal);
+            if (activeModal) {
+                if (activeModal.id === 'search-modal' || activeModal.id === 'card-modal') {
+                    resetUrlToBinderOnly();
+                }
+                closeModal(activeModal);
+            }
         }
     });
 
@@ -679,12 +868,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     openSearchBtns.forEach(btn => {
         btn.addEventListener('click', () => {
+            syncSearchUrlParams(selectedExpansions, selectedLanguages, selectedConditions);
             openModal(searchModal);
         });
     });
 
     if (closeSearchBtn && searchModal) {
         closeSearchBtn.addEventListener('click', () => {
+            resetUrlToBinderOnly();
             closeModal(searchModal);
         });
     }
@@ -707,21 +898,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 renderTags(container, storageArray);
             }
             select.selectedIndex = 0;
-        });
-    }
-
-    function renderTags(container, storageArray) {
-        container.innerHTML = '';
-        storageArray.forEach(item => {
-            const tag = document.createElement('span');
-            tag.className = 'filter-tag';
-            tag.innerHTML = `${item} <span class="remove-tag">&times;</span>`;
-            tag.querySelector('.remove-tag').addEventListener('click', () => {
-                const idx = storageArray.indexOf(item);
-                if (idx > -1) storageArray.splice(idx, 1);
-                renderTags(container, storageArray);
-            });
-            container.appendChild(tag);
         });
     }
 
@@ -751,6 +927,8 @@ document.addEventListener("DOMContentLoaded", () => {
         renderTags(document.getElementById('expansion-tags'), selectedExpansions);
         renderTags(document.getElementById('language-tags'), selectedLanguages);
         renderTags(document.getElementById('condition-tags'), selectedConditions);
+
+        resetUrlToBinderOnly();
     });
 
     document.getElementById('apply-filters-btn')?.addEventListener('click', () => {
@@ -785,6 +963,8 @@ document.addEventListener("DOMContentLoaded", () => {
             alert("Para usar la búsqueda avanzada, debes seleccionar al menos uno de los filtros.");
             return;
         }
+
+        syncSearchUrlParams(selectedExpansions, selectedLanguages, selectedConditions);
 
         const matches = [];
 
@@ -884,12 +1064,125 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         });
 
+        lastSearchResults = matches;
+
         closeModal(searchModal);
-        renderVisualResults(matches);
+        
+        // Resetear selector de ordenación a página por defecto
+        const sortSelect = document.getElementById('search-sort-select');
+        if (sortSelect) sortSelect.value = 'page-asc';
+
+        renderVisualResults(lastSearchResults);
         setTimeout(() => {
             openModal(resultsModal);
         }, 150);
     });
+
+    // Escuchar cambios en el selector de ordenación
+    const sortSelect = document.getElementById('search-sort-select');
+    if (sortSelect) {
+        sortSelect.addEventListener('change', (e) => {
+            sortAndRenderResults(e.target.value);
+        });
+    }
+
+    function parseCardPrice(cardData) {
+        let rawStr = cardData.price || '';
+        if (!rawStr && cardData.variants && cardData.variants.length > 0) {
+            rawStr = cardData.variants[0].price || '';
+        }
+        if (!rawStr) return 0;
+        const cleanStr = rawStr.replace('€', '').replace(',', '.').trim();
+        const num = parseFloat(cleanStr);
+        return isNaN(num) ? 0 : num;
+    }
+
+    function getCardExpansionName(cardData) {
+        if (Array.isArray(cardData.expansion) && cardData.expansion.length > 0) {
+            return cardData.expansion[0];
+        }
+        return cardData.expansion || '';
+    }
+
+    function getCardCode(cardData) {
+        return (cardData.code || '').trim().toUpperCase();
+    }
+
+    function sortAndRenderResults(sortKey) {
+        if (!lastSearchResults || lastSearchResults.length === 0) return;
+
+        const sorted = [...lastSearchResults];
+
+        sorted.sort((a, b) => {
+            const cardA = a.cardData;
+            const cardB = b.cardData;
+
+            switch (sortKey) {
+                case 'page-asc':
+                    if (a.page !== b.page) return a.page - b.page;
+                    return parseInt(a.slot, 10) - parseInt(b.slot, 10);
+
+                case 'page-desc':
+                    if (a.page !== b.page) return b.page - a.page;
+                    return parseInt(b.slot, 10) - parseInt(a.slot, 10);
+
+                case 'price-asc':
+                    return parseCardPrice(cardA) - parseCardPrice(cardB);
+
+                case 'price-desc':
+                    return parseCardPrice(cardB) - parseCardPrice(cardA);
+
+                case 'name-asc':
+                    return (cardA.name || '').localeCompare(cardB.name || '');
+
+                case 'name-desc':
+                    return (cardB.name || '').localeCompare(cardA.name || '');
+
+                case 'exp-desc': {
+                    // Expansión: Más reciente a más antigua
+                    const expA = getCardExpansionName(cardA);
+                    const expB = getCardExpansionName(cardB);
+                    let idxA = expansionChronologicalOrder.indexOf(expA);
+                    let idxB = expansionChronologicalOrder.indexOf(expB);
+                    if (idxA === -1) idxA = 9999;
+                    if (idxB === -1) idxB = 9999;
+
+                    if (idxA !== idxB) {
+                        return idxA - idxB;
+                    }
+
+                    // Si pertenecen a la misma expansión, ordena el código de menor a mayor (PFL001 -> PFL064 -> PFL122)
+                    const codeA = getCardCode(cardA);
+                    const codeB = getCardCode(cardB);
+                    return codeA.localeCompare(codeB, undefined, { numeric: true, sensitivity: 'base' });
+                }
+
+                case 'exp-asc': {
+                    // Expansión: Más antigua a más reciente
+                    const expA = getCardExpansionName(cardA);
+                    const expB = getCardExpansionName(cardB);
+                    let idxA = expansionChronologicalOrder.indexOf(expA);
+                    let idxB = expansionChronologicalOrder.indexOf(expB);
+                    if (idxA === -1) idxA = -1;
+                    if (idxB === -1) idxB = -1;
+
+                    if (idxA !== idxB) {
+                        return idxB - idxA;
+                    }
+
+                    // Si pertenecen a la misma expansión, ordena el código de mayor a menor (PFL122 -> PFL064 -> PFL001)
+                    const codeA = getCardCode(cardA);
+                    const codeB = getCardCode(cardB);
+                    return codeB.localeCompare(codeA, undefined, { numeric: true, sensitivity: 'base' });
+                }
+
+                default:
+                    return 0;
+            }
+        });
+
+        renderVisualResults(sorted);
+    }
 
     function renderVisualResults(results) {
         const grid = document.getElementById('search-results-grid');
@@ -948,7 +1241,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 closeModal(resultsModal);
                 setTimeout(() => {
                     goToPage(res.page);
-                    showDetails(cardData, res.page);
+                    showDetails(cardData, res.page, res.slot);
                 }, 150);
             });
 
@@ -967,6 +1260,9 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    await handleAlbumChange();
+
+    isInitialLoad = false;
 });
 
 let touchStartX = 0;
@@ -1003,12 +1299,25 @@ function handleSwipe() {
     }
 }
 
+// Control global de teclado
 document.addEventListener('keydown', (e) => {
+    const activeModal = document.querySelector('.modal-overlay.active');
+
+    // Tecla ESC para cerrar cualquier modal activo
+    if (e.key === 'Escape' || e.key === 'Esc') {
+        if (activeModal) {
+            if (activeModal.id === 'search-modal' || activeModal.id === 'card-modal') {
+                resetUrlToBinderOnly();
+            }
+            closeModal(activeModal);
+            return;
+        }
+    }
+
     if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA') {
         return;
     }
 
-    const activeModal = document.querySelector('.modal-overlay.active');
     if (activeModal) {
         return;
     }
@@ -1034,6 +1343,8 @@ async function loadFilterMasterData() {
 
         const mdata = await response.json();
 
+        expansionChronologicalOrder = [];
+
         if (filterExpSelect && mdata.expansions) {
             filterExpSelect.innerHTML = '<option value="" disabled selected>Añadir expansión...</option>';
             mdata.expansions.forEach(group => {
@@ -1044,6 +1355,9 @@ async function loadFilterMasterData() {
                     option.value = optionText;
                     option.textContent = optionText;
                     optgroup.appendChild(option);
+
+                    // Guardar en orden cronológico (las de arriba son más recientes)
+                    expansionChronologicalOrder.push(optionText);
                 });
                 filterExpSelect.appendChild(optgroup);
             });
