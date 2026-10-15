@@ -6,7 +6,6 @@ let currentPage = 1;
 
 let isAnimating = false;
 
-// Almacén global para ordenación de expansiones
 let expansionChronologicalOrder = [];
 
 function ensureBackdrop() {
@@ -560,10 +559,6 @@ function resetUrlToBinderOnly() {
     window.history.replaceState({}, '', `${window.location.pathname}?${newParams.toString()}`);
 }
 
-// ---------------------------------------------------------------------
-// Búsqueda Avanzada y Sincronización en la URL
-// ---------------------------------------------------------------------
-
 function syncSearchUrlParams(selectedExpansions, selectedLanguages, selectedConditions) {
     const binderId = getCurrentBinderId();
     const newParams = new URLSearchParams();
@@ -687,7 +682,6 @@ function renderTags(container, storageArray) {
     });
 }
 
-// Global para guardar los resultados de la última búsqueda
 let lastSearchResults = [];
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -1068,7 +1062,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         closeModal(searchModal);
         
-        // Resetear selector de ordenación a página por defecto
         const sortSelect = document.getElementById('search-sort-select');
         if (sortSelect) sortSelect.value = 'page-asc';
 
@@ -1078,7 +1071,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         }, 150);
     });
 
-    // Escuchar cambios en el selector de ordenación
     const sortSelect = document.getElementById('search-sort-select');
     if (sortSelect) {
         sortSelect.addEventListener('change', (e) => {
@@ -1139,7 +1131,6 @@ document.addEventListener("DOMContentLoaded", async () => {
                     return (cardB.name || '').localeCompare(cardA.name || '');
 
                 case 'exp-desc': {
-                    // Expansión: Más reciente a más antigua
                     const expA = getCardExpansionName(cardA);
                     const expB = getCardExpansionName(cardB);
                     let idxA = expansionChronologicalOrder.indexOf(expA);
@@ -1151,14 +1142,12 @@ document.addEventListener("DOMContentLoaded", async () => {
                         return idxA - idxB;
                     }
 
-                    // Si pertenecen a la misma expansión, ordena el código de menor a mayor (PFL001 -> PFL064 -> PFL122)
                     const codeA = getCardCode(cardA);
                     const codeB = getCardCode(cardB);
                     return codeA.localeCompare(codeB, undefined, { numeric: true, sensitivity: 'base' });
                 }
 
                 case 'exp-asc': {
-                    // Expansión: Más antigua a más reciente
                     const expA = getCardExpansionName(cardA);
                     const expB = getCardExpansionName(cardB);
                     let idxA = expansionChronologicalOrder.indexOf(expA);
@@ -1170,7 +1159,6 @@ document.addEventListener("DOMContentLoaded", async () => {
                         return idxB - idxA;
                     }
 
-                    // Si pertenecen a la misma expansión, ordena el código de mayor a menor (PFL122 -> PFL064 -> PFL001)
                     const codeA = getCardCode(cardA);
                     const codeB = getCardCode(cardB);
                     return codeB.localeCompare(codeA, undefined, { numeric: true, sensitivity: 'base' });
@@ -1299,11 +1287,9 @@ function handleSwipe() {
     }
 }
 
-// Control global de teclado
 document.addEventListener('keydown', (e) => {
     const activeModal = document.querySelector('.modal-overlay.active');
 
-    // Tecla ESC para cerrar cualquier modal activo
     if (e.key === 'Escape' || e.key === 'Esc') {
         if (activeModal) {
             if (activeModal.id === 'search-modal' || activeModal.id === 'card-modal') {
@@ -1356,7 +1342,6 @@ async function loadFilterMasterData() {
                     option.textContent = optionText;
                     optgroup.appendChild(option);
 
-                    // Guardar en orden cronológico (las de arriba son más recientes)
                     expansionChronologicalOrder.push(optionText);
                 });
                 filterExpSelect.appendChild(optgroup);
