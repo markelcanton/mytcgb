@@ -25,20 +25,20 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Foil + Play! Stamp",
+                            "type": "Foil + Play! Stamp (serie 8)",
                             "format": "Regulación estándar",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "1€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Basic-Grass-Energy-V2-PPS8MEE-001?language=4&minCondition=2",
-                            "hidden": false
+                            "hidden": true
                         },
                         {
                             "language": "Español",
                             "type": "Foil + Play! Stamp (serie 7)",
                             "format": "Regulación estándar",
                             "condition": "Near Mint",
-                            "price": "0,10€",
+                            "price": "1€",
                             "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Basic-Grass-Energy-V2-PPS7SVE-009?language=4&minCondition=2",
                             "hidden": false
@@ -65,7 +65,7 @@
                             "type": "Foil + Play! Stamp",
                             "format": "Regulación estándar",
                             "condition": "Near Mint",
-                            "price": "El precio estándar es 0,02€",
+                            "price": "1€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Basic-Fire-Energy-V2-PPS8MEE-002?language=4&minCondition=2",
                             "hidden": false
@@ -92,7 +92,7 @@
                             "type": "Foil + Play! Stamp",
                             "format": "Regulación estándar",
                             "condition": "Near Mint",
-                            "price": "0,50€",
+                            "price": "1€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Basic-Psychic-Energy-V2-PPS7SVE-013?language=4&minCondition=2",
                             "hidden": false
@@ -119,7 +119,7 @@
                             "type": "Foil + Play! Stamp",
                             "format": "Regulación estándar",
                             "condition": "Near Mint",
-                            "price": "El precio estándar es 0,02€",
+                            "price": "1€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Basic-Fighting-Energy-V2-PPS8MEE-006?language=4&minCondition=2",
                             "hidden": false
@@ -136,10 +136,11 @@
                     "name": "Energía de Agua Básica",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEE/MEE_ES_3.png",
                     "expansion": [
-                        "Sobre de premio de Play! (serie 8)"
+                        "Sobre de premio de Play! (serie 8)",
+                        "Sobre de premio de Play! (serie 9)"
                     ],
                     "code": "MEE003",
-                    "noTrade": true,
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -148,24 +149,34 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Foil + Play! Stamp",
+                            "type": "Foil + Play! Stamp (serie 8)",
                             "format": "Regulación estándar",
                             "condition": "Near Mint",
-                            "price": "El precio estándar es 0,02€",
-                            "stock": 0,
+                            "price": "1€",
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Basic-Water-Energy-V2-PPS8MEE-003?language=4&minCondition=2",
                             "hidden": false
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Foil + Play! Stamp (serie 9)",
+                            "format": "Regulación estándar",
+                            "condition": "Near Mint",
+                            "price": "1€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Basic-Water-Energy-V2-PPS9MEE-003?language=4&minCondition=2",
+                            "hidden": true
                         }
                     ]
                 },
                 {
                     "slot": 2,
                     "name": "Energía Eléctrica Básica",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SVE2/SVE2_ES_12.png",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEE/MEE_ES_4.png",
                     "expansion": [
-                        "Sobre de premio de Play! (serie 7)"
+                        "Sobre de premio de Play! (serie 9)"
                     ],
-                    "code": "SVE012",
+                    "code": "MEE004",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -178,9 +189,9 @@
                             "type": "Foil + Play! Stamp",
                             "format": "Regulación estándar",
                             "condition": "Near Mint",
-                            "price": "El precio estándar es 0,02€",
+                            "price": "1€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Basic-Lightning-Energy-V2-PPS7SVE-012?language=4&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Basic-Lightning-Energy-V2-PPS9MEE-004?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -205,7 +216,7 @@
                             "type": "Play! Stamp",
                             "format": "Regulación estándar",
                             "condition": "Near Mint",
-                            "price": "El precio estándar es 0,02€",
+                            "price": "0,10€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Basic-Darkness-Energy-V1-PPS8MEE-007?language=4&minCondition=2",
                             "hidden": false
@@ -232,7 +243,7 @@
                             "type": "Play! Stamp",
                             "format": "Regulación estándar",
                             "condition": "Near Mint",
-                            "price": "El precio estándar es 0,02€",
+                            "price": "0,10€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Basic-Metal-Energy-V1-PPS9MEE-008?language=4&minCondition=2",
                             "hidden": false
@@ -272,7 +283,7 @@
                             "type": "Rare + Holo + 25 Aniv. Stamp",
                             "format": "D (no válida en torneos)",
                             "condition": "Excellent",
-                            "price": "El precio estándar es 1€ en Español",
+                            "price": "1€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Celebrations/Professors-Research-Professor-Oak-V1-CEL023?language=4&minCondition=3",
                             "hidden": false
@@ -299,7 +310,7 @@
                             "type": "Promo + Pokémon Day 25 Stamp",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "2€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Prismatic-Evolutions-Additionals/Sylveon-V3-xPRE040?language=4&minCondition=2",
                             "hidden": false
@@ -331,7 +342,7 @@
                             "type": "Promo + Foil + Pokémon Day 25 Stamp",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "3€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Prismatic-Evolutions-Additionals/Eevee-V3-xPRE074?language=4&minCondition=2",
                             "hidden": false
@@ -358,7 +369,7 @@
                             "type": "Promo + Foil + Play! Stamp + Pokémon Day 26 Stamp",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "5€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution-Additionals/Bulbasaur-V2-xMEG001?language=4&minCondition=2",
                             "hidden": false
@@ -390,7 +401,7 @@
                             "type": "Promo",
                             "format": "D (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "3€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SWSH-Black-Star-Promos/Inteleon-V-V1-SWSH016?language=4&minCondition=2",
                             "hidden": false
@@ -417,7 +428,7 @@
                             "type": "Promo + Foil",
                             "format": "E (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "1€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SWSH-Black-Star-Promos/Cinderace-SWSH278?language=4&minCondition=2",
                             "hidden": false
@@ -453,7 +464,7 @@
                             "type": "Promo",
                             "format": "G (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "4€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Quaxly-SVPen003?language=4&minCondition=2",
                             "hidden": false
@@ -480,7 +491,7 @@
                             "type": "Promo + STAFF stamp",
                             "format": "G (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "20€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Pawmot-V2-SVP006?language=4&minCondition=2",
                             "hidden": false
@@ -507,7 +518,7 @@
                             "type": "Promo + Foil + Sealed + Stamp Horizontes con Liko",
                             "format": "G (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "2€ - 2,50€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Sprigatito-SVP191?language=4&minCondition=2",
                             "hidden": false
@@ -534,9 +545,9 @@
                             "type": "Promo + Foil + Sealed + Stamp Horizontes con Rod",
                             "format": "G (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "1€ - 1,50€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Fuecoco-SVP192?language=4&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Fuecoco-V2-SVP192?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -566,7 +577,7 @@
                             "type": "Promo (Baraja de combate Melmetal ex)",
                             "format": "G (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "7€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Melmetal-ex-SVP104?language=4&minCondition=2",
                             "hidden": false
@@ -593,7 +604,7 @@
                             "type": "Promo + STAFF stamp",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "15€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Indeedee-V2-SVP154?language=4&minCondition=2",
                             "hidden": false
@@ -620,7 +631,7 @@
                             "type": "Promo",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "0,50€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Hops-Zacian-ex-V1-SVP193?language=4&minCondition=2",
                             "hidden": false
@@ -652,7 +663,7 @@
                             "type": "Promo + Stamp Megaevolución",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "12€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Alakazam-V1-MEP003?language=4&minCondition=2",
                             "hidden": false
@@ -679,7 +690,7 @@
                             "type": "Promo + Stamp Equilibrio Perfecto",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "5€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Serperior-V1-MEP064?language=4&minCondition=2",
                             "hidden": false
@@ -711,9 +722,9 @@
                             "type": "Promo + Stamp Oscuridad Absoluta",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "15€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Slowbro-MEP083?language=1&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Slowbro-V1-MEP083?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -738,7 +749,7 @@
                             "type": "Promo",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "3€ - 4€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Mega-Zeraora-ex-MEP089?language=4&minCondition=2",
                             "hidden": false
@@ -805,7 +816,7 @@
                             "type": "IR",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "6€",
+                            "price": "4€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Aurorus-V2-POR092?language=4&minCondition=2",
                             "hidden": false
@@ -859,7 +870,7 @@
                             "type": "IR",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "4€",
+                            "price": "8€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Dhelmise-V2-PBL091?language=1&minCondition=2",
                             "hidden": false
@@ -891,7 +902,7 @@
                             "type": "IR",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "4,5€",
+                            "price": "8€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Espurr-V2-POR095?language=1&minCondition=2",
                             "hidden": false
@@ -918,7 +929,7 @@
                             "type": "IR",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "3,50€",
+                            "price": "3€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Sliggoo-V2-CRI094?language=1&minCondition=2",
                             "hidden": false
@@ -958,7 +969,7 @@
                             "type": "Uncommon",
                             "format": "D (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "0,02€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Sword-Shield/Hop-SSH165?language=4&minCondition=3",
                             "hidden": false
@@ -985,7 +996,7 @@
                             "type": "Double Rare",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "1€ - 2€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Prismatic-Evolutions/Lucario-ex-PRE051?language=1&minCondition=2",
                             "hidden": false
@@ -1012,7 +1023,7 @@
                             "type": "Uncommon",
                             "format": "D (no válida en torneos)",
                             "condition": "Excellent",
-                            "price": "",
+                            "price": "0,02€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Stone-F-Energy-VIV164?language=1&minCondition=2",
                             "hidden": false
@@ -1039,7 +1050,7 @@
                             "type": "Rare",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "0,10€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Gengar-POR050?language=4&minCondition=2",
                             "hidden": false
@@ -1071,7 +1082,7 @@
                             "type": "Ultra Rare",
                             "format": "F (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": "El precio medio está a 0,95€ en Cardmarket",
+                            "price": "1€ - 2€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Crown-Zenith/Zeraora-V-CRZ053?language=4&minCondition=2",
                             "hidden": false
@@ -1098,7 +1109,7 @@
                             "type": "Double Rare + Play! Stamp",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "El precio medio está a 1,45€ en Cardmarket",
+                            "price": "1,45€ - 3€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Mega-Gardevoir-ex-PPS8MEG-060?language=4&minCondition=2",
                             "hidden": false
@@ -1125,7 +1136,7 @@
                             "type": "Double Rare",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "El precio medio está a 0,50€ en Cardmarket",
+                            "price": "1€ - 2,50€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Temporal-Forces/Incineroar-ex-V1-TEF034?language=4&minCondition=2",
                             "hidden": false
@@ -1152,9 +1163,9 @@
                             "type": "Double Rare",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "El precio medio está a 0,20€ en Cardmarket",
+                            "price": "1€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Cinderace-ex-ASC038?language=4&minCondition=2V",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Cinderace-ex-ASC038?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -1184,7 +1195,7 @@
                             "type": "Common",
                             "format": "Blanco y Negro (no válida en torneos)",
                             "condition": "Light Played",
-                            "price": "El precio medio está a 0,65€ en Cardmarket",
+                            "price": "0,70€ - 2,50€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Plasma-Freeze/Eevee-PLF90?language=4&minCondition=5",
                             "hidden": false
@@ -1211,7 +1222,7 @@
                             "type": "IR",
                             "format": "F (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "10€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Crown-Zenith/Riolu-V2-CRZGG26?language=1&minCondition=2",
                             "hidden": false
@@ -1238,7 +1249,7 @@
                             "type": "Common",
                             "format": "G (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": "El precio medio está a 0,02€ en Cardmarket",
+                            "price": "0,02€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldea-Evolved/Sprigatito-V1-PAL012?language=1&minCondition=2",
                             "hidden": false
@@ -1265,7 +1276,7 @@
                             "type": "Common + Foil",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "El precio medio está a 0,02€ en Cardmarket",
+                            "price": "0,02€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Sobble-MEG039?language=4&minCondition=2&isReverseHolo=Y",
                             "hidden": false
@@ -1297,7 +1308,7 @@
                             "type": "Rare + Foil + Play! Stamp",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "1€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Toxtricity-V2-PPS9PFL-068?language=4&minCondition=2",
                             "hidden": false
@@ -1329,7 +1340,7 @@
                             "type": "Rare + Foil + Stamp Megaevolución + Sealed",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "5€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution-Additionals/Yveltal-V3-xMEG088?language=1&minCondition=2",
                             "hidden": false
@@ -1392,7 +1403,7 @@
                             "type": "Promo + Foil + Stamp Pokémon League",
                             "format": "D (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "1€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Sword-Shield/Rillaboom-V2-SSH14?language=4&minCondition=2",
                             "hidden": false
@@ -1419,7 +1430,7 @@
                             "type": "Promo + Foil + Stamp Play!",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "1€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Promos/Glass-Trumpet-PRSCR-135?language=4&minCondition=2",
                             "hidden": false
@@ -1478,7 +1489,7 @@
                             "type": "Promo + Foil + Stamp Play!",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "1€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Promos/Colresss-Tenacity-PRSFA-057?language=4&minCondition=2",
                             "hidden": false
@@ -1518,7 +1529,7 @@
                             "type": "Double Rare",
                             "format": "H (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": "0,30€",
+                            "price": "1€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Cyber-Judge/Iron-Crown-ex-V1-sv5M036?language=7&minCondition=2",
                             "hidden": false
@@ -1545,7 +1556,7 @@
                             "type": "Double Rare",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "1€",
+                            "price": "0,50€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Arvens-Mabosstiff-ex-V1-DRI139?language=4&minCondition=2",
                             "hidden": false
@@ -1599,7 +1610,7 @@
                             "type": "Double Rare",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "0,10€",
+                            "price": "0,30€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Gourgeist-ex-V1-CRI041?language=4&minCondition=2",
                             "hidden": false
@@ -1891,6 +1902,7 @@
                     "name": "Energía de Planta Creciente",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_86.png",
                     "expansion": [
+                        "Equilibrio Perfecto",
                         "Sobre de premio de Play! (serie 9)"
                     ],
                     "code": "POR086",
@@ -1909,7 +1921,7 @@
                             "price": "",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Growing-G-Energy-V2-PPS9POR-087?language=4&minCondition=2",
-                            "hidden": false
+                            "hidden": true
                         },
                         {
                             "language": "Español",
@@ -1946,7 +1958,7 @@
                             "price": "",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Nitro-R-Energy-CRI086?language=4&minCondition=2",
-                            "hidden": false
+                            "hidden": true
                         },
                         {
                             "language": "Inglés",
@@ -1980,7 +1992,7 @@
                             "type": "Rare",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "0,50€",
                             "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Telepathic-P-Energy-POR088?language=4&minCondition=2",
                             "hidden": false
@@ -2039,7 +2051,7 @@
                             "type": "Rare",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "0,05€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Bubbly-W-Energy-CRI084?language=4&minCondition=2",
                             "hidden": false
@@ -2066,7 +2078,7 @@
                             "type": "Rare",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "0,05€",
                             "stock": 0,
                             "cardmarket-link": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_85.png",
                             "hidden": false
@@ -2106,7 +2118,7 @@
                             "price": "",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Magnetic-M-Energy-CRI085?language=4&minCondition=2&isReverseHolo=Y",
-                            "hidden": false
+                            "hidden": true
                         }
                     ]
                 }

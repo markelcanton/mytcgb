@@ -7,7 +7,9 @@
                     "slot": 1,
                     "name": "Eevee",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH7/SWSH7_ES_125.png",
-                    "expansion": "Cielos Evolutivos",
+                    "expansion": [
+                        "Cielos Evolutivos"
+                    ],
                     "code": "EVS 125",
                     "noTrade": true,
                     "reservada": false,
@@ -23,7 +25,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Evolving-Skies/Eevee-EVS125?language=4&minCondition=2&isReverseHolo=N"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Evolving-Skies/Eevee-EVS125?language=4&minCondition=2&isReverseHolo=N",
+                            "hidden": false
                         }
                     ]
                 },
@@ -31,7 +34,9 @@
                     "slot": 2,
                     "name": "Terapagos",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_161.png",
-                    "expansion": "Sobre de premio de Play! (serie 7)",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 7)"
+                    ],
                     "code": "SSP161",
                     "noTrade": true,
                     "reservada": false,
@@ -47,7 +52,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play!-Pokemon-Prize-Pack-Series-Seven/Terapagos-PPS7SSP-161?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play!-Pokemon-Prize-Pack-Series-Seven/Terapagos-PPS7SSP-161?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -55,7 +61,9 @@
                     "slot": 3,
                     "name": "Eternatus",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_69.png",
-                    "expansion": "Fuegos Fantasmales",
+                    "expansion": [
+                        "Fuegos Fantasmales"
+                    ],
                     "code": "PFL069",
                     "noTrade": true,
                     "reservada": false,
@@ -71,7 +79,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Eternatus-PFL069?language=4&minCondition=2&isReverseHolo=N"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Eternatus-PFL069?language=4&minCondition=2&isReverseHolo=N",
+                            "hidden": false
                         }
                     ]
                 }
@@ -84,7 +93,9 @@
                     "slot": 1,
                     "name": "Tinkatink",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_96.png",
-                    "expansion": "Megaevolución",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
                     "code": "MEG096",
                     "noTrade": true,
                     "reservada": false,
@@ -100,7 +111,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Tinkatink-MEG096?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Tinkatink-MEG096?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -108,7 +120,9 @@
                     "slot": 2,
                     "name": "Tinkatuff",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_97.png",
-                    "expansion": "Megaevolución",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
                     "code": "MEG097",
                     "noTrade": true,
                     "reservada": false,
@@ -124,7 +138,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Tinkatuff-MEG097?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Tinkatuff-MEG097?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -132,7 +147,9 @@
                     "slot": 4,
                     "name": "Quilladin",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY1/XY1_ES_13.png",
-                    "expansion": "XY",
+                    "expansion": [
+                        "XY"
+                    ],
                     "code": "XY 13",
                     "noTrade": true,
                     "reservada": false,
@@ -148,7 +165,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Quilladin-XY13?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Quilladin-XY13?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -161,7 +179,9 @@
                     "slot": 1,
                     "name": "Zarude",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_56.png",
-                    "expansion": "Oscuridad Absoluta",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
                     "code": "PBL056",
                     "noTrade": false,
                     "reservada": false,
@@ -177,7 +197,8 @@
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Zarude-PBL056?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Zarude-PBL056?language=1&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -185,7 +206,9 @@
                     "slot": 2,
                     "name": "Passimian",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH6/SWSH6_ES_88.png",
-                    "expansion": "Reinado Escalofriante",
+                    "expansion": [
+                        "Reinado Escalofriante"
+                    ],
                     "code": "CRE088",
                     "noTrade": true,
                     "reservada": false,
@@ -201,7 +224,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Passimian?language=4&minCondition=2&isReverseHolo=Y"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Passimian?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
                         }
                     ]
                 },
@@ -209,7 +233,9 @@
                     "slot": 3,
                     "name": "Meowth del Team Rocket",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_149.png",
-                    "expansion": "Rivales Predestinados",
+                    "expansion": [
+                        "Rivales Predestinados"
+                    ],
                     "code": "DRI149",
                     "noTrade": true,
                     "reservada": false,
@@ -225,7 +251,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Meowth-V1-DRI149?language=4&minCondition=2&isReverseHolo=Y"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Meowth-V1-DRI149?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
                         }
                     ]
                 },
@@ -233,7 +260,9 @@
                     "slot": 4,
                     "name": "Wobbuffet del Team Rocket",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_82.png",
-                    "expansion": "Rivales Predestinados",
+                    "expansion": [
+                        "Rivales Predestinados"
+                    ],
                     "code": "DRI082",
                     "noTrade": true,
                     "reservada": false,
@@ -249,7 +278,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Wobbuffet-DRI082?language=4&minCondition=2&isReverseHolo=N"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Wobbuffet-DRI082?language=4&minCondition=2&isReverseHolo=N",
+                            "hidden": false
                         }
                     ]
                 }
@@ -262,7 +292,9 @@
                     "slot": 1,
                     "name": "Luxio Nv.19",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/DP1/DP1_ES_52.png",
-                    "expansion": "Diamante y Perla",
+                    "expansion": [
+                        "Diamante y Perla"
+                    ],
                     "code": "DP 52",
                     "noTrade": true,
                     "reservada": false,
@@ -278,7 +310,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Diamond-Pearl/Luxio-Lv19-V1-DP52?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Diamond-Pearl/Luxio-Lv19-V1-DP52?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -286,7 +319,9 @@
                     "slot": 2,
                     "name": "Luxio",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV06/SV06_ES_67.png",
-                    "expansion": "Mascarada Crepuscular",
+                    "expansion": [
+                        "Mascarada Crepuscular"
+                    ],
                     "code": "TWM067",
                     "noTrade": true,
                     "reservada": false,
@@ -302,7 +337,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Twilight-Masquerade/Luxio-TWM067?language=1&minCondition=2&isReverseHolo=Y"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Twilight-Masquerade/Luxio-TWM067?language=1&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
                         }
                     ]
                 }
@@ -315,7 +351,9 @@
                     "slot": 1,
                     "name": "Zangoose",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH6/SWSH6_ES_120.png",
-                    "expansion": "Reinado Escalofriante",
+                    "expansion": [
+                        "Reinado Escalofriante"
+                    ],
                     "code": "CRE120",
                     "noTrade": true,
                     "reservada": false,
@@ -331,7 +369,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Zangoose-CRE120?language=1&minCondition=2&isReverseHolo=Y"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Zangoose-CRE120?language=1&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
                         }
                     ]
                 },
@@ -339,7 +378,9 @@
                     "slot": 2,
                     "name": "Zangoose",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_149.png",
-                    "expansion": "Chispas Fulgurantes",
+                    "expansion": [
+                        "Chispas Fulgurantes"
+                    ],
                     "code": "SSP149",
                     "noTrade": true,
                     "reservada": false,
@@ -355,7 +396,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Surging-Sparks/Zangoose-SSP149?language=4&minCondition=2&isReverseHolo=Y"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Surging-Sparks/Zangoose-SSP149?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
                         }
                     ]
                 },
@@ -363,7 +405,9 @@
                     "slot": 3,
                     "name": "Hawlucha",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_98.png",
-                    "expansion": "Tempestad Plateada",
+                    "expansion": [
+                        "Tempestad Plateada"
+                    ],
                     "code": "SIT098",
                     "noTrade": true,
                     "reservada": false,
@@ -379,7 +423,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Hawlucha-SIT098?language=4&minCondition=2&isReverseHolo=N"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Hawlucha-SIT098?language=4&minCondition=2&isReverseHolo=N",
+                            "hidden": false
                         }
                     ]
                 }
@@ -392,7 +437,9 @@
                     "slot": 1,
                     "name": "Dialga",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_95.png",
-                    "expansion": "Megaevolución",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
                     "code": "MEG095",
                     "noTrade": true,
                     "reservada": false,
@@ -408,7 +455,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Dialga-MEG095?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Dialga-MEG095?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -416,7 +464,9 @@
                     "slot": 3,
                     "name": "Zacian",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_45.png",
-                    "expansion": "Fuegos Fantasmales",
+                    "expansion": [
+                        "Fuegos Fantasmales"
+                    ],
                     "code": "PFL045",
                     "noTrade": true,
                     "reservada": false,
@@ -432,7 +482,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Zacian-V1-PFL045?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Zacian-V1-PFL045?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -445,7 +496,9 @@
                     "slot": 1,
                     "name": "Grovyle",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM8/SM8_ES_21.png",
-                    "expansion": "Truenos Perdidos",
+                    "expansion": [
+                        "Truenos Perdidos"
+                    ],
                     "code": "LOT 21",
                     "noTrade": true,
                     "reservada": false,
@@ -461,7 +514,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Lost-Thunder/Grovyle-LOT21?language=4&minCondition=2&isReverseHolo=N"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Lost-Thunder/Grovyle-LOT21?language=4&minCondition=2&isReverseHolo=N",
+                            "hidden": false
                         }
                     ]
                 },
@@ -469,7 +523,9 @@
                     "slot": 2,
                     "name": "Litten",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_32.png",
-                    "expansion": "Fuerzas Temporales",
+                    "expansion": [
+                        "Fuerzas Temporales"
+                    ],
                     "code": "TEF032",
                     "noTrade": true,
                     "reservada": false,
@@ -483,9 +539,10 @@
                             "type": "Common",
                             "format": "H",
                             "condition": "Near Mint",
-                            "price": null,
+                            "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Temporal-Forces/Litten-V1-TEF032?language=4&minCondition=2&isReverseHolo=N"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Temporal-Forces/Litten-V1-TEF032?language=4&minCondition=2&isReverseHolo=N",
+                            "hidden": false
                         }
                     ]
                 }
@@ -498,7 +555,9 @@
                     "slot": 1,
                     "name": "Dedenne",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_85.png",
-                    "expansion": "Tempestad Plateada",
+                    "expansion": [
+                        "Tempestad Plateada"
+                    ],
                     "code": "SIT085",
                     "noTrade": true,
                     "reservada": false,
@@ -514,7 +573,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Dedenne-SIT085?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Dedenne-SIT085?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -522,7 +582,9 @@
                     "slot": 3,
                     "name": "Rockruff",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV02/SV02_ES_116.png",
-                    "expansion": "Evoluciones en Paldea",
+                    "expansion": [
+                        "Evoluciones en Paldea"
+                    ],
                     "code": "PAL116",
                     "noTrade": true,
                     "reservada": false,
@@ -538,7 +600,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldea-Evolved/Rockruff-V1-PAL116?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldea-Evolved/Rockruff-V1-PAL116?language=1&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -546,7 +609,9 @@
                     "slot": 4,
                     "name": "Lycanroc",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_85.png",
-                    "expansion": "Juntos de Aventuras",
+                    "expansion": [
+                        "Juntos de Aventuras"
+                    ],
                     "code": "JTG085",
                     "noTrade": true,
                     "reservada": false,
@@ -562,7 +627,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Journey-Together/Lycanroc-V1-JTG085?language=4&minCondition=2&isReverseHolo=N"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Journey-Together/Lycanroc-V1-JTG085?language=4&minCondition=2&isReverseHolo=N",
+                            "hidden": false
                         }
                     ]
                 }
@@ -575,7 +641,9 @@
                     "slot": 3,
                     "name": "Koraidon",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_47.png",
-                    "expansion": "Oscuridad Absoluta",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
                     "code": "PBL047",
                     "noTrade": true,
                     "reservada": false,
@@ -591,7 +659,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Koraidon-PBL047?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Koraidon-PBL047?language=1&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -604,7 +673,9 @@
                     "slot": 1,
                     "name": "Roselia",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY2/XY2_ES_8.png",
-                    "expansion": "Destellos de Fuego",
+                    "expansion": [
+                        "Destellos de Fuego"
+                    ],
                     "code": "FLF 8",
                     "noTrade": true,
                     "reservada": false,
@@ -620,7 +691,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Roselia-FLF8?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Roselia-FLF8?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -628,7 +700,9 @@
                     "slot": 2,
                     "name": "Roserade",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY2/XY2_ES_9.png",
-                    "expansion": "Destellos de Fuego",
+                    "expansion": [
+                        "Destellos de Fuego"
+                    ],
                     "code": "FLF 9",
                     "noTrade": true,
                     "reservada": false,
@@ -644,7 +718,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Roserade-FLF9?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Roserade-FLF9?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -652,7 +727,9 @@
                     "slot": 3,
                     "name": "Regirock",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_89.png",
-                    "expansion": "Voltaje Vivido",
+                    "expansion": [
+                        "Voltaje Vivido"
+                    ],
                     "code": "VIV 89",
                     "noTrade": true,
                     "reservada": false,
@@ -668,7 +745,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Regirock-VIV89?language=4&minCondition=2&isReverseHolo=Y"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Regirock-VIV89?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
                         }
                     ]
                 }
@@ -682,7 +760,9 @@
                     "slot": 1,
                     "name": "Koraidon ex (foto incorrecta)",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV01/SV01_ES_125.png",
-                    "expansion": "Escarlata y Púrpura",
+                    "expansion": [
+                        "Escarlata y Púrpura"
+                    ],
                     "code": "Jumbo",
                     "noTrade": true,
                     "reservada": false,
@@ -696,9 +776,10 @@
                             "type": "Jumbo",
                             "format": "Jumbo (no válida en torneos)",
                             "condition": "Near Mint",
-                            "price": null,
+                            "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Scarlet-Violet/Koraidon-ex-V2-SVI125?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Scarlet-Violet/Koraidon-ex-V2-SVI125?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -744,7 +825,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Pikachu-V1-SIT049?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Pikachu-V1-SIT049?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -770,7 +852,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Raichu-SIT050?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Raichu-SIT050?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -796,7 +879,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Twilight-Masquerade/Morpeko-TWM072?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Twilight-Masquerade/Morpeko-TWM072?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -822,7 +906,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Morpeko-SIT116?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Morpeko-SIT116?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -853,7 +938,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Bea-VIV147?language=1&minCondition=2&isReverseHolo=Y"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Bea-VIV147?language=1&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
                         }
                     ]
                 },
@@ -879,7 +965,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Grapploct-VIV101?language=1&minCondition=2&isReverseHolo=Y"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Grapploct-VIV101?language=1&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
                         }
                     ]
                 },
@@ -905,7 +992,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Allister-VIV146?language=1&minCondition=2&isReverseHolo=Y"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Allister-VIV146?language=1&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
                         }
                     ]
                 }
@@ -936,7 +1024,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Professors-Letter-V2-XY123?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Professors-Letter-V2-XY123?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -962,7 +1051,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Roller-Skates-XY125?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Roller-Skates-XY125?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -988,7 +1078,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Super-Potion-XY128?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Super-Potion-XY128?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1014,7 +1105,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY-Kalos-Starter-Set/Tierno-V1-KSS39?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY-Kalos-Starter-Set/Tierno-V1-KSS39?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1045,7 +1137,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-GO/Lunatone-PGO034?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-GO/Lunatone-PGO034?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1071,7 +1164,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-GO/PokeStop-V1-PGO068?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-GO/PokeStop-V1-PGO068?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1102,7 +1196,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Dusclops-FLF39?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Dusclops-FLF39?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1128,7 +1223,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Primal-Clash/Torchic-PRC25?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Primal-Clash/Torchic-PRC25?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1154,7 +1250,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Floette-FLF65?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Floette-FLF65?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1180,7 +1277,8 @@
                             "condition": "",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Furious-Fists/Clefable-FFI71?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Furious-Fists/Clefable-FFI71?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1211,7 +1309,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Caterpie-FLF1?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Caterpie-FLF1?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1237,7 +1336,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Roaring-Skies/Tropius-ROS12?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Roaring-Skies/Tropius-ROS12?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1263,7 +1363,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Electabuzz-BCR53?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Electabuzz-BCR53?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1289,7 +1390,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Chinchou-BCR55?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Chinchou-BCR55?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1320,7 +1422,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Mienfoo-BCR86?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Mienfoo-BCR86?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1346,7 +1449,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantom-Forces/Poochyena-PHF53?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantom-Forces/Poochyena-PHF53?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1377,7 +1481,35 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Prismatic-Evolutions/Lacey-V1-PRE114?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Prismatic-Evolutions/Lacey-V1-PRE114?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 3,
+                    "name": "Pikachu",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_55.png",
+                    "expansion": [
+                        "Héroes Ascendentes"
+                    ],
+                    "code": "ASC055",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "",
+                            "price": "0,02€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Pikachu-ASC055?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
