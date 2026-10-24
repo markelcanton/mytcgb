@@ -26,7 +26,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Psyduck-V1-PPS9ASC-039?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Psyduck-V1-PPS9ASC-039?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -58,7 +59,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Mamoswine-PFL025?language=4&minCondition=2&isReverseHolo=Y"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Mamoswine-PFL025?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
                         }
                     ]
                 }
@@ -95,7 +97,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Serena-V1-SIT164?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Serena-V1-SIT164?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -127,7 +130,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldea-Evolved/Shinx-PAL068?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldea-Evolved/Shinx-PAL068?language=1&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -159,7 +163,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Obsidian-Flames/Pokemon-League-Headquarters-OBF192?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Obsidian-Flames/Pokemon-League-Headquarters-OBF192?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -189,7 +194,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/BREAKpoint/Professor-Sycamore-V1-BKP107?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/BREAKpoint/Professor-Sycamore-V1-BKP107?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -221,7 +227,8 @@
                             "condition": "Excellent",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Max-Revive-XY120?language=4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Max-Revive-XY120?language=4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 }
@@ -253,7 +260,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Wyndon-Stadium-VIV161?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Wyndon-Stadium-VIV161?language=1&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -285,7 +293,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/League-Staff-VIV153?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/League-Staff-VIV153?language=1&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -317,7 +326,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fusion-Strike/Battle-VIP-Pass?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fusion-Strike/Battle-VIP-Pass?language=1&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -349,7 +359,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Fog-Crystal-V1?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Fog-Crystal-V1?language=1&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -363,7 +374,9 @@
                     "slot": 1,
                     "name": "Energía Golpe Fusión",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH8/SWSH8_ES_244.png",
-                    "expansion": "Golpe Fusión",
+                    "expansion": [
+                        "Golpe Fusión"
+                    ],
                     "code": "FST244",
                     "noTrade": true,
                     "reservada": false,
@@ -379,7 +392,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fusion-Strike/Fusion-Strike-Energy?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fusion-Strike/Fusion-Strike-Energy?language=1&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -393,7 +407,9 @@
                     "slot": 1,
                     "name": "Energía Guardia V",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_169.png",
-                    "expansion": "Tempestad Plateada",
+                    "expansion": [
+                        "Tempestad Plateada"
+                    ],
                     "code": "SIT169",
                     "noTrade": true,
                     "reservada": false,
@@ -409,7 +425,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/V-Guard-Energy-V1-SIT169?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/V-Guard-Energy-V1-SIT169?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -441,7 +458,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Gym-Trainer-V1-SIT158?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Gym-Trainer-V1-SIT158?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -473,7 +491,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fusion-Strike/Cram-o-matic?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fusion-Strike/Cram-o-matic?language=1&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -505,7 +524,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Evolving-Skies/Galarian-Zapdos?language=4&minCondition=2&isReverseHolo=Y"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Evolving-Skies/Galarian-Zapdos?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
                         }
                     ]
                 }
@@ -537,7 +557,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Galarian-Sirfetchd?language=1&minCondition=2&isReverseHolo=Y"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Galarian-Sirfetchd?language=1&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
                         }
                     ]
                 }
@@ -569,7 +590,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Hitmontop-VIV88?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Hitmontop-VIV88?language=1&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -601,7 +623,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Lycanroc-VIV95?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Lycanroc-VIV95?language=1&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -633,7 +656,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Up/Kabutops-TEU78?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Up/Kabutops-TEU78?language=1&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -665,7 +689,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Shuckle-VIV85?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Shuckle-VIV85?language=1&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -697,7 +722,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Lost-Origin/Falinks-LOR110?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Lost-Origin/Falinks-LOR110?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -729,7 +755,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unified-Minds/Purrloin-UNM135?language=1&minCondition=2&isReverseHolo=Y"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unified-Minds/Purrloin-UNM135?language=1&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
                         }
                     ]
                 }
@@ -761,7 +788,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Zubat-SIT103?language=4&minCondition=2&isReverseHolo=Y"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Zubat-SIT103?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
                         }
                     ]
                 }
@@ -793,7 +821,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Lost-Origin/Porygon2-LOR141?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Lost-Origin/Porygon2-LOR141?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -825,7 +854,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Lost-Origin/Roselia-LOR014?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Lost-Origin/Roselia-LOR014?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -857,7 +887,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Brilliant-Stars/Gible-BRS107?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Brilliant-Stars/Gible-BRS107?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -889,7 +920,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Alcremie-VIV81?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Alcremie-VIV81?language=1&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -921,7 +953,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldea-Evolved/Clavell-V1-PAL177?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldea-Evolved/Clavell-V1-PAL177?language=1&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -953,7 +986,8 @@
                             "condition": "Poor",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Base-Set/Grass-Energy-V1-BS99?language=4"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Base-Set/Grass-Energy-V1-BS99?language=4",
+                            "hidden": false
                         }
                     ]
                 }
@@ -985,7 +1019,8 @@
                             "condition": "Poor",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Base-Set/Grass-Energy-V1-BS99?language=4"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Base-Set/Grass-Energy-V1-BS99?language=4",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1027,7 +1062,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Old-Cemetery?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Old-Cemetery?language=1&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1059,7 +1095,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Evolving-Skies/Shopping-Center-EVS157?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Evolving-Skies/Shopping-Center-EVS157?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1091,7 +1128,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Protection-Cube-FLF95?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Protection-Cube-FLF95?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1123,7 +1161,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Startling-Megaphone-FLF97?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Flashfire/Startling-Megaphone-FLF97?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1155,7 +1194,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Welcoming-Lantern-V1?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Welcoming-Lantern-V1?language=1&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1187,7 +1227,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fusion-Strike/Power-Tablet-V1?language=1&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fusion-Strike/Power-Tablet-V1?language=1&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1219,7 +1260,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Doctor-V1?language=1&minCondition=2&isReverseHolo=Y"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Doctor-V1?language=1&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1251,7 +1293,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Pumpkaboo-V1-XY56?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Pumpkaboo-V1-XY56?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1283,7 +1326,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Evolving-Skies/Emolga-EVS057?language=4&minCondition=2&isReverseHolo=Y"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Evolving-Skies/Emolga-EVS057?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1315,7 +1359,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Surging-Sparks/Wattrel-SSP066?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Surging-Sparks/Wattrel-SSP066?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1347,7 +1392,8 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Surging-Sparks/Kilowattrel-SSP067?language=4&minCondition=2"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Surging-Sparks/Kilowattrel-SSP067?language=4&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1356,12 +1402,68 @@
         {
             "number": 46,
             "jumbo": true,
-            "cards": []
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Dedenne",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV01/SV01_ES_94.png",
+                    "expansion": [
+                        "Escarlata y Púrpura"
+                    ],
+                    "code": "SVI094",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Common + Foil",
+                            "format": "G (no válida en torneos)",
+                            "condition": "",
+                            "price": "0,02€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Scarlet-Violet/Dedenne-SVI094?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
         },
         {
             "number": 47,
             "jumbo": true,
-            "cards": []
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Energía Regeneradora",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_168.png",
+                    "expansion": [
+                        "Tempestad Plateada"
+                    ],
+                    "code": "SIT168",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Uncommon",
+                            "format": "F (no válida en torneos)",
+                            "condition": "",
+                            "price": "0,02€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Regenerative-Energy-SIT168?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
         },
         {
             "number": 48,

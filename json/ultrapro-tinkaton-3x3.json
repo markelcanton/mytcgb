@@ -397,6 +397,33 @@
             "number": 4,
             "cards": [
                 {
+                    "slot": 3,
+                    "name": "Torterra",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_12.png",
+                    "expansion": [
+                        "Fuerzas Temporales"
+                    ],
+                    "code": "TEF012",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Double Rare",
+                            "format": "H",
+                            "condition": "",
+                            "price": "0,50€ - 1€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Temporal-Forces/Torterra-ex-V1-TEF012?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
                     "slot": 7,
                     "name": "Piplup",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_27.png",

@@ -78,7 +78,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 2,
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Weedle-CRI001?language=4&minCondition=2",
                             "hidden": false
                         }
@@ -251,33 +251,6 @@
         {
             "number": 2,
             "cards": [
-                {
-                    "slot": 1,
-                    "name": "Nidorina del Team Rocket",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_115.png",
-                    "expansion": [
-                        "Rivales Predestinados"
-                    ],
-                    "code": "DRI115",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Team-Rockets-Nidorina-DRI115?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
                 {
                     "slot": 2,
                     "name": "Clefairy",
@@ -466,33 +439,6 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Golbat-CRI050?language=1&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 8,
-                    "name": "Mankey",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_42.png",
-                    "expansion": [
-                        "Oscuridad Absoluta"
-                    ],
-                    "code": "PBL042",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Inglés",
-                            "type": "Common",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mankey-PBL042?language=1&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -825,33 +771,6 @@
                     ]
                 },
                 {
-                    "slot": 2,
-                    "name": "Doduo",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY1/XY1_ES_98.png",
-                    "expansion": [
-                        "XY"
-                    ],
-                    "code": "XY 98",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "XY (no válida en torneos)",
-                            "condition": "Near Mint",
-                            "price": "0,10€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Doduo-XY98?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
                     "slot": 3,
                     "name": "Dewgong",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_19.png",
@@ -872,7 +791,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 2,
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Dewgong-PPS9POR-19?language=4&minCondition=2",
                             "hidden": false
                         }
@@ -1323,33 +1242,6 @@
         {
             "number": 6,
             "cards": [
-                {
-                    "slot": 1,
-                    "name": "Kabutops",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM9/SM9_ES_78.png",
-                    "expansion": [
-                        "Unión de Aliados"
-                    ],
-                    "code": "TEU 78",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Inglés",
-                            "type": "Rare",
-                            "format": "Sol y Luna (no válida en torneos)",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Up/Kabutops-TEU78?language=1&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
                 {
                     "slot": 2,
                     "name": "Snorlax de Paul",
@@ -2870,7 +2762,7 @@
                     "expansion": [
                         "Megaevolución"
                     ],
-                    "code": "MEG073",
+                    "code": "MEG073, m1L 025",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
@@ -2884,9 +2776,19 @@
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 2,
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Hariyama-MEG073?language=4&minCondition=2",
                             "hidden": false
+                        },
+                        {
+                            "language": "Japonés",
+                            "type": "Rare",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Brave/Hariyama-m1L025?language=7&minCondition=2",
+                            "hidden": true
                         }
                     ]
                 },
@@ -5266,33 +5168,6 @@
                             "price": "0,02€",
                             "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Ns-Darmanitan-PPS7JTG-027?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 5,
-                    "name": "Scrafty de Roxy",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_133.png",
-                    "expansion": [
-                        "Rivales Predestinados"
-                    ],
-                    "code": "DRI133",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Uncommon",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Marnies-Scrafty-DRI133?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]

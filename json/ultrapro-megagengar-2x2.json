@@ -341,6 +341,33 @@
                             "hidden": false
                         }
                     ]
+                },
+                {
+                    "slot": 3,
+                    "name": "Luxray",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12PT5/SWSH12PT5_ES_44.png",
+                    "expansion": [
+                        "Cenit Supremo"
+                    ],
+                    "code": "CRZ044",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Rare",
+                            "format": "F (no válida en torneos)",
+                            "condition": "",
+                            "price": "0,02€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Crown-Zenith/Luxray-CRZ044?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
                 }
             ]
         },
@@ -521,6 +548,33 @@
                 },
                 {
                     "slot": 2,
+                    "name": "Litten",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM1/SM1_ES_24.png",
+                    "expansion": [
+                        "Sol y Luna"
+                    ],
+                    "code": "SUM 24",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Common",
+                            "format": "Sol y Luna (no válidas en torneos)",
+                            "condition": "",
+                            "price": "0,02€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Sun-Moon/Litten-V1-SUM24?language=4&minCondition=3",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 4,
                     "name": "Litten",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_32.png",
                     "expansion": [
@@ -1521,7 +1575,35 @@
         },
         {
             "number": 24,
-            "cards": []
+            "cards": [
+                {
+                    "slot": 4,
+                    "name": "Cambio",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/HGSS1/HGSS1_ES_102.png",
+                    "expansion": [
+                        "HeartGold & SoulSilver"
+                    ],
+                    "code": "HS 102",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "HGSS (reimpresa)",
+                            "condition": "Good",
+                            "price": "4€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/HeartGold-SoulSilver/Switch-HS102?language=4&minCondition=3",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
