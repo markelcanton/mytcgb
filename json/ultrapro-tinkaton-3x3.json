@@ -62,10 +62,11 @@
                     "name": "Charmeleon",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_12.png",
                     "expansion": [
+                        "Fuegos Fantasmales",
                         "Sobre de premio de Play! (serie 9)"
                     ],
                     "code": "PFL012",
-                    "noTrade": true,
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -74,13 +75,23 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Common + Play! Stamp",
+                            "type": "Common",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "0,02€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Charmeleon-V1-PPS9PFL-012?language=4&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Charmeleon-PFL012?language=4&minCondition=2",
                             "hidden": false
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Common + Play! Stamp (serie 9)",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,20€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Charmeleon-V1-PPS9PFL-012?language=4&minCondition=2",
+                            "hidden": true
                         }
                     ]
                 }
