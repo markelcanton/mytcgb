@@ -2389,14 +2389,9 @@
                             "hidden": false
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 10,
-            "cards": [
+                },
                 {
-                    "slot": 4,
+                    "slot": 7,
                     "name": "Lotad",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_5.png",
                     "expansion": [
@@ -2414,7 +2409,7 @@
                             "language": "Español",
                             "type": "Common",
                             "format": "I",
-                            "condition": "",
+                            "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Lotad-PFL005?language=4&minCondition=2",
@@ -2423,7 +2418,7 @@
                     ]
                 },
                 {
-                    "slot": 5,
+                    "slot": 8,
                     "name": "Lombre",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_6.png",
                     "expansion": [
@@ -2450,7 +2445,7 @@
                     ]
                 },
                 {
-                    "slot": 6,
+                    "slot": 9,
                     "name": "Ludicolo",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_37.png",
                     "expansion": [
@@ -2475,9 +2470,14 @@
                             "hidden": false
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 10,
+            "cards": [
                 {
-                    "slot": 7,
+                    "slot": 1,
                     "name": "Seedot",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_13.png",
                     "expansion": [
@@ -2504,7 +2504,7 @@
                     ]
                 },
                 {
-                    "slot": 8,
+                    "slot": 2,
                     "name": "Nuzleaf",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_14.png",
                     "expansion": [
@@ -2531,7 +2531,7 @@
                     ]
                 },
                 {
-                    "slot": 9,
+                    "slot": 3,
                     "name": "Shiftry",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_15.png",
                     "expansion": [
@@ -2566,14 +2566,9 @@
                             "hidden": false
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 11,
-            "cards": [
+                },
                 {
-                    "slot": 1,
+                    "slot": 4,
                     "name": "Swellow",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_157.png",
                     "expansion": [
@@ -2600,7 +2595,7 @@
                     ]
                 },
                 {
-                    "slot": 2,
+                    "slot": 5,
                     "name": "Wingull",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_38.png",
                     "expansion": [
@@ -2627,7 +2622,7 @@
                     ]
                 },
                 {
-                    "slot": 3,
+                    "slot": 6,
                     "name": "Pelipper",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_39.png",
                     "expansion": [
@@ -2654,7 +2649,7 @@
                     ]
                 },
                 {
-                    "slot": 4,
+                    "slot": 7,
                     "name": "Ralts",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_58.png",
                     "expansion": [
@@ -2681,7 +2676,7 @@
                     ]
                 },
                 {
-                    "slot": 5,
+                    "slot": 8,
                     "name": "Kirlia",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV4PT5/SV4PT5_ES_28.png",
                     "expansion": [
@@ -2708,7 +2703,7 @@
                     ]
                 },
                 {
-                    "slot": 6,
+                    "slot": 9,
                     "name": "Nincada",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_16.png",
                     "expansion": [
@@ -2743,9 +2738,14 @@
                             "hidden": false
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 11,
+            "cards": [
                 {
-                    "slot": 7,
+                    "slot": 1,
                     "name": "Ninjask",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_17.png",
                     "expansion": [
@@ -2772,7 +2772,7 @@
                     ]
                 },
                 {
-                    "slot": 8,
+                    "slot": 2,
                     "name": "Shedinja",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_61.png",
                     "expansion": [
@@ -2799,7 +2799,7 @@
                     ]
                 },
                 {
-                    "slot": 9,
+                    "slot": 3,
                     "name": "Makuhita",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_72.png",
                     "expansion": [
@@ -2824,14 +2824,9 @@
                             "hidden": false
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 12,
-            "cards": [
+                },
                 {
-                    "slot": 1,
+                    "slot": 4,
                     "name": "Hariyama",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_73.png",
                     "expansion": [
@@ -2863,12 +2858,12 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Brave/Hariyama-m1L025?language=7&minCondition=2",
-                            "hidden": true
+                            "hidden": false
                         }
                     ]
                 },
                 {
-                    "slot": 2,
+                    "slot": 5,
                     "name": "Nosepass",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_37.png",
                     "expansion": [
@@ -2895,7 +2890,7 @@
                     ]
                 },
                 {
-                    "slot": 3,
+                    "slot": 6,
                     "name": "Mawile",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_32.png",
                     "expansion": [
@@ -2922,7 +2917,7 @@
                     ]
                 },
                 {
-                    "slot": 4,
+                    "slot": 7,
                     "name": "Meditite",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_99.png",
                     "expansion": [
@@ -2949,7 +2944,34 @@
                     ]
                 },
                 {
-                    "slot": 5,
+                    "slot": 8,
+                    "name": "Medicham",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_104.png",
+                    "expansion": [
+                        "Héroes Ascendentes"
+                    ],
+                    "code": "m2a 085",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Japonés",
+                            "type": "Common",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEGA-Dream-ex/Medicham-V1-m2a085?language=7&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 9,
                     "name": "Electrike",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_23.png",
                     "expansion": [
@@ -2974,9 +2996,14 @@
                             "hidden": false
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 12,
+            "cards": [
                 {
-                    "slot": 6,
+                    "slot": 1,
                     "name": "Manectric",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_24.png",
                     "expansion": [
@@ -3013,7 +3040,7 @@
                     ]
                 },
                 {
-                    "slot": 7,
+                    "slot": 2,
                     "name": "Roselia de Cintia",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_7.png",
                     "expansion": [
@@ -3040,7 +3067,34 @@
                     ]
                 },
                 {
-                    "slot": 8,
+                    "slot": 3,
+                    "name": "Carvanha",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_60.png",
+                    "expansion": [
+                        "Fuegos Fantasmales"
+                    ],
+                    "code": "m2 050",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Coreano",
+                            "type": "Common",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Inferno-X/Carvanha-m2050?language=10&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 4,
                     "name": "Wailmer",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_15.png",
                     "expansion": [
@@ -3067,7 +3121,7 @@
                     ]
                 },
                 {
-                    "slot": 9,
+                    "slot": 5,
                     "name": "Numel",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_21.png",
                     "expansion": [
@@ -3102,14 +3156,9 @@
                             "hidden": false
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 13,
-            "cards": [
+                },
                 {
-                    "slot": 1,
+                    "slot": 6,
                     "name": "Spoink",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_62.png",
                     "expansion": [
@@ -3136,7 +3185,7 @@
                     ]
                 },
                 {
-                    "slot": 2,
+                    "slot": 7,
                     "name": "Grumpig",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_63.png",
                     "expansion": [
@@ -3163,7 +3212,7 @@
                     ]
                 },
                 {
-                    "slot": 3,
+                    "slot": 8,
                     "name": "Trapinch",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_51.png",
                     "expansion": [
@@ -3200,7 +3249,7 @@
                     ]
                 },
                 {
-                    "slot": 4,
+                    "slot": 9,
                     "name": "Vibrava",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_52.png",
                     "expansion": [
@@ -3225,9 +3274,14 @@
                             "hidden": false
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 13,
+            "cards": [
                 {
-                    "slot": 5,
+                    "slot": 1,
                     "name": "Flygon",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_53.png",
                     "expansion": [
@@ -3254,7 +3308,7 @@
                     ]
                 },
                 {
-                    "slot": 6,
+                    "slot": 2,
                     "name": "Lunatone",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_74.png",
                     "expansion": [
@@ -3302,7 +3356,7 @@
                     ]
                 },
                 {
-                    "slot": 7,
+                    "slot": 3,
                     "name": "Corphish",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_33.png",
                     "expansion": [
@@ -3329,7 +3383,7 @@
                     ]
                 },
                 {
-                    "slot": 8,
+                    "slot": 4,
                     "name": "Crawdaunt",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_85.png",
                     "expansion": [
@@ -3356,7 +3410,7 @@
                     ]
                 },
                 {
-                    "slot": 9,
+                    "slot": 5,
                     "name": "Baltoy de Máximo",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_83.png",
                     "expansion": [
@@ -3381,14 +3435,9 @@
                             "hidden": false
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 14,
-            "cards": [
+                },
                 {
-                    "slot": 1,
+                    "slot": 6,
                     "name": "Claydol",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_47.png",
                     "expansion": [
@@ -3425,7 +3474,7 @@
                     ]
                 },
                 {
-                    "slot": 2,
+                    "slot": 7,
                     "name": "Banette",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_34.png",
                     "expansion": [
@@ -3441,12 +3490,12 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Uncommon",
+                            "type": "Uncommon + Foil",
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Banette-PBL034?language=4&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Banette-PBL034?language=4&minCondition=2&isReverseHolo=Y",
                             "hidden": false
                         },
                         {
@@ -3455,14 +3504,14 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Banette-PBL034?language=1&minCondition=2",
                             "hidden": false
                         }
                     ]
                 },
                 {
-                    "slot": 3,
+                    "slot": 8,
                     "name": "Tropius",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_1.png",
                     "expansion": [
@@ -3489,7 +3538,7 @@
                     ]
                 },
                 {
-                    "slot": 4,
+                    "slot": 9,
                     "name": "Absol",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_63.png",
                     "expansion": [
@@ -3514,9 +3563,14 @@
                             "hidden": false
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 14,
+            "cards": [
                 {
-                    "slot": 5,
+                    "slot": 1,
                     "name": "Clamperl",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_54.png",
                     "expansion": [
@@ -3543,7 +3597,7 @@
                     ]
                 },
                 {
-                    "slot": 6,
+                    "slot": 2,
                     "name": "Relicanth",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_17.png",
                     "expansion": [
@@ -3580,7 +3634,7 @@
                     ]
                 },
                 {
-                    "slot": 7,
+                    "slot": 3,
                     "name": "Beldum",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_59.png",
                     "expansion": [
@@ -3607,7 +3661,7 @@
                     ]
                 },
                 {
-                    "slot": 8,
+                    "slot": 4,
                     "name": "Metang",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_60.png",
                     "expansion": [
@@ -3634,7 +3688,7 @@
                     ]
                 },
                 {
-                    "slot": 9,
+                    "slot": 5,
                     "name": "Metagross",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_61.png",
                     "expansion": [
@@ -3679,14 +3733,9 @@
                             "hidden": false
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 15,
-            "cards": [
+                },
                 {
-                    "slot": 1,
+                    "slot": 6,
                     "name": "Latios",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_101.png",
                     "expansion": [
@@ -3723,7 +3772,7 @@
                     ]
                 },
                 {
-                    "slot": 2,
+                    "slot": 7,
                     "name": "Kyogre",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_34.png",
                     "expansion": [
@@ -3760,7 +3809,7 @@
                     ]
                 },
                 {
-                    "slot": 3,
+                    "slot": 8,
                     "name": "Deoxys",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_34.png",
                     "expansion": [
@@ -3785,7 +3834,12 @@
                             "hidden": false
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 15,
+            "cards": [
                 {
                     "slot": 4,
                     "name": "Shinx",
@@ -8925,60 +8979,6 @@
                     ]
                 },
                 {
-                    "slot": 3,
-                    "name": "Wattrel de e-Nigma",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_54.png",
-                    "expansion": [
-                        "Juntos de Aventuras"
-                    ],
-                    "code": "JTG054",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common + Foil",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Journey-Together/Ionos-Wattrel-JTG054?language=4&minCondition=2&isReverseHolo=Y",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 4,
-                    "name": "Kilowattrel de e-Nigma",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_55.png",
-                    "expansion": [
-                        "Juntos de Aventuras"
-                    ],
-                    "code": "JTG055",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Rare",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Journey-Together/Ionos-Kilowattrel-V1-JTG055?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
                     "slot": 5,
                     "name": "Maschiff",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV02/SV02_ES_142.png",
@@ -10975,7 +10975,7 @@
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 6,
+                            "stock": 5,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Ultra-Ball-MEG131?language=1&minCondition=2",
                             "hidden": false
                         }
@@ -11226,33 +11226,6 @@
         {
             "number": 42,
             "cards": [
-                {
-                    "slot": 1,
-                    "name": "Tarjeta Roja Especial",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_82.png",
-                    "expansion": [
-                        "Caos Creciente"
-                    ],
-                    "code": "CRI082",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Uncommon",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Special-Red-Card-V1-CRI082?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
                 {
                     "slot": 2,
                     "name": "Más PP de N",
@@ -12264,33 +12237,6 @@
                     ]
                 },
                 {
-                    "slot": 6,
-                    "name": "Montaña Gravedad",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_177.png",
-                    "expansion": [
-                        "Sobre de premio de Play! (serie 7)"
-                    ],
-                    "code": "SSP177",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Uncommon + Foil + Play! Stamp",
-                            "format": "H",
-                            "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Gravity-Mountain-PPS7SSP-177?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
                     "slot": 7,
                     "name": "Fábrica del Team Rocket",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_173.png",
@@ -12397,55 +12343,6 @@
         {
             "number": 46,
             "cards": [
-                {
-                    "slot": 1,
-                    "name": "Ciudad Leudal",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_150.png",
-                    "expansion": [
-                        "Juntos de Aventuras",
-                        "Sobre de premio de Play! (serie 7)",
-                        "Sobre de premio de Play! (serie 8)"
-                    ],
-                    "code": "JTG150",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Uncommon",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Journey-Together/Levincia-JTG150?language=4&minCondition=2",
-                            "hidden": false
-                        },
-                        {
-                            "language": "Español",
-                            "type": "Uncommon + Play! Stamp (serie 7)",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Levincia-V1-PPS7JTG-150?language=4&minCondition=2",
-                            "hidden": false
-                        },
-                        {
-                            "language": "Español",
-                            "type": "Uncommon + Play! Stamp (serie 8)",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Levincia-V1-PPS8JTG-150?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
                 {
                     "slot": 2,
                     "name": "Playa Surfera",
