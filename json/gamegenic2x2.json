@@ -1630,7 +1630,7 @@
                         "Megaevolución"
                     ],
                     "code": "MEG050",
-                    "noTrade": false,
+                    "noTrade": true,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
