@@ -7,6 +7,9 @@ let currentPage = 1;
 let isAnimating = false;
 
 let expansionChronologicalOrder = [];
+let allExpansionsMasterData = [];
+
+let activeExpansionTarget = 'main';
 
 function ensureBackdrop() {
     let backdrop = document.getElementById('modal-backdrop');
@@ -669,6 +672,7 @@ function restoreSearchFromUrlParams(selectedExpansions, selectedLanguages, selec
 function renderTags(container, storageArray) {
     if (!container) return;
     container.innerHTML = '';
+
     storageArray.forEach(item => {
         const tag = document.createElement('span');
         tag.className = 'filter-tag';
@@ -679,6 +683,272 @@ function renderTags(container, storageArray) {
             renderTags(container, storageArray);
         });
         container.appendChild(tag);
+    });
+}
+
+let selectedExpansions = [];
+let selectedLanguages = [];
+let selectedConditions = [];
+let currentActiveSetIndex = 0;
+let currentActiveSeriesIndex = 0;
+
+function openExpansionSelectorModal(target = 'main') {
+    activeExpansionTarget = target;
+    let modal = document.getElementById('expansion-selector-modal');
+    if (!modal) {
+        modal = document.createElement('div');
+        modal.id = 'expansion-selector-modal';
+        modal.className = 'modal-overlay';
+        
+        modal.style.zIndex = '100000'; 
+
+        modal.innerHTML = `
+            <div class="editor-modal-content" style="max-width: 750px; height: 85vh;">
+                <div class="editor-modal-header">
+                    <h2>Seleccionar expansiones:</h2>
+                    <span id="close-expansion-modal" class="close-btn-editor">&times;</span>
+                </div>
+                <div class="editor-modal-body" style="display:flex; flex-direction:column; gap:12px;">
+                    <input type="text" id="expansion-search-input" class="editor-input" placeholder="Buscar expansión..." autocomplete="off">
+                    
+                    <div id="set-tabs-container" style="display:flex; gap:8px; flex-wrap:wrap; border-bottom: 1px solid #21262d; padding-bottom: 8px;"></div>
+
+                    <div id="series-select-wrapper" style="display:flex; flex-direction:column; gap:4px;">
+                        <label id="series-label-text" style="font-size: 13px; color: #8b949e; font-weight: bold;">Serie:</label>
+                        <select id="series-dropdown-select" class="editor-input" style="cursor: pointer; margin: 0;"></select>
+                    </div>
+
+                    <div id="expansion-grid-container" style="display:grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap:10px; overflow-y:auto; padding-right:4px; flex:1;"></div>
+                </div>
+                <div class="editor-modal-footer">
+                    <button type="button" id="confirm-expansion-selection" class="btn-editor-primary">Aceptar</button>
+                </div>
+            </div>
+        `;
+        document.body.appendChild(modal);
+
+        modal.querySelector('#close-expansion-modal').addEventListener('click', () => closeModal(modal));
+        modal.querySelector('#confirm-expansion-selection').addEventListener('click', () => closeModal(modal));
+
+        modal.querySelector('#expansion-search-input').addEventListener('input', (e) => {
+            renderExpansionContent(e.target.value.toLowerCase());
+        });
+
+        modal.querySelector('#series-dropdown-select').addEventListener('change', (e) => {
+            currentActiveSeriesIndex = parseInt(e.target.value, 10);
+            renderExpansionContent('');
+        });
+    }
+
+    modal.style.zIndex = '100000';
+
+    currentActiveSetIndex = 0;
+    currentActiveSeriesIndex = 0;
+    renderExpansionContent('');
+    openModal(modal);
+}
+
+function renderExpansionContent(filterText = '') {
+    const setTabsContainer = document.getElementById('set-tabs-container');
+    const seriesSelectWrapper = document.getElementById('series-select-wrapper');
+    const seriesDropdown = document.getElementById('series-dropdown-select');
+    const gridContainer = document.getElementById('expansion-grid-container');
+    const confirmBtn = document.getElementById('confirm-expansion-selection');
+
+    if (!setTabsContainer || !seriesSelectWrapper || !seriesDropdown || !gridContainer || !confirmBtn) return;
+
+    const targetArray = 
+        (activeExpansionTarget === 'editor' && typeof editorSelectedExpansions !== 'undefined') ? editorSelectedExpansions :
+        (activeExpansionTarget === 'shopping' && activeShoppingExpansionTarget && activeShoppingExpansionTarget._cardExpansions) ? activeShoppingExpansionTarget._cardExpansions :
+        selectedExpansions;
+
+    function handleSelectionChange() {
+        if (activeExpansionTarget === 'editor' && typeof renderEditorExpansionTags === 'function') {
+            renderEditorExpansionTags();
+        } else if (activeExpansionTarget === 'shopping' && activeShoppingExpansionTarget) {
+            const tagsContainer = activeShoppingExpansionTarget.querySelector('.shop-edit-expansion-tags');
+            renderShopCardExpansionTags(tagsContainer, activeShoppingExpansionTarget._cardExpansions);
+        } else {
+            renderTags(document.getElementById('expansion-tags'), selectedExpansions);
+        }
+    }
+
+    if (filterText) {
+        setTabsContainer.style.display = 'none';
+        seriesSelectWrapper.style.display = 'none';
+        confirmBtn.disabled = false;
+        confirmBtn.style.opacity = '1';
+        confirmBtn.style.cursor = 'pointer';
+
+        gridContainer.innerHTML = '';
+        let foundAny = false;
+
+        allExpansionsMasterData.forEach(setObj => {
+            if (setObj.series && Array.isArray(setObj.series)) {
+                setObj.series.forEach(seriesObj => {
+                    if (seriesObj.options && Array.isArray(seriesObj.options)) {
+                        seriesObj.options.forEach(opt => {
+                            const expName = typeof opt === 'string' ? opt : opt.name;
+                            const expImg = typeof opt === 'string' ? 'https://images.pokemontcg.io/base1/symbol.png' : (opt.image || 'https://images.pokemontcg.io/base1/symbol.png');
+
+                            if (expName.toLowerCase().includes(filterText)) {
+                                foundAny = true;
+                                const isSelected = targetArray.includes(expName);
+
+                                const card = document.createElement('div');
+                                card.className = `expansion-grid-card ${isSelected ? 'selected' : ''}`;
+                                card.style.cssText = `
+                                    background: #161b22;
+                                    border: 2px solid ${isSelected ? '#2ea043' : '#30363d'};
+                                    border-radius: 8px;
+                                    padding: 10px;
+                                    text-align: center;
+                                    cursor: pointer;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    gap: 8px;
+                                    transition: all 0.2s;
+                                `;
+
+                                card.innerHTML = `
+                                    <img src="${expImg}" alt="${expName}" style="width: 40px; height: 40px; object-fit: contain;" onerror="this.src='https://tcg.pokemon.com/assets/img/global/tcg-card-back.jpg'">
+                                    <span style="font-size: 12px; color: ${isSelected ? '#3fb950' : '#c9d1d9'}; font-weight: ${isSelected ? 'bold' : 'normal'};">${expName}</span>
+                                `;
+
+                                card.addEventListener('click', () => {
+                                    const idx = targetArray.indexOf(expName);
+                                    if (idx > -1) {
+                                        targetArray.splice(idx, 1);
+                                    } else {
+                                        targetArray.push(expName);
+                                    }
+                                    handleSelectionChange();
+                                    renderExpansionContent(document.getElementById('expansion-search-input').value.toLowerCase());
+                                });
+
+                                gridContainer.appendChild(card);
+                            }
+                        });
+                    }
+                });
+            }
+        });
+
+        if (!foundAny) {
+            gridContainer.innerHTML = `<div style="color: #8b949e; grid-column: 1 / -1; text-align: center; padding: 20px;">No se encontraron expansiones.</div>`;
+        }
+        return;
+    }
+
+    setTabsContainer.style.display = 'flex';
+    setTabsContainer.innerHTML = '';
+
+    allExpansionsMasterData.forEach((setObj, sIdx) => {
+        const isActive = sIdx === currentActiveSetIndex;
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = isActive ? 'btn-editor-primary' : 'editor-input';
+        btn.style.cssText = `cursor: pointer; padding: 6px 14px; font-weight: bold; border-radius: 6px; ${isActive ? 'background: #2ea043; border-color: #2ea043;' : 'background: #161b22; color: #8b949e;'}`;
+        btn.textContent = setObj.set;
+
+        btn.addEventListener('click', () => {
+            currentActiveSetIndex = sIdx;
+            currentActiveSeriesIndex = 0;
+            renderExpansionContent('');
+        });
+        setTabsContainer.appendChild(btn);
+    });
+
+    const activeSet = allExpansionsMasterData[currentActiveSetIndex];
+    const hasAnySeries = activeSet && activeSet.series && activeSet.series.length > 0;
+
+    if (!hasAnySeries) {
+        seriesSelectWrapper.style.display = 'none';
+        gridContainer.innerHTML = `<div style="color: #8b949e; grid-column: 1 / -1; text-align: center; padding: 30px; font-size: 14px;">Este set no tiene expansiones.</div>`;
+        confirmBtn.disabled = true;
+        confirmBtn.style.opacity = '0.5';
+        confirmBtn.style.cursor = 'not-allowed';
+        return;
+    }
+
+    seriesSelectWrapper.style.display = 'flex';
+    seriesDropdown.innerHTML = '';
+    activeSet.series.forEach((seriesObj, serIdx) => {
+        const option = document.createElement('option');
+        option.value = serIdx;
+        option.textContent = seriesObj.name;
+        if (serIdx === currentActiveSeriesIndex) {
+            option.selected = true;
+        }
+        seriesDropdown.appendChild(option);
+    });
+
+    gridContainer.innerHTML = '';
+    const activeSeries = activeSet.series[currentActiveSeriesIndex];
+    const hasExpansions = activeSeries && activeSeries.options && activeSeries.options.length > 0;
+
+    if (!hasExpansions) {
+        gridContainer.innerHTML = `<div style="color: #8b949e; grid-column: 1 / -1; text-align: center; padding: 30px; font-size: 14px;">Este set no tiene expansiones.</div>`;
+        confirmBtn.disabled = true;
+        confirmBtn.style.opacity = '0.5';
+        confirmBtn.style.cursor = 'not-allowed';
+        return;
+    }
+
+    confirmBtn.disabled = false;
+    confirmBtn.style.opacity = '1';
+    confirmBtn.style.cursor = 'pointer';
+
+    activeSeries.options.forEach(opt => {
+        const expName = typeof opt === 'string' ? opt : opt.name;
+        const expImg = typeof opt === 'string' ? 'https://images.pokemontcg.io/base1/symbol.png' : (opt.image || 'https://images.pokemontcg.io/base1/symbol.png');
+        const isSelected = targetArray.includes(expName);
+
+        const card = document.createElement('div');
+        card.className = `expansion-grid-card ${isSelected ? 'selected' : ''}`;
+        card.style.cssText = `
+            background: #161b22;
+            border: 2px solid ${isSelected ? '#2ea043' : '#30363d'};
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            transition: all 0.2s;
+        `;
+
+        card.innerHTML = `
+            <img src="${expImg}" alt="${expName}" style="width: 40px; height: 40px; object-fit: contain;" onerror="this.src='https://tcg.pokemon.com/assets/img/global/tcg-card-back.jpg'">
+            <span style="font-size: 12px; color: ${isSelected ? '#3fb950' : '#c9d1d9'}; font-weight: ${isSelected ? 'bold' : 'normal'};">${expName}</span>
+        `;
+
+        card.addEventListener('click', () => {
+            if (activeExpansionTarget === 'shopping' && activeShoppingExpansionTarget) {
+                activeShoppingExpansionTarget._cardExpansion = expName;
+                renderShopCardSingleExpansionTag(
+                    activeShoppingExpansionTarget.querySelector('.shop-edit-expansion-tags'), 
+                    activeShoppingExpansionTarget
+                );
+                closeModal(document.getElementById('expansion-selector-modal'));
+            } else {
+                const idx = targetArray.indexOf(expName);
+                if (idx > -1) {
+                    targetArray.splice(idx, 1);
+                } else {
+                    targetArray.push(expName);
+                }
+                handleSelectionChange();
+                renderExpansionContent('');
+            }
+        });
+
+        gridContainer.appendChild(card);
     });
 }
 
@@ -855,10 +1125,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const openSearchBtns = document.querySelectorAll('#open-search-modal-btn, .open-search-btn');
     const closeSearchBtn = document.getElementById('close-search-modal');
     const closeResultsBtn = document.getElementById('close-results-modal');
-
-    let selectedExpansions = [];
-    let selectedLanguages = [];
-    let selectedConditions = [];
+    const openExpansionBtn = document.getElementById('open-expansion-modal-btn');
 
     openSearchBtns.forEach(btn => {
         btn.addEventListener('click', () => {
@@ -866,6 +1133,12 @@ document.addEventListener("DOMContentLoaded", async () => {
             openModal(searchModal);
         });
     });
+
+    if (openExpansionBtn) {
+        openExpansionBtn.addEventListener('click', () => {
+            openExpansionSelectorModal();
+        });
+    }
 
     if (closeSearchBtn && searchModal) {
         closeSearchBtn.addEventListener('click', () => {
@@ -895,7 +1168,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
     }
 
-    setupMultiSelect('filter-expansion-select', 'expansion-tags', selectedExpansions);
     setupMultiSelect('filter-language-select', 'language-tags', selectedLanguages);
     setupMultiSelect('filter-condition-select', 'condition-tags', selectedConditions);
 
@@ -961,7 +1233,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         syncSearchUrlParams(selectedExpansions, selectedLanguages, selectedConditions);
 
         const matches = [];
-
         const isEditorPage = !!document.getElementById('mode-selector');
 
         allPagesData.forEach(page => {
@@ -1059,7 +1330,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
 
         lastSearchResults = matches;
-
         closeModal(searchModal);
         
         const sortSelect = document.getElementById('search-sort-select');
@@ -1249,7 +1519,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     await handleAlbumChange();
-
     isInitialLoad = false;
 });
 
@@ -1321,7 +1590,11 @@ async function loadFilterMasterData() {
     const filterCondSelect = document.getElementById('filter-condition-select');
 
     try {
-        const response = await fetch('json/mdata.json');
+        let response = await fetch('../mytcgb/json/mdata.json');
+        if (!response.ok) {
+            response = await fetch('/json/mdata.json');
+        }
+
         if (!response.ok) {
             console.error('Error al cargar json/mdata.json:', response.statusText);
             return;
@@ -1330,21 +1603,25 @@ async function loadFilterMasterData() {
         const mdata = await response.json();
 
         expansionChronologicalOrder = [];
+        allExpansionsMasterData = mdata.expansions || [];
 
-        if (filterExpSelect && mdata.expansions) {
+        if (filterExpSelect && allExpansionsMasterData) {
             filterExpSelect.innerHTML = '<option value="" disabled selected>Añadir expansión...</option>';
-            mdata.expansions.forEach(group => {
-                const optgroup = document.createElement('optgroup');
-                optgroup.label = group.label;
-                group.options.forEach(optionText => {
-                    const option = document.createElement('option');
-                    option.value = optionText;
-                    option.textContent = optionText;
-                    optgroup.appendChild(option);
+            allExpansionsMasterData.forEach(setObj => {
+                setObj.series.forEach(seriesObj => {
+                    const optgroup = document.createElement('optgroup');
+                    optgroup.label = `${setObj.set} › ${seriesObj.name}`;
+                    seriesObj.options.forEach(opt => {
+                        const optName = typeof opt === 'string' ? opt : opt.name;
+                        const option = document.createElement('option');
+                        option.value = optName;
+                        option.textContent = optName;
+                        optgroup.appendChild(option);
 
-                    expansionChronologicalOrder.push(optionText);
+                        expansionChronologicalOrder.push(optName);
+                    });
+                    filterExpSelect.appendChild(optgroup);
                 });
-                filterExpSelect.appendChild(optgroup);
             });
         }
 

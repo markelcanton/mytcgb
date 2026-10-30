@@ -11227,6 +11227,33 @@
             "number": 42,
             "cards": [
                 {
+                    "slot": 1,
+                    "name": "Tarjeta Roja Especial",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_82.png",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
+                    "code": "CRI082",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Uncommon",
+                            "format": "J",
+                            "condition": "",
+                            "price": "0,02€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Special-Red-Card-V1-CRI082?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
                     "slot": 2,
                     "name": "Más PP de N",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_153.png",
@@ -12232,6 +12259,35 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Prism-Tower-V1-CRI080?language=1&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 6,
+                    "name": "Ciudad Leudal",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV09/SV09_ES_150.png",
+                    "expansion": [
+                        "Juntos de Aventuras",
+                        "Sobre de premio de Play! (serie 7)",
+                        "Sobre de premio de Play! (serie 8)"
+                    ],
+                    "code": "JTG150",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Uncommon",
+                            "format": "I",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "",
                             "hidden": false
                         }
                     ]

@@ -1,265 +1,277 @@
 {
     "expansions": [
         {
-            "label": "Sobres de premio de Play!",
-            "options": [
-                "Sobre de premio de Play! (serie 9)",
-                "Sobre de premio de Play! (serie 8)",
-                "Sobre de premio de Play! (serie 7)",
-                "Sobre de premio de Play! (serie 6)",
-                "Sobre de premio de Play! (serie 5)",
-                "Sobre de premio de Play! (serie 4)",
-                "Sobre de premio de Play! (serie 3)",
-                "Sobre de premio de Play! (serie 2)",
-                "Sobre de premio de Play! (serie 1)"
+            "set": "Set occidental",
+            "series": [
+                {
+                    "name": "Sobres de premio de Play!",
+                    "options": [
+                        { "name": "Sobre de premio de Play! (serie 9)", "image": "https://images.tcggo.com/tcggo/storage/68133/play-pokemon-prize-pack-series-nine.webp" },
+                        { "name": "Sobre de premio de Play! (serie 8)", "image": "https://images.tcggo.com/tcggo/storage/68132/play-pokemon-prize-pack-series-eight.webp" },
+                        { "name": "Sobre de premio de Play! (serie 7)", "image": "https://images.tcggo.com/tcggo/storage/68131/play-pokemon-prize-pack-series-seven.webp" },
+                        { "name": "Sobre de premio de Play! (serie 6)", "image": "https://images.tcggo.com/tcggo/storage/68130/play-pokemon-prize-pack-series-six.webp" },
+                        { "name": "Sobre de premio de Play! (serie 5)", "image": "https://images.tcggo.com/tcggo/storage/68129/play-pokemon-prize-pack-series-five.png" },
+                        { "name": "Sobre de premio de Play! (serie 4)", "image": "https://images.tcggo.com/tcggo/storage/68128/play-pokemon-prize-pack-series-four.png" },
+                        { "name": "Sobre de premio de Play! (serie 3)", "image": "https://images.tcggo.com/tcggo/storage/68127/play-pokemon-prize-pack-series-three.png" },
+                        { "name": "Sobre de premio de Play! (serie 2)", "image": "https://images.tcggo.com/tcggo/storage/68126/play-pokemon-prize-pack-series-two.png" },
+                        { "name": "Sobre de premio de Play! (serie 1)", "image": "https://images.tcggo.com/tcggo/storage/68125/play-pokemon-prize-pack-series-one.png" }
+                    ]
+                },
+                {
+                    "name": "Megaevolución",
+                    "options": [
+                        { "name": "Dominio Delta", "image": "https://images.scrydex.com/pokemon/me6-logo/logo" },
+                        { "name": "Celebración 30.º Aniversario", "image": "https://images.scrydex.com/pokemon/me55-logo/logo" },
+                        { "name": "Oscuridad Absoluta", "image": "https://images.scrydex.com/pokemon/me5-logo/logo" },
+                        { "name": "Caos Creciente", "image": "https://images.scrydex.com/pokemon/me4-logo/logo" },
+                        { "name": "Equilibrio Perfecto", "image": "https://images.scrydex.com/pokemon/me3-logo/logo" },
+                        { "name": "Héroes Ascendentes", "image": "https://images.scrydex.com/pokemon/me2pt5-logo/logo" },
+                        { "name": "Fuegos Fantasmales", "image": "https://images.scrydex.com/pokemon/me2-logo/logo" },
+                        { "name": "Megaevolución", "image": "https://images.scrydex.com/pokemon/me1-logo/logo" },
+                        { "name": "MEP Black Star Promos", "image": "https://images.scrydex.com/pokemon/mep-logo/logo" }
+                    ]
+                },
+                {
+                    "name": "Escarlata y Púrpura",
+                    "options": [
+                        { "name": "Fulgor Negro", "image": "https://images.scrydex.com/pokemon/zsv10pt5-logo/logo" },
+                        { "name": "Llama Blanca", "image": "https://images.scrydex.com/pokemon/rsv10pt5-logo/logo" },
+                        { "name": "Rivales Predestinados", "image": "https://images.scrydex.com/pokemon/sv10-logo/logo" },
+                        { "name": "Juntos de Aventuras", "image": "https://images.scrydex.com/pokemon/sv9-logo/logo" },
+                        { "name": "Evoluciones Prismáticas", "image": "https://images.scrydex.com/pokemon/sv8pt5-logo/logo" },
+                        { "name": "Chispas Fulgurantes", "image": "https://images.scrydex.com/pokemon/sv8-logo/logo" },
+                        { "name": "Corona Astral", "image": "https://images.scrydex.com/pokemon/sv7-logo/logo" },
+                        { "name": "Fábula Sombría", "image": "https://images.scrydex.com/pokemon/sv6pt5-logo/logo" },
+                        { "name": "Mascarada Crepuscular", "image": "https://images.scrydex.com/pokemon/sv6-logo/logo" },
+                        { "name": "Fuerzas Temporales", "image": "https://images.scrydex.com/pokemon/sv5-logo/logo" },
+                        { "name": "Destinos de Paldea", "image": "https://images.scrydex.com/pokemon/sv4pt5-logo/logo" },
+                        { "name": "Brecha Paradójica", "image": "https://images.scrydex.com/pokemon/sv4-logo/logo" },
+                        { "name": "151", "image": "https://images.scrydex.com/pokemon/sv3pt5-logo/logo" },
+                        { "name": "Llamas Obsidianas", "image": "https://images.scrydex.com/pokemon/sv3-logo/logo" },
+                        { "name": "Evoluciones en Paldea", "image": "https://images.scrydex.com/pokemon/sv2-logo/logo" },
+                        { "name": "Escarlata y Púrpura", "image": "https://images.scrydex.com/pokemon/sv1-logo/logo" },
+                        { "name": "SV Black Star Promos", "image": "https://images.scrydex.com/pokemon/svp-logo/logo" }
+                    ]
+                },
+                {
+                    "name": "Espada y Escudo",
+                    "options": [
+                        { "name": "Cenit Supremo", "image": "https://images.scrydex.com/pokemon/swsh12pt5-logo/logo" },
+                        { "name": "Tempestad Plateada", "image": "https://images.scrydex.com/pokemon/swsh12-logo/logo" },
+                        { "name": "Origen Perdido", "image": "https://images.scrydex.com/pokemon/swsh11-logo/logo" },
+                        { "name": "Pokémon GO", "image": "https://images.scrydex.com/pokemon/swsh11-logo/logo" },
+                        { "name": "Resplandor Astral", "image": "https://images.scrydex.com/pokemon/swsh10-logo/logo" },
+                        { "name": "Astros Brillantes", "image": "https://images.scrydex.com/pokemon/swsh9-logo/logo" },
+                        { "name": "Golpe Fusión", "image": "https://images.scrydex.com/pokemon/swsh8-logo/logo" },
+                        { "name": "Celebraciones", "image": "https://images.scrydex.com/pokemon/cel25-logo/logo" },
+                        { "name": "Cielos Evolutivos", "image": "https://images.scrydex.com/pokemon/swsh7-logo/logo" },
+                        { "name": "Reinado Escalofriante", "image": "https://images.scrydex.com/pokemon/swsh6-logo/logo" },
+                        { "name": "Estilos de Combate", "image": "https://images.scrydex.com/pokemon/swsh5-logo/logo" },
+                        { "name": "Destinos Brillantes", "image": "https://images.scrydex.com/pokemon/swsh45-logo/logo" },
+                        { "name": "Voltaje Vivido", "image": "https://images.scrydex.com/pokemon/swsh4-logo/logo" },
+                        { "name": "Camino de Campeones", "image": "https://images.scrydex.com/pokemon/swsh35-logo/logo" },
+                        { "name": "Oscuridad Incandesciente", "image": "https://images.scrydex.com/pokemon/swsh3-logo/logo" },
+                        { "name": "Choque Rebelde", "image": "https://images.scrydex.com/pokemon/swsh2-logo/logo" },
+                        { "name": "Espada y Escudo", "image": "https://images.scrydex.com/pokemon/swsh1-logo/logo" },
+                        { "name": "SWSH Black Star Promos", "image": "https://images.scrydex.com/pokemon/swshp-logo/logo" }
+                    ]
+                },
+                {
+                    "name": "Sol y Luna",
+                    "options": [
+                        { "name": "Eclipse Cósmico", "image": "https://images.scrydex.com/pokemon/sm12-logo/logo" },
+                        { "name": "Destinos Ocultos", "image": "https://images.scrydex.com/pokemon/sm115-logo/logo" },
+                        { "name": "Mentes Unidas", "image": "https://images.scrydex.com/pokemon/sm11-logo/logo" },
+                        { "name": "Vínculos Indestructibles", "image": "https://images.scrydex.com/pokemon/sm10-logo/logo" },
+                        { "name": "Detective Pikachu", "image": "https://images.scrydex.com/pokemon/det1-logo/logo" },
+                        { "name": "Unión de Aliados", "image": "https://images.scrydex.com/pokemon/sm9-logo/logo" },
+                        { "name": "Truenos Perdidos", "image": "https://images.scrydex.com/pokemon/sm8-logo/logo" },
+                        { "name": "Majestad de Dragones", "image": "https://images.scrydex.com/pokemon/sm75-logo/logo" },
+                        { "name": "Tormenta Celestial", "image": "https://images.scrydex.com/pokemon/sm7-logo/logo" },
+                        { "name": "Luz Prohibida", "image": "https://images.scrydex.com/pokemon/sm6-logo/logo" },
+                        { "name": "Ultraprisma", "image": "https://images.scrydex.com/pokemon/sm5-logo/logo" },
+                        { "name": "Invasión Carmesí", "image": "https://images.scrydex.com/pokemon/sm4-logo/logo" },
+                        { "name": "Leyendas Luminosas", "image": "https://images.scrydex.com/pokemon/sm35-logo/logo" },
+                        { "name": "Sombras Ardientes", "image": "https://images.scrydex.com/pokemon/sm3-logo/logo" },
+                        { "name": "Albor de Guardianes", "image": "https://images.scrydex.com/pokemon/sm2-logo/logo" },
+                        { "name": "Sol y Luna", "image": "https://images.scrydex.com/pokemon/sm1-logo/logo" },
+                        { "name": "SM Black Star Promos", "image": "https://images.scrydex.com/pokemon/smp-logo/logo" }
+                    ]
+                },
+                {
+                    "name": "XY",
+                    "options": [
+                        { "name": "Evoluciones", "image": "https://images.scrydex.com/pokemon/xy12-logo/logo" },
+                        { "name": "Asedio de Vapor", "image": "https://images.scrydex.com/pokemon/xy11-logo/logo" },
+                        { "name": "Destinos Enfrentados", "image": "https://images.scrydex.com/pokemon/xy10-logo/logo" },
+                        { "name": "Generaciones", "image": "https://images.scrydex.com/pokemon/g1-logo/logo" },
+                        { "name": "Turbo Límite", "image": "https://images.scrydex.com/pokemon/xy9-logo/logo" },
+                        { "name": "Turbo Impulso", "image": "https://images.scrydex.com/pokemon/xy8-logo/logo" },
+                        { "name": "Antiguos Origenes", "image": "https://images.scrydex.com/pokemon/xy7-logo/logo" },
+                        { "name": "Cielos Rugientes", "image": "https://images.scrydex.com/pokemon/xy6-logo/logo" },
+                        { "name": "Doble Crisis", "image": "https://images.scrydex.com/pokemon/dc1-logo/logo" },
+                        { "name": "Duelos Primigenios", "image": "https://images.scrydex.com/pokemon/xy5-logo/logo" },
+                        { "name": "Fuerzas Fantasmales", "image": "https://images.scrydex.com/pokemon/xy4-logo/logo" },
+                        { "name": "Puños Furiosos", "image": "https://images.scrydex.com/pokemon/xy3-logo/logo" },
+                        { "name": "Destellos de Fuego", "image": "https://images.scrydex.com/pokemon/xy2-logo/logo" },
+                        { "name": "XY", "image": "https://images.scrydex.com/pokemon/xy1-logo/logo" },
+                        { "name": "Bienvenidos a Kalos", "image": "https://images.scrydex.com/pokemon/xy0-logo/logo" },
+                        { "name": "XY Black Star Promos", "image": "https://images.scrydex.com/pokemon/xyp-logo/logo" }
+                    ]
+                },
+                {
+                    "name": "Negro y Blanco",
+                    "options": [
+                        { "name": "Tesoros Legendarios", "image": "https://images.scrydex.com/pokemon/bw11-logo/logo" },
+                        { "name": "Explosión Plasma", "image": "https://images.scrydex.com/pokemon/bw10-logo/logo" },
+                        { "name": "Glaciación Plasma", "image": "https://images.scrydex.com/pokemon/bw9-logo/logo" },
+                        { "name": "Tormenta Plasma", "image": "https://images.scrydex.com/pokemon/bw8-logo/logo" },
+                        { "name": "Fronteras Cruzadas", "image": "https://images.scrydex.com/pokemon/bw7-logo/logo" },
+                        { "name": "Tesoro de Dragones", "image": "https://images.scrydex.com/pokemon/dv1-logo/logo" },
+                        { "name": "Dragones Majestuosos", "image": "https://images.scrydex.com/pokemon/bw6-logo/logo" },
+                        { "name": "Oscuros Exploradores", "image": "https://images.scrydex.com/pokemon/bw5-logo/logo" },
+                        { "name": "Próximos Destinos", "image": "https://images.scrydex.com/pokemon/bw4-logo/logo" },
+                        { "name": "Nobles Victorias", "image": "https://images.scrydex.com/pokemon/bw3-logo/logo" },
+                        { "name": "Fuerzas Emergentes", "image": "https://images.scrydex.com/pokemon/bw2-logo/logo" },
+                        { "name": "Negro y Blanco", "image": "https://images.scrydex.com/pokemon/bw1-logo/logo" },
+                        { "name": "BW Black Star Promos", "image": "https://images.scrydex.com/pokemon/bwp-logo/logo" }
+                    ]
+                },
+                {
+                    "name": "HeartGold & SoulSilver",
+                    "options": [
+                        { "name": "Llamada de las Leyendas", "image": "https://images.scrydex.com/pokemon/col1-logo/logo" },
+                        { "name": "Triunfadores", "image": "https://images.scrydex.com/pokemon/hgss4-logo/logo" },
+                        { "name": "Intrépidos", "image": "https://images.scrydex.com/pokemon/hgss3-logo/logo" },
+                        { "name": "Liberados", "image": "https://images.scrydex.com/pokemon/hgss2-logo/logo" },
+                        { "name": "HeartGold & SoulSilver", "image": "https://images.scrydex.com/pokemon/hgss1-logo/logo" },
+                        { "name": "HGSS Black Star Promos", "image": "https://images.scrydex.com/pokemon/bwp-logo/logo" }
+                    ]
+                },
+                {
+                    "name": "Platino",
+                    "options": [
+                        { "name": "Arceus", "image": "https://images.scrydex.com/pokemon/pl4-logo/logo" },
+                        { "name": "Supreme Victors", "image": "https://images.scrydex.com/pokemon/pl3-logo/logo" },
+                        { "name": "Rising Rivals", "image": "https://images.scrydex.com/pokemon/pl2-logo/logo" },
+                        { "name": "Platino", "image": "https://images.scrydex.com/pokemon/pl1-logo/logo" }
+                    ]
+                },
+                {
+                    "name": "Diamante y Perla",
+                    "options": [
+                        { "name": "Frente Tormentoso", "image": "https://images.scrydex.com/pokemon/dp7-logo/logo" },
+                        { "name": "Despertar de las Leyendas", "image": "https://images.scrydex.com/pokemon/dp6-logo/logo" },
+                        { "name": "Majestic Dawn", "image": "https://images.scrydex.com/pokemon/dp5-logo/logo" },
+                        { "name": "Grandes Encuentros", "image": "https://images.scrydex.com/pokemon/dp4-logo/logo" },
+                        { "name": "Maravillas Secretas", "image": "https://images.scrydex.com/pokemon/dp3-logo/logo" },
+                        { "name": "Tesoros Misteriosos", "image": "https://images.scrydex.com/pokemon/dp2-logo/logo" },
+                        { "name": "Diamante y Perla", "image": "https://images.scrydex.com/pokemon/dp1-logo/logo" },
+                        { "name": "DP Black Star Promos", "image": "https://images.scrydex.com/pokemon/dpp-logo/logo" }
+                    ]
+                },
+                {
+                    "name": "ex",
+                    "options": [
+                        { "name": "Power Keepers", "image": "https://images.scrydex.com/pokemon/ex16-logo/logo" },
+                        { "name": "Dragon Frontiers", "image": "https://images.scrydex.com/pokemon/ex15-logo/logo" },
+                        { "name": "Crystal Guardians", "image": "https://images.scrydex.com/pokemon/ex14-logo/logo" },
+                        { "name": "Holon Phantoms", "image": "https://images.scrydex.com/pokemon/ex13-logo/logo" },
+                        { "name": "Legend Maker", "image": "https://images.scrydex.com/pokemon/ex12-logo/logo" },
+                        { "name": "Delta Species", "image": "https://images.scrydex.com/pokemon/ex11-logo/logo" },
+                        { "name": "Fuerzas Ocultas", "image": "https://images.scrydex.com/pokemon/ex10-logo/logo" },
+                        { "name": "Emerald", "image": "https://images.scrydex.com/pokemon/ex9-logo/logo" },
+                        { "name": "Deoxys", "image": "https://images.scrydex.com/pokemon/ex8-logo/logo" },
+                        { "name": "Team Rocket Returns", "image": "https://images.scrydex.com/pokemon/ex7-logo/logo" },
+                        { "name": "FireRed & LeafGreen", "image": "https://images.scrydex.com/pokemon/ex6-logo/logo" },
+                        { "name": "Hidden Legends", "image": "https://images.scrydex.com/pokemon/ex5-logo/logo" },
+                        { "name": "Team Magma vs Team Aqua", "image": "https://images.scrydex.com/pokemon/ex4-logo/logo" },
+                        { "name": "Dragon", "image": "https://images.scrydex.com/pokemon/ex3-logo/logo" },
+                        { "name": "Sandstorm", "image": "https://images.scrydex.com/pokemon/ex2-logo/logo" },
+                        { "name": "Rubí y Zafiro", "image": "https://images.scrydex.com/pokemon/ex1-logo/logo" },
+                        { "name": "Nintendo Black Star Promos", "image": "https://images.scrydex.com/pokemon/np-logo/logo" }
+                    ]
+                },
+                {
+                    "name": "e-Card",
+                    "options": [
+                        { "name": "Skyridge", "image": "https://images.scrydex.com/pokemon/ecard3-logo/logo" },
+                        { "name": "Aquapolis", "image": "https://images.scrydex.com/pokemon/ecard2-logo/logo    " },
+                        { "name": "Expedition Base Set", "image": "https://images.scrydex.com/pokemon/ecard1-logo/logo" }
+                    ]
+                },
+                {
+                    "name": "Legendary Collection",
+                    "options": [
+                        { "name": "Legendary Collection", "image": "https://images.scrydex.com/pokemon/ecard1-logo/logo" }
+                    ]
+                },
+                {
+                    "name": "Neo",
+                    "options": [
+                        { "name": "Neo Destiny", "image": "https://images.scrydex.com/pokemon/neo4-logo/logo" },
+                        { "name": "Neo Revelation", "image": "https://images.scrydex.com/pokemon/neo3-logo/logo" },
+                        { "name": "Neo Discovery", "image": "https://images.scrydex.com/pokemon/neo2-logo/logo" },
+                        { "name": "Neo Génesis", "image": "https://images.scrydex.com/pokemon/neo1-logo/logo" }
+                    ]
+                },
+                {
+                    "name": "Original Series",
+                    "options": [
+                        { "name": "Gym Challenge", "image": "https://images.scrydex.com/pokemon/gym2-logo/logo" },
+                        { "name": "Gym Heroes", "image": "https://images.scrydex.com/pokemon/gym1-logo/logo" },
+                        { "name": "Team Rocket", "image": "https://images.scrydex.com/pokemon/base5-logo/logo" },
+                        { "name": "Base Set 2", "image": "https://images.scrydex.com/pokemon/base4-logo/logo" },
+                        { "name": "Fósil", "image": "https://images.scrydex.com/pokemon/base3-logo/logo" },
+                        { "name": "Jungla", "image": "https://images.scrydex.com/pokemon/base2-logo/logo" },
+                        { "name": "Base Set", "image": "https://images.scrydex.com/pokemon/base1-logo/logo" },
+                        { "name": "Wizards Black Star Promos", "image": "https://images.scrydex.com/pokemon/basep-logo/logo" }
+                    ]
+                },
+                {
+                    "name": "Otras promos",
+                    "options": [
+                        { "name": "P Black Star Promos", "image": "" }
+                    ]
+                },
+                {
+                    "name": "POP Series",
+                    "options": [
+                        { "name": "POP Series 9", "image": "https://images.scrydex.com/pokemon/pop9-logo/logo" },
+                        { "name": "POP Series 8", "image": "https://images.scrydex.com/pokemon/pop8-logo/logo" },
+                        { "name": "POP Series 7", "image": "https://images.scrydex.com/pokemon/pop7-logo/logo" },
+                        { "name": "POP Series 6", "image": "https://images.scrydex.com/pokemon/pop6-logo/logo" },
+                        { "name": "POP Series 5", "image": "https://images.scrydex.com/pokemon/pop5-logo/logo" },
+                        { "name": "POP Series 4", "image": "https://images.scrydex.com/pokemon/pop4-logo/logo" },
+                        { "name": "POP Series 3", "image": "https://images.scrydex.com/pokemon/pop3-logo/logo" },
+                        { "name": "POP Series 2", "image": "https://images.scrydex.com/pokemon/pop2-logo/logo" },
+                        { "name": "POP Series 1", "image": "https://images.scrydex.com/pokemon/pop1-logo/logo" }
+                    ]
+                },
+                {
+                    "name": "Colecciones del McDonald's",
+                    "options": [
+                        { "name": "Colección de McDonald's 2024", "image": "https://images.scrydex.com/pokemon/mcd12-logo/logo" },
+                        { "name": "Colección de McDonald's 2023", "image": "https://images.scrydex.com/pokemon/mcd12-logo/logo" },
+                        { "name": "Colección de McDonald's 2022", "image": "https://images.scrydex.com/pokemon/mcd22-logo/logo" },
+                        { "name": "Colección de McDonald's 2021", "image": "https://images.scrydex.com/pokemon/mcd21-logo/logo" },
+                        { "name": "Colección de McDonald's 2019", "image": "https://images.scrydex.com/pokemon/mcd18-logo/logo" },
+                        { "name": "Colección de McDonald's 2018", "image": "https://images.scrydex.com/pokemon/mcd18-logo/logo" },
+                        { "name": "Colección de McDonald's 2017", "image": "https://images.scrydex.com/pokemon/mcd17-logo/logo" },
+                        { "name": "Colección de McDonald's 2016", "image": "https://images.scrydex.com/pokemon/mcd16-logo/logo" },
+                        { "name": "Colección de McDonald's 2015", "image": "https://images.scrydex.com/pokemon/mcd25-logo/logo" },
+                        { "name": "Colección de McDonald's 2014", "image": "https://images.scrydex.com/pokemon/mcd14-logo/logo" },
+                        { "name": "Colección de McDonald's 2013", "image": "https://images.scrydex.com/pokemon/mcd13-logo/logo" },
+                        { "name": "Colección de McDonald's 2012", "image": "https://images.scrydex.com/pokemon/mcd12-logo/logo" },
+                        { "name": "Colección de McDonald's 2011", "image": "https://images.scrydex.com/pokemon/mcd11-logo/logo" }
+                    ]
+                }
             ]
         },
         {
-            "label": "Megaevolución",
-            "options": [
-                "Dominio Delta",
-                "Celebración 30.º Aniversario",
-                "Oscuridad Absoluta",
-                "Caos Creciente",
-                "Equilibrio Perfecto",
-                "Héroes Ascendentes",
-                "Fuegos Fantasmales",
-                "Megaevolución",
-                "MEP Black Star Promos"
-            ]
-        },
-        {
-            "label": "Escarlata y Púrpura",
-            "options": [
-                "Fulgor Negro",
-                "Llama Blanca",
-                "Rivales Predestinados",
-                "Juntos de Aventuras",
-                "Evoluciones Prismáticas",
-                "Chispas Fulgurantes",
-                "Corona Astral",
-                "Fábula Sombría",
-                "Mascarada Crepuscular",
-                "Fuerzas Temporales",
-                "Destinos de Paldea",
-                "Brecha Paradójica",
-                "151",
-                "Llamas Obsidianas",
-                "Evoluciones en Paldea",
-                "Escarlata y Púrpura",
-                "SV Black Star Promos"
-            ]
-        },
-        {
-            "label": "Espada y Escudo",
-            "options": [
-                "Cenit Supremo",
-                "Tempestad Plateada",
-                "Origen Perdido",
-                "Pokémon GO",
-                "Resplandor Astral",
-                "Astros Brillantes",
-                "Golpe Fusión",
-                "Celebraciones",
-                "Cielos Evolutivos",
-                "Reinado Escalofriante",
-                "Estilos de Combate",
-                "Destinos Brillantes",
-                "Voltaje Vivido",
-                "Camino de Campeones",
-                "Oscuridad Incandesciente",
-                "Choque Rebelde",
-                "Espada y Escudo",
-                "SWSH Black Star Promos"
-            ]
-        },
-        {
-            "label": "Sol y Luna",
-            "options": [
-                "Eclipse Cósmico",
-                "Destinos Ocultos",
-                "Mentes Unidas",
-                "Vínculos Indestructibles",
-                "Detective Pikachu",
-                "Unión de Aliados",
-                "Truenos Perdidos",
-                "Majestad de Dragones",
-                "Tormenta Celestial",
-                "Luz Prohibida",
-                "Ultraprisma",
-                "Invasión Carmesí",
-                "Leyendas Luminosas",
-                "Sombras Ardientes",
-                "Albor de Guardianes",
-                "Sol y Luna",
-                "SM Black Star Promos"
-            ]
-        },
-        {
-            "label": "XY",
-            "options": [
-                "Evoluciones",
-                "Asedio de Vapor",
-                "Destinos Enfrentados",
-                "Generaciones",
-                "Turbo Límite",
-                "Turbo Impulso",
-                "Antiguos Origenes",
-                "Cielos Rugientes",
-                "Doble Crisis",
-                "Duelos Primigenios",
-                "Fuerzas Fantasmales",
-                "Puños Furiosos",
-                "Destellos de Fuego",
-                "XY",
-                "Bienvenidos a Kalos",
-                "XY Black Star Promos"
-            ]
-        },
-        {
-            "label": "Negro y Blanco",
-            "options": [
-                "Tesoros Legendarios",
-                "Explosión Plasma",
-                "Glaciación Plasma",
-                "Tormenta Plasma",
-                "Fronteras Cruzadas",
-                "Tesoro de Dragones",
-                "Dragones Majestuosos",
-                "Oscuros Exploradores",
-                "Próximos Destinos",
-                "Nobles Victorias",
-                "Fuerzas Emergentes",
-                "Negro y Blanco",
-                "BW Black Star Promos"
-            ]
-        },
-        {
-            "label": "HeartGold & SoulSilver",
-            "options": [
-                "Llamada de las Leyendas",
-                "Triunfadores",
-                "Intrépidos",
-                "Liberados",
-                "HeartGold & SoulSilver",
-                "HGSS Black Star Promos"
-            ]
-        },
-        {
-            "label": "Platino",
-            "options": [
-                "Arceus",
-                "Supreme Victors",
-                "Rising Rivals",
-                "Platino"
-            ]
-        },
-        {
-            "label": "Diamante y Perla",
-            "options": [
-                "Frente Tormentoso",
-                "Despertar de las Leyendas",
-                "Majestic Dawn",
-                "Grandes Encuentros",
-                "Maravillas Secretas",
-                "Tesoros Misteriosos",
-                "Diamante y Perla",
-                "DP Black Star Promos"
-            ]
-        },
-        {
-            "label": "ex",
-            "options": [
-                "Power Keepers",
-                "Dragon Frontiers",
-                "Crystal Guardians",
-                "Holon Phantoms",
-                "Legend Maker",
-                "Delta Species",
-                "Fuerzas Ocultas",
-                "Emerald",
-                "Deoxys",
-                "Team Rocket Returns",
-                "Hidden Legends",
-                "Team Magma vs Team Aqua",
-                "Dragon",
-                "Sandstorm",
-                "Rubí y Zafiro"
-            ]
-        },
-        {
-            "label": "e-Card",
-            "options": [
-                "Skyridge",
-                "Aquapolis",
-                "Expedition Base Set"
-            ]
-        },
-        {
-            "label": "Legendary Collection",
-            "options": [
-                "Legendary Collection"
-            ]
-        },
-        {
-            "label": "Neo",
-            "options": [
-                "Neo Destiny",
-                "Neo Revelation",
-                "Neo Discovery",
-                "Neo Génesis"
-            ]
-        },
-        {
-            "label": "Clásica",
-            "options": [
-                "Gym Challenge",
-                "Gym Heroes",
-                "Team Rocket",
-                "Base Set 2",
-                "Fósil",
-                "Jungla",
-                "Base Set"
-            ]
-        },
-        {
-            "label": "Otras promos",
-            "options": [
-                "Nintendo Black Star Promos",
-                "P Black Star Promos",
-                "Wizards Black Star Promos"
-            ]
-        },
-        {
-            "label": "POP Series",
-            "options": [
-                "POP Series 9",
-                "POP Series 8",
-                "POP Series 7",
-                "POP Series 6",
-                "POP Series 5",
-                "POP Series 4",
-                "POP Series 3",
-                "POP Series 2",
-                "POP Series 1"
-            ]
-        },
-        {
-            "label": "McDonald's",
-            "options": [
-                "Colección de McDonald's 2024",
-                "Colección de McDonald's 2023",
-                "Colección de McDonald's 2022",
-                "Colección de McDonald's 2021",
-                "Colección de McDonald's 2019",
-                "Colección de McDonald's 2018",
-                "Colección de McDonald's 2017",
-                "Colección de McDonald's 2016",
-                "Colección de McDonald's 2015",
-                "Colección de McDonald's 2014",
-                "Colección de McDonald's 2013",
-                "Colección de McDonald's 2012",
-                "Colección de McDonald's 2011"
+            "set": "Set asiático",
+            "series": [
+                
             ]
         }
     ],

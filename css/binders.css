@@ -950,3 +950,14 @@
         gap: 10px 14px;
     }
 }
+
+/* Estilos para el modal de selección de expansiones en cuadrícula */
+.expansion-grid-card:hover {
+    border-color: #58a6ff !important;
+    background: #1f242c !important;
+}
+
+.expansion-grid-card.selected {
+    background: rgba(46, 160, 67, 0.15) !important;
+    border-color: #2ea043 !important;
+}
