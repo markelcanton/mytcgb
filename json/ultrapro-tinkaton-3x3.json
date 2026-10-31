@@ -225,12 +225,22 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Common + Play! Stamp (serie 8)",
+                            "type": "Rare + Play! Stamp (serie 8)",
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Ethans-Typhlosion-PPS8DRI-034?language=4&minCondition=2",
+                            "hidden": false
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Rare + Play! Stamp (serie 9)",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Ethans-Typhlosion-V1-PPS9DRI-034?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -1132,7 +1142,34 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Brionne-PBL019?language=4&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Brionne-PBL019?language=1&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 9,
+                    "name": "Primarina",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_20.png",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
+                    "code": "PBL020",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Rare",
+                            "format": "J",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Primarina-V1-PBL020?language=1&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -1172,11 +1209,11 @@
                 {
                     "slot": 5,
                     "name": "Raboot",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_37.png",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_27.png",
                     "expansion": [
-                        "Héroes Ascendentes"
+                        "Megaevolución"
                     ],
-                    "code": "ASC037",
+                    "code": "MEG027",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -1191,7 +1228,7 @@
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Raboot-ASC037?language=4&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Raboot-MEG027?language=4&minCondition=2&isReverseHolo=Y",
                             "hidden": false
                         }
                     ]
@@ -1213,12 +1250,22 @@
                     "conseguida": false,
                     "variants": [
                         {
+                            "language": "Español",
+                            "type": "Rare + Play! Stamp",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,10€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Cinderace-V1-PPS8MEG-028?language=4&minCondition=2",
+                            "hidden": false
+                        },
+                        {
                             "language": "Inglés",
                             "type": "Rare",
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 0,
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Cinderace-MEG028?language=1&minCondition=2",
                             "hidden": false
                         }
@@ -1632,7 +1679,7 @@
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
-                    "noDisponible": false,
+                    "noDisponible": true,
                     "conseguida": false,
                     "variants": [
                         {
@@ -1878,33 +1925,7 @@
                     "name": "Zeraora",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_78.png",
                     "expansion": [
-                        "Rivales Predestinados"
-                    ],
-                    "code": "DRI078",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Rare",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,05€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Zeraora-DRI078?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 6,
-                    "name": "Zeraora",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_78.png",
-                    "expansion": [
+                        "Rivales Predestinados",
                         "Sobre de premio de Play! (serie 9)"
                     ],
                     "code": "DRI078",
@@ -1917,72 +1938,45 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Rare + Foil + Play! Stamp",
+                            "type": "Rare",
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Zeraora-V2-PPS9DRI-078?language=4&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Zeraora-DRI078",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 6,
+                    "name": "Mega-Zeraora ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_27.png",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
+                    "code": "PBL027",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Double Rare",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mega-Zeraora-ex-V1-PBL027?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
                 },
                 {
                     "slot": 7,
-                    "name": "Mega-Zeraora ex",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_27.png",
-                    "expansion": [
-                        "Oscuridad Absoluta"
-                    ],
-                    "code": "PBL027",
-                    "noTrade": true,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Double Rare",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mega-Zeraora-ex-V1-PBL027?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 8,
-                    "name": "Mega-Zeraora ex",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_27.png",
-                    "expansion": [
-                        "Oscuridad Absoluta"
-                    ],
-                    "code": "PBL027",
-                    "noTrade": true,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Double Rare",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mega-Zeraora-ex-V1-PBL027?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 9,
                     "name": "Mega-Zeraora ex",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_27.png",
                     "expansion": [
@@ -2007,6 +2001,33 @@
                             "hidden": false
                         }
                     ]
+                },
+                {
+                    "slot": 8,
+                    "name": "Mega-Zeraora ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_98.png",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
+                    "code": "PBL098",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Ultra Rare",
+                            "format": "J",
+                            "condition": "",
+                            "price": "0,02€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mega-Zeraora-ex-V2-PBL098?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
                 }
             ]
         },
@@ -2015,12 +2036,12 @@
             "cards": [
                 {
                     "slot": 7,
-                    "name": "Raikou",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_48.png",
+                    "name": "Ralts",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_67.png",
                     "expansion": [
-                        "Megaevolución"
+                        "Tempestad Plateada"
                     ],
-                    "code": "MEG048",
+                    "code": "SIT067",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -2029,25 +2050,25 @@
                     "conseguida": false,
                     "variants": [
                         {
-                            "language": "Español",
-                            "type": "Rare",
-                            "format": "I",
-                            "condition": "Near Mint",
+                            "language": "",
+                            "type": "Common",
+                            "format": "F (no válida en torneos)",
+                            "condition": "",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Raikou-MEG048?language=4&minCondition=2",
+                            "cardmarket-link": "cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Suicune-PFL026?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
                 },
                 {
                     "slot": 8,
-                    "name": "Entei",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_25.png",
+                    "name": "Kirlia",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_68.png",
                     "expansion": [
-                        "Héroes Ascendentes"
+                        "Tempestad Plateada"
                     ],
-                    "code": "ASC025",
+                    "code": "SIT068",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -2056,40 +2077,13 @@
                     "conseguida": false,
                     "variants": [
                         {
-                            "language": "Inglés",
-                            "type": "Rare + Foil",
-                            "format": "I",
-                            "condition": "Near Mint",
+                            "language": "",
+                            "type": "Uncommon",
+                            "format": "F (no válidas en torneos)",
+                            "condition": "",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Entei-V2-xASC025?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 9,
-                    "name": "Suicune",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_26.png",
-                    "expansion": [
-                        "Fuegos Fantasmales"
-                    ],
-                    "code": "PFL026",
-                    "noTrade": true,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Rare",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Suicune-PFL026?language=4&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Kirlia-SIT068?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -2154,13 +2148,13 @@
                     ]
                 },
                 {
-                    "slot": 4,
-                    "name": "Ralts",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_67.png",
+                    "slot": 3,
+                    "name": "Naria",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_185.png",
                     "expansion": [
-                        "Tempestad Plateada"
+                        "Sobre de premio de Play! (serie 9)"
                     ],
-                    "code": "SIT067",
+                    "code": "ASC185",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -2169,13 +2163,13 @@
                     "conseguida": false,
                     "variants": [
                         {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "F (no válida en torneos)",
-                            "condition": "Near Mint",
-                            "price": "",
+                            "language": "",
+                            "type": "Uncommon + Foil + Play! Stamp",
+                            "format": "I",
+                            "condition": "",
+                            "price": "0,40€",
                             "stock": 0,
-                            "cardmarket-link": "cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Suicune-PFL026?language=4&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Canari-PPS9ASC-185?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -2183,11 +2177,11 @@
                 {
                     "slot": 5,
                     "name": "Kirlia",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_68.png",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_59.png",
                     "expansion": [
-                        "Tempestad Plateada"
+                        "Sobre de premio de Play! (serie 9)"
                     ],
-                    "code": "SIT068",
+                    "code": "MEG059",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -2196,13 +2190,13 @@
                     "conseguida": false,
                     "variants": [
                         {
-                            "language": "Español",
-                            "type": "Uncommon",
-                            "format": "F (no válidas en torneos)",
-                            "condition": "Near Mint",
+                            "language": "",
+                            "type": "Common + Play! Stamp",
+                            "format": "I",
+                            "condition": "",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Kirlia-SIT068?language=4&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Kirlia-PPS9MEG-059?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -2212,7 +2206,7 @@
                     "name": "Mega-Gardevoir ex",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_60.png",
                     "expansion": [
-                        "Megaevolución"
+                        "Sobre de premio de Play! (serie 8)"
                     ],
                     "code": "MEG060",
                     "noTrade": true,
@@ -2224,12 +2218,12 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Double Rare",
+                            "type": "Double Rare + Play! Stamp",
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Mega-Gardevoir-ex-V1-MEG060?language=4&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Mega-Gardevoir-ex-PPS8MEG-060?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -2305,6 +2299,33 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Haunter-PPS9POR-049?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 9,
+                    "name": "Gengar",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_50.png",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 9)"
+                    ],
+                    "code": "POR050",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Rare",
+                            "format": "J",
+                            "condition": "",
+                            "price": "1,40€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Gengar-PPS9POR-050?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -2702,6 +2723,87 @@
         {
             "number": 19,
             "cards": [
+                {
+                    "slot": 4,
+                    "name": "Raikou",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_48.png",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
+                    "code": "MEG048",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Rare",
+                            "format": "I",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Raikou-MEG048?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 5,
+                    "name": "Entei",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_25.png",
+                    "expansion": [
+                        "Héroes Ascendentes"
+                    ],
+                    "code": "ASC025",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Rare + Foil",
+                            "format": "I",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Entei-V2-xASC025?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 6,
+                    "name": "Suicune",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_26.png",
+                    "expansion": [
+                        "Fuegos Fantasmales"
+                    ],
+                    "code": "PFL026",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Rare",
+                            "format": "I",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Suicune-PFL026?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
                 {
                     "slot": 7,
                     "name": "Shinx",

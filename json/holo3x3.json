@@ -6452,7 +6452,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 3,
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Scatterbug-POR007?language=4&minCondition=2",
                             "hidden": false
                         },
@@ -6473,33 +6473,6 @@
         {
             "number": 24,
             "cards": [
-                {
-                    "slot": 1,
-                    "name": "Spewpa",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_8.png",
-                    "expansion": [
-                        "Equilibrio Perfecto"
-                    ],
-                    "code": "POR008",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Inglés",
-                            "type": "Common + Foil",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,05€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Spewpa-V1-POR008?language=1&minCondition=2&isReverseHolo=Y",
-                            "hidden": false
-                        }
-                    ]
-                },
                 {
                     "slot": 2,
                     "name": "Vivillon",
@@ -11154,33 +11127,6 @@
                     ]
                 },
                 {
-                    "slot": 3,
-                    "name": "Ocaso Ball",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_175.png",
-                    "expansion": [
-                        "Chispas Fulgurantes"
-                    ],
-                    "code": "SSP175",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Uncommon",
-                            "format": "H",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 2,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Surging-Sparks/Dusk-Ball-SSP175?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
                     "slot": 4,
                     "name": "Gran Salabre",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_78.png",
@@ -11741,33 +11687,6 @@
         {
             "number": 43,
             "cards": [
-                {
-                    "slot": 1,
-                    "name": "Martillo Demoledor",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_71.png",
-                    "expansion": [
-                        "Equilibrio Perfecto"
-                    ],
-                    "code": "POR071",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 2,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Crushing-Hammer-POR071?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
                 {
                     "slot": 2,
                     "name": "Nota de Intromisión",
@@ -12760,33 +12679,6 @@
                             "price": "0,02€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Team-Rockets-Energy-PPS8DRI-182?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 8,
-                    "name": "Energía Ignición",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/RSV10PT5/RSV10PT5_ES_86.png",
-                    "expansion": [
-                        "Sobre de premio de Play! (serie 9)"
-                    ],
-                    "code": "WHT086",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Uncommon + Play! Stamp (serie 9)",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Ignition-Energy-PPS9WHT-086?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
