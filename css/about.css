@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    gap: 18px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+main:nth-of-type(1) {
+    flex: 1;
+}
+
+main p li, main li {
+    list-style-position: inside;
+}

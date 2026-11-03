@@ -25,6 +25,40 @@ let currentActiveSetIndex = 0;
 let currentActiveSeriesIndex = 0;
 let lastSearchResults = [];
 
+// --- Función para formatear el estado con iconos profesionales CSS (Solo lector de cartas) ---
+function formatConditionBadge(conditionText) {
+    if (!conditionText) return '--';
+    const clean = conditionText.trim().toLowerCase();
+
+    let code = conditionText;
+    let cssClass = 'condition-mt';
+
+    if (clean.includes('mint') && !clean.includes('near')) {
+        code = 'MT';
+        cssClass = 'condition-mt';
+    } else if (clean.includes('near')) {
+        code = 'NM';
+        cssClass = 'condition-nm';
+    } else if (clean.includes('excellent')) {
+        code = 'EX';
+        cssClass = 'condition-ex';
+    } else if (clean.includes('good')) {
+        code = 'GD';
+        cssClass = 'condition-gd';
+    } else if (clean.includes('light played')) {
+        code = 'LP';
+        cssClass = 'condition-lp';
+    } else if (clean.includes('played') && !clean.includes('light')) {
+        code = 'PL';
+        cssClass = 'condition-pl';
+    } else if (clean.includes('poor')) {
+        code = 'PO';
+        cssClass = 'condition-po';
+    }
+
+    return `<span class="condition-badge ${cssClass}">${code}</span>`;
+}
+
 function ensureBackdrop() {
     let backdrop = document.getElementById('modal-backdrop');
     if (!backdrop) {
@@ -450,7 +484,7 @@ function showDetails(card, pageNum, slotNum) {
                 <div class="specs-details">
                     <h3>Especificaciones:</h3>
                     <ul>
-                        <li><strong>Estado:</strong> ${conditionVal}</li>
+                        <li><strong>Estado:</strong> ${formatConditionBadge(conditionVal)}</li>
                         <li><strong>Idiomas:</strong> ${languageVal}</li>
                         <li><strong>Precio:</strong> <span class="price-tag">${priceVal}</span></li>
                     </ul>
@@ -511,7 +545,7 @@ function showDetails(card, pageNum, slotNum) {
                     <td>${v.language || '--'}</td>
                     <td>${v.type || '--'}</td>
                     <td>${v.format || '--'}</td>
-                    <td>${v.condition || '--'}</td>
+                    <td>${formatConditionBadge(v.condition)}</td>
                     <td><span class="price-tag">${v.price || '--'}</span></td>
                     <td>${v.stock || '--'}</td>
                     <td>${linkBtn}</td>
@@ -990,10 +1024,10 @@ function renderGenericSelectorContent(filterText = '') {
         return;
     }
 
-    const targetArray = 
+    const targetArray =
         (activeExpansionTarget === 'editor' && typeof editorSelectedExpansions !== 'undefined') ? editorSelectedExpansions :
-        (activeExpansionTarget === 'shopping' && typeof activeShoppingExpansionTarget !== 'undefined' && activeShoppingExpansionTarget._cardExpansions) ? activeShoppingExpansionTarget._cardExpansions :
-        selectedExpansions;
+            (activeExpansionTarget === 'shopping' && typeof activeShoppingExpansionTarget !== 'undefined' && activeShoppingExpansionTarget._cardExpansions) ? activeShoppingExpansionTarget._cardExpansions :
+                selectedExpansions;
 
     function handleSelectionChange() {
         if (activeExpansionTarget === 'editor' && typeof renderEditorExpansionTags === 'function') {
@@ -1168,7 +1202,7 @@ function renderGenericSelectorContent(filterText = '') {
                 activeShoppingExpansionTarget._cardExpansion = expName;
                 if (typeof renderShopCardSingleExpansionTag === 'function') {
                     renderShopCardSingleExpansionTag(
-                        activeShoppingExpansionTarget.querySelector('.shop-edit-expansion-tags'), 
+                        activeShoppingExpansionTarget.querySelector('.shop-edit-expansion-tags'),
                         activeShoppingExpansionTarget
                     );
                 }
@@ -1205,7 +1239,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     let binderParam = urlParams.get('b');
 
     if (!binderParam && albumSelect && albumSelect.options.length > 0) {
-        const options = Array.from(albumSelect.options).filter(opt => !opt.hasAttribute('hidden'));
+        const excludedJSON = ['escanirr', 'wishlist'];
+        const options = Array.from(albumSelect.options).filter(opt => {
+            const isHidden = opt.hasAttribute('hidden');
+            const binderId = opt.getAttribute('data-id');
+            return !isHidden && !excludedJSON.includes(binderId);
+        });
         if (options.length > 0) {
             const randomIndex = Math.floor(Math.random() * options.length);
             binderParam = options[randomIndex].getAttribute('data-id');
@@ -1217,13 +1256,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         defaultParams.set('b', binderParam);
         window.history.replaceState({}, '', `${window.location.pathname}?${defaultParams.toString()}`);
     }
-
-    /*if (!binderParam && albumSelect) {
-        binderParam = albumSelect.options[0].getAttribute('data-id') || 'gamegenic';
-        const defaultParams = new URLSearchParams();
-        defaultParams.set('b', binderParam);
-        window.history.replaceState({}, '', `${window.location.pathname}?${defaultParams.toString()}`);
-    }*/
 
     if (binderParam && albumSelect) {
         const matchingOption = Array.from(albumSelect.options).find(
@@ -1608,7 +1640,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         lastSearchResults = matches;
         closeModal(searchModal);
-        
+
         const sortSelect = document.getElementById('search-sort-select');
         if (sortSelect) sortSelect.value = 'page-asc';
 
@@ -1733,6 +1765,18 @@ document.addEventListener("DOMContentLoaded", async () => {
         results.forEach(res => {
             const cardData = res.cardData;
 
+            const activeColors = [];
+
+            function getCssColor(className) {
+                const dummy = document.createElement('div');
+                dummy.className = className;
+                dummy.style.display = 'none';
+                document.body.appendChild(dummy);
+                const color = window.getComputedStyle(dummy).backgroundColor;
+                document.body.removeChild(dummy);
+                return color;
+            }
+
             const tieneNoTrade = cardData.noTrade === true ||
                 (cardData.price && cardData.price.toUpperCase().includes("NO TRADE")) ||
                 (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("NO TRADE")));
@@ -1753,21 +1797,35 @@ document.addEventListener("DOMContentLoaded", async () => {
                 (cardData.price && cardData.price.toUpperCase().includes("NO DISPONIBLE")) ||
                 (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("NO DISPONIBLE")));
 
-            let badgesHTML = '';
-            if (tieneNoTrade || tieneReservada || tieneVendida || tieneTraded || tieneNoDisponible) {
-                badgesHTML += `<div class="badge-stack">`;
-                if (tieneNoTrade) badgesHTML += `<div class="card-badge badge-notrade">NO TRADE</div>`;
-                if (tieneReservada) badgesHTML += `<div class="card-badge badge-reserved">RESERVADA</div>`;
-                if (tieneVendida) badgesHTML += `<div class="card-badge badge-sold">VENDIDA</div>`;
-                if (tieneTraded) badgesHTML += `<div class="card-badge badge-traded">TRADED</div>`;
-                if (tieneNoDisponible) badgesHTML += `<div class="card-badge badge-unavailable">NO DISPONIBLE</div>`;
-                badgesHTML += `</div>`;
+            const tieneConseguida = cardData.conseguida === true ||
+                (cardData.price && cardData.price.toUpperCase().includes("CONSEGUIDA")) ||
+                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("CONSEGUIDA")));
+
+            if (tieneNoTrade) activeColors.push(getCssColor('badge-notrade'));
+            if (tieneReservada) activeColors.push(getCssColor('badge-reserved'));
+            if (tieneVendida) activeColors.push(getCssColor('badge-sold'));
+            if (tieneTraded) activeColors.push(getCssColor('badge-traded'));
+            if (tieneNoDisponible) activeColors.push(getCssColor('badge-unavailable'));
+            if (tieneConseguida) activeColors.push(getCssColor('badge-conseguida'));
+
+            let dotHtml = '';
+            if (activeColors.length === 1) {
+                dotHtml = `<div class="card-status-dot" style="background-color: ${activeColors[0]};"></div>`;
+            } else if (activeColors.length > 1) {
+                let gradientStops = [];
+                const total = activeColors.length;
+                activeColors.forEach((color, index) => {
+                    const startDeg = (index * (360 / total)).toFixed(2);
+                    const endDeg = ((index + 1) * (360 / total)).toFixed(2);
+                    gradientStops.push(`${color} ${startDeg}deg ${endDeg}deg`);
+                });
+                dotHtml = `<div class="card-status-dot" style="background: conic-gradient(${gradientStops.join(', ')});"></div>`;
             }
 
             const cardBox = document.createElement('div');
             cardBox.className = 'search-result-card';
             cardBox.innerHTML = `
-                ${badgesHTML}
+                ${dotHtml}
                 <img src="${cardData.image || ''}" onerror="this.src='https://tcg.pokemon.com/assets/img/global/tcg-card-back.jpg'">
                 <div class="card-pos">Pág. ${res.page} - Slot ${res.slot}</div>
             `;

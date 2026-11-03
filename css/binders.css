@@ -828,6 +828,19 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.search-result-card .card-status-dot {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 24px;  /* Ligeramente más pequeño para el buscador */
+    height: 24px;
+    border-radius: 50%;
+    z-index: 10;
+    pointer-events: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
 #open-expansion-modal-btn,
 #open-language-modal-btn,
 #open-condition-modal-btn,
@@ -979,3 +992,26 @@
     background: rgba(46, 160, 67, 0.15) !important;
     border-color: #2ea043 !important;
 }
+
+/* --- Estilos para los estados (Mint, Near Mint, etc.) --- */
+.condition-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.condition-mt { background-color: #0ea5e9; } /* Mint - Azul cian */
+.condition-nm { background-color: #22c55e; } /* Near Mint - Verde */
+.condition-ex { background-color: #84cc16; } /* Excellent - Verde oliva/lima */
+.condition-gd { background-color: #eab308; color: #000000; } /* Good - Amarillo */
+.condition-lp { background-color: #f97316; } /* Light Played - Naranja */
+.condition-pl { background-color: #fb7185; } /* Played - Rosa/Rojo claro */
+.condition-po { background-color: #ef4444; } /* Poor - Rojo */
