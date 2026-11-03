@@ -18,7 +18,7 @@ let selectedLanguages = [];
 let selectedConditions = [];
 let selectedTypes = [];
 
-let activeSelectorTarget = 'expansion'; // 'expansion', 'language', 'condition', 'type', 'album'
+let activeSelectorTarget = 'expansion';
 let activeExpansionTarget = 'main';
 
 let currentActiveSetIndex = 0;
@@ -791,7 +791,6 @@ function renderGenericSelectorContent(filterText = '') {
 
         gridContainer.innerHTML = '';
 
-        // SELECCIÓN DE ÁLBUM
         if (activeSelectorTarget === 'album') {
             const albumSelect = document.getElementById('album-select');
             if (!albumSelect) return;
@@ -818,6 +817,8 @@ function renderGenericSelectorContent(filterText = '') {
                 return;
             }
 
+            gridContainer.style.gridTemplateColumns = '1fr';
+
             visibleAlbums.forEach(album => {
                 const matchingOption = Array.from(albumSelect.options).find(opt => opt.getAttribute('data-id') === album.id);
                 if (!matchingOption) return;
@@ -825,6 +826,7 @@ function renderGenericSelectorContent(filterText = '') {
                 const isSelected = albumSelect.value === matchingOption.value;
                 const albumName = album.name;
                 const albumImg = album.image || '';
+                const albumDesc = album.description || 'Sin descripción disponible.';
 
                 const card = document.createElement('div');
                 card.className = `expansion-grid-card ${isSelected ? 'selected' : ''}`;
@@ -832,27 +834,28 @@ function renderGenericSelectorContent(filterText = '') {
                     background: #161b22;
                     border: 2px solid ${isSelected ? '#2ea043' : '#30363d'};
                     border-radius: 8px;
-                    padding: 10px;
-                    text-align: center;
+                    padding: 12px 16px;
                     cursor: pointer;
                     display: flex;
-                    flex-direction: column;
                     align-items: center;
-                    justify-content: center;
-                    gap: 8px;
+                    justify-content: space-between;
+                    gap: 15px;
                     transition: all 0.2s;
                 `;
 
                 let visualHtml = '';
                 if (albumImg) {
-                    visualHtml = `<img src="${albumImg}" alt="${albumName}" style="width: 40px; height: 40px; object-fit: contain; border-radius: 4px;">`;
+                    visualHtml = `<img src="${albumImg}" alt="${albumName}" style="width: 50px; height: 50px; object-fit: contain; border-radius: 4px; flex-shrink: 0;">`;
                 } else {
-                    visualHtml = `<div style="font-size: 22px;">📖</div>`;
+                    visualHtml = `<div style="font-size: 28px; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">📖</div>`;
                 }
 
                 card.innerHTML = `
+                    <div style="display: flex; flex-direction: column; gap: 4px; flex: 1; min-width: 0;">
+                        <span style="font-size: 14px; color: ${isSelected ? '#3fb950' : '#c9d1d9'}; font-weight: bold;">${albumName}</span>
+                        <span style="font-size: 12px; color: #8b949e; line-height: 1.4;">${albumDesc}</span>
+                    </div>
                     ${visualHtml}
-                    <span style="font-size: 13px; color: ${isSelected ? '#3fb950' : '#c9d1d9'}; font-weight: bold;">${albumName}</span>
                 `;
 
                 card.addEventListener('click', () => {

@@ -1,12 +1,12 @@
 {
     "albumes": [
-        { "id": "gamegenic", "name": "Gamegenic (2x2)", "image": "" },
-        { "id": "megagengar", "name": "UltraPRO Mega-Gengar (2x2 + Jumbo)", "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/094_f2.png" },
-        { "id": "tinkaton", "name": "UltraPRO Tinkaton (3x3)", "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/959.png" },
-        { "id": "holo", "name": "Álbum Holo (3x3)", "image": "" },
-        { "id": "portfmeg", "name": "Portfolio Megaevolución (1x1)", "image": "" },
-        { "id": "escanirr", "name": "Escanirr (3x3)", "image": "" },
-        { "id": "wishlist", "name": "Wishlist", "image": "" }
+        { "id": "gamegenic", "name": "Gamegenic (2x2)", "image": "", "description": "Cartas promo, de liga, IR, Ultra Rare y colección." },
+        { "id": "megagengar", "name": "UltraPRO Mega-Gengar (2x2 + Jumbo)", "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/094_f2.png", "description": "Colección personal + cartas Jumbo, con temática de Mega-Gengar" },
+        { "id": "tinkaton", "name": "UltraPRO Tinkaton (3x3)", "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/959.png", "description": "Colección de starters + personalm, con temática de Tinkaton." },
+        { "id": "holo", "name": "Álbum Holo (3x3)", "image": "", "description": "Cartas sueltas, un poco de todo. En general: bulk." },
+        { "id": "portfmeg", "name": "Portfolio Megaevolución (1x1)", "image": "", "description": "Portfolio de colección personal" },
+        { "id": "escanirr", "name": "Escanirr (3x3)", "image": "", "description": "Álbum de Escanirr (formato 3x3)" },
+        { "id": "wishlist", "name": "Wishlist", "image": "", "description": "Lista de cartas que quisiera conseguir. Si tienes alguna, dime y podemos intercambiar." }
     ],
     "expansions": [
         {

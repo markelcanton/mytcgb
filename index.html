@@ -29,13 +29,11 @@
             <div class="binder-controls">
                 <div class="album-select-container">
                     <span>Álbum:</span>
-                    <!-- Botón visible para abrir el modal selector de álbum -->
                     <button type="button" id="open-album-modal-btn" class="editor-input" style="cursor: pointer; font-weight: bold; background: #0d1117; color: white; border: 1px solid #30363d; border-radius: 6px; padding: 6px 12px; display: flex; align-items: center; gap: 6px;">
                         <span id="album-selected-name">Gamegenic (2x2)</span>
                         <span style="font-size: 10px; color: #8b949e;">▼</span>
                     </button>
 
-                    <!-- Select oculto mantenido para compatibilidad interna -->
                     <select id="album-select" style="display: none;">
                         <option value="json/gamegenic2x2.json" data-grid="2x2" data-id="gamegenic">Gamegenic (2x2)</option>
                         <option value="json/ultrapro-megagengar-2x2.json" data-grid="2x2" data-id="megagengar">UltraPRO Mega-Gengar (2x2 + Jumbo)</option>
@@ -162,7 +160,6 @@
         </div>
     </div>
 
-    <!-- Modal Genérico para Selección (Álbum, Expansión, Idioma, Estado, Tipo/Rareza) -->
     <div id="generic-selector-modal" class="modal-overlay" style="display: none; z-index: 100000;">
         <div class="editor-modal-content" style="max-width: 750px; height: 85vh;">
             <div class="editor-modal-header">

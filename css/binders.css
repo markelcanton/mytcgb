@@ -828,7 +828,6 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/* Alineación de la altura exacta de botones e inputs en Búsqueda avanzada */
 #open-expansion-modal-btn,
 #open-language-modal-btn,
 #open-condition-modal-btn,
@@ -843,7 +842,6 @@
     margin-bottom: 8px;
 }
 
-/* Efecto hover botón Álbum */
 #open-album-modal-btn:hover {
     border-color: #58a6ff !important;
     background: #161b22 !important;
@@ -972,7 +970,6 @@
     }
 }
 
-/* Estilos para el modal de selección en cuadrícula */
 .expansion-grid-card:hover {
     border-color: #58a6ff !important;
     background: #1f242c !important;
