@@ -7,9 +7,23 @@ let currentPage = 1;
 let isAnimating = false;
 
 let expansionChronologicalOrder = [];
+let allAlbumsMasterData = [];
 let allExpansionsMasterData = [];
+let allLanguagesMasterData = [];
+let allConditionsMasterData = [];
+let allTypesMasterData = [];
 
+let selectedExpansions = [];
+let selectedLanguages = [];
+let selectedConditions = [];
+let selectedTypes = [];
+
+let activeSelectorTarget = 'expansion'; // 'expansion', 'language', 'condition', 'type', 'album'
 let activeExpansionTarget = 'main';
+
+let currentActiveSetIndex = 0;
+let currentActiveSeriesIndex = 0;
+let lastSearchResults = [];
 
 function ensureBackdrop() {
     let backdrop = document.getElementById('modal-backdrop');
@@ -562,7 +576,7 @@ function resetUrlToBinderOnly() {
     window.history.replaceState({}, '', `${window.location.pathname}?${newParams.toString()}`);
 }
 
-function syncSearchUrlParams(selectedExpansions, selectedLanguages, selectedConditions) {
+function syncSearchUrlParams(selectedExpansions, selectedLanguages, selectedConditions, selectedTypes) {
     const binderId = getCurrentBinderId();
     const newParams = new URLSearchParams();
 
@@ -580,8 +594,6 @@ function syncSearchUrlParams(selectedExpansions, selectedLanguages, selectedCond
     const sold = document.getElementById('filter-sold')?.checked;
     const traded = document.getElementById('filter-traded')?.checked;
     const unavailable = document.getElementById('filter-unavailable')?.checked;
-
-    const selectedTypes = Array.from(document.querySelectorAll('.filter-type:checked')).map(cb => cb.value);
 
     if (name) newParams.set('name', name);
     if (code) newParams.set('code', code);
@@ -615,7 +627,7 @@ function syncSearchUrlParams(selectedExpansions, selectedLanguages, selectedCond
     window.history.replaceState({}, '', newUrlString);
 }
 
-function restoreSearchFromUrlParams(selectedExpansions, selectedLanguages, selectedConditions) {
+function restoreSearchFromUrlParams(selectedExpansions, selectedLanguages, selectedConditions, selectedTypes) {
     const urlParams = new URLSearchParams(window.location.search);
     if (!urlParams.has('s')) return false;
 
@@ -660,10 +672,9 @@ function restoreSearchFromUrlParams(selectedExpansions, selectedLanguages, selec
 
     const typeParam = urlParams.get('type');
     if (typeParam) {
-        const types = typeParam.split(',');
-        document.querySelectorAll('.filter-type').forEach(cb => {
-            if (types.includes(cb.value)) cb.checked = true;
-        });
+        selectedTypes.length = 0;
+        typeParam.split(',').forEach(t => selectedTypes.push(t));
+        renderTags(document.getElementById('type-tags'), selectedTypes);
     }
 
     return true;
@@ -686,88 +697,309 @@ function renderTags(container, storageArray) {
     });
 }
 
-let selectedExpansions = [];
-let selectedLanguages = [];
-let selectedConditions = [];
-let currentActiveSetIndex = 0;
-let currentActiveSeriesIndex = 0;
-
-function openExpansionSelectorModal(target = 'main') {
+function openGenericSelectorModal(mode = 'expansion', target = 'main') {
+    activeSelectorTarget = mode;
     activeExpansionTarget = target;
-    let modal = document.getElementById('expansion-selector-modal');
-    if (!modal) {
-        modal = document.createElement('div');
-        modal.id = 'expansion-selector-modal';
-        modal.className = 'modal-overlay';
-        
-        modal.style.zIndex = '100000'; 
 
-        modal.innerHTML = `
-            <div class="editor-modal-content" style="max-width: 750px; height: 85vh;">
-                <div class="editor-modal-header">
-                    <h2>Seleccionar expansiones:</h2>
-                    <span id="close-expansion-modal" class="close-btn-editor">&times;</span>
-                </div>
-                <div class="editor-modal-body" style="display:flex; flex-direction:column; gap:12px;">
-                    <input type="text" id="expansion-search-input" class="editor-input" placeholder="Buscar expansión..." autocomplete="off">
-                    
-                    <div id="set-tabs-container" style="display:flex; gap:8px; flex-wrap:wrap; border-bottom: 1px solid #21262d; padding-bottom: 8px;"></div>
+    const modal = document.getElementById('generic-selector-modal');
+    if (!modal) return;
 
-                    <div id="series-select-wrapper" style="display:flex; flex-direction:column; gap:4px;">
-                        <label id="series-label-text" style="font-size: 13px; color: #8b949e; font-weight: bold;">Serie:</label>
-                        <select id="series-dropdown-select" class="editor-input" style="cursor: pointer; margin: 0;"></select>
-                    </div>
+    const titleMap = {
+        'expansion': 'Seleccionar expansiones:',
+        'language': 'Seleccionar idiomas:',
+        'condition': 'Seleccionar estados:',
+        'type': 'Seleccionar tipo y rareza:',
+        'album': 'Seleccionar álbum:'
+    };
 
-                    <div id="expansion-grid-container" style="display:grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap:10px; overflow-y:auto; padding-right:4px; flex:1;"></div>
-                </div>
-                <div class="editor-modal-footer">
-                    <button type="button" id="confirm-expansion-selection" class="btn-editor-primary">Aceptar</button>
-                </div>
-            </div>
-        `;
-        document.body.appendChild(modal);
+    const titleEl = document.getElementById('generic-modal-title');
+    if (titleEl) titleEl.textContent = titleMap[mode] || 'Seleccionar:';
 
-        modal.querySelector('#close-expansion-modal').addEventListener('click', () => closeModal(modal));
-        modal.querySelector('#confirm-expansion-selection').addEventListener('click', () => closeModal(modal));
-
-        modal.querySelector('#expansion-search-input').addEventListener('input', (e) => {
-            renderExpansionContent(e.target.value.toLowerCase());
-        });
-
-        modal.querySelector('#series-dropdown-select').addEventListener('change', (e) => {
-            currentActiveSeriesIndex = parseInt(e.target.value, 10);
-            renderExpansionContent('');
-        });
-    }
-
-    modal.style.zIndex = '100000';
+    const searchInput = document.getElementById('generic-search-input');
+    if (searchInput) searchInput.value = '';
 
     currentActiveSetIndex = 0;
     currentActiveSeriesIndex = 0;
-    renderExpansionContent('');
+
+    renderGenericSelectorContent('');
     openModal(modal);
 }
 
-function renderExpansionContent(filterText = '') {
+function createOptionCard(item, targetStorage, tagsContainerId) {
+    const itemName = typeof item === 'string' ? item : item.name;
+    const itemImg = typeof item === 'object' ? (item.flag || item.image || '') : '';
+    const isSelected = targetStorage.includes(itemName);
+
+    const card = document.createElement('div');
+    card.className = `expansion-grid-card ${isSelected ? 'selected' : ''}`;
+    card.style.cssText = `
+        background: #161b22;
+        border: 2px solid ${isSelected ? '#2ea043' : '#30363d'};
+        border-radius: 8px;
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        transition: all 0.2s;
+    `;
+
+    let imgHtml = '';
+    if (itemImg) {
+        imgHtml = `<img src="${itemImg}" alt="${itemName}" style="width: 36px; height: 26px; object-fit: contain; border-radius: 3px;">`;
+    } else {
+        imgHtml = `<div class="empty-item-img-placeholder" style="width: 36px; height: 26px; border: 1px dashed #30363d; border-radius: 3px; display: flex; align-items: center; justify-content: center; color: #484f58; font-size: 10px;">IMG</div>`;
+    }
+
+    card.innerHTML = `
+        ${imgHtml}
+        <span style="font-size: 12px; color: ${isSelected ? '#3fb950' : '#c9d1d9'}; font-weight: ${isSelected ? 'bold' : 'normal'};">${itemName}</span>
+    `;
+
+    card.addEventListener('click', () => {
+        const idx = targetStorage.indexOf(itemName);
+        if (idx > -1) {
+            targetStorage.splice(idx, 1);
+        } else {
+            targetStorage.push(itemName);
+        }
+        renderTags(document.getElementById(tagsContainerId), targetStorage);
+        renderGenericSelectorContent(document.getElementById('generic-search-input').value.toLowerCase());
+    });
+
+    return card;
+}
+
+function renderGenericSelectorContent(filterText = '') {
     const setTabsContainer = document.getElementById('set-tabs-container');
     const seriesSelectWrapper = document.getElementById('series-select-wrapper');
     const seriesDropdown = document.getElementById('series-dropdown-select');
-    const gridContainer = document.getElementById('expansion-grid-container');
-    const confirmBtn = document.getElementById('confirm-expansion-selection');
+    const gridContainer = document.getElementById('generic-grid-container');
+    const confirmBtn = document.getElementById('confirm-generic-selection');
 
     if (!setTabsContainer || !seriesSelectWrapper || !seriesDropdown || !gridContainer || !confirmBtn) return;
 
+    if (activeSelectorTarget !== 'expansion') {
+        setTabsContainer.style.display = 'none';
+        seriesSelectWrapper.style.display = 'none';
+        confirmBtn.disabled = false;
+        confirmBtn.style.opacity = '1';
+        confirmBtn.style.cursor = 'pointer';
+
+        gridContainer.innerHTML = '';
+
+        // SELECCIÓN DE ÁLBUM
+        if (activeSelectorTarget === 'album') {
+            const albumSelect = document.getElementById('album-select');
+            if (!albumSelect) return;
+
+            const isEditorPage = !!document.getElementById('mode-selector');
+
+            const visibleAlbums = allAlbumsMasterData.filter(album => {
+                const opt = Array.from(albumSelect.options).find(o => o.getAttribute('data-id') === album.id);
+                if (!opt) return false;
+
+                const isHidden = opt.hasAttribute('hidden');
+                const name = album.name;
+                const dataId = album.id;
+
+                if (isEditorPage || !isHidden) {
+                    return name.toLowerCase().includes(filterText) || dataId.toLowerCase().includes(filterText);
+                } else {
+                    return filterText !== '' && (name.toLowerCase().includes(filterText) || dataId.toLowerCase().includes(filterText));
+                }
+            });
+
+            if (visibleAlbums.length === 0) {
+                gridContainer.innerHTML = `<div style="color: #8b949e; grid-column: 1 / -1; text-align: center; padding: 20px;">No se encontraron álbumes.</div>`;
+                return;
+            }
+
+            visibleAlbums.forEach(album => {
+                const matchingOption = Array.from(albumSelect.options).find(opt => opt.getAttribute('data-id') === album.id);
+                if (!matchingOption) return;
+
+                const isSelected = albumSelect.value === matchingOption.value;
+                const albumName = album.name;
+                const albumImg = album.image || '';
+
+                const card = document.createElement('div');
+                card.className = `expansion-grid-card ${isSelected ? 'selected' : ''}`;
+                card.style.cssText = `
+                    background: #161b22;
+                    border: 2px solid ${isSelected ? '#2ea043' : '#30363d'};
+                    border-radius: 8px;
+                    padding: 10px;
+                    text-align: center;
+                    cursor: pointer;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 8px;
+                    transition: all 0.2s;
+                `;
+
+                let visualHtml = '';
+                if (albumImg) {
+                    visualHtml = `<img src="${albumImg}" alt="${albumName}" style="width: 40px; height: 40px; object-fit: contain; border-radius: 4px;">`;
+                } else {
+                    visualHtml = `<div style="font-size: 22px;">📖</div>`;
+                }
+
+                card.innerHTML = `
+                    ${visualHtml}
+                    <span style="font-size: 13px; color: ${isSelected ? '#3fb950' : '#c9d1d9'}; font-weight: bold;">${albumName}</span>
+                `;
+
+                card.addEventListener('click', () => {
+                    albumSelect.value = matchingOption.value;
+
+                    const labelSpan = document.getElementById('album-selected-name');
+                    if (labelSpan) labelSpan.textContent = albumName;
+
+                    albumSelect.dispatchEvent(new Event('change'));
+                    closeModal(document.getElementById('generic-selector-modal'));
+                });
+
+                gridContainer.appendChild(card);
+            });
+
+            return;
+        }
+
+        let sourceArray = [];
+        let targetStorage = [];
+        let tagsContainerId = '';
+
+        if (activeSelectorTarget === 'language') {
+            sourceArray = allLanguagesMasterData;
+            targetStorage = selectedLanguages;
+            tagsContainerId = 'language-tags';
+        } else if (activeSelectorTarget === 'condition') {
+            sourceArray = allConditionsMasterData;
+            targetStorage = selectedConditions;
+            tagsContainerId = 'condition-tags';
+        } else if (activeSelectorTarget === 'type') {
+            sourceArray = allTypesMasterData;
+            targetStorage = selectedTypes;
+            tagsContainerId = 'type-tags';
+        }
+
+        const filtered = sourceArray.filter(item => {
+            const name = typeof item === 'string' ? item : item.name;
+            return name.toLowerCase().includes(filterText);
+        });
+
+        if (filtered.length === 0) {
+            gridContainer.innerHTML = `<div style="color: #8b949e; grid-column: 1 / -1; text-align: center; padding: 20px;">No se encontraron resultados.</div>`;
+            return;
+        }
+
+        filtered.forEach(item => {
+            const itemName = typeof item === 'string' ? item : item.name;
+            const itemImg = typeof item === 'object' ? (item.flag || item.image || '') : '';
+
+            let isSelected = false;
+            if (activeExpansionTarget === 'variant_select') {
+                if (activeSelectorTarget === 'language' && window._activeVariantSelectLang) {
+                    isSelected = window._activeVariantSelectLang.value === itemName;
+                } else if (activeSelectorTarget === 'condition' && window._activeVariantSelectCond) {
+                    isSelected = window._activeVariantSelectCond.value === itemName;
+                }
+            } else {
+                isSelected = targetStorage.includes(itemName);
+            }
+
+            const card = document.createElement('div');
+            card.className = `expansion-grid-card ${isSelected ? 'selected' : ''}`;
+            card.style.cssText = `
+                background: #161b22;
+                border: 2px solid ${isSelected ? '#2ea043' : '#30363d'};
+                border-radius: 8px;
+                padding: 10px;
+                text-align: center;
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                transition: all 0.2s;
+            `;
+
+            let imgHtml = '';
+            if (itemImg) {
+                imgHtml = `<img src="${itemImg}" alt="${itemName}" style="width: 36px; height: 26px; object-fit: contain; border-radius: 3px;">`;
+            } else {
+                imgHtml = `<div class="empty-item-img-placeholder" style="width: 36px; height: 26px; border: 1px dashed #30363d; border-radius: 3px; display: flex; align-items: center; justify-content: center; color: #484f58; font-size: 10px;">IMG</div>`;
+            }
+
+            card.innerHTML = `
+                ${imgHtml}
+                <span style="font-size: 12px; color: ${isSelected ? '#3fb950' : '#c9d1d9'}; font-weight: ${isSelected ? 'bold' : 'normal'};">${itemName}</span>
+            `;
+
+            card.addEventListener('click', () => {
+                if (activeExpansionTarget === 'variant_select') {
+                    if (activeSelectorTarget === 'language' && window._activeVariantSelectLang) {
+                        const targetSelect = window._activeVariantSelectLang;
+                        let optionExists = Array.from(targetSelect.options).some(o => o.value === itemName);
+                        if (!optionExists) {
+                            const opt = document.createElement('option');
+                            opt.value = itemName;
+                            opt.textContent = itemName;
+                            targetSelect.appendChild(opt);
+                        }
+                        targetSelect.value = itemName;
+                        targetSelect.dispatchEvent(new Event('change'));
+                    } else if (activeSelectorTarget === 'condition' && window._activeVariantSelectCond) {
+                        const targetSelect = window._activeVariantSelectCond;
+                        let optionExists = Array.from(targetSelect.options).some(o => o.value === itemName);
+                        if (!optionExists) {
+                            const opt = document.createElement('option');
+                            opt.value = itemName;
+                            opt.textContent = itemName;
+                            targetSelect.appendChild(opt);
+                        }
+                        targetSelect.value = itemName;
+                        targetSelect.dispatchEvent(new Event('change'));
+                    }
+                    closeModal(document.getElementById('generic-selector-modal'));
+                } else {
+                    const idx = targetStorage.indexOf(itemName);
+                    if (idx > -1) {
+                        targetStorage.splice(idx, 1);
+                    } else {
+                        targetStorage.push(itemName);
+                    }
+                    renderTags(document.getElementById(tagsContainerId), targetStorage);
+                    renderGenericSelectorContent(document.getElementById('generic-search-input').value.toLowerCase());
+                }
+            });
+
+            gridContainer.appendChild(card);
+        });
+
+        return;
+    }
+
     const targetArray = 
         (activeExpansionTarget === 'editor' && typeof editorSelectedExpansions !== 'undefined') ? editorSelectedExpansions :
-        (activeExpansionTarget === 'shopping' && activeShoppingExpansionTarget && activeShoppingExpansionTarget._cardExpansions) ? activeShoppingExpansionTarget._cardExpansions :
+        (activeExpansionTarget === 'shopping' && typeof activeShoppingExpansionTarget !== 'undefined' && activeShoppingExpansionTarget._cardExpansions) ? activeShoppingExpansionTarget._cardExpansions :
         selectedExpansions;
 
     function handleSelectionChange() {
         if (activeExpansionTarget === 'editor' && typeof renderEditorExpansionTags === 'function') {
             renderEditorExpansionTags();
-        } else if (activeExpansionTarget === 'shopping' && activeShoppingExpansionTarget) {
+        } else if (activeExpansionTarget === 'shopping' && typeof activeShoppingExpansionTarget !== 'undefined') {
             const tagsContainer = activeShoppingExpansionTarget.querySelector('.shop-edit-expansion-tags');
-            renderShopCardExpansionTags(tagsContainer, activeShoppingExpansionTarget._cardExpansions);
+            if (typeof renderShopCardExpansionTags === 'function') {
+                renderShopCardExpansionTags(tagsContainer, activeShoppingExpansionTarget._cardExpansions);
+            }
         } else {
             renderTags(document.getElementById('expansion-tags'), selectedExpansions);
         }
@@ -825,7 +1057,7 @@ function renderExpansionContent(filterText = '') {
                                         targetArray.push(expName);
                                     }
                                     handleSelectionChange();
-                                    renderExpansionContent(document.getElementById('expansion-search-input').value.toLowerCase());
+                                    renderGenericSelectorContent(document.getElementById('generic-search-input').value.toLowerCase());
                                 });
 
                                 gridContainer.appendChild(card);
@@ -856,7 +1088,7 @@ function renderExpansionContent(filterText = '') {
         btn.addEventListener('click', () => {
             currentActiveSetIndex = sIdx;
             currentActiveSeriesIndex = 0;
-            renderExpansionContent('');
+            renderGenericSelectorContent('');
         });
         setTabsContainer.appendChild(btn);
     });
@@ -929,13 +1161,15 @@ function renderExpansionContent(filterText = '') {
         `;
 
         card.addEventListener('click', () => {
-            if (activeExpansionTarget === 'shopping' && activeShoppingExpansionTarget) {
+            if (activeExpansionTarget === 'shopping' && typeof activeShoppingExpansionTarget !== 'undefined' && activeShoppingExpansionTarget) {
                 activeShoppingExpansionTarget._cardExpansion = expName;
-                renderShopCardSingleExpansionTag(
-                    activeShoppingExpansionTarget.querySelector('.shop-edit-expansion-tags'), 
-                    activeShoppingExpansionTarget
-                );
-                closeModal(document.getElementById('expansion-selector-modal'));
+                if (typeof renderShopCardSingleExpansionTag === 'function') {
+                    renderShopCardSingleExpansionTag(
+                        activeShoppingExpansionTarget.querySelector('.shop-edit-expansion-tags'), 
+                        activeShoppingExpansionTarget
+                    );
+                }
+                closeModal(document.getElementById('generic-selector-modal'));
             } else {
                 const idx = targetArray.indexOf(expName);
                 if (idx > -1) {
@@ -944,7 +1178,7 @@ function renderExpansionContent(filterText = '') {
                     targetArray.push(expName);
                 }
                 handleSelectionChange();
-                renderExpansionContent('');
+                renderGenericSelectorContent('');
             }
         });
 
@@ -952,7 +1186,9 @@ function renderExpansionContent(filterText = '') {
     });
 }
 
-let lastSearchResults = [];
+function openExpansionSelectorModal(target = 'main') {
+    openGenericSelectorModal('expansion', target);
+}
 
 document.addEventListener("DOMContentLoaded", async () => {
     await loadFilterMasterData();
@@ -965,12 +1201,26 @@ document.addEventListener("DOMContentLoaded", async () => {
     const urlParams = new URLSearchParams(window.location.search);
     let binderParam = urlParams.get('b');
 
-    if (!binderParam && albumSelect) {
+    if (!binderParam && albumSelect && albumSelect.options.length > 0) {
+        const options = Array.from(albumSelect.options).filter(opt => !opt.hasAttribute('hidden'));
+        if (options.length > 0) {
+            const randomIndex = Math.floor(Math.random() * options.length);
+            binderParam = options[randomIndex].getAttribute('data-id');
+        } else {
+            binderParam = albumSelect.options[0].getAttribute('data-id') || 'gamegenic';
+        }
+
+        const defaultParams = new URLSearchParams(window.location.search);
+        defaultParams.set('b', binderParam);
+        window.history.replaceState({}, '', `${window.location.pathname}?${defaultParams.toString()}`);
+    }
+
+    /*if (!binderParam && albumSelect) {
         binderParam = albumSelect.options[0].getAttribute('data-id') || 'gamegenic';
         const defaultParams = new URLSearchParams();
         defaultParams.set('b', binderParam);
         window.history.replaceState({}, '', `${window.location.pathname}?${defaultParams.toString()}`);
-    }
+    }*/
 
     if (binderParam && albumSelect) {
         const matchingOption = Array.from(albumSelect.options).find(
@@ -986,6 +1236,12 @@ document.addEventListener("DOMContentLoaded", async () => {
         if (albumSelect) {
             jsonFile = albumSelect.value;
             const selectedOption = albumSelect.options[albumSelect.selectedIndex];
+
+            const labelSpan = document.getElementById('album-selected-name');
+            if (labelSpan && selectedOption) {
+                labelSpan.textContent = selectedOption.textContent;
+            }
+
             gridType = selectedOption.getAttribute('data-grid') || '2x2';
 
             if (!isInitialLoad) {
@@ -1017,7 +1273,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                     }
                 }
                 else if (currentUrlParams.has('s')) {
-                    restoreSearchFromUrlParams(selectedExpansions, selectedLanguages, selectedConditions);
+                    restoreSearchFromUrlParams(selectedExpansions, selectedLanguages, selectedConditions, selectedTypes);
                     const searchModal = document.getElementById('search-modal');
                     if (searchModal) {
                         openModal(searchModal);
@@ -1121,24 +1377,41 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const searchModal = document.getElementById('search-modal');
     const resultsModal = document.getElementById('results-modal');
+    const genericModal = document.getElementById('generic-selector-modal');
 
     const openSearchBtns = document.querySelectorAll('#open-search-modal-btn, .open-search-btn');
     const closeSearchBtn = document.getElementById('close-search-modal');
     const closeResultsBtn = document.getElementById('close-results-modal');
-    const openExpansionBtn = document.getElementById('open-expansion-modal-btn');
+
+    const closeGenericBtn = document.getElementById('close-generic-modal');
+    const confirmGenericBtn = document.getElementById('confirm-generic-selection');
 
     openSearchBtns.forEach(btn => {
         btn.addEventListener('click', () => {
-            syncSearchUrlParams(selectedExpansions, selectedLanguages, selectedConditions);
+            syncSearchUrlParams(selectedExpansions, selectedLanguages, selectedConditions, selectedTypes);
             openModal(searchModal);
         });
     });
 
-    if (openExpansionBtn) {
-        openExpansionBtn.addEventListener('click', () => {
-            openExpansionSelectorModal();
-        });
-    }
+    document.getElementById('open-album-modal-btn')?.addEventListener('click', () => {
+        openGenericSelectorModal('album');
+    });
+
+    document.getElementById('open-expansion-modal-btn')?.addEventListener('click', () => {
+        openGenericSelectorModal('expansion');
+    });
+
+    document.getElementById('open-language-modal-btn')?.addEventListener('click', () => {
+        openGenericSelectorModal('language');
+    });
+
+    document.getElementById('open-condition-modal-btn')?.addEventListener('click', () => {
+        openGenericSelectorModal('condition');
+    });
+
+    document.getElementById('open-type-modal-btn')?.addEventListener('click', () => {
+        openGenericSelectorModal('type');
+    });
 
     if (closeSearchBtn && searchModal) {
         closeSearchBtn.addEventListener('click', () => {
@@ -1153,23 +1426,26 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
     }
 
-    function setupMultiSelect(selectId, tagsContainerId, storageArray) {
-        const select = document.getElementById(selectId);
-        const container = document.getElementById(tagsContainerId);
-        if (!select || !container) return;
-
-        select.addEventListener('change', (e) => {
-            const val = e.target.value;
-            if (val && !storageArray.includes(val)) {
-                storageArray.push(val);
-                renderTags(container, storageArray);
-            }
-            select.selectedIndex = 0;
+    if (closeGenericBtn && genericModal) {
+        closeGenericBtn.addEventListener('click', () => {
+            closeModal(genericModal);
         });
     }
 
-    setupMultiSelect('filter-language-select', 'language-tags', selectedLanguages);
-    setupMultiSelect('filter-condition-select', 'condition-tags', selectedConditions);
+    if (confirmGenericBtn && genericModal) {
+        confirmGenericBtn.addEventListener('click', () => {
+            closeModal(genericModal);
+        });
+    }
+
+    document.getElementById('generic-search-input')?.addEventListener('input', (e) => {
+        renderGenericSelectorContent(e.target.value.toLowerCase());
+    });
+
+    document.getElementById('series-dropdown-select')?.addEventListener('change', (e) => {
+        currentActiveSeriesIndex = parseInt(e.target.value, 10);
+        renderGenericSelectorContent('');
+    });
 
     document.getElementById('reset-filters-btn')?.addEventListener('click', () => {
         document.getElementById('search-query').value = '';
@@ -1184,15 +1460,15 @@ document.addEventListener("DOMContentLoaded", async () => {
         document.getElementById('filter-traded').checked = false;
         document.getElementById('filter-unavailable').checked = false;
 
-        document.querySelectorAll('.filter-type').forEach(cb => cb.checked = false);
-
         selectedExpansions.length = 0;
         selectedLanguages.length = 0;
         selectedConditions.length = 0;
+        selectedTypes.length = 0;
 
         renderTags(document.getElementById('expansion-tags'), selectedExpansions);
         renderTags(document.getElementById('language-tags'), selectedLanguages);
         renderTags(document.getElementById('condition-tags'), selectedConditions);
+        renderTags(document.getElementById('type-tags'), selectedTypes);
 
         resetUrlToBinderOnly();
     });
@@ -1212,8 +1488,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         const isTraded = document.getElementById('filter-traded').checked;
         const isUnavailable = document.getElementById('filter-unavailable').checked;
 
-        const selectedTypes = Array.from(document.querySelectorAll('.filter-type:checked')).map(cb => cb.value);
-
         const hasInteraction = query !== '' ||
             codeVal !== '' ||
             formatVal !== '' ||
@@ -1230,7 +1504,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             return;
         }
 
-        syncSearchUrlParams(selectedExpansions, selectedLanguages, selectedConditions);
+        syncSearchUrlParams(selectedExpansions, selectedLanguages, selectedConditions, selectedTypes);
 
         const matches = [];
         const isEditorPage = !!document.getElementById('mode-selector');
@@ -1585,10 +1859,6 @@ document.addEventListener('keydown', (e) => {
 });
 
 async function loadFilterMasterData() {
-    const filterExpSelect = document.getElementById('filter-expansion-select');
-    const filterLangSelect = document.getElementById('filter-language-select');
-    const filterCondSelect = document.getElementById('filter-condition-select');
-
     try {
         let response = await fetch('../mytcgb/json/mdata.json');
         if (!response.ok) {
@@ -1603,48 +1873,22 @@ async function loadFilterMasterData() {
         const mdata = await response.json();
 
         expansionChronologicalOrder = [];
+        allAlbumsMasterData = mdata.albumes || [];
         allExpansionsMasterData = mdata.expansions || [];
+        allLanguagesMasterData = mdata.idiomas || [];
+        allConditionsMasterData = mdata.estados || [];
+        allTypesMasterData = mdata.tipos_rareza || [];
 
-        if (filterExpSelect && allExpansionsMasterData) {
-            filterExpSelect.innerHTML = '<option value="" disabled selected>Añadir expansión...</option>';
+        if (allExpansionsMasterData) {
             allExpansionsMasterData.forEach(setObj => {
                 setObj.series.forEach(seriesObj => {
-                    const optgroup = document.createElement('optgroup');
-                    optgroup.label = `${setObj.set} › ${seriesObj.name}`;
                     seriesObj.options.forEach(opt => {
                         const optName = typeof opt === 'string' ? opt : opt.name;
-                        const option = document.createElement('option');
-                        option.value = optName;
-                        option.textContent = optName;
-                        optgroup.appendChild(option);
-
                         expansionChronologicalOrder.push(optName);
                     });
-                    filterExpSelect.appendChild(optgroup);
                 });
             });
         }
-
-        if (filterLangSelect && mdata.idiomas) {
-            filterLangSelect.innerHTML = '<option value="" disabled selected>Añadir idioma...</option>';
-            mdata.idiomas.forEach(lang => {
-                const option = document.createElement('option');
-                option.value = lang;
-                option.textContent = lang;
-                filterLangSelect.appendChild(option);
-            });
-        }
-
-        if (filterCondSelect && mdata.estados) {
-            filterCondSelect.innerHTML = '<option value="" disabled selected>Añadir estado...</option>';
-            mdata.estados.forEach(cond => {
-                const option = document.createElement('option');
-                option.value = cond;
-                option.textContent = cond;
-                filterCondSelect.appendChild(option);
-            });
-        }
-
     } catch (error) {
         console.error('Error al cargar mdata.json para la búsqueda avanzada:', error);
     }

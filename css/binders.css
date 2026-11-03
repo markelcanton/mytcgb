@@ -828,6 +828,27 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+/* Alineación de la altura exacta de botones e inputs en Búsqueda avanzada */
+#open-expansion-modal-btn,
+#open-language-modal-btn,
+#open-condition-modal-btn,
+#open-type-modal-btn {
+    height: 35px;
+    padding: 8px 10px;
+    font-size: 13px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+/* Efecto hover botón Álbum */
+#open-album-modal-btn:hover {
+    border-color: #58a6ff !important;
+    background: #161b22 !important;
+}
+
 @media (max-width: 768px) {
     .binder-book,
     .page-side {
@@ -951,7 +972,7 @@
     }
 }
 
-/* Estilos para el modal de selección de expansiones en cuadrícula */
+/* Estilos para el modal de selección en cuadrícula */
 .expansion-grid-card:hover {
     border-color: #58a6ff !important;
     background: #1f242c !important;
