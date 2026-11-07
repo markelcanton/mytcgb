@@ -705,7 +705,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 5,
+                            "stock": 4,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Slowpoke-PBL029?language=1&minCondition=2",
                             "hidden": false
                         }
@@ -3515,7 +3515,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Banette-PBL034?language=4&minCondition=2&isReverseHolo=Y",
                             "hidden": false
                         },
@@ -3525,7 +3525,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 0,
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Banette-PBL034?language=1&minCondition=2",
                             "hidden": false
                         }
@@ -5220,7 +5220,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Drilbur-V1-PBL046?language=1&minCondition=2",
                             "hidden": false
                         },
@@ -5936,7 +5936,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mandibuzz-PBL050?language=4&minCondition=2",
                             "hidden": false
                         },
@@ -7776,6 +7776,16 @@
                     "conseguida": false,
                     "variants": [
                         {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Grubbin-PBL002?language=4&minCondition=2",
+                            "hidden": false
+                        },
+                        {
                             "language": "Inglés",
                             "type": "Common",
                             "format": "J",
@@ -7839,6 +7849,16 @@
                     "noDisponible": false,
                     "conseguida": false,
                     "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Vikavolt-PBL026?language=4&minCondition=2",
+                            "hidden": false
+                        },
                         {
                             "language": "Inglés",
                             "type": "Uncommon",
@@ -7958,6 +7978,16 @@
                     "noDisponible": false,
                     "conseguida": false,
                     "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Fomantis-V1-PBL003?language=4&minCondition=2",
+                            "hidden": false
+                        },
                         {
                             "language": "Español",
                             "type": "Common + Foil",
@@ -9679,7 +9709,7 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,02€",
-                            "stock": 1,
+                            "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Palafin-PBL022?language=4&minCondition=2",
                             "hidden": false
                         },
@@ -10026,6 +10056,16 @@
                     "noDisponible": false,
                     "conseguida": false,
                     "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 2,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Chi-Yu-PBL059?language=4&minCondition=2",
+                            "hidden": false
+                        },
                         {
                             "language": "Inglés",
                             "type": "Rare",
@@ -11187,6 +11227,16 @@
                     "conseguida": false,
                     "variants": [
                         {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mistys-Vitality-V1-PBL080?language=4&minCondition=2",
+                            "hidden": false
+                        },
+                        {
                             "language": "Inglés",
                             "type": "Uncommon",
                             "format": "J",
@@ -11959,33 +12009,6 @@
                             "price": "0,02€",
                             "stock": 2,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Hops-Bag-PPS7JTG-147?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 9,
-                    "name": "Helado Colosal",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_91.png",
-                    "expansion": [
-                        "Fuegos Fantasmales"
-                    ],
-                    "code": "PFL091",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Uncommon",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Jumbo-Ice-Cream-PFL091?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]

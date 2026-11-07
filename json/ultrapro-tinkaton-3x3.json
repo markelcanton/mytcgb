@@ -31,6 +31,60 @@
                     ]
                 },
                 {
+                    "slot": 2,
+                    "name": "Ivysaur",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV3PT5/SV3PT5_ES_2.png",
+                    "expansion": [
+                        "151"
+                    ],
+                    "code": "MEW002",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Uncommon + Foil",
+                            "format": "G (no válida en torneos)",
+                            "condition": "",
+                            "price": "0,50€-1€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Ivysaur-V1-MEW002?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 3,
+                    "name": "Venusaur ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_1.png",
+                    "expansion": [
+                        "Corona Astral"
+                    ],
+                    "code": "svG 003",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Fixed",
+                            "format": "J",
+                            "condition": "",
+                            "price": "~0,50€-2€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Venusaur-Charizard-Blastoise-Special-Deck-Set-ex/Venusaur-ex-svG003?language=7&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
                     "slot": 4,
                     "name": "Charmander",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_20.png",
@@ -92,6 +146,87 @@
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Charmeleon-V1-PPS9PFL-012?language=4&minCondition=2",
                             "hidden": true
+                        }
+                    ]
+                },
+                {
+                    "slot": 7,
+                    "name": "Squirtle",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV3PT5/SV3PT5_ES_7.png",
+                    "expansion": [
+                        "151"
+                    ],
+                    "code": "svG 014",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Fixed",
+                            "format": "G (no válida en torneos)",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Venusaur-Charizard-Blastoise-Special-Deck-Set-ex/Squirtle-V1-svG014?language=7&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 8,
+                    "name": "Wartortle",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV3PT5/SV3PT5_ES_8.png",
+                    "expansion": [
+                        "151"
+                    ],
+                    "code": "svG 015",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Fixed",
+                            "format": "G (no válida en torneos)",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Venusaur-Charizard-Blastoise-Special-Deck-Set-ex/Wartortle-svG015?language=7&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 9,
+                    "name": "Blastoise ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_30.png",
+                    "expansion": [
+                        "Corona Astral"
+                    ],
+                    "code": "svG 016",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Fixed",
+                            "format": "G (no válida en torneos)",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Venusaur-Charizard-Blastoise-Special-Deck-Set-ex/Blastoise-ex-svG016?language=7&minCondition=2",
+                            "hidden": false
                         }
                     ]
                 }
@@ -2028,6 +2163,33 @@
                             "hidden": false
                         }
                     ]
+                },
+                {
+                    "slot": 9,
+                    "name": "Zeraora",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/30TH/30TH_ES_57.png",
+                    "expansion": [
+                        "Celebración 30.º Aniversario"
+                    ],
+                    "code": "30C057",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "",
+                            "price": "0,02€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/30th-Celebration/Zeraora-30C057?language=1&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
                 }
             ]
         },
@@ -2221,7 +2383,7 @@
                             "type": "Double Rare + Play! Stamp",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "~2€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Mega-Gardevoir-ex-PPS8MEG-060?language=4&minCondition=2",
                             "hidden": false

@@ -696,6 +696,33 @@
                             "hidden": false
                         }
                     ]
+                },
+                {
+                    "slot": 3,
+                    "name": "Sylveon ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/MEP/MEP_ES_100.png",
+                    "expansion": [
+                        "MEP Black Star Promos"
+                    ],
+                    "code": "MEP100",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Promo",
+                            "format": "J",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Sylveon-ex-V1-MEP100?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
                 }
             ]
         },
@@ -852,12 +879,12 @@
                 },
                 {
                     "slot": 4,
-                    "name": "Dhelmise",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_91.png",
+                    "name": "Manectric",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_89.png",
                     "expansion": [
                         "Oscuridad Absoluta"
                     ],
-                    "code": "PBL091",
+                    "code": "PBL089",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
@@ -866,13 +893,13 @@
                     "conseguida": false,
                     "variants": [
                         {
-                            "language": "Inglés",
+                            "language": "Español",
                             "type": "IR",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "8€",
+                            "price": "4,50€",
                             "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Dhelmise-V2-PBL091?language=1&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Manectric-V2-PBL089?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -932,6 +959,60 @@
                             "price": "3€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Sliggoo-V2-CRI094?language=1&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 3,
+                    "name": "Dhelmise",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_91.png",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
+                    "code": "PBL091",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "IR",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "8€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Dhelmise-V2-PBL091?language=1&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 4,
+                    "name": "Toucannon",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_94.png",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
+                    "code": "PBL094",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "IR",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "4€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Toucannon-V2-PBL094?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -1094,7 +1175,7 @@
                     "name": "Mega-Gardevoir ex",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_60.png",
                     "expansion": [
-                        "Sobre de premio de Play! (serie 8)"
+                        "Megaevolución"
                     ],
                     "code": "MEG060",
                     "noTrade": true,
@@ -1106,12 +1187,12 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Double Rare + Play! Stamp",
+                            "type": "Double Rare",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "1,45€ - 3€",
+                            "price": "~0,50€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Mega-Gardevoir-ex-PPS8MEG-060?language=4&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Mega-Gardevoir-ex-V1-MEG060?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]

@@ -1468,7 +1468,35 @@
         {
             "number": 48,
             "jumbo": true,
-            "cards": []
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Meowth",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV3PT5/SV3PT5_ES_52.png",
+                    "expansion": [
+                        "151"
+                    ],
+                    "code": "MEW052",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Common + Foil",
+                            "format": "G (no válida en torneos)",
+                            "condition": "",
+                            "price": "~0,70€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Meowth-MEW052?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
         },
         {
             "number": 49,
