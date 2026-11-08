@@ -78,6 +78,18 @@
         </div>
     </div>
 
+    <!-- MODAL DE VARIANTES: CADA VARIANTE EN SU PROPIO BOX CON SU BOTÓN CARDMARKET -->
+    <div id="variant-detail-modal" class="modal-overlay" style="display: none; z-index: 2500;">
+        <div class="editor-modal-content" style="max-width: 650px;">
+            <div class="editor-modal-header">
+                <h2 id="variant-modal-title">Variantes disponibles:</h2>
+                <span id="close-variant-modal" class="close-btn-editor">&times;</span>
+            </div>
+            <!-- Contenedor donde se insertarán verticalmente los boxes de cada variante -->
+            <div id="variant-boxes-container" class="editor-modal-body" style="gap: 15px; max-height: 70vh; overflow-y: auto;"></div>
+        </div>
+    </div>
+
     <div id="search-modal" class="modal-overlay" style="display: none;">
         <div class="editor-modal-content">
             <div class="editor-modal-header">

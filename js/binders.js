@@ -25,38 +25,46 @@ let currentActiveSetIndex = 0;
 let currentActiveSeriesIndex = 0;
 let lastSearchResults = [];
 
-// --- Función para formatear el estado con iconos profesionales CSS (Solo lector de cartas) ---
+// --- Función para formatear el estado con iconos profesionales CSS y title descriptivo ---
 function formatConditionBadge(conditionText) {
     if (!conditionText) return '--';
     const clean = conditionText.trim().toLowerCase();
 
     let code = conditionText;
     let cssClass = 'condition-mt';
+    let fullConditionName = conditionText;
 
     if (clean.includes('mint') && !clean.includes('near')) {
         code = 'MT';
         cssClass = 'condition-mt';
+        fullConditionName = 'Mint (MT)';
     } else if (clean.includes('near')) {
         code = 'NM';
         cssClass = 'condition-nm';
+        fullConditionName = 'Near Mint (NM)';
     } else if (clean.includes('excellent')) {
         code = 'EX';
         cssClass = 'condition-ex';
+        fullConditionName = 'Excellent (EX)';
     } else if (clean.includes('good')) {
         code = 'GD';
         cssClass = 'condition-gd';
+        fullConditionName = 'Good (GD)';
     } else if (clean.includes('light played')) {
         code = 'LP';
         cssClass = 'condition-lp';
+        fullConditionName = 'Light Played (LP)';
     } else if (clean.includes('played') && !clean.includes('light')) {
         code = 'PL';
         cssClass = 'condition-pl';
+        fullConditionName = 'Played (PL)';
     } else if (clean.includes('poor')) {
         code = 'PO';
         cssClass = 'condition-po';
+        fullConditionName = 'Poor (PO)';
     }
 
-    return `<span class="condition-badge ${cssClass}">${code}</span>`;
+    return `<span class="condition-badge ${cssClass}" title="${fullConditionName}">${code}</span>`;
 }
 
 function ensureBackdrop() {
@@ -523,84 +531,167 @@ function showDetails(card, pageNum, slotNum) {
             </div>
         `;
     } else {
-        const variantsList = (visibleVariants.length > 0)
-            ? visibleVariants
-            : [{
-                language: card.language || '--',
-                type: card.type || '--',
-                format: card.format || '--',
-                condition: card.condition || '--',
-                price: card.price || '--',
-                'cardmarket-link': card['cardmarket-link'] || ''
-            }];
-
-        const rowsHtml = variantsList.map(v => {
-            const tieneLink = v['cardmarket-link'] && v['cardmarket-link'].trim() !== '';
-            const linkBtn = tieneLink
-                ? `<a href="${v['cardmarket-link'].trim()}" target="_blank" class="cm-table-btn" title="Ver precio en Cardmarket">Ver</a>`
-                : '--';
-
-            return `
-                <tr>
-                    <td>${v.language || '--'}</td>
-                    <td>${v.type || '--'}</td>
-                    <td>${v.format || '--'}</td>
-                    <td>${formatConditionBadge(v.condition)}</td>
-                    <td><span class="price-tag">${v.price || '--'}</span></td>
-                    <td>${v.stock || '--'}</td>
-                    <td>${linkBtn}</td>
-                </tr>
-            `;
-        }).join('');
+        let totalStockSum = 0;
+        visibleVariants.forEach(v => {
+            const s = parseInt(v.stock, 10);
+            totalStockSum += isNaN(s) ? 1 : s;
+        });
 
         modalBody.innerHTML = `
             <div class="modal-img">
                 <img src="${card.image || ''}" style="width:100%; border-radius:8px; box-shadow: 0 4px 15px rgba(0,0,0,0.6);" onerror="this.src='https://tcg.pokemon.com/assets/img/global/tcg-card-back.jpg'">
             </div>
-            <div class="modal-info">
+            <div class="modal-info" style="display: flex; flex-direction: column; justify-content: center;">
                 <h2 style="margin-top:0; color:white; margin-bottom: 5px;">${card.name || 'Sin nombre'} (${card.code || '--'})</h2>
                 ${modalBadgesHTML}
-                <div class="info-grid" style="margin: 10px 0;">${infoHtml}</div>
-                <div id="available-list" class="available-list" style="display: none;">
-                    <div class="table-responsive">
-                        <table class="available-table">
-                            <thead>
-                                <tr>
-                                    <th>Idioma:</th>
-                                    <th>Tipo:</th>
-                                    <th>Regulación:</th>
-                                    <th>Estado:</th>
-                                    <th>Precio (CM):</th>
-                                    <th>Stock:</th>
-                                    <th>Link a CM:</th>
-                                </tr>
-                            </thead>
-                            <tbody>${rowsHtml}</tbody>
-                        </table>
-                    </div>
-                </div>
-                <button id="btn-disponibles" class="btn-disponibles">Ver disponibles (${variantsList.length})</button>
+                <div class="info-grid" style="margin: 10px 0 20px 0;">${infoHtml}</div>
+                <button id="btn-ver-variantes-boxes" class="btn-disponibles" style="width: 100%;">Ver disponibles (${totalStockSum})</button>
             </div>
         `;
 
-        const btnDisponibles = document.getElementById('btn-disponibles');
-        const availableList = document.getElementById('available-list');
-        if (btnDisponibles && availableList) {
-            btnDisponibles.addEventListener('click', () => {
-                if (availableList.style.display === 'none') {
-                    availableList.style.display = 'block';
-                    btnDisponibles.textContent = 'Ocultar disponibles';
-                    btnDisponibles.classList.add('btn-active');
-                } else {
-                    availableList.style.display = 'none';
-                    btnDisponibles.textContent = `Ver disponibles (${variantsList.length})`;
-                    btnDisponibles.classList.remove('btn-active');
-                }
+        const btnVerVariantes = document.getElementById('btn-ver-variantes-boxes');
+        if (btnVerVariantes) {
+            btnVerVariantes.addEventListener('click', () => {
+                openVariantBoxesModal(card, visibleVariants);
             });
         }
     }
 
     openModal(modal);
+}
+
+// Función para abrir el modal creando un box independiente por variante con el título arriba en el centro, negrita, mayúsculas y <hr> DENTRO de cada mini-box
+function openVariantBoxesModal(card, variantsList) {
+    const variantModal = document.getElementById('variant-detail-modal');
+    const container = document.getElementById('variant-boxes-container');
+    const titleEl = document.getElementById('variant-modal-title');
+
+    if (!variantModal || !container) return;
+
+    if (titleEl) {
+        titleEl.textContent = `Variantes de ${card.name || 'Carta'}:`;
+    }
+
+    container.innerHTML = '';
+
+    variantsList.forEach((v) => {
+        let variantLink = v['cardmarket-link'] && v['cardmarket-link'].trim() !== '' 
+            ? v['cardmarket-link'].trim() 
+            : (card['cardmarket-link'] || '');
+
+        const langName = v.language || 'Variante';
+        const langObj = allLanguagesMasterData.find(l => l.name.toLowerCase() === langName.toLowerCase());
+        const flagImg = langObj ? langObj.flag : '';
+
+        // Foto con title del idioma
+        const flagHtml = flagImg 
+            ? `<img src="${flagImg}" alt="${langName}" title="${langName}" style="width: 28px; height: 20px; object-fit: contain; border-radius: 3px; display: block; margin: 0 auto; cursor: help;">` 
+            : `<span title="${langName}" style="cursor: help;">🌐 ${langName}</span>`;
+
+        const typeVal = v.type || '--';
+        const formatVal = v.format || '';
+        const condBadge = formatConditionBadge(v.condition);
+        const priceVal = v.price || '--';
+        const stockVal = v.stock || '1';
+
+        // Regulación con color rojo y title si contiene restricciones
+        let formatDisplay = formatVal || '--';
+        if (formatVal.toLowerCase().includes('no válida en') || formatVal.toLowerCase().includes('no valida en')) {
+            formatDisplay = `<span style="color: #f85149; font-weight: bold;" title="No válida en torneos oficiales">${formatVal}</span>`;
+        }
+
+        // Cada box contenedor individual para esta variante
+        const variantBox = document.createElement('div');
+        variantBox.style.cssText = `
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        `;
+
+        variantBox.innerHTML = `
+            <!-- Cuadrícula interna de 6 elementos para los datos -->
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+                
+                <!-- Celda 1: Idioma -->
+                <div style="background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 8px; display: flex; flex-direction: column; justify-content: space-between; min-height: 65px;">
+                    <div style="text-align: center;">
+                        <span style="font-size: 10px; color: #8b949e; font-weight: bold; text-transform: uppercase;">IDIOMA</span>
+                        <hr style="border: none; border-top: 1px solid #30363d; margin: 4px 0 6px 0;">
+                    </div>
+                    <div style="display: flex; align-items: center; justify-content: center;">
+                        ${flagHtml}
+                    </div>
+                </div>
+
+                <!-- Celda 2: Tipo -->
+                <div style="background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 8px; display: flex; flex-direction: column; justify-content: space-between; min-height: 65px;">
+                    <div style="text-align: center;">
+                        <span style="font-size: 10px; color: #8b949e; font-weight: bold; text-transform: uppercase;">TIPO</span>
+                        <hr style="border: none; border-top: 1px solid #30363d; margin: 4px 0 6px 0;">
+                    </div>
+                    <div style="display: flex; align-items: center; justify-content: center; font-size: 11px; color: #c9d1d9; text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${typeVal}">
+                        ${typeVal}
+                    </div>
+                </div>
+
+                <!-- Celda 3: Regulación -->
+                <div style="background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 8px; display: flex; flex-direction: column; justify-content: space-between; min-height: 65px;">
+                    <div style="text-align: center;">
+                        <span style="font-size: 10px; color: #8b949e; font-weight: bold; text-transform: uppercase;">REGULACIÓN</span>
+                        <hr style="border: none; border-top: 1px solid #30363d; margin: 4px 0 6px 0;">
+                    </div>
+                    <div style="display: flex; align-items: center; justify-content: center; font-size: 11px; color: #c9d1d9; text-align: center;">
+                        ${formatDisplay}
+                    </div>
+                </div>
+
+                <!-- Celda 4: Estado -->
+                <div style="background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 8px; display: flex; flex-direction: column; justify-content: space-between; min-height: 65px;">
+                    <div style="text-align: center;">
+                        <span style="font-size: 10px; color: #8b949e; font-weight: bold; text-transform: uppercase;">ESTADO</span>
+                        <hr style="border: none; border-top: 1px solid #30363d; margin: 4px 0 6px 0;">
+                    </div>
+                    <div style="display: flex; align-items: center; justify-content: center;">
+                        ${condBadge}
+                    </div>
+                </div>
+
+                <!-- Celda 5: Precio -->
+                <div style="background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 8px; display: flex; flex-direction: column; justify-content: space-between; min-height: 65px;">
+                    <div style="text-align: center;">
+                        <span style="font-size: 10px; color: #8b949e; font-weight: bold; text-transform: uppercase;">PRECIO</span>
+                        <hr style="border: none; border-top: 1px solid #30363d; margin: 4px 0 6px 0;">
+                    </div>
+                    <div style="display: flex; align-items: center; justify-content: center; font-size: 12px;">
+                        <span class="price-tag">${priceVal}</span>
+                    </div>
+                </div>
+
+                <!-- Celda 6: Stock -->
+                <div style="background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 8px; display: flex; flex-direction: column; justify-content: space-between; min-height: 65px;">
+                    <div style="text-align: center;">
+                        <span style="font-size: 10px; color: #8b949e; font-weight: bold; text-transform: uppercase;">STOCK</span>
+                        <hr style="border: none; border-top: 1px solid #30363d; margin: 4px 0 6px 0;">
+                    </div>
+                    <div style="display: flex; align-items: center; justify-content: center; font-size: 12px; color: #c9d1d9; font-weight: bold;">
+                        ${stockVal}
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Botón a Cardmarket exclusivo para este box -->
+            ${variantLink ? `<a href="${variantLink}" target="_blank" class="cardmarket-btn" style="width: 100%; text-align: center; display: block; padding: 10px; box-sizing: border-box; font-weight: bold; margin-top: 0;">Ver en Cardmarket</a>` : ''}
+        `;
+
+        container.appendChild(variantBox);
+    });
+
+    openModal(variantModal);
 }
 
 function resetUrlToBinderOnly() {
@@ -784,6 +875,8 @@ function createOptionCard(item, targetStorage, tagsContainerId) {
     let imgHtml = '';
     if (itemImg) {
         imgHtml = `<img src="${itemImg}" alt="${itemName}" style="width: 36px; height: 26px; object-fit: contain; border-radius: 3px;">`;
+    } else if (activeSelectorTarget === 'condition') {
+        imgHtml = formatConditionBadge(itemName);
     } else {
         imgHtml = `<div class="empty-item-img-placeholder" style="width: 36px; height: 26px; border: 1px dashed #30363d; border-radius: 3px; display: flex; align-items: center; justify-content: center; color: #484f58; font-size: 10px;">IMG</div>`;
     }
@@ -815,6 +908,13 @@ function renderGenericSelectorContent(filterText = '') {
     const confirmBtn = document.getElementById('confirm-generic-selection');
 
     if (!setTabsContainer || !seriesSelectWrapper || !seriesDropdown || !gridContainer || !confirmBtn) return;
+
+    setTabsContainer.style.display = 'flex';
+    seriesSelectWrapper.style.display = 'flex';
+    gridContainer.style.gridTemplateColumns = 'repeat(auto-fill, minmax(130px, 1fr))';
+    confirmBtn.disabled = false;
+    confirmBtn.style.opacity = '1';
+    confirmBtn.style.cursor = 'pointer';
 
     if (activeSelectorTarget !== 'expansion') {
         setTabsContainer.style.display = 'none';
@@ -937,87 +1037,7 @@ function renderGenericSelectorContent(filterText = '') {
         }
 
         filtered.forEach(item => {
-            const itemName = typeof item === 'string' ? item : item.name;
-            const itemImg = typeof item === 'object' ? (item.flag || item.image || '') : '';
-
-            let isSelected = false;
-            if (activeExpansionTarget === 'variant_select') {
-                if (activeSelectorTarget === 'language' && window._activeVariantSelectLang) {
-                    isSelected = window._activeVariantSelectLang.value === itemName;
-                } else if (activeSelectorTarget === 'condition' && window._activeVariantSelectCond) {
-                    isSelected = window._activeVariantSelectCond.value === itemName;
-                }
-            } else {
-                isSelected = targetStorage.includes(itemName);
-            }
-
-            const card = document.createElement('div');
-            card.className = `expansion-grid-card ${isSelected ? 'selected' : ''}`;
-            card.style.cssText = `
-                background: #161b22;
-                border: 2px solid ${isSelected ? '#2ea043' : '#30363d'};
-                border-radius: 8px;
-                padding: 10px;
-                text-align: center;
-                cursor: pointer;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                gap: 8px;
-                transition: all 0.2s;
-            `;
-
-            let imgHtml = '';
-            if (itemImg) {
-                imgHtml = `<img src="${itemImg}" alt="${itemName}" style="width: 36px; height: 26px; object-fit: contain; border-radius: 3px;">`;
-            } else {
-                imgHtml = `<div class="empty-item-img-placeholder" style="width: 36px; height: 26px; border: 1px dashed #30363d; border-radius: 3px; display: flex; align-items: center; justify-content: center; color: #484f58; font-size: 10px;">IMG</div>`;
-            }
-
-            card.innerHTML = `
-                ${imgHtml}
-                <span style="font-size: 12px; color: ${isSelected ? '#3fb950' : '#c9d1d9'}; font-weight: ${isSelected ? 'bold' : 'normal'};">${itemName}</span>
-            `;
-
-            card.addEventListener('click', () => {
-                if (activeExpansionTarget === 'variant_select') {
-                    if (activeSelectorTarget === 'language' && window._activeVariantSelectLang) {
-                        const targetSelect = window._activeVariantSelectLang;
-                        let optionExists = Array.from(targetSelect.options).some(o => o.value === itemName);
-                        if (!optionExists) {
-                            const opt = document.createElement('option');
-                            opt.value = itemName;
-                            opt.textContent = itemName;
-                            targetSelect.appendChild(opt);
-                        }
-                        targetSelect.value = itemName;
-                        targetSelect.dispatchEvent(new Event('change'));
-                    } else if (activeSelectorTarget === 'condition' && window._activeVariantSelectCond) {
-                        const targetSelect = window._activeVariantSelectCond;
-                        let optionExists = Array.from(targetSelect.options).some(o => o.value === itemName);
-                        if (!optionExists) {
-                            const opt = document.createElement('option');
-                            opt.value = itemName;
-                            opt.textContent = itemName;
-                            targetSelect.appendChild(opt);
-                        }
-                        targetSelect.value = itemName;
-                        targetSelect.dispatchEvent(new Event('change'));
-                    }
-                    closeModal(document.getElementById('generic-selector-modal'));
-                } else {
-                    const idx = targetStorage.indexOf(itemName);
-                    if (idx > -1) {
-                        targetStorage.splice(idx, 1);
-                    } else {
-                        targetStorage.push(itemName);
-                    }
-                    renderTags(document.getElementById(tagsContainerId), targetStorage);
-                    renderGenericSelectorContent(document.getElementById('generic-search-input').value.toLowerCase());
-                }
-            });
-
+            const card = createOptionCard(item, targetStorage, tagsContainerId);
             gridContainer.appendChild(card);
         });
 
@@ -1354,6 +1374,14 @@ document.addEventListener("DOMContentLoaded", async () => {
         closeBtn.addEventListener('click', () => {
             resetUrlToBinderOnly();
             closeModal(cardModal);
+        });
+    }
+
+    const closeVariantBtn = document.getElementById('close-variant-modal');
+    const variantModal = document.getElementById('variant-detail-modal');
+    if (closeVariantBtn && variantModal) {
+        closeVariantBtn.addEventListener('click', () => {
+            closeModal(variantModal);
         });
     }
 

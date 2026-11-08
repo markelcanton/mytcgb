@@ -297,13 +297,13 @@
         { "name": "Ruso", "flag": "https://flagcdn.com/w80/ru.png" }
     ],
     "estados": [
-        { "name": "Mint", "image": "" },
-        { "name": "Near Mint", "image": "" },
-        { "name": "Excellent", "image": "" },
-        { "name": "Good", "image": "" },
-        { "name": "Light Played", "image": "" },
-        { "name": "Played", "image": "" },
-        { "name": "Poor", "image": "" }
+        { "name": "Mint", "code": "MT", "class": "condition-mt" },
+        { "name": "Near Mint", "code": "NM", "class": "condition-nm" },
+        { "name": "Excellent", "code": "EX", "class": "condition-ex" },
+        { "name": "Good", "code": "GD", "class": "condition-gd" },
+        { "name": "Light Played", "code": "LP", "class": "condition-lp" },
+        { "name": "Played", "code": "PL", "class": "condition-pl" },
+        { "name": "Poor", "code": "PO", "class": "condition-po" }
     ],
     "tipos_rareza": [
         { "name": "Common", "image": "" },
