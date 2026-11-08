@@ -25,7 +25,6 @@ let currentActiveSetIndex = 0;
 let currentActiveSeriesIndex = 0;
 let lastSearchResults = [];
 
-// --- Función para formatear el estado con iconos profesionales CSS y title descriptivo ---
 function formatConditionBadge(conditionText) {
     if (!conditionText) return '--';
     const clean = conditionText.trim().toLowerCase();
@@ -560,7 +559,6 @@ function showDetails(card, pageNum, slotNum) {
     openModal(modal);
 }
 
-// Función para abrir el modal creando un box independiente por variante con el título arriba en el centro, negrita, mayúsculas y <hr> DENTRO de cada mini-box
 function openVariantBoxesModal(card, variantsList) {
     const variantModal = document.getElementById('variant-detail-modal');
     const container = document.getElementById('variant-boxes-container');
@@ -569,7 +567,7 @@ function openVariantBoxesModal(card, variantsList) {
     if (!variantModal || !container) return;
 
     if (titleEl) {
-        titleEl.textContent = `Variantes de ${card.name || 'Carta'}:`;
+        titleEl.textContent = `Variantes de ${card.name || 'esta carta'} (${card.code || '-'}):`;
     }
 
     container.innerHTML = '';
@@ -583,7 +581,6 @@ function openVariantBoxesModal(card, variantsList) {
         const langObj = allLanguagesMasterData.find(l => l.name.toLowerCase() === langName.toLowerCase());
         const flagImg = langObj ? langObj.flag : '';
 
-        // Foto con title del idioma
         const flagHtml = flagImg 
             ? `<img src="${flagImg}" alt="${langName}" title="${langName}" style="width: 28px; height: 20px; object-fit: contain; border-radius: 3px; display: block; margin: 0 auto; cursor: help;">` 
             : `<span title="${langName}" style="cursor: help;">🌐 ${langName}</span>`;
@@ -594,13 +591,11 @@ function openVariantBoxesModal(card, variantsList) {
         const priceVal = v.price || '--';
         const stockVal = v.stock || '1';
 
-        // Regulación con color rojo y title si contiene restricciones
         let formatDisplay = formatVal || '--';
         if (formatVal.toLowerCase().includes('no válida en') || formatVal.toLowerCase().includes('no valida en')) {
-            formatDisplay = `<span style="color: #f85149; font-weight: bold;" title="No válida en torneos oficiales">${formatVal}</span>`;
+            formatDisplay = `<span style="color: #f85149; font-weight: bold;" title="Esta carta no es válida en torneos.">${formatVal}</span>`;
         }
 
-        // Cada box contenedor individual para esta variante
         const variantBox = document.createElement('div');
         variantBox.style.cssText = `
             background: #0d1117;
@@ -613,10 +608,7 @@ function openVariantBoxesModal(card, variantsList) {
         `;
 
         variantBox.innerHTML = `
-            <!-- Cuadrícula interna de 6 elementos para los datos -->
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-                
-                <!-- Celda 1: Idioma -->
                 <div style="background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 8px; display: flex; flex-direction: column; justify-content: space-between; min-height: 65px;">
                     <div style="text-align: center;">
                         <span style="font-size: 10px; color: #8b949e; font-weight: bold; text-transform: uppercase;">IDIOMA</span>
@@ -626,8 +618,6 @@ function openVariantBoxesModal(card, variantsList) {
                         ${flagHtml}
                     </div>
                 </div>
-
-                <!-- Celda 2: Tipo -->
                 <div style="background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 8px; display: flex; flex-direction: column; justify-content: space-between; min-height: 65px;">
                     <div style="text-align: center;">
                         <span style="font-size: 10px; color: #8b949e; font-weight: bold; text-transform: uppercase;">TIPO</span>
@@ -637,8 +627,6 @@ function openVariantBoxesModal(card, variantsList) {
                         ${typeVal}
                     </div>
                 </div>
-
-                <!-- Celda 3: Regulación -->
                 <div style="background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 8px; display: flex; flex-direction: column; justify-content: space-between; min-height: 65px;">
                     <div style="text-align: center;">
                         <span style="font-size: 10px; color: #8b949e; font-weight: bold; text-transform: uppercase;">REGULACIÓN</span>
@@ -648,8 +636,6 @@ function openVariantBoxesModal(card, variantsList) {
                         ${formatDisplay}
                     </div>
                 </div>
-
-                <!-- Celda 4: Estado -->
                 <div style="background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 8px; display: flex; flex-direction: column; justify-content: space-between; min-height: 65px;">
                     <div style="text-align: center;">
                         <span style="font-size: 10px; color: #8b949e; font-weight: bold; text-transform: uppercase;">ESTADO</span>
@@ -659,8 +645,6 @@ function openVariantBoxesModal(card, variantsList) {
                         ${condBadge}
                     </div>
                 </div>
-
-                <!-- Celda 5: Precio -->
                 <div style="background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 8px; display: flex; flex-direction: column; justify-content: space-between; min-height: 65px;">
                     <div style="text-align: center;">
                         <span style="font-size: 10px; color: #8b949e; font-weight: bold; text-transform: uppercase;">PRECIO</span>
@@ -670,8 +654,6 @@ function openVariantBoxesModal(card, variantsList) {
                         <span class="price-tag">${priceVal}</span>
                     </div>
                 </div>
-
-                <!-- Celda 6: Stock -->
                 <div style="background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 8px; display: flex; flex-direction: column; justify-content: space-between; min-height: 65px;">
                     <div style="text-align: center;">
                         <span style="font-size: 10px; color: #8b949e; font-weight: bold; text-transform: uppercase;">STOCK</span>
@@ -681,10 +663,7 @@ function openVariantBoxesModal(card, variantsList) {
                         ${stockVal}
                     </div>
                 </div>
-
             </div>
-
-            <!-- Botón a Cardmarket exclusivo para este box -->
             ${variantLink ? `<a href="${variantLink}" target="_blank" class="cardmarket-btn" style="width: 100%; text-align: center; display: block; padding: 10px; box-sizing: border-box; font-weight: bold; margin-top: 0;">Ver en Cardmarket</a>` : ''}
         `;
 

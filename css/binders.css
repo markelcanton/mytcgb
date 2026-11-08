@@ -832,7 +832,7 @@
     position: absolute;
     top: 8px;
     right: 8px;
-    width: 24px;  /* Ligeramente más pequeño para el buscador */
+    width: 24px;
     height: 24px;
     border-radius: 50%;
     z-index: 10;
@@ -993,7 +993,6 @@
     border-color: #2ea043 !important;
 }
 
-/* --- Estilos para los estados (Mint, Near Mint, etc.) --- */
 .condition-badge {
     display: inline-flex;
     align-items: center;
@@ -1008,10 +1007,10 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.condition-mt { background-color: #0ea5e9; } /* Mint - Azul cian */
-.condition-nm { background-color: #22c55e; } /* Near Mint - Verde */
-.condition-ex { background-color: #84cc16; } /* Excellent - Verde oliva/lima */
-.condition-gd { background-color: #eab308; color: #000000; } /* Good - Amarillo */
-.condition-lp { background-color: #f97316; } /* Light Played - Naranja */
-.condition-pl { background-color: #fb7185; } /* Played - Rosa/Rojo claro */
-.condition-po { background-color: #ef4444; } /* Poor - Rojo */
+.condition-mt { background-color: #0ea5e9; }
+.condition-nm { background-color: #22c55e; }
+.condition-ex { background-color: #84cc16; }
+.condition-gd { background-color: #eab308; color: #000000; }
+.condition-lp { background-color: #f97316; }
+.condition-pl { background-color: #fb7185; }
+.condition-po { background-color: #ef4444; }
