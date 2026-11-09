@@ -240,7 +240,7 @@
                 {
                     "name": "Otras promos",
                     "options": [
-                        { "name": "P Black Star Promos", "image": "" }
+                        { "name": "P Black Star Promos", "image": "https://images.scrydex.com/pokemon/basep-logo/logo" }
                     ]
                 },
                 {
@@ -306,17 +306,22 @@
         { "name": "Poor", "code": "PO", "class": "condition-po" }
     ],
     "tipos_rareza": [
-        { "name": "Common", "image": "" },
-        { "name": "Uncommon", "image": "" },
-        { "name": "Rare", "image": "" },
-        { "name": "Double Rare", "image": "" },
-        { "name": "Ultra Rare", "image": "" },
-        { "name": "IR", "image": "" },
-        { "name": "SIR", "image": "" },
-        { "name": "Hyper Mega Rare", "image": "" },
+        { "name": "Common", "image": "https://pokesymbols.com/images/tcg/rarities/common.png" },
+        { "name": "Uncommon", "image": "https://pokesymbols.com/images/tcg/rarities/uncommon.png" },
+        { "name": "Rare", "image": "https://pokesymbols.com/images/tcg/rarities/rare.png" },
+        { "name": "Double Rare", "image": "https://pokesymbols.com/images/tcg/rarities/double-rare.png"},
+        { "name": "ACE SPEC Rare", "image": "https://pokesymbols.com/images/tcg/rarities/ace-spec-rare.png" },
+        { "name": "Shiny Rare", "image": "https://pokesymbols.com/images/tcg/rarities/shiny-rare.png" },
+        { "name": "Shiny Ultra Rare", "image": "https://pokesymbols.com/images/tcg/rarities/shiny-ultra-rare.png" },
+        { "name": "Ultra Rare", "image": "https://pokesymbols.com/images/tcg/rarities/ultra-rare.png" },
+        { "name": "Mega Attack Rare", "image": "https://pokesymbols.com/images/tcg/rarities/mega-attack-rare.png" },
+        { "name": "IR", "image": "https://pokesymbols.com/images/tcg/rarities/illustration-rare.png" },
+        { "name": "SIR", "image": "https://pokesymbols.com/images/tcg/rarities/special-illustration-rare.png" },
+        { "name": "Hyper Rare", "image": "https://pokesymbols.com/images/tcg/rarities/hyper-rare.png" },
+        { "name": "Black White Rare", "image": "https://pokesymbols.com/images/tcg/rarities/black-white-rare.png" },
+        { "name": "Mega Hyper Rare", "image": "https://pokesymbols.com/images/tcg/rarities/mega-hyper-rare.png" },
         { "name": "Promo", "image": "https://images.scrydex.com/pokemon/mep-logo/logo" },
-        { "name": "ACE SPEC", "image": "" },
         { "name": "Foil", "image": "" },
-        { "name": "Play! Stamp", "image": "" }
+        { "name": "Play! Stamp", "image": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/9c/latest/20240414211022/Pegatina_WCS_Play%21_Pok%C3%A9mon_GO.png/180px-Pegatina_WCS_Play%21_Pok%C3%A9mon_GO.png" }
     ]
 }
