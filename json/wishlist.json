@@ -25,7 +25,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "Ambos oscilan los 0,02€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Riolu-VIV90?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Riolu-VIV90?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -33,7 +34,9 @@
                     "slot": 2,
                     "name": "Riolu",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM5/SM5_ES_66.png",
-                    "expansion": "Ultraprisma",
+                    "expansion": [
+                        "Ultraprisma"
+                    ],
                     "code": "UPR 66",
                     "noTrade": false,
                     "reservada": false,
@@ -49,7 +52,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ultra-Prism/Riolu-UPR66?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ultra-Prism/Riolu-UPR66?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -57,7 +61,9 @@
                     "slot": 3,
                     "name": "Riolu",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_81.png",
-                    "expansion": "Corona Astral",
+                    "expansion": [
+                        "Corona Astral"
+                    ],
                     "code": "SCR081",
                     "noTrade": false,
                     "reservada": false,
@@ -73,7 +79,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Stellar-Crown/Riolu-SCR081?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Stellar-Crown/Riolu-SCR081?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -81,7 +88,9 @@
                     "slot": 4,
                     "name": "Riolu",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY10/XY10_ES_45.png",
-                    "expansion": "Destinos Enfrentados",
+                    "expansion": [
+                        "Destinos Enfrentados"
+                    ],
                     "code": "FCO 45",
                     "noTrade": false,
                     "reservada": false,
@@ -97,7 +106,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€-0,10€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fates-Collide/Riolu-FCO45?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fates-Collide/Riolu-FCO45?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -105,7 +115,9 @@
                     "slot": 5,
                     "name": "Riolu",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY10/XY10_ES_46.png",
-                    "expansion": "Destinos Enfrentados",
+                    "expansion": [
+                        "Destinos Enfrentados"
+                    ],
                     "code": "FCO 46",
                     "noTrade": false,
                     "reservada": false,
@@ -121,7 +133,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€-0,05€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fates-Collide/Riolu-FCO46?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fates-Collide/Riolu-FCO46?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -129,7 +142,9 @@
                     "slot": 6,
                     "name": "Riolu",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM11/SM11_ES_116.png",
-                    "expansion": "Mentes Unidas",
+                    "expansion": [
+                        "Mentes Unidas"
+                    ],
                     "code": "UNM 116",
                     "noTrade": false,
                     "reservada": false,
@@ -145,7 +160,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unified-Minds/Riolu-V2-UNM116?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unified-Minds/Riolu-V2-UNM116?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -153,7 +169,9 @@
                     "slot": 7,
                     "name": "Riolu",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM11/SM11_ES_115.png",
-                    "expansion": "Mentes Unidas",
+                    "expansion": [
+                        "Mentes Unidas"
+                    ],
                     "code": "UNM 115",
                     "noTrade": false,
                     "reservada": false,
@@ -169,7 +187,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unified-Minds/Riolu-V1-UNM115?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unified-Minds/Riolu-V1-UNM115?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -177,7 +196,9 @@
                     "slot": 8,
                     "name": "Riolu",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM10/SM10_ES_102.png",
-                    "expansion": "Vínculos Indestructibles",
+                    "expansion": [
+                        "Vínculos Indestructibles"
+                    ],
                     "code": "UNB 102",
                     "noTrade": false,
                     "reservada": false,
@@ -193,7 +214,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unbroken-Bonds/Riolu-UNB102?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unbroken-Bonds/Riolu-UNB102?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -219,7 +241,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,05€-0,20€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Legends-Awakened/Riolu-Lv11-LA117?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Legends-Awakened/Riolu-Lv11-LA117?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 }
@@ -232,7 +255,9 @@
                     "slot": 1,
                     "name": "Riolu",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/PL1/PL1_ES_91.png",
-                    "expansion": "Platino",
+                    "expansion": [
+                        "Platino"
+                    ],
                     "code": "PL 91",
                     "noTrade": false,
                     "reservada": false,
@@ -248,7 +273,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,05€-0,20€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Platinum/Riolu-Lv15-PL91?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Platinum/Riolu-Lv15-PL91?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -256,7 +282,9 @@
                     "slot": 2,
                     "name": "Riolu",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/BW4/BW4_ES_63.png",
-                    "expansion": "Próximos Destinos",
+                    "expansion": [
+                        "Próximos Destinos"
+                    ],
                     "code": "NXD 63",
                     "noTrade": false,
                     "reservada": false,
@@ -272,7 +300,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,10€-0,30€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Next-Destinies/Riolu-NXD63?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Next-Destinies/Riolu-NXD63?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -280,7 +309,9 @@
                     "slot": 3,
                     "name": "Riolu",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/BW8/BW8_ES_76.png",
-                    "expansion": "Tormenta Plasma",
+                    "expansion": [
+                        "Tormenta Plasma"
+                    ],
                     "code": "PLS 76",
                     "noTrade": false,
                     "reservada": false,
@@ -296,7 +327,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,10€-0,30€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Plasma-Storm/Riolu-PLS76?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Plasma-Storm/Riolu-PLS76?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 }
@@ -308,130 +340,10 @@
                 {
                     "slot": 1,
                     "name": "Zeraora",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/30TH/30TH_ES_57.png",
-                    "expansion": [
-                        "Celebración 30.º Aniversario"
-                    ],
-                    "code": "30C057",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español o Inglés preferiblemente",
-                            "type": "",
-                            "format": "",
-                            "condition": "Mejor estado a ser posible",
-                            "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/30th-Celebration/Zeraora-30C057?language=1,4&minCondition=2"
-                        }
-                    ]
-                },
-                {
-                    "slot": 2,
-                    "name": "Zeraora",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_61.png",
-                    "expansion": "Voltaje Vivido",
-                    "code": "VIV 61",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español o Inglés preferiblemente",
-                            "type": "",
-                            "format": "",
-                            "condition": "Mejor estado a ser posible",
-                            "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,10€-0,20€",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Zeraora-VIV61?language=1,4&minCondition=3"
-                        }
-                    ]
-                },
-                {
-                    "slot": 3,
-                    "name": "Zeraora",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM9/SM9_ES_52.png",
-                    "expansion": "Unión de Aliados",
-                    "code": "TEU 52",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español o Inglés preferiblemente",
-                            "type": "",
-                            "format": "",
-                            "condition": "Mejor estado a ser posible",
-                            "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,90€-2€",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Up/Zeraora-TEU52?language=1,4&minCondition=3"
-                        }
-                    ]
-                },
-                {
-                    "slot": 4,
-                    "name": "Zeraora",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_56.png",
-                    "expansion": "Tempestad Plateada",
-                    "code": "SIT 56",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español o Inglés preferiblemente",
-                            "type": "",
-                            "format": "",
-                            "condition": "Mejor estado a ser posible",
-                            "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Zeraora-SIT056?language=1,4&minCondition=3"
-                        }
-                    ]
-                },
-                {
-                    "slot": 5,
-                    "name": "Zeraora",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH8/SWSH8_ES_102.png",
-                    "expansion": "Golpe Fusión",
-                    "code": "FST 102",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español o Inglés preferiblemente",
-                            "type": "",
-                            "format": "",
-                            "condition": "Mejor estado a ser posible",
-                            "price": "El precio en Inglés (vía Cardmarket) oscila los 0,02€",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fusion-Strike/Zeraora?language=1,4&minCondition=3"
-                        }
-                    ]
-                },
-                {
-                    "slot": 6,
-                    "name": "Zeraora",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12PT5/SWSH12PT5_ES_52.png",
-                    "expansion": "Cenit Supremo",
+                    "expansion": [
+                        "Cenit Supremo"
+                    ],
                     "code": "CRZ052",
                     "noTrade": false,
                     "reservada": false,
@@ -447,7 +359,116 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Crown-Zenith/Zeraora-CRZ052?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Crown-Zenith/Zeraora-CRZ052?language=1,4&minCondition=3",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 2,
+                    "name": "Zeraora",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_61.png",
+                    "expansion": [
+                        "Voltaje Vivido"
+                    ],
+                    "code": "VIV 61",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,10€-0,20€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Zeraora-VIV61?language=1,4&minCondition=3",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 3,
+                    "name": "Zeraora",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM9/SM9_ES_52.png",
+                    "expansion": [
+                        "Unión de Aliados"
+                    ],
+                    "code": "TEU 52",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,90€-2€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Up/Zeraora-TEU52?language=1,4&minCondition=3",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 4,
+                    "name": "Zeraora",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_56.png",
+                    "expansion": [
+                        "Tempestad Plateada"
+                    ],
+                    "code": "SIT 56",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Zeraora-SIT056?language=1,4&minCondition=3",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 5,
+                    "name": "Zeraora",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH8/SWSH8_ES_102.png",
+                    "expansion": [
+                        "Golpe Fusión"
+                    ],
+                    "code": "FST 102",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español o Inglés preferiblemente",
+                            "type": "",
+                            "format": "",
+                            "condition": "Mejor estado a ser posible",
+                            "price": "El precio en Inglés (vía Cardmarket) oscila los 0,02€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fusion-Strike/Zeraora?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 }
@@ -460,7 +481,9 @@
                     "slot": 1,
                     "name": "Lucario",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM3/SM3_ES_71.png",
-                    "expansion": "Sombras Ardientes",
+                    "expansion": [
+                        "Sombras Ardientes"
+                    ],
                     "code": "BUS 71",
                     "noTrade": false,
                     "reservada": false,
@@ -476,7 +499,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Inglés (vía Cardmarket) oscila los 0,3€-0,5€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Burning-Shadows/Lucario-BUS71?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Burning-Shadows/Lucario-BUS71?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -484,7 +508,9 @@
                     "slot": 2,
                     "name": "Lucario V",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH35/SWSH35_ES_27.png",
-                    "expansion": "Camino de Campeones",
+                    "expansion": [
+                        "Camino de Campeones"
+                    ],
                     "code": "CPA 27",
                     "noTrade": false,
                     "reservada": false,
@@ -500,7 +526,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,95€-1,30€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Champions-Path/Lucario-V-CPA27?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Champions-Path/Lucario-V-CPA27?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -508,7 +535,9 @@
                     "slot": 3,
                     "name": "Lucario",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_120.png",
-                    "expansion": "Voltaje Vivido",
+                    "expansion": [
+                        "Voltaje Vivido"
+                    ],
                     "code": "VIV 120",
                     "noTrade": false,
                     "reservada": false,
@@ -524,7 +553,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Inglés (vía Cardmarket) oscila los 0,02€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Lucario-VIV120?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Lucario-VIV120?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -532,7 +562,9 @@
                     "slot": 4,
                     "name": "Lucario",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM5/SM5_ES_67.png",
-                    "expansion": "Ultraprisma",
+                    "expansion": [
+                        "Ultraprisma"
+                    ],
                     "code": "UPR 67",
                     "noTrade": false,
                     "reservada": false,
@@ -548,7 +580,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español (vía Cardmarket) oscila los 0,6€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ultra-Prism/Lucario-UPR67?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ultra-Prism/Lucario-UPR67?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -556,7 +589,9 @@
                     "slot": 5,
                     "name": "Lucario",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY10/XY10_ES_47.png",
-                    "expansion": "Destinos Enfrentados",
+                    "expansion": [
+                        "Destinos Enfrentados"
+                    ],
                     "code": "FCO 47",
                     "noTrade": false,
                     "reservada": false,
@@ -572,7 +607,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Inglés (vía Cardmarket) oscila los 0,10€. En Español, 0,20€.",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fates-Collide/Lucario-FCO47?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fates-Collide/Lucario-FCO47?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -580,7 +616,9 @@
                     "slot": 6,
                     "name": "Lucario",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY10/XY10_ES_63.png",
-                    "expansion": "Destinos Enfrentados",
+                    "expansion": [
+                        "Destinos Enfrentados"
+                    ],
                     "code": "FCO 63",
                     "noTrade": false,
                     "reservada": false,
@@ -596,7 +634,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Inglés (vía Cardmarket) oscila 1€. En Español, 0,50€.",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fates-Collide/Lucario-V1-FCO63?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fates-Collide/Lucario-V1-FCO63?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -604,7 +643,9 @@
                     "slot": 7,
                     "name": "Lucario",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM10/SM10_ES_126.png",
-                    "expansion": "Vínculos Indestructibles",
+                    "expansion": [
+                        "Vínculos Indestructibles"
+                    ],
                     "code": "UNB 126",
                     "noTrade": false,
                     "reservada": false,
@@ -620,7 +661,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Inglés (vía Cardmarket) oscila los 1,50€. En Español, 0,70€.",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unbroken-Bonds/Lucario-UNB126?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unbroken-Bonds/Lucario-UNB126?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -628,7 +670,9 @@
                     "slot": 8,
                     "name": "Lucario",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM11/SM11_ES_117.png",
-                    "expansion": "Mentes Unidas",
+                    "expansion": [
+                        "Mentes Unidas"
+                    ],
                     "code": "UNM 117",
                     "noTrade": false,
                     "reservada": false,
@@ -644,7 +688,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Inglés (vía Cardmarket) oscila 1€. En Español, 3€.",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unified-Minds/Lucario-UNM117?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unified-Minds/Lucario-UNM117?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -652,7 +697,9 @@
                     "slot": 9,
                     "name": "Lucario",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH9/SWSH9_ES_79.png",
-                    "expansion": "Astros Brillantes",
+                    "expansion": [
+                        "Astros Brillantes"
+                    ],
                     "code": "BRS 79",
                     "noTrade": false,
                     "reservada": false,
@@ -668,7 +715,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Inglés y Español (vía Cardmarket) oscila los 0,02€-0,10€.",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Brilliant-Stars/Lucario-V1-BRS079?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Brilliant-Stars/Lucario-V1-BRS079?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 }
@@ -681,7 +729,9 @@
                     "slot": 1,
                     "name": "Lucario V",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH8/SWSH8_ES_146.png",
-                    "expansion": "Golpe Fusión",
+                    "expansion": [
+                        "Golpe Fusión"
+                    ],
                     "code": "FST 146",
                     "noTrade": false,
                     "reservada": false,
@@ -697,7 +747,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Inglés (vía Cardmarket) oscila 1€. En Español, 4€.",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fusion-Strike/Lucario-V?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fusion-Strike/Lucario-V?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -705,7 +756,9 @@
                     "slot": 2,
                     "name": "Lucario",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/DP6/DP6_ES_61.png",
-                    "expansion": "Despertar de las Leyendas",
+                    "expansion": [
+                        "Despertar de las Leyendas"
+                    ],
                     "code": "LA 61",
                     "noTrade": false,
                     "reservada": false,
@@ -721,7 +774,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Inglés (vía Cardmarket) oscila 1,09€.",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Legends-Awakened/Lucario-Lv35-LA61?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Legends-Awakened/Lucario-Lv35-LA61?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -729,7 +783,9 @@
                     "slot": 3,
                     "name": "Lucario",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/PL1/PL1_ES_53.png",
-                    "expansion": "Platino",
+                    "expansion": [
+                        "Platino"
+                    ],
                     "code": "PL 53",
                     "noTrade": false,
                     "reservada": false,
@@ -745,7 +801,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Inglés (vía Cardmarket) oscila los 0,85€-1€. En Español, 2,34€-5€.",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Platinum/Lucario-Lv42-V1-PL53?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Platinum/Lucario-Lv42-V1-PL53?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -753,7 +810,9 @@
                     "slot": 4,
                     "name": "Lucario",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/BW8/BW8_ES_77.png",
-                    "expansion": "Tormenta Plasma",
+                    "expansion": [
+                        "Tormenta Plasma"
+                    ],
                     "code": "PLS 77",
                     "noTrade": false,
                     "reservada": false,
@@ -769,7 +828,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español (vía Cardmarket) oscila los 0,50€.",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Plasma-Storm/Lucario-PLS77?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Plasma-Storm/Lucario-PLS77?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -777,7 +837,9 @@
                     "slot": 5,
                     "name": "Lucario",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/BW8/BW8_ES_78.png",
-                    "expansion": "Tormenta Plasma",
+                    "expansion": [
+                        "Tormenta Plasma"
+                    ],
                     "code": "PLS 78",
                     "noTrade": false,
                     "reservada": false,
@@ -793,7 +855,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español (vía Cardmarket) oscila los 2€.",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Plasma-Storm/Lucario-PLS78?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Plasma-Storm/Lucario-PLS78?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -819,7 +882,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español oscila los 0,02€-0,20€ en Cardmarket",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Lucario-MEP095?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Lucario-MEP095?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 }
@@ -833,7 +897,9 @@
                     "slot": 1,
                     "name": "Terapagos y amigos",
                     "image": "https://images.wikidexcdn.net/mwuploads/wikidex/6/61/latest/20250113231543/Terapagos_y_Amigos_%28SV_Promo_TCG%29.png",
-                    "expansion": "SV Black Star Promos",
+                    "expansion": [
+                        "SV Black Star Promos"
+                    ],
                     "code": "Jumbo",
                     "noTrade": false,
                     "reservada": false,
@@ -849,7 +915,8 @@
                             "condition": "Mejor estado a ser posible. No importa si está sealed o no.",
                             "price": "El precio en Inglés está sobre 0,35. En Español, sobre 1€.",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Terapagos-Friends-SVP?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Terapagos-Friends-SVP?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 }
@@ -862,7 +929,9 @@
                     "slot": 1,
                     "name": "Vaporeon ex [Teracristal]",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_23.png",
-                    "expansion": "Sobre de premio de Play! (serie 7)",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 7)"
+                    ],
                     "code": "PRE023",
                     "noTrade": false,
                     "reservada": false,
@@ -878,7 +947,8 @@
                             "condition": "Mejor estado a ser posible + sello de Play!",
                             "price": "El precio en Español (vía Cardmarket) oscila los 3€.",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Vaporeon-ex-PPS7PRE-023?language=4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Vaporeon-ex-PPS7PRE-023?language=4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -886,7 +956,9 @@
                     "slot": 2,
                     "name": "Litten",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM35/SM35_ES_15.png",
-                    "expansion": "Leyendas Luminosas",
+                    "expansion": [
+                        "Leyendas Luminosas"
+                    ],
                     "code": "SLG 15",
                     "noTrade": false,
                     "reservada": false,
@@ -902,7 +974,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Shining-Legends/Litten-SLG15?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Shining-Legends/Litten-SLG15?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -910,7 +983,9 @@
                     "slot": 3,
                     "name": "Litten",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM10/SM10_ES_26.png",
-                    "expansion": "Vínculos Indestructibles",
+                    "expansion": [
+                        "Vínculos Indestructibles"
+                    ],
                     "code": "UNB 26",
                     "noTrade": false,
                     "reservada": false,
@@ -926,7 +1001,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unbroken-Bonds/Litten-UNB26?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unbroken-Bonds/Litten-UNB26?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -934,7 +1010,9 @@
                     "slot": 4,
                     "name": "Incineroar",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM10/SM10_ES_29.png",
-                    "expansion": "Vínculos Indestructibles",
+                    "expansion": [
+                        "Vínculos Indestructibles"
+                    ],
                     "code": "UNB 29",
                     "noTrade": false,
                     "reservada": false,
@@ -950,7 +1028,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,10€-0,20€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unbroken-Bonds/Incineroar-UNB29?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unbroken-Bonds/Incineroar-UNB29?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -958,7 +1037,9 @@
                     "slot": 5,
                     "name": "Corelia",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY3/XY3_ES_95.png",
-                    "expansion": "Puños Furiosos",
+                    "expansion": [
+                        "Puños Furiosos"
+                    ],
                     "code": "FFI 95",
                     "noTrade": false,
                     "reservada": false,
@@ -974,7 +1055,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español (vía Cardmarket) oscila los 0,40€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Furious-Fists/Korrina-FFI95?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Furious-Fists/Korrina-FFI95?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -982,7 +1064,9 @@
                     "slot": 6,
                     "name": "Enfoque de Corelia",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH5/SWSH5_ES_128.png",
-                    "expansion": "Estilos de Combate",
+                    "expansion": [
+                        "Estilos de Combate"
+                    ],
                     "code": "BST 128",
                     "noTrade": false,
                     "reservada": false,
@@ -998,7 +1082,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€-0,05€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Battle-Styles/Korrinas-Focus-BST128?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Battle-Styles/Korrinas-Focus-BST128?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1006,7 +1091,9 @@
                     "slot": 7,
                     "name": "Lionel",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_154.png",
-                    "expansion": "Voltaje Vivido",
+                    "expansion": [
+                        "Voltaje Vivido"
+                    ],
                     "code": "VIV 154",
                     "noTrade": false,
                     "reservada": false,
@@ -1022,7 +1109,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español (vía Cardmarket) oscila los 0,20€-1,15€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Leon-V1-VIV154?language=4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Leon-V1-VIV154?language=4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1030,7 +1118,9 @@
                     "slot": 8,
                     "name": "Profesor Kukui",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM1/SM1_ES_128.png",
-                    "expansion": "Sol y Luna",
+                    "expansion": [
+                        "Sol y Luna"
+                    ],
                     "code": "SUM 128",
                     "noTrade": false,
                     "reservada": false,
@@ -1046,7 +1136,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "El precio en Español e Inglés (vía Cardmarket) oscila los 0,02€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Sun-Moon/Professor-Kukui-V1-SUM128?language=1,4&minCondition=3"
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Sun-Moon/Professor-Kukui-V1-SUM128?language=1,4&minCondition=3",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1057,58 +1148,6 @@
             "cards": [
                 {
                     "slot": 1,
-                    "name": "Ivysaur",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_2.png",
-                    "expansion": [
-                        "Megaevolución"
-                    ],
-                    "code": "MEG002",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español o Inglés preferiblemente",
-                            "type": "",
-                            "format": "",
-                            "condition": "Mejor estado a ser posible",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": ""
-                        }
-                    ]
-                },
-                {
-                    "slot": 2,
-                    "name": "Mega-Venusaur ex",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_3.png",
-                    "expansion": [
-                        "Megaevolución"
-                    ],
-                    "code": "MEG003",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español o Inglés preferiblemente",
-                            "type": "",
-                            "format": "",
-                            "condition": "Mejor estado a ser posible",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": ""
-                        }
-                    ]
-                },
-                {
-                    "slot": 3,
                     "name": "Charizard",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_25.png",
                     "expansion": [
@@ -1129,12 +1168,13 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": ""
+                            "cardmarket-link": "",
+                            "hidden": false
                         }
                     ]
                 },
                 {
-                    "slot": 4,
+                    "slot": 2,
                     "name": "Bayleef",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_9.png",
                     "expansion": [
@@ -1155,12 +1195,13 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": ""
+                            "cardmarket-link": "",
+                            "hidden": false
                         }
                     ]
                 },
                 {
-                    "slot": 5,
+                    "slot": 3,
                     "name": "Croconaw",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_42.png",
                     "expansion": [
@@ -1181,12 +1222,13 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": ""
+                            "cardmarket-link": "",
+                            "hidden": false
                         }
                     ]
                 },
                 {
-                    "slot": 6,
+                    "slot": 4,
                     "name": "Feraligatr",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_41.png",
                     "expansion": [
@@ -1207,12 +1249,13 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": ""
+                            "cardmarket-link": "",
+                            "hidden": false
                         }
                     ]
                 },
                 {
-                    "slot": 7,
+                    "slot": 5,
                     "name": "Sceptile",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY5/XY5_ES_8.png",
                     "expansion": [
@@ -1233,12 +1276,13 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": ""
+                            "cardmarket-link": "",
+                            "hidden": false
                         }
                     ]
                 },
                 {
-                    "slot": 8,
+                    "slot": 6,
                     "name": "Prinplup",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_28.png",
                     "expansion": [
@@ -1259,12 +1303,13 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": ""
+                            "cardmarket-link": "",
+                            "hidden": false
                         }
                     ]
                 },
                 {
-                    "slot": 9,
+                    "slot": 7,
                     "name": "Pignite",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/RSV10PT5/RSV10PT5_ES_12.png",
                     "expansion": [
@@ -1285,7 +1330,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": ""
+                            "cardmarket-link": "",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1316,7 +1362,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": ""
+                            "cardmarket-link": "",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1342,7 +1389,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": ""
+                            "cardmarket-link": "",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1368,7 +1416,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": ""
+                            "cardmarket-link": "",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1394,7 +1443,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": ""
+                            "cardmarket-link": "",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1420,7 +1470,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": ""
+                            "cardmarket-link": "",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1446,7 +1497,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": ""
+                            "cardmarket-link": "",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1472,7 +1524,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": ""
+                            "cardmarket-link": "",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1498,7 +1551,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": ""
+                            "cardmarket-link": "",
+                            "hidden": false
                         }
                     ]
                 }
@@ -1529,7 +1583,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": ""
+                            "cardmarket-link": "",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1555,7 +1610,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": ""
+                            "cardmarket-link": "",
+                            "hidden": false
                         }
                     ]
                 },
@@ -1581,7 +1637,8 @@
                             "condition": "Mejor estado a ser posible",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": ""
+                            "cardmarket-link": "",
+                            "hidden": false
                         }
                     ]
                 }
