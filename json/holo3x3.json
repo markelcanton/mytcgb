@@ -7591,33 +7591,6 @@
                     ]
                 },
                 {
-                    "slot": 7,
-                    "name": "Rowlet",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_10.png",
-                    "expansion": [
-                        "Equilibrio Perfecto"
-                    ],
-                    "code": "POR010",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,05€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Rowlet-V1-POR010?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
                     "slot": 8,
                     "name": "Pikipek",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_66.png",
@@ -7641,16 +7614,6 @@
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Pikipek-PBL066?language=4&minCondition=2",
                             "hidden": false
-                        },
-                        {
-                            "language": "Inglés",
-                            "type": "Common",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,05€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Pikipek-PBL066?language=1&minCondition=2",
-                            "hidden": true
                         }
                     ]
                 },
@@ -11596,43 +11559,6 @@
                     ]
                 },
                 {
-                    "slot": 7,
-                    "name": "Gong de Lucha",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_116.png",
-                    "expansion": [
-                        "Megaevolución"
-                    ],
-                    "code": "MEG116",
-                    "noTrade": false,
-                    "reservada": true,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Uncommon",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,05€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Fighting-Gong-V1-MEG116?language=4&minCondition=2",
-                            "hidden": true
-                        },
-                        {
-                            "language": "Inglés",
-                            "type": "Uncommon",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,05€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Fighting-Gong-V1-MEG116?language=1&minCondition=2",
-                            "hidden": true
-                        }
-                    ]
-                },
-                {
                     "slot": 8,
                     "name": "Megaseñal",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_121.png",
@@ -12979,33 +12905,6 @@
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Ns-Castle-PPS7JTG-152?language=4&minCondition=2",
                             "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 6,
-                    "name": "Caverna Abisal Cero",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_131.png",
-                    "expansion": [
-                        "Sobre de premio de Play! (serie 7)"
-                    ],
-                    "code": "SCR131",
-                    "noTrade": false,
-                    "reservada": true,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Uncommon + Play! Stamp",
-                            "format": "H",
-                            "condition": "Near Mint",
-                            "price": "0,15€",
-                            "stock": 3,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Area-Zero-Underdepths-V1-PPS7SCR-131?language=4&minCondition=2",
-                            "hidden": true
                         }
                     ]
                 },

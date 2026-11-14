@@ -1059,12 +1059,12 @@
                 },
                 {
                     "slot": 2,
-                    "name": "Lucario ex",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_51.png",
+                    "name": "Mega-Lucario ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_77.png",
                     "expansion": [
-                        "Evoluciones Prismáticas"
+                        "Megaevolución"
                     ],
-                    "code": "PRE051",
+                    "code": "MEG077",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -1075,11 +1075,11 @@
                         {
                             "language": "Inglés",
                             "type": "Double Rare",
-                            "format": "H",
+                            "format": "I",
                             "condition": "Near Mint",
-                            "price": "1€ - 2€",
+                            "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Prismatic-Evolutions/Lucario-ex-PRE051?language=1&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Mega-Lucario-ex-V1-MEG077",
                             "hidden": false
                         }
                     ]
@@ -1454,7 +1454,62 @@
         },
         {
             "number": 25,
-            "cards": []
+            "cards": [
+                {
+                    "slot": 3,
+                    "name": "Tapu Koko ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV04/SV04_ES_68.png",
+                    "expansion": [
+                        "Brecha Paradójica"
+                    ],
+                    "code": "PAR068",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Double Rare",
+                            "format": "G (no válida en torneos)",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paradox-Rift/Tapu-Koko-ex-V1-PAR068",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 4,
+                    "name": "Mega-Absol ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_86.png",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 8)"
+                    ],
+                    "code": "MEG086",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Double Rare + Play! Stamp",
+                            "format": "I",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Mega-Absol-ex-PPS8MEG-086",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
         },
         {
             "number": 26,

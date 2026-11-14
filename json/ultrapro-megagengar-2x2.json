@@ -488,7 +488,7 @@
                     ]
                 },
                 {
-                    "slot": 3,
+                    "slot": 2,
                     "name": "Zacian",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_45.png",
                     "expansion": [
@@ -513,20 +513,15 @@
                             "hidden": false
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "number": 7,
-            "cards": [
+                },
                 {
-                    "slot": 1,
-                    "name": "Grovyle",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM8/SM8_ES_21.png",
+                    "slot": 3,
+                    "name": "Ralts",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_67.png",
                     "expansion": [
-                        "Truenos Perdidos"
+                        "Tempestad Plateada"
                     ],
-                    "code": "LOT 21",
+                    "code": "SIT067",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -535,13 +530,72 @@
                     "conseguida": false,
                     "variants": [
                         {
-                            "language": "Español",
-                            "type": "Uncommon",
-                            "format": "Sol y Luna (no válida en torneos)",
-                            "condition": "Near Mint",
+                            "language": "",
+                            "type": "Common",
+                            "format": "F (no válida en torneos)",
+                            "condition": "",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Lost-Thunder/Grovyle-LOT21?language=4&minCondition=2&isReverseHolo=N",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Ralts-SIT067",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 4,
+                    "name": "Kirlia",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_68.png",
+                    "expansion": [
+                        "Tempestad Plateada"
+                    ],
+                    "code": "SIT068",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Uncommon",
+                            "format": "F (no válidas en torneos)",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Kirlia-SIT068",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 7,
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Rowlet",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM1/SM1_ES_9.png",
+                    "expansion": [
+                        "Sol y Luna"
+                    ],
+                    "code": "SUM 9",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Common",
+                            "format": "Sol y Luna (no válida en torneos)",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Sun-Moon/Rowlet-V1-SUM9",
                             "hidden": false
                         }
                     ]
@@ -569,33 +623,6 @@
                             "price": "0,02€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Sun-Moon/Litten-V1-SUM24?language=4&minCondition=3",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 4,
-                    "name": "Litten",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_32.png",
-                    "expansion": [
-                        "Fuerzas Temporales"
-                    ],
-                    "code": "TEF032",
-                    "noTrade": true,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "H",
-                            "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Temporal-Forces/Litten-V1-TEF032?language=4&minCondition=2&isReverseHolo=N",
                             "hidden": false
                         }
                     ]
@@ -628,6 +655,33 @@
                             "price": "",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Dedenne-SIT085?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 2,
+                    "name": "Litten",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_32.png",
+                    "expansion": [
+                        "Fuerzas Temporales"
+                    ],
+                    "code": "TEF032",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Common",
+                            "format": "H",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Temporal-Forces/Litten-V1-TEF032",
                             "hidden": false
                         }
                     ]
@@ -691,6 +745,60 @@
         {
             "number": 9,
             "cards": [
+                {
+                    "slot": 1,
+                    "name": "Oshawott",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/BW1/BW1_ES_27.png",
+                    "expansion": [
+                        "Negro y Blanco"
+                    ],
+                    "code": "BLW 27",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Common",
+                            "format": "Blanco y Negro (no válida en torneos)",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Black-White/Oshawott-V1-BLW27",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 2,
+                    "name": "Dewott",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_34.png",
+                    "expansion": [
+                        "Voltaje Vivido"
+                    ],
+                    "code": "VIV 34",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Uncommon",
+                            "format": "D (no válida en torneos)",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Dewott-VIV34",
+                            "hidden": false
+                        }
+                    ]
+                },
                 {
                     "slot": 3,
                     "name": "Koraidon",
@@ -800,6 +908,33 @@
                             "price": "",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Regirock-VIV89?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 4,
+                    "name": "Grovyle",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM8/SM8_ES_21.png",
+                    "expansion": [
+                        "Truenos Perdidos"
+                    ],
+                    "code": "LOT 21",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Uncommon",
+                            "format": "Sol y Luna (no válida en torneos)",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Lost-Thunder/Grovyle-LOT21",
                             "hidden": false
                         }
                     ]
@@ -1541,7 +1676,7 @@
                     ]
                 },
                 {
-                    "slot": 3,
+                    "slot": 2,
                     "name": "Pikachu",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_55.png",
                     "expansion": [
@@ -1566,12 +1701,115 @@
                             "hidden": false
                         }
                     ]
+                },
+                {
+                    "slot": 3,
+                    "name": "Gastly",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_48.png",
+                    "expansion": [
+                        "Equilibrio Perfecto"
+                    ],
+                    "code": "POR048",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Gastly-POR048?language=4&minCondition=2",
+                            "hidden": false
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,05€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Gastly-POR048?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": true
+                        }
+                    ]
+                },
+                {
+                    "slot": 4,
+                    "name": "Haunter",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_49.png",
+                    "expansion": [
+                        "Equilibrio Perfecto",
+                        "Sobre de premio de Play! (serie 9)"
+                    ],
+                    "code": "POR049",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Haunter-PPS9POR-049?language=4&minCondition=2",
+                            "hidden": false
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Common + Play! Stamp",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Haunter-PPS9POR-049?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
                 }
             ]
         },
         {
             "number": 23,
-            "cards": []
+            "cards": [
+                {
+                    "slot": 4,
+                    "name": "Kirlia",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_59.png",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 9)"
+                    ],
+                    "code": "MEG059",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Common + Play! Stamp",
+                            "format": "I",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Kirlia-PPS9MEG-059?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
         },
         {
             "number": 24,

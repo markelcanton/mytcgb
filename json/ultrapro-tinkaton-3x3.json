@@ -776,11 +776,11 @@
                 {
                     "slot": 7,
                     "name": "Oshawott",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/BW1/BW1_ES_27.png",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/RSV10PT5/RSV10PT5_ES_21.png",
                     "expansion": [
-                        "Blanco y Negro"
+                        "Llama Blanca"
                     ],
-                    "code": "BLW 27",
+                    "code": "WHT021",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -791,11 +791,11 @@
                         {
                             "language": "Español",
                             "type": "Common",
-                            "format": "Blanco y Negro (no válida en torneos)",
+                            "format": "I",
                             "condition": "Good",
-                            "price": "",
+                            "price": "~0,02€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Black-White/Oshawott-V1-BLW27?language=4&minCondition=4",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/White-Flare/Oshawott-V1-WHT021",
                             "hidden": false
                         }
                     ]
@@ -803,11 +803,11 @@
                 {
                     "slot": 8,
                     "name": "Dewott",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH4/SWSH4_ES_34.png",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/RSV10PT5/RSV10PT5_ES_22.png",
                     "expansion": [
-                        "Voltaje Vivido"
+                        "Llama Blanca"
                     ],
-                    "code": "VIV 34",
+                    "code": "WHT022",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -817,12 +817,39 @@
                     "variants": [
                         {
                             "language": "Inglés",
-                            "type": "Uncommon",
-                            "format": "D (no válida en torneos)",
+                            "type": "Common",
+                            "format": "I",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "~0,02€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Dewott-VIV34?language=1&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/White-Flare/Dewott-V1-WHT022",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 9,
+                    "name": "Samurott",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/RSV10PT5/RSV10PT5_ES_23.png",
+                    "expansion": [
+                        "Llama Blanca"
+                    ],
+                    "code": "WHT023",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Rare",
+                            "format": "I",
+                            "condition": "",
+                            "price": "~0,02€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/White-Flare/Samurott-V1-WHT023",
                             "hidden": false
                         }
                     ]
@@ -1096,11 +1123,11 @@
                 {
                     "slot": 1,
                     "name": "Rowlet",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM1/SM1_ES_9.png",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_10.png",
                     "expansion": [
-                        "Sol y Luna"
+                        "Equilibrio Perfecto"
                     ],
-                    "code": "SUM 9",
+                    "code": "POR010",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -1109,13 +1136,13 @@
                     "conseguida": false,
                     "variants": [
                         {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "Sol y Luna (no válida en torneos)",
-                            "condition": "Near Mint",
+                            "language": "",
+                            "type": "",
+                            "format": "",
+                            "condition": "",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Sun-Moon/Rowlet-V1-SUM9?language=4&minCondition=2&isReverseHolo=N",
+                            "cardmarket-link": "",
                             "hidden": false
                         }
                     ]
@@ -1143,6 +1170,33 @@
                             "price": "",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Dartrix-POR011?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 3,
+                    "name": "Decidueye ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_12.png",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 9)"
+                    ],
+                    "code": "POR012",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Double Rare + Play! Stamp",
+                            "format": "J",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Decidueye-ex-PPS9POR-12",
                             "hidden": false
                         }
                     ]
@@ -1314,6 +1368,33 @@
         {
             "number": 8,
             "cards": [
+                {
+                    "slot": 3,
+                    "name": "Rillaboom",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV06/SV06_ES_16.png",
+                    "expansion": [
+                        "Mascarada Crepuscular"
+                    ],
+                    "code": "TWM016",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Uncommon",
+                            "format": "H",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Twilight-Masquerade/Rillaboom-TWM016",
+                            "hidden": false
+                        }
+                    ]
+                },
                 {
                     "slot": 4,
                     "name": "Scorbunny",
@@ -1814,7 +1895,7 @@
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
-                    "noDisponible": true,
+                    "noDisponible": false,
                     "conseguida": false,
                     "variants": [
                         {
@@ -1917,10 +1998,37 @@
                 },
                 {
                     "slot": 3,
+                    "name": "Lucario ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV8PT5/SV8PT5_ES_51.png",
+                    "expansion": [
+                        "Evoluciones Prismáticas"
+                    ],
+                    "code": "PRE051",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Double Rare",
+                            "format": "H",
+                            "condition": "",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Prismatic-Evolutions/Lucario-ex-PRE051",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 4,
                     "name": "Mega-Lucario ex",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_77.png",
                     "expansion": [
-                        "Megaevolución"
+                        "Sobre de premio de Play! (serie 9)"
                     ],
                     "code": "MEG077",
                     "noTrade": true,
@@ -1932,18 +2040,18 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "Double Rare",
+                            "type": "Double Rare + Play! Stamp",
                             "format": "I",
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Mega-Lucario-ex-V1-MEG077?language=4&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Mega-Lucario-ex-PPS9MEG-077",
                             "hidden": false
                         }
                     ]
                 },
                 {
-                    "slot": 4,
+                    "slot": 6,
                     "name": "Lucario",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/30TH/30TH_ES_83.png",
                     "expansion": [
@@ -2195,304 +2303,11 @@
         },
         {
             "number": 15,
-            "cards": [
-                {
-                    "slot": 7,
-                    "name": "Ralts",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_67.png",
-                    "expansion": [
-                        "Tempestad Plateada"
-                    ],
-                    "code": "SIT067",
-                    "noTrade": true,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "",
-                            "type": "Common",
-                            "format": "F (no válida en torneos)",
-                            "condition": "",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Suicune-PFL026?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 8,
-                    "name": "Kirlia",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_68.png",
-                    "expansion": [
-                        "Tempestad Plateada"
-                    ],
-                    "code": "SIT068",
-                    "noTrade": true,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "",
-                            "type": "Uncommon",
-                            "format": "F (no válidas en torneos)",
-                            "condition": "",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Kirlia-SIT068?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                }
-            ]
+            "cards": []
         },
         {
             "number": 16,
-            "cards": [
-                {
-                    "slot": 1,
-                    "name": "Tapu Koko ex",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV04/SV04_ES_68.png",
-                    "expansion": [
-                        "Brecha Paradójica"
-                    ],
-                    "code": "PAR068",
-                    "noTrade": true,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Double Rare",
-                            "format": "G (no válida en torneos)",
-                            "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paradox-Rift/Tapu-Koko-ex-V1-PAR068?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 2,
-                    "name": "Mega-Absol ex",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_86.png",
-                    "expansion": [
-                        "Sobre de premio de Play! (serie 8)"
-                    ],
-                    "code": "MEG086",
-                    "noTrade": true,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Double Rare + Play! Stamp",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Mega-Absol-ex-PPS8MEG-086?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 3,
-                    "name": "Naria",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_185.png",
-                    "expansion": [
-                        "Sobre de premio de Play! (serie 9)"
-                    ],
-                    "code": "ASC185",
-                    "noTrade": true,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "",
-                            "type": "Uncommon + Foil + Play! Stamp",
-                            "format": "I",
-                            "condition": "",
-                            "price": "0,40€",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Canari-PPS9ASC-185?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 5,
-                    "name": "Kirlia",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_59.png",
-                    "expansion": [
-                        "Sobre de premio de Play! (serie 9)"
-                    ],
-                    "code": "MEG059",
-                    "noTrade": true,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "",
-                            "type": "Common + Play! Stamp",
-                            "format": "I",
-                            "condition": "",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Kirlia-PPS9MEG-059?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 6,
-                    "name": "Mega-Gardevoir ex",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_60.png",
-                    "expansion": [
-                        "Sobre de premio de Play! (serie 8)"
-                    ],
-                    "code": "MEG060",
-                    "noTrade": true,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Double Rare + Play! Stamp",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "~2€",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Mega-Gardevoir-ex-PPS8MEG-060?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 7,
-                    "name": "Gastly",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_48.png",
-                    "expansion": [
-                        "Equilibrio Perfecto"
-                    ],
-                    "code": "POR048",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common + Foil",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Gastly-POR048?language=4&minCondition=2",
-                            "hidden": false
-                        },
-                        {
-                            "language": "Español",
-                            "type": "Common + Foil",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Gastly-POR048?language=4&minCondition=2&isReverseHolo=Y",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 8,
-                    "name": "Haunter",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_49.png",
-                    "expansion": [
-                        "Equilibrio Perfecto",
-                        "Sobre de premio de Play! (serie 9)"
-                    ],
-                    "code": "POR049",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Common",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Haunter-PPS9POR-049?language=4&minCondition=2",
-                            "hidden": false
-                        },
-                        {
-                            "language": "Español",
-                            "type": "Common + Play! Stamp",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "0,02€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Haunter-PPS9POR-049?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 9,
-                    "name": "Gengar",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_50.png",
-                    "expansion": [
-                        "Sobre de premio de Play! (serie 9)"
-                    ],
-                    "code": "POR050",
-                    "noTrade": true,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "",
-                            "type": "Rare",
-                            "format": "J",
-                            "condition": "",
-                            "price": "1,40€",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Gengar-PPS9POR-050?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                }
-            ]
+            "cards": []
         },
         {
             "number": 17,
