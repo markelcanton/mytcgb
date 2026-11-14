@@ -1116,10 +1116,11 @@
                     "name": "Gengar",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_50.png",
                     "expansion": [
-                        "Equilibrio Perfecto"
+                        "Equilibrio Perfecto",
+                        "Sobre de premio de Play! (serie 9)"
                     ],
                     "code": "POR050",
-                    "noTrade": true,
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -1132,9 +1133,19 @@
                             "format": "J",
                             "condition": "Near Mint",
                             "price": "0,10€",
-                            "stock": 0,
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Gengar-POR050?language=4&minCondition=2",
                             "hidden": false
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Rare + Play! Stamp",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "2€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Gengar-PPS9POR-050?language=4&minCondition=2",
+                            "hidden": true
                         }
                     ]
                 }
@@ -1175,10 +1186,11 @@
                     "name": "Mega-Gardevoir ex",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_60.png",
                     "expansion": [
-                        "Megaevolución"
+                        "Megaevolución",
+                        "Sobre de premio de Play! (serie 8)"
                     ],
                     "code": "MEG060",
-                    "noTrade": true,
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -1190,10 +1202,20 @@
                             "type": "Double Rare",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "~0,50€",
-                            "stock": 0,
+                            "price": "0,50€",
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Mega-Gardevoir-ex-V1-MEG060?language=4&minCondition=2",
                             "hidden": false
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Double Rare + Play! Stamp",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "2€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Eight/Mega-Gardevoir-ex-PPS8MEG-060?language=4&minCondition=2",
+                            "hidden": true
                         }
                     ]
                 },
@@ -1490,33 +1512,6 @@
                             "hidden": false
                         }
                     ]
-                },
-                {
-                    "slot": 3,
-                    "name": "Trompeta de Cristal",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_135.png",
-                    "expansion": [
-                        "Corona Astral"
-                    ],
-                    "code": "SCR135",
-                    "noTrade": true,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Promo + Foil + Stamp Play!",
-                            "format": "H",
-                            "condition": "Near Mint",
-                            "price": "1€",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Promos/Glass-Trumpet-PRSCR-135?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
                 }
             ]
         },
@@ -1546,6 +1541,33 @@
                             "price": "1€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Rebel-Clash/Flapple-V1-RCL22?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 2,
+                    "name": "Trompeta de Cristal",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV07/SV07_ES_135.png",
+                    "expansion": [
+                        "Corona Astral"
+                    ],
+                    "code": "SCR135",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Promo + Foil + Stamp Play!",
+                            "format": "H",
+                            "condition": "",
+                            "price": "1€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Promos/Glass-Trumpet-PRSCR-135?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -1892,33 +1914,6 @@
                             "hidden": false
                         }
                     ]
-                },
-                {
-                    "slot": 2,
-                    "name": "Mega-Chandelure ex",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_99.png",
-                    "expansion": [
-                        "Oscuridad Absoluta"
-                    ],
-                    "code": "PBL099",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "Ultra Rare",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "7,50€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mega-Chandelure-ex-V2-PBL099?language=1&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
                 }
             ]
         },
@@ -2106,6 +2101,33 @@
                     ]
                 },
                 {
+                    "slot": 2,
+                    "name": "Energía Eléctrica Voltaica",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_84.png",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
+                    "code": "PBL084",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Rare",
+                            "format": "J",
+                            "condition": "",
+                            "price": "~0,02€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Voltaic-L-Energy-PBL084",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
                     "slot": 3,
                     "name": "Energía Oscura Sombría",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_83.png",
@@ -2127,7 +2149,7 @@
                             "condition": "Near Mint",
                             "price": "0,05€",
                             "stock": 0,
-                            "cardmarket-link": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_85.png",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Shadowy-D-Energy-PBL083",
                             "hidden": false
                         }
                     ]
