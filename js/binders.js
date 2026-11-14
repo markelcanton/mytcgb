@@ -866,6 +866,22 @@ function createOptionCard(item, targetStorage, tagsContainerId) {
     `;
 
     card.addEventListener('click', () => {
+        if (activeExpansionTarget === 'variant_select' && activeSelectorTarget === 'language' && window._activeVariantSelectLang) {
+            window._activeVariantSelectLang.value = itemName;
+            window._activeVariantSelectLang.dispatchEvent(new Event('change'));
+            window._activeVariantSelectLang = null;
+            closeModal(document.getElementById('generic-selector-modal'));
+            return;
+        }
+
+        if (activeExpansionTarget === 'variant_select' && activeSelectorTarget === 'condition' && window._activeVariantSelectCond) {
+            window._activeVariantSelectCond.value = itemName;
+            window._activeVariantSelectCond.dispatchEvent(new Event('change'));
+            window._activeVariantSelectCond = null;
+            closeModal(document.getElementById('generic-selector-modal'));
+            return;
+        }
+
         const idx = targetStorage.indexOf(itemName);
         if (idx > -1) {
             targetStorage.splice(idx, 1);
@@ -1086,6 +1102,18 @@ function renderGenericSelectorContent(filterText = '') {
                                 `;
 
                                 card.addEventListener('click', () => {
+                                    if (activeExpansionTarget === 'shopping' && typeof activeShoppingExpansionTarget !== 'undefined' && activeShoppingExpansionTarget) {
+                                        activeShoppingExpansionTarget._cardExpansion = expName;
+                                        if (typeof renderShopCardSingleExpansionTag === 'function') {
+                                            renderShopCardSingleExpansionTag(
+                                                activeShoppingExpansionTarget.querySelector('.shop-edit-expansion-tags'),
+                                                activeShoppingExpansionTarget
+                                            );
+                                        }
+                                        closeModal(document.getElementById('generic-selector-modal'));
+                                        return;
+                                    }
+
                                     const idx = targetArray.indexOf(expName);
                                     if (idx > -1) {
                                         targetArray.splice(idx, 1);
