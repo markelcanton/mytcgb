@@ -66,6 +66,86 @@ function formatConditionBadge(conditionText) {
     return `<span class="condition-badge ${cssClass}" title="${fullConditionName}">${code}</span>`;
 }
 
+function getCardStatusFlags(cardData) {
+    const tieneNoTrade = cardData.noTrade === true ||
+        (cardData.price && cardData.price.toUpperCase().includes("NO TRADE")) ||
+        (Array.isArray(cardData.variants) && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("NO TRADE")));
+
+    const tieneReservada = cardData.reservada === true ||
+        (cardData.price && cardData.price.toUpperCase().includes("RESERVADA")) ||
+        (Array.isArray(cardData.variants) && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("RESERVADA")));
+
+    const tieneVendida = cardData.vendida === true ||
+        (cardData.price && cardData.price.toUpperCase().includes("VENDIDA")) ||
+        (Array.isArray(cardData.variants) && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("VENDIDA")));
+
+    const tieneTraded = cardData.traded === true ||
+        (cardData.price && cardData.price.toUpperCase().includes("TRADED")) ||
+        (Array.isArray(cardData.variants) && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("TRADED")));
+
+    const tieneNoDisponible = cardData.noDisponible === true ||
+        (cardData.price && cardData.price.toUpperCase().includes("NO DISPONIBLE")) ||
+        (Array.isArray(cardData.variants) && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("NO DISPONIBLE")));
+
+    const tieneConseguida = cardData.conseguida === true ||
+        (cardData.price && cardData.price.toUpperCase().includes("CONSEGUIDA")) ||
+        (Array.isArray(cardData.variants) && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("CONSEGUIDA")));
+
+    return {
+        tieneNoTrade,
+        tieneReservada,
+        tieneVendida,
+        tieneTraded,
+        tieneNoDisponible,
+        tieneConseguida
+    };
+}
+
+function buildStatusDotHtml(cardData) {
+    const {
+        tieneNoTrade,
+        tieneReservada,
+        tieneVendida,
+        tieneTraded,
+        tieneNoDisponible,
+        tieneConseguida
+    } = getCardStatusFlags(cardData);
+
+    const activeColors = [];
+
+    function getCssColor(className) {
+        const dummy = document.createElement('div');
+        dummy.className = className;
+        dummy.style.display = 'none';
+        document.body.appendChild(dummy);
+        const color = window.getComputedStyle(dummy).backgroundColor;
+        document.body.removeChild(dummy);
+        return color;
+    }
+
+    if (tieneNoTrade) activeColors.push(getCssColor('badge-notrade'));
+    if (tieneReservada) activeColors.push(getCssColor('badge-reserved'));
+    if (tieneVendida) activeColors.push(getCssColor('badge-sold'));
+    if (tieneTraded) activeColors.push(getCssColor('badge-traded'));
+    if (tieneNoDisponible) activeColors.push(getCssColor('badge-unavailable'));
+    if (tieneConseguida) activeColors.push(getCssColor('badge-conseguida'));
+
+    if (activeColors.length === 1) {
+        return `<div class="card-status-dot" style="background-color: ${activeColors[0]};"></div>`;
+    } else if (activeColors.length > 1) {
+        let gradientStops = [];
+        const total = activeColors.length;
+        activeColors.forEach((color, index) => {
+            const startDeg = (index * (360 / total)).toFixed(2);
+            const endDeg = ((index + 1) * (360 / total)).toFixed(2);
+            gradientStops.push(`${color} ${startDeg}deg ${endDeg}deg`);
+        });
+        return `<div class="card-status-dot" style="background: conic-gradient(${gradientStops.join(', ')});"></div>`;
+    }
+
+    return '';
+}
+
 function ensureBackdrop() {
     let backdrop = document.getElementById('modal-backdrop');
     if (!backdrop) {
@@ -352,51 +432,12 @@ function buildPageHTML(sideContainer, pageNumber) {
         const cardData = cardsMap[slot.toString()];
         if (cardData) {
             const imgSrc = cardData.image ? cardData.image.trim() : '';
-
-            const activeColors = [];
-
-            function getCssColor(className) {
-                const dummy = document.createElement('div');
-                dummy.className = className;
-                dummy.style.display = 'none';
-                document.body.appendChild(dummy);
-                const color = window.getComputedStyle(dummy).backgroundColor;
-                document.body.removeChild(dummy);
-                return color;
-            }
-
-            const tieneNoTrade = cardData.noTrade === true || (cardData.price && cardData.price.toUpperCase().includes("NO TRADE")) || (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("NO TRADE")));
-            const tieneReservada = cardData.reservada === true || (cardData.price && cardData.price.toUpperCase().includes("RESERVADA")) || (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("RESERVADA")));
-            const tieneVendida = cardData.vendida === true || (cardData.price && cardData.price.toUpperCase().includes("VENDIDA")) || (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("VENDIDA")));
-            const tieneTraded = cardData.traded === true || (cardData.price && cardData.price.toUpperCase().includes("TRADED")) || (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("TRADED")));
-            const tieneNoDisponible = cardData.noDisponible === true || (cardData.price && cardData.price.toUpperCase().includes("NO DISPONIBLE")) || (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("NO DISPONIBLE")));
-            const tieneConseguida = cardData.conseguida === true || (cardData.price && cardData.price.toUpperCase().includes("CONSEGUIDA")) || (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("CONSEGUIDA")));
-
-            if (tieneNoTrade) activeColors.push(getCssColor('badge-notrade'));
-            if (tieneReservada) activeColors.push(getCssColor('badge-reserved'));
-            if (tieneVendida) activeColors.push(getCssColor('badge-sold'));
-            if (tieneTraded) activeColors.push(getCssColor('badge-traded'));
-            if (tieneNoDisponible) activeColors.push(getCssColor('badge-unavailable'));
-            if (tieneConseguida) activeColors.push(getCssColor('badge-conseguida'));
-
-            let dotHtml = '';
-            if (activeColors.length === 1) {
-                dotHtml = `<div class="card-status-dot" style="background-color: ${activeColors[0]};"></div>`;
-            } else if (activeColors.length > 1) {
-                let gradientStops = [];
-                const total = activeColors.length;
-                activeColors.forEach((color, index) => {
-                    const startDeg = (index * (360 / total)).toFixed(2);
-                    const endDeg = ((index + 1) * (360 / total)).toFixed(2);
-                    gradientStops.push(`${color} ${startDeg}deg ${endDeg}deg`);
-                });
-                dotHtml = `<div class="card-status-dot" style="background: conic-gradient(${gradientStops.join(', ')});"></div>`;
-            }
+            const dotHtml = buildStatusDotHtml(cardData);
 
             if (imgSrc) {
                 cardItem.innerHTML = `${dotHtml}<img src="${imgSrc}" alt="Pokémon Card" onerror="this.onerror=null; this.src='https://tcg.pokemon.com/assets/img/global/tcg-card-back.jpg';">`;
             } else {
-                cardItem.innerHTML = `<div class="empty-slot"></div>`;
+                cardItem.innerHTML = `${dotHtml}<div class="empty-slot"></div>`;
             }
             cardItem.addEventListener('click', () => showDetails(cardData, pageNumber, cardData.slot || slot));
         } else {
@@ -439,12 +480,14 @@ function showDetails(card, pageNum, slotNum) {
 
     let infoHtml = `<p><strong>Expansión:</strong> ${expansionText}</p>`;
 
-    const tieneNoTrade = card.noTrade === true || (card.price && card.price.toUpperCase().includes("NO TRADE")) || (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("NO TRADE")));
-    const tieneReservada = card.reservada === true || (card.price && card.price.toUpperCase().includes("RESERVADA")) || (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("RESERVADA")));
-    const tieneVendida = card.vendida === true || (card.price && card.price.toUpperCase().includes("VENDIDA")) || (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("VENDIDA")));
-    const tieneTraded = card.traded === true || (card.price && card.price.toUpperCase().includes("TRADED")) || (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("TRADED")));
-    const tieneNoDisponible = card.noDisponible === true || (card.price && card.price.toUpperCase().includes("NO DISPONIBLE")) || (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("NO DISPONIBLE")));
-    const tieneConseguida = card.conseguida === true || (card.price && card.price.toUpperCase().includes("CONSEGUIDA")) || (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("CONSEGUIDA")));
+    const {
+        tieneNoTrade,
+        tieneReservada,
+        tieneVendida,
+        tieneTraded,
+        tieneNoDisponible,
+        tieneConseguida
+    } = getCardStatusFlags(card);
 
     let modalBadgesHTML = '';
     if (tieneNoTrade || tieneReservada || tieneVendida || tieneTraded || tieneNoDisponible || tieneConseguida) {
@@ -1579,6 +1622,14 @@ document.addEventListener("DOMContentLoaded", async () => {
         const matches = [];
         const isEditorPage = !!document.getElementById('mode-selector');
 
+        const hasVariantSpecificFilters =
+            selectedLanguages.length > 0 ||
+            selectedConditions.length > 0 ||
+            formatVal !== '' ||
+            selectedTypes.length > 0 ||
+            !isNaN(maxPrice) ||
+            !isNaN(minStock);
+
         allPagesData.forEach(page => {
             if (!page.cards) return;
 
@@ -1605,69 +1656,67 @@ document.addEventListener("DOMContentLoaded", async () => {
 
                 if (codeVal && !code.includes(codeVal)) return;
 
-                const hasNoTrade = card.noTrade === true ||
-                    (card.price && card.price.toUpperCase().includes("NO TRADE")) ||
-                    (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("NO TRADE")));
+                const {
+                    tieneNoTrade,
+                    tieneReservada,
+                    tieneVendida,
+                    tieneTraded,
+                    tieneNoDisponible
+                } = getCardStatusFlags(card);
 
-                const hasReserved = card.reservada === true ||
-                    (card.price && card.price.toUpperCase().includes("RESERVADA")) ||
-                    (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("RESERVADA")));
+                if (isNoTrade && !tieneNoTrade) return;
+                if (isReserved && !tieneReservada) return;
+                if (isSold && !tieneVendida) return;
+                if (isTraded && !tieneTraded) return;
+                if (isUnavailable && !tieneNoDisponible) return;
 
-                const hasSold = card.vendida === true ||
-                    (card.price && card.price.toUpperCase().includes("VENDIDA")) ||
-                    (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("VENDIDA")));
-
-                const hasTraded = card.traded === true ||
-                    (card.price && card.price.toUpperCase().includes("TRADED")) ||
-                    (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("TRADED")));
-
-                const hasUnavailable = card.noDisponible === true ||
-                    (card.price && card.price.toUpperCase().includes("NO DISPONIBLE")) ||
-                    (card.variants && card.variants.some(v => v.price && v.price.toUpperCase().includes("NO DISPONIBLE")));
-
-                if (isNoTrade && !hasNoTrade) return;
-                if (isReserved && !hasReserved) return;
-                if (isSold && !hasSold) return;
-                if (isTraded && !hasTraded) return;
-                if (isUnavailable && !hasUnavailable) return;
-
-                let rawVariants = (card.variants && card.variants.length > 0) ? card.variants : [{
+                const cardBaseAsVariant = {
                     language: card.language,
                     type: card.type,
                     format: card.format,
                     condition: card.condition,
                     price: card.price,
                     stock: card.stock
-                }];
+                };
 
-                const variants = isEditorPage ? rawVariants : rawVariants.filter(v => !v.hidden);
+                let rawVariants = (Array.isArray(card.variants) && card.variants.length > 0)
+                    ? card.variants
+                    : [cardBaseAsVariant];
 
-                if (variants.length === 0) return;
+                const visibleVariants = isEditorPage
+                    ? rawVariants
+                    : rawVariants.filter(v => !v.hidden);
 
-                const matchVariant = variants.some(v => {
-                    if (selectedLanguages.length > 0 && !selectedLanguages.includes(v.language)) return false;
-                    if (selectedConditions.length > 0 && !selectedConditions.includes(v.condition)) return false;
-                    if (formatVal && !(v.format || '').toLowerCase().includes(formatVal)) return false;
+                const variantsToCheck = visibleVariants.length > 0
+                    ? visibleVariants
+                    : [cardBaseAsVariant];
 
-                    if (selectedTypes.length > 0) {
-                        const cardType = v.type || '';
-                        if (!selectedTypes.some(t => cardType.includes(t))) return false;
-                    }
+                if (hasVariantSpecificFilters) {
+                    const matchVariant = variantsToCheck.some(v => {
+                        if (selectedLanguages.length > 0 && !selectedLanguages.includes(v.language)) return false;
+                        if (selectedConditions.length > 0 && !selectedConditions.includes(v.condition)) return false;
+                        if (formatVal && !(v.format || '').toLowerCase().includes(formatVal)) return false;
 
-                    if (!isNaN(maxPrice)) {
-                        const rawPrice = parseFloat((v.price || '').replace('€', '').replace(',', '.'));
-                        if (isNaN(rawPrice) || rawPrice > maxPrice) return false;
-                    }
+                        if (selectedTypes.length > 0) {
+                            const cardType = v.type || '';
+                            if (!selectedTypes.some(t => cardType.includes(t))) return false;
+                        }
 
-                    if (!isNaN(minStock)) {
-                        const stockVal = parseInt(v.stock || '0', 10);
-                        if (stockVal < minStock) return false;
-                    }
+                        if (!isNaN(maxPrice)) {
+                            const rawPrice = parseFloat((v.price || '').replace('€', '').replace(',', '.'));
+                            if (isNaN(rawPrice) || rawPrice > maxPrice) return false;
+                        }
 
-                    return true;
-                });
+                        if (!isNaN(minStock)) {
+                            const stockVal = parseInt(v.stock || '0', 10);
+                            if (stockVal < minStock) return false;
+                        }
 
-                if (!matchVariant) return;
+                        return true;
+                    });
+
+                    if (!matchVariant) return;
+                }
 
                 matches.push({ page: page.number, slot: card.slot, cardData: card });
             });
@@ -1799,63 +1848,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         results.forEach(res => {
             const cardData = res.cardData;
-
-            const activeColors = [];
-
-            function getCssColor(className) {
-                const dummy = document.createElement('div');
-                dummy.className = className;
-                dummy.style.display = 'none';
-                document.body.appendChild(dummy);
-                const color = window.getComputedStyle(dummy).backgroundColor;
-                document.body.removeChild(dummy);
-                return color;
-            }
-
-            const tieneNoTrade = cardData.noTrade === true ||
-                (cardData.price && cardData.price.toUpperCase().includes("NO TRADE")) ||
-                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("NO TRADE")));
-
-            const tieneReservada = cardData.reservada === true ||
-                (cardData.price && cardData.price.toUpperCase().includes("RESERVADA")) ||
-                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("RESERVADA")));
-
-            const tieneVendida = cardData.vendida === true ||
-                (cardData.price && cardData.price.toUpperCase().includes("VENDIDA")) ||
-                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("VENDIDA")));
-
-            const tieneTraded = cardData.traded === true ||
-                (cardData.price && cardData.price.toUpperCase().includes("TRADED")) ||
-                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("TRADED")));
-
-            const tieneNoDisponible = cardData.noDisponible === true ||
-                (cardData.price && cardData.price.toUpperCase().includes("NO DISPONIBLE")) ||
-                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("NO DISPONIBLE")));
-
-            const tieneConseguida = cardData.conseguida === true ||
-                (cardData.price && cardData.price.toUpperCase().includes("CONSEGUIDA")) ||
-                (cardData.variants && cardData.variants.some(v => v.price && v.price.toUpperCase().includes("CONSEGUIDA")));
-
-            if (tieneNoTrade) activeColors.push(getCssColor('badge-notrade'));
-            if (tieneReservada) activeColors.push(getCssColor('badge-reserved'));
-            if (tieneVendida) activeColors.push(getCssColor('badge-sold'));
-            if (tieneTraded) activeColors.push(getCssColor('badge-traded'));
-            if (tieneNoDisponible) activeColors.push(getCssColor('badge-unavailable'));
-            if (tieneConseguida) activeColors.push(getCssColor('badge-conseguida'));
-
-            let dotHtml = '';
-            if (activeColors.length === 1) {
-                dotHtml = `<div class="card-status-dot" style="background-color: ${activeColors[0]};"></div>`;
-            } else if (activeColors.length > 1) {
-                let gradientStops = [];
-                const total = activeColors.length;
-                activeColors.forEach((color, index) => {
-                    const startDeg = (index * (360 / total)).toFixed(2);
-                    const endDeg = ((index + 1) * (360 / total)).toFixed(2);
-                    gradientStops.push(`${color} ${startDeg}deg ${endDeg}deg`);
-                });
-                dotHtml = `<div class="card-status-dot" style="background: conic-gradient(${gradientStops.join(', ')});"></div>`;
-            }
+            const dotHtml = buildStatusDotHtml(cardData);
 
             const cardBox = document.createElement('div');
             cardBox.className = 'search-result-card';
