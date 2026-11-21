@@ -9118,11 +9118,11 @@
                 {
                     "slot": 3,
                     "name": "Quaxly",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_50.png",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV02/SV02_ES_49.png",
                     "expansion": [
-                        "Chispas Fulgurantes"
+                        "Evoluciones en Paldea"
                     ],
-                    "code": "SSP050",
+                    "code": "PAL049",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
@@ -9131,13 +9131,13 @@
                     "conseguida": false,
                     "variants": [
                         {
-                            "language": "Español",
+                            "language": "Inglés",
                             "type": "Common",
                             "format": "H",
                             "condition": "Near Mint",
                             "price": "0,05€",
                             "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Surging-Sparks/Quaxly-V1-SSP050?language=4&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldea-Evolved/Quaxly-V1-PAL049?language=1&minCondition=2",
                             "hidden": false
                         }
                     ]

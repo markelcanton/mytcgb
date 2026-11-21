@@ -546,6 +546,33 @@
                             "hidden": false
                         }
                     ]
+                },
+                {
+                    "slot": 9,
+                    "name": "Swampert",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH8/SWSH8_ES_64.png",
+                    "expansion": [
+                        "Golpe Fusión"
+                    ],
+                    "code": "FST064",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Rare + Foil",
+                            "format": "E (no válida en torneos)",
+                            "condition": "",
+                            "price": "5€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Fusion-Strike/Swampert?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
+                        }
+                    ]
                 }
             ]
         },
@@ -1522,7 +1549,7 @@
                         "Megaevolución"
                     ],
                     "code": "MEG040",
-                    "noTrade": true,
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -1534,10 +1561,20 @@
                             "type": "Common",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
+                            "price": "0,05€",
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Drizzile-MEG040?language=1&minCondition=2",
                             "hidden": false
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Common + Foil",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Drizzile-MEG040?language=1&minCondition=2&isReverseHolo=Y",
+                            "hidden": true
                         }
                     ]
                 },
@@ -1710,12 +1747,12 @@
                 },
                 {
                     "slot": 9,
-                    "name": "Quaquaval ex",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV02/SV02_ES_52.png",
+                    "name": "Quaquaval",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_52.png",
                     "expansion": [
-                        "Evoluciones en Paldea"
+                        "Chispas Fulgurantes"
                     ],
-                    "code": "PAL052",
+                    "code": "SSP052",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -1724,13 +1761,13 @@
                     "conseguida": false,
                     "variants": [
                         {
-                            "language": "Español",
-                            "type": "Double Rare",
-                            "format": "G (no válida en torneos)",
-                            "condition": "Near Mint",
-                            "price": "",
+                            "language": "",
+                            "type": "Uncommon + Foil",
+                            "format": "H",
+                            "condition": "",
+                            "price": "~0,02€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldea-Evolved/Quaquaval-ex-V1-PAL052?language=4&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Surging-Sparks/Quaquaval-SSP052?language=1&minCondition=2&isReverseHolo=Y",
                             "hidden": false
                         }
                     ]
@@ -2315,11 +2352,11 @@
                 {
                     "slot": 1,
                     "name": "Rotom",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_92.png",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_61.png",
                     "expansion": [
-                        "Héroes Ascendentes"
+                        "Chispas Fulgurantes"
                     ],
-                    "code": "ASC092",
+                    "code": "SSP061",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -2328,13 +2365,13 @@
                     "conseguida": false,
                     "variants": [
                         {
-                            "language": "Inglés",
-                            "type": "Common + Foil",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "",
+                            "language": "",
+                            "type": "Common + Foilñ",
+                            "format": "H",
+                            "condition": "",
+                            "price": "~0,02€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Rotom-V1-xASC092?language=4&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Surging-Sparks/Rotom-SSP061?language=4&minCondition=2&isReverseHolo=Y",
                             "hidden": false
                         }
                     ]
@@ -2470,6 +2507,33 @@
                             "price": "",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Prismatic-Evolutions/Roto-Stick-PRE127?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 9,
+                    "name": "Rotom",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_92.png",
+                    "expansion": [
+                        "Héroes Ascendentes"
+                    ],
+                    "code": "ASC092",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Common + Foil",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Rotom-V1-xASC092?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]

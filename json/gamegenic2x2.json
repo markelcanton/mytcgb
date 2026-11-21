@@ -1642,6 +1642,33 @@
             "cards": [
                 {
                     "slot": 1,
+                    "name": "Quaquaval ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV02/SV02_ES_52.png",
+                    "expansion": [
+                        "Evoluciones en Paldea"
+                    ],
+                    "code": "PAL052",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Double Rare",
+                            "format": "G (no válida en torneos)",
+                            "condition": "",
+                            "price": "~0,50€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldea-Evolved/Quaquaval-ex-V1-PAL052?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 2,
                     "name": "Ferrotesta ex",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_81.png",
                     "expansion": [
@@ -1668,7 +1695,64 @@
                     ]
                 },
                 {
-                    "slot": 2,
+                    "slot": 3,
+                    "name": "Farigiraf ex [Teracristal]",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_108.png",
+                    "expansion": [],
+                    "code": "csv7C 141",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Chino",
+                            "type": "Double Rare",
+                            "format": "H (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "1€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Blade-Awakening/Farigiraf-ex-V1-CSV7C141?language=6&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 4,
+                    "name": "Mega-Skarmory ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_55.png",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 9)"
+                    ],
+                    "code": "POR055",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Double Rare + Play! Stamp",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "6€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Mega-Skarmory-ex-PPS9POR-055?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 31,
+            "cards": [
+                {
+                    "slot": 1,
                     "name": "Mabosstiff ex de Damián",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_139.png",
                     "expansion": [
@@ -1690,6 +1774,33 @@
                             "price": "0,50€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Arvens-Mabosstiff-ex-V1-DRI139?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 2,
+                    "name": "Mega-Manectric ex",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_50.png",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
+                    "code": "MEG050",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Double Rare",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,50€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Mega-Manectric-ex-V1-MEG050?language=1&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -1751,64 +1862,10 @@
             ]
         },
         {
-            "number": 31,
+            "number": 32,
             "cards": [
                 {
                     "slot": 1,
-                    "name": "Mega-Manectric ex",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_50.png",
-                    "expansion": [
-                        "Megaevolución"
-                    ],
-                    "code": "MEG050",
-                    "noTrade": true,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Inglés",
-                            "type": "Double Rare",
-                            "format": "I",
-                            "condition": "Near Mint",
-                            "price": "0,50€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Mega-Manectric-ex-V1-MEG050?language=1&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 2,
-                    "name": "Farigiraf ex [Teracristal]",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV05/SV05_ES_108.png",
-                    "expansion": [
-                        "Blade Awakening"
-                    ],
-                    "code": "csv7C 141",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Chino",
-                            "type": "Double Rare",
-                            "format": "H (no válida en torneos)",
-                            "condition": "Near Mint",
-                            "price": "1€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Blade-Awakening/Farigiraf-ex-V1-CSV7C141?language=6&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 3,
                     "name": "Morpeko ex",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_55.png",
                     "expansion": [
@@ -1835,7 +1892,7 @@
                     ]
                 },
                 {
-                    "slot": 4,
+                    "slot": 2,
                     "name": "Mega-Excadrill ex",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_65.png",
                     "expansion": [
@@ -1854,7 +1911,7 @@
                             "type": "Double Rare",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "0,50€",
+                            "price": "1,50€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mega-Excadrill-ex-V1-PBL065?language=4&minCondition=2",
                             "hidden": false
@@ -1864,7 +1921,7 @@
                             "type": "Double Rare",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "1,50€",
+                            "price": "0,50€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Mega-Excadrill-ex-V1-PBL065?language=1&minCondition=2",
                             "hidden": false
@@ -1872,10 +1929,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "number": 32,
-            "cards": []
         },
         {
             "number": 33,

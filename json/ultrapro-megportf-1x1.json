@@ -1501,17 +1501,101 @@
         {
             "number": 49,
             "jumbo": true,
-            "cards": []
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Sandshrew de Alola",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM12/SM12_ES_137.png",
+                    "expansion": [
+                        "Eclipse Cósmico"
+                    ],
+                    "code": "CEC 137",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Common + Foil",
+                            "format": "Sol y Luna (no válida en torneos)",
+                            "condition": "",
+                            "price": "~2,50€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Cosmic-Eclipse/Alolan-Sandshrew-CEC137?language=4&minCondition=5&isReverseHolo=Y",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
         },
         {
             "number": 50,
             "jumbo": true,
-            "cards": []
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Palossand",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH2/SWSH2_ES_82.png",
+                    "expansion": [
+                        "Choque Rebelde"
+                    ],
+                    "code": "RCL 82",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Uncommon + Foil",
+                            "format": "D (no válida en torneos)",
+                            "condition": "",
+                            "price": "~0,20€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Rebel-Clash/Palossand-RCL82?language=4&minCondition=4&isReverseHolo=Y",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
         },
         {
             "number": 51,
             "jumbo": true,
-            "cards": []
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Spiritomb",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH2/SWSH2_ES_116.png",
+                    "expansion": [
+                        "Choque Rebelde"
+                    ],
+                    "code": "RCL 116",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Rare + Foil",
+                            "format": "D (no válida en torneos)",
+                            "condition": "",
+                            "price": "~1€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Rebel-Clash/Spiritomb-RCL116?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
         },
         {
             "number": 52,

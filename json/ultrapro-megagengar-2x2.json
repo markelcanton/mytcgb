@@ -454,6 +454,33 @@
                             "hidden": false
                         }
                     ]
+                },
+                {
+                    "slot": 4,
+                    "name": "Latios",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_77.png",
+                    "expansion": [
+                        "Chispas Fulgurantes"
+                    ],
+                    "code": "SSP077",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Uncommon",
+                            "format": "H",
+                            "condition": "",
+                            "price": "~0,02€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Surging-Sparks/Latios-V1-SSP077?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
                 }
             ]
         },
@@ -822,6 +849,33 @@
                             "price": "",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Koraidon-PBL047?language=1&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 4,
+                    "name": "Azelf",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV08/SV08_ES_80.png",
+                    "expansion": [
+                        "Chispas Fulgurantes"
+                    ],
+                    "code": "SSP080",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Common + Foil",
+                            "format": "H",
+                            "condition": "",
+                            "price": "~0,02€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Surging-Sparks/Azelf-SSP080?language=4&minCondition=2&isReverseHolo=Y",
                             "hidden": false
                         }
                     ]
@@ -1642,6 +1696,33 @@
                             "hidden": false
                         }
                     ]
+                },
+                {
+                    "slot": 3,
+                    "name": "Diggersby",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY5/XY5_ES_90.png",
+                    "expansion": [
+                        "Duelos Primigenios"
+                    ],
+                    "code": "PRC 90",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Rare + Foil",
+                            "format": "XY (no válida en torneos)",
+                            "condition": "Poor",
+                            "price": "0,50€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Primal-Clash/Diggersby-PRC90?language=1&isReverseHolo=Y",
+                            "hidden": false
+                        }
+                    ]
                 }
             ]
         },
@@ -1782,6 +1863,60 @@
         {
             "number": 23,
             "cards": [
+                {
+                    "slot": 1,
+                    "name": "Sableye",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME02/ME02_ES_59.png",
+                    "expansion": [
+                        "Fuegos Fantasmales"
+                    ],
+                    "code": "PFL059",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Common + Foil",
+                            "format": "I",
+                            "condition": "",
+                            "price": "~0,02€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Sableye-PFL059?language=1&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 2,
+                    "name": "Drizzile",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH6/SWSH6_ES_42.png",
+                    "expansion": [
+                        "Reinado Escalofriante"
+                    ],
+                    "code": "CRE042",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Uncommon + Foil",
+                            "format": "E (no válida en torneos)",
+                            "condition": "",
+                            "price": "~0,10€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chilling-Reign/Drizzile?language=1&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
+                        }
+                    ]
+                },
                 {
                     "slot": 4,
                     "name": "Kirlia",

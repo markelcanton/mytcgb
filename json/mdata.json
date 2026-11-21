@@ -322,6 +322,7 @@
         { "name": "Mega Hyper Rare", "image": "https://pokesymbols.com/images/tcg/rarities/mega-hyper-rare.png" },
         { "name": "Promo", "image": "https://images.scrydex.com/pokemon/mep-logo/logo" },
         { "name": "Foil", "image": "" },
+        { "name": "Fixed", "image": "" },
         { "name": "Play! Stamp", "image": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/9c/latest/20240414211022/Pegatina_WCS_Play%21_Pok%C3%A9mon_GO.png/180px-Pegatina_WCS_Play%21_Pok%C3%A9mon_GO.png" }
     ]
 }
