@@ -852,6 +852,33 @@
                 },
                 {
                     "slot": 3,
+                    "name": "Sliggoo",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_95.png",
+                    "expansion": [
+                        "Caos Creciente"
+                    ],
+                    "code": "CRI095",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "IR",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "3€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Sliggoo-V2-CRI094?language=1&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 4,
                     "name": "Armarouge",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_86.png",
                     "expansion": [
@@ -873,33 +900,6 @@
                             "price": "4€",
                             "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Armarouge-V2-PBL086?language=4&minCondition=2",
-                            "hidden": false
-                        }
-                    ]
-                },
-                {
-                    "slot": 4,
-                    "name": "Manectric",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_89.png",
-                    "expansion": [
-                        "Oscuridad Absoluta"
-                    ],
-                    "code": "PBL089",
-                    "noTrade": false,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "IR",
-                            "format": "J",
-                            "condition": "Near Mint",
-                            "price": "4,50€",
-                            "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Manectric-V2-PBL089?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -938,12 +938,39 @@
                 },
                 {
                     "slot": 2,
-                    "name": "Sliggoo",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_95.png",
+                    "name": "Chespin",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_87.png",
                     "expansion": [
                         "Caos Creciente"
                     ],
-                    "code": "CRI095",
+                    "code": "CRI087",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "IR",
+                            "format": "J",
+                            "condition": "",
+                            "price": "~4€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Chespin-V2-CRI087?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 3,
+                    "name": "Manectric",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_89.png",
+                    "expansion": [
+                        "Oscuridad Absoluta"
+                    ],
+                    "code": "PBL089",
                     "noTrade": false,
                     "reservada": false,
                     "vendida": false,
@@ -952,19 +979,19 @@
                     "conseguida": false,
                     "variants": [
                         {
-                            "language": "Inglés",
+                            "language": "Español",
                             "type": "IR",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "3€",
+                            "price": "4,50€",
                             "stock": 1,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Sliggoo-V2-CRI094?language=1&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pitch-Black/Manectric-V2-PBL089?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
                 },
                 {
-                    "slot": 3,
+                    "slot": 4,
                     "name": "Dhelmise",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_91.png",
                     "expansion": [
@@ -989,9 +1016,14 @@
                             "hidden": false
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "number": 18,
+            "cards": [
                 {
-                    "slot": 4,
+                    "slot": 1,
                     "name": "Toucannon",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME05/ME05_ES_94.png",
                     "expansion": [
@@ -1018,10 +1050,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "number": 18,
-            "cards": []
         },
         {
             "number": 19,

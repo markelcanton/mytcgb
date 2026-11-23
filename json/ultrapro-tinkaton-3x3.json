@@ -641,12 +641,12 @@
                 {
                     "slot": 1,
                     "name": "Snivy",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ZSV10PT5/ZSV10PT5_ES_1.png",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_4.png",
                     "expansion": [
-                        "Fulgor Negro"
+                        "Equilibrio Perfecto"
                     ],
-                    "code": "BLK001",
-                    "noTrade": true,
+                    "code": "POR004",
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -658,9 +658,9 @@
                             "type": "Common",
                             "format": "I",
                             "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Black-Bolt/Snivy-V1-BLK001?language=4&minCondition=2",
+                            "price": "0,10€",
+                            "stock": 4,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Snivy-POR004?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -668,12 +668,12 @@
                 {
                     "slot": 2,
                     "name": "Servine",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/BW1/BW1_ES_4.png",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME03/ME03_ES_5.png",
                     "expansion": [
-                        "Blanco y Negro"
+                        "Equilibrio Perfecto"
                     ],
-                    "code": "BLW 4",
-                    "noTrade": true,
+                    "code": "POR005",
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -683,11 +683,11 @@
                         {
                             "language": "Español",
                             "type": "Uncommon",
-                            "format": "BW (no válida en torneos)",
+                            "format": "J",
                             "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Black-White/Servine-BLW4?language=4&minCondition=2",
+                            "price": "0,10€",
+                            "stock": 3,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Servine-POR005?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -722,11 +722,11 @@
                 {
                     "slot": 4,
                     "name": "Tepig",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/BW7/BW7_ES_24.png",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_29.png",
                     "expansion": [
-                        "Fronteras Cruzadas"
+                        "Héroes Ascendentes"
                     ],
-                    "code": "BCR 24",
+                    "code": "ASC029",
                     "noTrade": true,
                     "reservada": false,
                     "vendida": false,
@@ -737,11 +737,11 @@
                         {
                             "language": "Español",
                             "type": "Common",
-                            "format": "BW (no válida en torneos)",
+                            "format": "J",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "~0,02€",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Tepig-BCR24?language=4&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Tepig-V2-xASC029?language=1&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -889,12 +889,12 @@
                 {
                     "slot": 1,
                     "name": "Chespin",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_87.png",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_5.png",
                     "expansion": [
                         "Caos Creciente"
                     ],
-                    "code": "CRI087",
-                    "noTrade": true,
+                    "code": "CRI005",
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -903,12 +903,32 @@
                     "variants": [
                         {
                             "language": "Español",
-                            "type": "IR",
+                            "type": "Common",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Chespin-V2-CRI087?language=4&minCondition=2",
+                            "price": "0,05€",
+                            "stock": 2,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Chespin-V1-CRI005?language=4&minCondition=2",
+                            "hidden": false
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,10€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Chespin-V1-CRI005?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,05€",
+                            "stock": 2,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Chespin-V1-CRI005?language=1&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -970,12 +990,12 @@
                 {
                     "slot": 4,
                     "name": "Fennekin",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY1/XY1_ES_24.png",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME04/ME04_ES_11.png",
                     "expansion": [
-                        "XY"
+                        "Caos Creciente"
                     ],
-                    "code": "XY 24",
-                    "noTrade": true,
+                    "code": "CRI011",
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -985,11 +1005,31 @@
                         {
                             "language": "Español",
                             "type": "Common",
-                            "format": "XY (no válida en torneos)",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,10€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Fennekin-CRI011?language=4&minCondition=2",
+                            "hidden": false
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Common + Foil",
+                            "format": "J",
                             "condition": "Near Mint",
                             "price": "",
                             "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Fennekin-XY24?language=4&minCondition=2",
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Fennekin-CRI011?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": true
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,10€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Chaos-Rising/Fennekin-CRI011?language=1&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -1780,7 +1820,143 @@
         },
         {
             "number": 11,
-            "cards": []
+            "cards": [
+                {
+                    "slot": 4,
+                    "name": "Electabuzz",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV10/SV10_ES_68.png",
+                    "expansion": [
+                        "Rivales Predestinados"
+                    ],
+                    "code": "DRI068",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Common",
+                            "format": "I",
+                            "condition": "",
+                            "price": "~0,05€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Destined-Rivals/Electabuzz-DRI068?language=1&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 5,
+                    "name": "Magikarp",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV02/SV02_ES_42.png",
+                    "expansion": [
+                        "Evoluciones en Paldea"
+                    ],
+                    "code": "PAL042",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Common",
+                            "format": "G (no válida en torneos)",
+                            "condition": "",
+                            "price": "~0,05€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldea-Evolved/Magikarp-V1-PAL042?language=1&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 6,
+                    "name": "Zekrom de N",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME2PT5/ME2PT5_ES_155.png",
+                    "expansion": [
+                        "Sobre de premio de Play! (serie 9)"
+                    ],
+                    "code": "ASC155",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Rare + Play! Stamp",
+                            "format": "I",
+                            "condition": "",
+                            "price": "~0,50€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Nine/Ns-Zekrom-V1-PPS9ASC-155?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 7,
+                    "name": "Dragonite",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SWSH12/SWSH12_ES_131.png",
+                    "expansion": [
+                        "Tempestad Plateada"
+                    ],
+                    "code": "SIT131",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare + Foil",
+                            "format": "F (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "10€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Silver-Tempest/Dragonite-V1-SIT131?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 8,
+                    "name": "Salazzle",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM10/SM10_ES_31.png",
+                    "expansion": [
+                        "Vínculos Indestructibles"
+                    ],
+                    "code": "UNB 31",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Inglés",
+                            "type": "Rare + Foil",
+                            "format": "Sol y Luna (no válidas en torneos)",
+                            "condition": "Near Mint",
+                            "price": "8€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unbroken-Bonds/Salazzle-UNB31?language=1&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
         },
         {
             "number": 12,
@@ -2772,7 +2948,7 @@
                         "Megaevolución"
                     ],
                     "code": "MEG048",
-                    "noTrade": true,
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -2780,12 +2956,12 @@
                     "conseguida": false,
                     "variants": [
                         {
-                            "language": "",
+                            "language": "Español",
                             "type": "Rare",
                             "format": "I",
-                            "condition": "",
-                            "price": "",
-                            "stock": 0,
+                            "condition": "Near Mint",
+                            "price": "0,10€",
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Raikou-MEG048?language=4&minCondition=2",
                             "hidden": false
                         }
@@ -2880,7 +3056,7 @@
                         "Equilibrio Perfecto"
                     ],
                     "code": "POR027",
-                    "noTrade": true,
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -2888,14 +3064,24 @@
                     "conseguida": false,
                     "variants": [
                         {
+                            "language": "Español",
+                            "type": "Uncommon",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,02€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Luxio-POR027?language=4&minCondition=2",
+                            "hidden": false
+                        },
+                        {
                             "language": "Inglés",
                             "type": "Uncommon",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "",
+                            "price": "0,02€",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order/Luxio-POR027?language=1&minCondition=2",
-                            "hidden": false
+                            "hidden": true
                         }
                     ]
                 },
@@ -2907,7 +3093,7 @@
                         "Equilibrio Perfecto"
                     ],
                     "code": "POR028",
-                    "noTrade": true,
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -2916,13 +3102,23 @@
                     "variants": [
                         {
                             "language": "Inglés",
+                            "type": "Rare",
+                            "format": "J",
+                            "condition": "Near Mint",
+                            "price": "0,10€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order-Additionals/Luxray-V2-xPOR028?language=4&minCondition=2",
+                            "hidden": false
+                        },
+                        {
+                            "language": "Inglés",
                             "type": "Rare + Foil",
                             "format": "J",
                             "condition": "Near Mint",
-                            "price": "",
-                            "stock": 0,
+                            "price": "1,50€",
+                            "stock": 1,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Perfect-Order-Additionals/Luxray-V2-xPOR028?language=4&minCondition=2",
-                            "hidden": false
+                            "hidden": true
                         }
                     ]
                 }

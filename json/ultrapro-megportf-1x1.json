@@ -996,35 +996,7 @@
         {
             "number": 32,
             "jumbo": true,
-            "cards": [
-                {
-                    "slot": 1,
-                    "name": "Energía Planta",
-                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY12/XY12_ES_91.png",
-                    "expansion": [
-                        "Base Set"
-                    ],
-                    "code": "BS 99",
-                    "noTrade": true,
-                    "reservada": false,
-                    "vendida": false,
-                    "traded": false,
-                    "noDisponible": false,
-                    "conseguida": false,
-                    "variants": [
-                        {
-                            "language": "Español",
-                            "type": "",
-                            "format": "Sin regulación",
-                            "condition": "Poor",
-                            "price": "",
-                            "stock": 0,
-                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Base-Set/Grass-Energy-V1-BS99?language=4",
-                            "hidden": false
-                        }
-                    ]
-                }
-            ]
+            "cards": []
         },
         {
             "number": 33,
@@ -1034,7 +1006,35 @@
         {
             "number": 34,
             "jumbo": true,
-            "cards": []
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Fennekin",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/XY1/XY1_ES_24.png",
+                    "expansion": [
+                        "XY"
+                    ],
+                    "code": "XY 24",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Common",
+                            "format": "XY (no válida en torneos)",
+                            "condition": "",
+                            "price": "~0,15€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/XY/Fennekin-XY24?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
         },
         {
             "number": 35,
@@ -1600,17 +1600,101 @@
         {
             "number": 52,
             "jumbo": true,
-            "cards": []
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Snivy",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/BW1/BW1_ES_2.png",
+                    "expansion": [
+                        "Negro y Blanco"
+                    ],
+                    "code": "BLW 3",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Common",
+                            "format": "Blanco y Negro (no válida en torneos)",
+                            "condition": "",
+                            "price": "~2€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Black-White/Snivy-BLW2?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
         },
         {
             "number": 53,
             "jumbo": true,
-            "cards": []
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Servine",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/BW1/BW1_ES_4.png",
+                    "expansion": [
+                        "Negro y Blanco"
+                    ],
+                    "code": "BLW 4",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Uncommon",
+                            "format": "Blanco y Negro (no válida en torneos)",
+                            "condition": "",
+                            "price": "~5€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Black-White/Servine-BLW4?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
         },
         {
             "number": 54,
             "jumbo": true,
-            "cards": []
+            "cards": [
+                {
+                    "slot": 1,
+                    "name": "Tepig",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/BW7/BW7_ES_24.png",
+                    "expansion": [
+                        "Fronteras Cruzadas"
+                    ],
+                    "code": "BCR 24",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Common",
+                            "format": "Blanco y Negro (no válida en torneos)",
+                            "condition": "",
+                            "price": "~0,15€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Tepig-BCR24?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                }
+            ]
         },
         {
             "number": 55,

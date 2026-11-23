@@ -124,7 +124,7 @@
                         "Megaevolución"
                     ],
                     "code": "MEG097",
-                    "noTrade": true,
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -139,6 +139,43 @@
                             "price": "",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Tinkatuff-MEG097?language=4&minCondition=2",
+                            "hidden": true
+                        },
+                        {
+                            "language": "Inglés",
+                            "type": "Common",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,05€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Tinkatuff-MEG097?language=1&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
+                    "slot": 3,
+                    "name": "Tinkaton",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_98.png",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
+                    "code": "MEG098",
+                    "noTrade": true,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "",
+                            "type": "Uncommon",
+                            "format": "I",
+                            "condition": "",
+                            "price": "~0,05€",
+                            "stock": 0,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Tinkaton-MEG098?language=4&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -521,8 +558,8 @@
                     "expansion": [
                         "Fuegos Fantasmales"
                     ],
-                    "code": "PFL045",
-                    "noTrade": true,
+                    "code": "PFL045, m2 039",
+                    "noTrade": false,
                     "reservada": false,
                     "vendida": false,
                     "traded": false,
@@ -537,6 +574,16 @@
                             "price": "",
                             "stock": 0,
                             "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Zacian-V1-PFL045?language=4&minCondition=2",
+                            "hidden": true
+                        },
+                        {
+                            "language": "Coreano",
+                            "type": "Rare",
+                            "format": "I (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "0,10€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Inferno-X/Zacian-V1-m2039?language=10&minCondition=2",
                             "hidden": false
                         }
                     ]
@@ -1239,6 +1286,54 @@
                             "hidden": false
                         }
                     ]
+                },
+                {
+                    "slot": 4,
+                    "name": "Dusknoir",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SV6PT5/SV6PT5_ES_20.png",
+                    "expansion": [
+                        "Héroes Ascendentes",
+                        "Sobre de premio de Play! (serie 7)"
+                    ],
+                    "code": "SFA020, m2a 074",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare + Play! Stamp",
+                            "format": "H",
+                            "condition": "Near Mint",
+                            "price": "0,20€",
+                            "stock": 3,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Dusknoir-V1-PPS7SFA-020?language=4&minCondition=2",
+                            "hidden": false
+                        },
+                        {
+                            "language": "Español",
+                            "type": "Rare + Foil + Play! Stamp",
+                            "format": "H",
+                            "condition": "Near Mint",
+                            "price": "0,50€",
+                            "stock": 4,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Play-Pokemon-Prize-Pack-Series-Seven/Dusknoir-V2-PPS7SFA-020?language=4&minCondition=2",
+                            "hidden": false
+                        },
+                        {
+                            "language": "Japonés",
+                            "type": "Rare",
+                            "format": "H (no válida en torneos)",
+                            "condition": "Near Mint",
+                            "price": "0,05€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEGA-Dream-ex/Dusknoir-m2a074?language=7&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
                 }
             ]
         },
@@ -1918,6 +2013,33 @@
                     ]
                 },
                 {
+                    "slot": 3,
+                    "name": "Ralts",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_58.png",
+                    "expansion": [
+                        "Megaevolución"
+                    ],
+                    "code": "MEG058",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Common",
+                            "format": "I",
+                            "condition": "Near Mint",
+                            "price": "0,10€",
+                            "stock": 3,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Mega-Evolution/Ralts-MEG058?language=4&minCondition=2",
+                            "hidden": false
+                        }
+                    ]
+                },
+                {
                     "slot": 4,
                     "name": "Kirlia",
                     "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/ME01/ME01_ES_59.png",
@@ -1949,6 +2071,33 @@
         {
             "number": 24,
             "cards": [
+                {
+                    "slot": 3,
+                    "name": "Oranguru",
+                    "image": "https://assets.pokemon.com/static-assets/content-assets/cms2-es-es/img/cards/web/SM1/SM1_ES_113.png",
+                    "expansion": [
+                        "Sol y Luna"
+                    ],
+                    "code": "SUM 113",
+                    "noTrade": false,
+                    "reservada": false,
+                    "vendida": false,
+                    "traded": false,
+                    "noDisponible": false,
+                    "conseguida": false,
+                    "variants": [
+                        {
+                            "language": "Español",
+                            "type": "Rare + Foil",
+                            "format": "Sol y Luna (no válidas en torneos)",
+                            "condition": "Near Mint",
+                            "price": "2€",
+                            "stock": 1,
+                            "cardmarket-link": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Sun-Moon/Oranguru-V1-SUM113?language=4&minCondition=2&isReverseHolo=Y",
+                            "hidden": false
+                        }
+                    ]
+                },
                 {
                     "slot": 4,
                     "name": "Cambio",
